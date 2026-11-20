@@ -1,0 +1,22 @@
+{
+  "name": "Quarto Data Analysis",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "quarto.quarto",
+        "ms-python.python",
+        "ms-toolsai.jupyter",
+        "streetsidesoftware.code-spell-checker"
+      ],
+      "settings": {
+        "quarto.render.previewType": "internal",
+        "editor.wordWrap": "on",
+        "python.defaultInterpreterPath": ".venv/bin/python"
+      }
+    }
+  },
+  "postCreateCommand": "bash ./setup.sh"
+}

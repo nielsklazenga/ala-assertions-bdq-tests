@@ -1,0 +1,15 @@
+[project]
+name = "quarto-data-analysis"
+version = "0.1.0"
+requires-python = ">=3.11"
+
+dependencies = [
+    "pandas",
+    "numpy",
+    "pyarrow",
+    "openpyxl",
+    "matplotlib",
+    "seaborn",
+    "jupyterlab",
+    "ipykernel"
+]
