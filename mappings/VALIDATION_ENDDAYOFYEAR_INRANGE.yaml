@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/9a39d88c-7eee-46df-b32a-c109f9f81fb8-2026-11-17
+label: VALIDATION_ENDDAYOFYEAR_INRANGE
+type: Validation
+description: Is the value of dwc:endDayOfYear an integer between 1 and 365 inclusive, or 366 if a leap year?
+dwc_class:
+- dwc:Event
+dwc_terms:
+- dwc:endDayOfYear
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

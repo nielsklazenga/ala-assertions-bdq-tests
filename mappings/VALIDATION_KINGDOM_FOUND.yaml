@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/125b5493-052d-4a0d-a3e1-ed5bf792689e-2026-11-17
+label: VALIDATION_KINGDOM_FOUND
+type: Validation
+description: Does the value of dwc:kingdom occur at the rank of Kingdom in the bdqval:sourceAuthority?
+dwc_class:
+- dwc:Taxon
+dwc_terms:
+- dwc:kingdom
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

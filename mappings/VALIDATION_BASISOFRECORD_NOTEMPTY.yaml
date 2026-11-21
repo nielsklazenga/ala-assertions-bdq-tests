@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/ac2b7648-d5f9-48ca-9b07-8ad5879a2536-2026-11-17
+label: VALIDATION_BASISOFRECORD_NOTEMPTY
+type: Validation
+description: Is there a value in dwc:basisOfRecord?
+dwc_class:
+- Record-level
+dwc_terms:
+- dwc:basisOfRecord
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

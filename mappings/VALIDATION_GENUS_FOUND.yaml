@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/f2ce7d55-5b1d-426a-b00e-6d4efe3058ec-2026-11-17
+label: VALIDATION_GENUS_FOUND
+type: Validation
+description: Does the value of dwc:genus occur at the rank of Genus in the bdqval:sourceAuthority?
+dwc_class:
+- dwc:Taxon
+dwc_terms:
+- dwc:genus
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

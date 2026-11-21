@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/d9493fa0-d90e-41db-95f6-d1c1d243540e-2026-11-17
+label: MULTIRECORD_MEASURE_QA_DCTYPE_STANDARD
+type: Measure
+description: Measure if all VALIDATION_DCTYPE_STANDARD in a record set are COMPLIANT.
+dwc_class:
+- Record-level
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/47ee20d9-5087-4f76-a494-6fea05e50b8b-2026-11-17
+label: MULTIRECORD_MEASURE_COUNT_COMPLIANT_LICENSE_NOTEMPTY
+type: Measure
+description: Count the number of VALIDATION_LICENSE_NOTEMPTY in a record set that are COMPLIANT.
+dwc_class:
+- Record-level
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

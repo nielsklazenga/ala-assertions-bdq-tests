@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/563872eb-f544-45a0-8f91-8098d62768d4-2026-11-17
+label: MULTIRECORD_MEASURE_QA_DATEIDENTIFIED_STANDARD
+type: Measure
+description: Measure if all VALIDATION_DATEIDENTIFIED_STANDARD in a record set are COMPLIANT.
+dwc_class:
+- dwc:Identification
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

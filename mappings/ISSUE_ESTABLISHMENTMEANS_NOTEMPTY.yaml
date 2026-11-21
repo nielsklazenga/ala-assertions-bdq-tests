@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/acc8dff2-d8d1-483a-946d-65a02a452700-2026-11-17
+label: ISSUE_ESTABLISHMENTMEANS_NOTEMPTY
+type: Issue
+description: Is there a value in dwc:establishmentMeans?
+dwc_class:
+- dwc:Occurrence
+dwc_terms:
+- dwc:establishmentMeans
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/86c28d5e-f778-4230-88d8-64cc01478601-2026-11-17
+label: MULTIRECORD_MEASURE_QA_COORDINATESCOUNTRYCODE_CONSISTENT
+type: Measure
+description: Measure if all VALIDATION_COORDINATESCOUNTRYCODE_CONSISTENT in a record set are COMPLIANT.
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

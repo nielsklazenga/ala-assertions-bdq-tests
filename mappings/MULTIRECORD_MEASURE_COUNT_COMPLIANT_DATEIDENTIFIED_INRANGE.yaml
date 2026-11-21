@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/c72fda2d-16e1-4ded-91a5-a7094339d603-2026-11-17
+label: MULTIRECORD_MEASURE_COUNT_COMPLIANT_DATEIDENTIFIED_INRANGE
+type: Measure
+description: Count the number of VALIDATION_DATEIDENTIFIED_INRANGE in a record set that are COMPLIANT.
+dwc_class:
+- dwc:Identification
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/49a94636-a562-4e6b-803c-665c80628a3d-2026-11-17
+label: MEASURE_VALIDATIONTESTS_PREREQUISITESNOTMET
+type: Measure
+description: A count of the distinct VALIDATION Tests run on a record that have Response.status=INTERNAL_PREREQUISITES_NOT_MET or EXTERNAL_PREREQUISITES_NOT_MET.
+dwc_class:
+- bdqffdq:ValidationResponse
+dwc_terms:
+- bdqval:AllValidationTestsRunOnSingleRecord
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

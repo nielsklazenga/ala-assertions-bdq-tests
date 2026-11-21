@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/a2535b23-4407-40bd-b23b-30c8185d72a2-2026-11-17
+label: MULTIRECORD_MEASURE_QA_DECIMALLATITUDE_NOTEMPTY
+type: Measure
+description: Measure if all VALIDATION_DECIMALLATITUDE_NOTEMPTY in a record set are COMPLIANT.
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

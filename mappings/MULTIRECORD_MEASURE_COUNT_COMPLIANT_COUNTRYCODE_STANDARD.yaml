@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/38966850-3737-4a67-953c-c231469e0489-2026-11-17
+label: MULTIRECORD_MEASURE_COUNT_COMPLIANT_COUNTRYCODE_STANDARD
+type: Measure
+description: Count the number of VALIDATION_COUNTRYCODE_STANDARD in a record set that are COMPLIANT.
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

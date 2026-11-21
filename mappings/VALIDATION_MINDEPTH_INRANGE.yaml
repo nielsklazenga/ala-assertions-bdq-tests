@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/04b2c8f3-c71b-4e95-8e43-f70374c5fb92-2026-11-17
+label: VALIDATION_MINDEPTH_INRANGE
+type: Validation
+description: Is the value of dwc:minimumDepthInMeters within the Parameter range?
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- dwc:minimumDepthInMeters
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

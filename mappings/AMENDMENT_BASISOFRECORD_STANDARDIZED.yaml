@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/07c28ace-561a-476e-a9b9-3d5ad6e35933-2026-11-17
+label: AMENDMENT_BASISOFRECORD_STANDARDIZED
+type: Amendment
+description: Proposes an amendment to the value of dwc:basisOfRecord using the bdqval:sourceAuthority.
+dwc_class:
+- Record-level
+dwc_terms:
+- dwc:basisOfRecord
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

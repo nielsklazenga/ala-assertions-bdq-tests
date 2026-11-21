@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/f4fa449c-4b74-4dcf-b4cf-0b73e1496375-2026-11-17
+label: MULTIRECORD_MEASURE_COUNT_COMPLIANT_ORDER_FOUND
+type: Measure
+description: Count the number of VALIDATION_ORDER_FOUND in a record set that are COMPLIANT.
+dwc_class:
+- dwc:Taxon
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

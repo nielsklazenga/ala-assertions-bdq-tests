@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/b9c184ce-a859-410c-9d12-71a338200380-2026-11-17
+label: VALIDATION_COORDINATESTERRESTRIALMARINE_CONSISTENT
+type: Validation
+description: Does the marine/non-marine biome of a taxon from the bdqval:sourceAuthority match the biome at the location given by the coordinates?
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- dwc:decimalLatitude,dwc:decimalLongitude
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

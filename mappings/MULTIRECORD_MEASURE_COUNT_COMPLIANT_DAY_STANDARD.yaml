@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/c3e0100f-dfc3-4379-a855-df878eef295e-2026-11-17
+label: MULTIRECORD_MEASURE_COUNT_COMPLIANT_DAY_STANDARD
+type: Measure
+description: Count the number of VALIDATION_DAY_STANDARD in a record set that are COMPLIANT.
+dwc_class:
+- dwc:Event
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

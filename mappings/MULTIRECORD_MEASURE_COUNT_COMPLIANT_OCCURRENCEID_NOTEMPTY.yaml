@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/0c9a139e-5d23-44de-a495-14ec08c61a1c-2026-11-17
+label: MULTIRECORD_MEASURE_COUNT_COMPLIANT_OCCURRENCEID_NOTEMPTY
+type: Measure
+description: Count the number of VALIDATION_OCCURRENCEID_NOTEMPTY in a record set that are COMPLIANT.
+dwc_class:
+- dwc:Occurrence
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

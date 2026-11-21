@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/7a8b0af3-fa7d-416a-921a-8992d56f8233-2026-11-17
+label: MULTIRECORD_MEASURE_QA_COORDINATESSTATEPROVINCE_CONSISTENT
+type: Measure
+description: Measure if all VALIDATION_COORDINATESSTATEPROVINCE_CONSISTENT in a record set are COMPLIANT.
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/c486546c-e6e5-48a7-b286-eba7f5ca56c4-2026-11-17
+label: VALIDATION_OCCURRENCEID_NOTEMPTY
+type: Validation
+description: Is there a value in dwc:occurrenceID?
+dwc_class:
+- dwc:Occurrence
+dwc_terms:
+- dwc:occurrenceID
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

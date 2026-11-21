@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/eb4a17f6-6bea-4cdd-93dd-d5a7e9d1eccf-2026-11-17
+label: VALIDATION_OCCURRENCESTATUS_NOTEMPTY
+type: Validation
+description: Is there a value in dwc:occurrenceStatus?
+dwc_class:
+- dwc:Occurrence
+dwc_terms:
+- dwc:occurrenceStatus
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

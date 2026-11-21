@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/ff59f77d-71e9-4eb1-aac9-8bd05c50ff70-2026-11-17
+label: VALIDATION_NAMEPUBLISHEDINYEAR_NOTEMPTY
+type: Validation
+description: Is there a value in dwc:namePublishedInYear?
+dwc_class:
+- dwc:Taxon
+dwc_terms:
+- dwc:namePublishedInYear
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/c6adf2ea-3051-4498-97f4-4b2f8a105f57-2026-11-17
+label: VALIDATION_COORDINATEUNCERTAINTY_INRANGE
+type: Validation
+description: Is the value of dwc:coordinateUncertaintyInMeters a number between 1 and 20,037,509?
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- dwc:coordinateUncertaintyInMeters
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/0949110d-c06b-450e-9649-7c1374d940d1-2026-11-17
+label: VALIDATION_DECIMALLONGITUDE_INRANGE
+type: Validation
+description: Is the value of dwc:decimalLongitude a number between -180 and 180 inclusive?
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- dwc:decimalLongitude
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

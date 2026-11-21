@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/1b3bbac4-7c00-46d6-8179-1d57c92374ad-2026-11-17
+label: MULTIRECORD_MEASURE_QA_SEX_STANDARD
+type: Measure
+description: Measure if all VALIDATION_SEX_STANDARD in a record set are COMPLIANT or INTERNAL_PREREQUISITES_NOT_MET (indicating some empty value).
+dwc_class:
+- dwc:Occurrence
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

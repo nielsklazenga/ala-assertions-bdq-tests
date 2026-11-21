@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/388e74b3-2e18-4d78-8112-3142d1177e25-2026-11-17
+label: MULTIRECORD_MEASURE_QA_COUNTRY_FOUND
+type: Measure
+description: Measure if all VALIDATION_COUNTRY_FOUND in a record set are COMPLIANT.
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

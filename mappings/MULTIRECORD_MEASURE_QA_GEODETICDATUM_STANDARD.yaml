@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/cb88b6d9-85b2-4cd5-9bfa-c0d96f79552e-2026-11-17
+label: MULTIRECORD_MEASURE_QA_GEODETICDATUM_STANDARD
+type: Measure
+description: Measure if all VALIDATION_GEODETICDATUM_STANDARD in a record set are COMPLIANT.
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

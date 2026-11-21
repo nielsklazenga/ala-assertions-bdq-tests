@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/1bf0e210-6792-4128-b8cc-ab6828aa4871-2026-11-17
+label: VALIDATION_COORDINATES_NOTZERO
+type: Validation
+description: Are the values of either dwc:decimalLatitude or dwc:decimalLongitude numbers that are not equal to 0?
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- dwc:decimalLatitude,dwc:decimalLongitude
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

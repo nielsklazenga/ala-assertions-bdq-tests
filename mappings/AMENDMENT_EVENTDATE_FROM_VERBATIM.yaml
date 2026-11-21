@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/6d0a0c10-5e4a-4759-b448-88932f399812-2026-11-17
+label: AMENDMENT_EVENTDATE_FROM_VERBATIM
+type: Amendment
+description: Proposes an amendment to the value of dwc:eventDate from the content of dwc:verbatimEventDate.
+dwc_class:
+- dwc:Event
+dwc_terms:
+- dwc:eventDate
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

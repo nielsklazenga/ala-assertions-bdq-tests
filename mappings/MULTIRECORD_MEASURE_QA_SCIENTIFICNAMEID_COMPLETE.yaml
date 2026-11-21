@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/a9529e71-5470-4cb1-b04d-aa483926f532-2026-11-17
+label: MULTIRECORD_MEASURE_QA_SCIENTIFICNAMEID_COMPLETE
+type: Measure
+description: Measure if all VALIDATION_SCIENTIFICNAMEID_COMPLETE in a record set are COMPLIANT.
+dwc_class:
+- dwc:Taxon
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

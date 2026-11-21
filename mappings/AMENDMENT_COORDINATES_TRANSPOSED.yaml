@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/f2b4a50a-6b2f-4930-b9df-da87b6a21082-2026-11-17
+label: AMENDMENT_COORDINATES_TRANSPOSED
+type: Amendment
+description: Proposes an amendment transposing or changing the signs of dwc:decimalLatitude and/or dwc:decimalLongitude to align the location with the dwc:countryCode.
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- dwc:decimalLatitude,dwc:decimalLongitude
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

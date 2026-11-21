@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/b6ecda2a-ce36-437a-b515-3ae94948fe83-2026-11-17
+label: VALIDATION_DECIMALLATITUDE_INRANGE
+type: Validation
+description: Is the value of dwc:decimalLatitude a number between -90 and 90 inclusive?
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- dwc:decimalLatitude
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/d2922585-2070-4851-a033-15e51977f9dc-2026-11-17
+label: MULTIRECORD_MEASURE_QA_OCCURRENCESTATUS_NOTEMPTY
+type: Measure
+description: Measure if all VALIDATION_OCCURRENCESTATUS_NOTEMPTY in a record set are COMPLIANT.
+dwc_class:
+- dwc:Occurrence
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

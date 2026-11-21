@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/88d8598b-3318-483d-9475-a5acf9887404-2026-11-17
+label: VALIDATION_SEX_STANDARD
+type: Validation
+description: Does the value of dwc:sex occur in bdqval:sourceAuthority?
+dwc_class:
+- dwc:Occurrence
+dwc_terms:
+- dwc:sex
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

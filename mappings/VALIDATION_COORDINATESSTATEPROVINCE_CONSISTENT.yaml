@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/f18a470b-3fe1-4aae-9c65-a6d3db6b550c-2026-11-17
+label: VALIDATION_COORDINATESSTATEPROVINCE_CONSISTENT
+type: Validation
+description: Do the geographic coordinates fall on or within the boundary from the bdqval:sourceAuthority for the given dwc:stateProvince or within the distance given by bdqval:spatialBufferInMeters outside that boundary?
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- dwc:stateProvince,dwc:decimalLatitude,dwc:decimalLongitude
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

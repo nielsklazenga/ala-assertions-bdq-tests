@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/2cd6884e-3d14-4476-94f7-1191cfff309b-2026-11-17
+label: VALIDATION_CLASS_FOUND
+type: Validation
+description: Does the value of dwc:class occur at the rank of Class in bdqval:sourceAuthority?
+dwc_class:
+- dwc:Taxon
+dwc_terms:
+- dwc:class
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

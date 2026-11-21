@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/f174ad13-3c67-49f9-8d8b-aba4e933d6f6-2026-11-17
+label: MULTIRECORD_MEASURE_COUNT_COMPLIANT_SCIENTIFICNAMEID_COMPLETE
+type: Measure
+description: Count the number of VALIDATION_SCIENTIFICNAMEID_COMPLETE in a record set that are COMPLIANT.
+dwc_class:
+- dwc:Taxon
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

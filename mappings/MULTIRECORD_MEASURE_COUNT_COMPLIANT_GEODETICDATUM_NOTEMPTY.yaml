@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/63fbaf3c-3d41-4ab6-bfc0-904f1b26835f-2026-11-17
+label: MULTIRECORD_MEASURE_COUNT_COMPLIANT_GEODETICDATUM_NOTEMPTY
+type: Measure
+description: Count the number of VALIDATION_GEODETICDATUM_NOTEMPTY in a record set that are COMPLIANT.
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

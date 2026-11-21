@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/4eb48fdf-7299-4d63-9d08-246902e2857f-2026-11-17
+label: VALIDATION_ESTABLISHMENTMEANS_STANDARD
+type: Validation
+description: Does the value of dwc:establishmentMeans occur in the bdqval:sourceAuthority?
+dwc_class:
+- dwc:Occurrence
+dwc_terms:
+- dwc:establishmentMeans
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

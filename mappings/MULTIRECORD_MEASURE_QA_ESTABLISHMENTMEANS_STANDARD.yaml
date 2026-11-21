@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/8dfed701-01a9-415d-a9f8-539280b75975-2026-11-17
+label: MULTIRECORD_MEASURE_QA_ESTABLISHMENTMEANS_STANDARD
+type: Measure
+description: Measure if all VALIDATION_ESTABLISHMENTMEANS_STANDARD in a record set are COMPLIANT or INTERNAL_PREREQUISITES_NOT_MET (indicating some empty value).
+dwc_class:
+- dwc:Occurrence
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

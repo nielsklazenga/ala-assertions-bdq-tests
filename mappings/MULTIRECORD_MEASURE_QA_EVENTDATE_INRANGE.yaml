@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/d41a731b-2e2b-4442-9217-4c375ae92926-2026-11-17
+label: MULTIRECORD_MEASURE_QA_EVENTDATE_INRANGE
+type: Measure
+description: Measure if all VALIDATION_EVENTDATE_INRANGE in a record set are COMPLIANT.
+dwc_class:
+- dwc:Event
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

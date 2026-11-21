@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/16059801-6adb-4e65-82f4-61eaa70d8df0-2026-11-17
+label: MULTIRECORD_MEASURE_QA_NAMEPUBLISHEDINYEAR_NOTEMPTY
+type: Measure
+description: Measure if all VALIDATION_NAMEPUBLISHEDINYEAR_NOTEMPTY in a record set are COMPLIANT or INTERNAL_PREREQUISITES_NOT_MET (indicating some empty value).
+dwc_class:
+- dwc:Taxon
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

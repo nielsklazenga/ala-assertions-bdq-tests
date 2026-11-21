@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/8d8aba5c-f58a-49c9-a08d-1afb5ff1aa63-2026-11-17
+label: MULTIRECORD_MEASURE_COUNT_COMPLIANT_GEODETICDATUM_STANDARD
+type: Measure
+description: Count the number of VALIDATION_GEODETICDATUM_STANDARD in a record set that are COMPLIANT.
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

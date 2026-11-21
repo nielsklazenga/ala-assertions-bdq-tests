@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/431467d6-9b4b-48fa-a197-cd5379f5e889-2026-11-17
+label: AMENDMENT_SCIENTIFICNAMEID_FROM_TAXON
+type: Amendment
+description: Proposes an amendment to the value of dwc:scientificNameID if it can be unambiguously resolved from bdqval:sourceAuthority using the available taxon terms.
+dwc_class:
+- dwc:Taxon
+dwc_terms:
+- dwc:scientificNameID
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/21541436-641d-45a9-938c-537484d94eb7-2026-11-17
+label: MULTIRECORD_MEASURE_QA_CLASS_FOUND
+type: Measure
+description: Measure if all VALIDATION_CLASS_FOUND in a record set are COMPLIANT or INTERNAL_PREREQUISITES_NOT_MET (indicating some empty value).
+dwc_class:
+- dwc:Taxon
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

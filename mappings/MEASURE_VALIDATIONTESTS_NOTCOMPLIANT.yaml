@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/453844ae-9df4-439f-8e24-c52498eca84a-2026-11-17
+label: MEASURE_VALIDATIONTESTS_NOTCOMPLIANT
+type: Measure
+description: A count of the distinct VALIDATION Tests run on a record that have Response.result=NOT_COMPLIANT.
+dwc_class:
+- bdqffdq:ValidationResponse
+dwc_terms:
+- bdqval:AllValidationTestsRunOnSingleRecord
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

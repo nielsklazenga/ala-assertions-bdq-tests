@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/6ce2b2b4-6afe-4d13-82a0-390d31ade01c-2026-11-17
+label: VALIDATION_COUNTRY_NOTEMPTY
+type: Validation
+description: Is there a value in dwc:country?
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- dwc:country
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

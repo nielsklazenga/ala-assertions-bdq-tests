@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/2e371d57-1eb3-4fe3-8a61-dff43ced50cf-2026-11-17
+label: AMENDMENT_MONTH_STANDARDIZED
+type: Amendment
+description: Proposes an amendment to the value of dwc:month as an integer between 1 and 12 inclusive.
+dwc_class:
+- dwc:Event
+dwc_terms:
+- dwc:month
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

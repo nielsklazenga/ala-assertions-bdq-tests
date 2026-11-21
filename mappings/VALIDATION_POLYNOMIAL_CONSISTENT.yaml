@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/17f03f1f-f74d-40c0-8071-2927cfc9487b-2026-11-17
+label: VALIDATION_POLYNOMIAL_CONSISTENT
+type: Validation
+description: Is the polynomial represented in dwc:scientificName consistent with the equivalent values in dwc:genericName, dwc:specificEpithet, dwc:infraspecificEpithet?
+dwc_class:
+- dwc:Taxon
+dwc_terms:
+- dwc:scientificName,dwc:genericName,dwc:specificEpithet,dwc:infraspecificEpithet
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

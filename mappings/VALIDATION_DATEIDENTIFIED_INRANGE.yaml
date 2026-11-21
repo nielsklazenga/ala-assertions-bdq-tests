@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/dc8aae4b-134f-4d75-8a71-c4186239178e-2026-11-17
+label: VALIDATION_DATEIDENTIFIED_INRANGE
+type: Validation
+description: Is the value of dwc:dateIdentified within Parameters range and does it overlap with or is it later than dwc:eventDate?
+dwc_class:
+- dwc:Identification
+dwc_terms:
+- dwc:dateIdentified
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

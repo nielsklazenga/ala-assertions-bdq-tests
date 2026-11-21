@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/d71be8d4-1a04-4816-90c5-49808c823651-2026-11-17
+label: MULTIRECORD_MEASURE_COUNT_COMPLIANT_COUNTRYCODE_NOTEMPTY
+type: Measure
+description: Count the number of VALIDATION_COUNTRYCODE_NOTEMPTY in a record set that are COMPLIANT.
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

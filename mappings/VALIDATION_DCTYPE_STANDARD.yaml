@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/cdaabb0d-a863-49d0-bc0f-738d771acba5-2026-11-17
+label: VALIDATION_DCTYPE_STANDARD
+type: Validation
+description: Does the value of dc:type occur as a value in the DCMI type vocabulary?
+dwc_class:
+- Record-level
+dwc_terms:
+- dc:type
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

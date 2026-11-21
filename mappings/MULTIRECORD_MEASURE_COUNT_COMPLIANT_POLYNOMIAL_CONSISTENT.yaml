@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/7da5428e-87b2-4ec2-be82-05b9398b7577-2026-11-17
+label: MULTIRECORD_MEASURE_COUNT_COMPLIANT_POLYNOMIAL_CONSISTENT
+type: Measure
+description: Count the number of VALIDATION_POLYNOMIAL_CONSISTENT in a record set that are COMPLIANT.
+dwc_class:
+- dwc:Taxon
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

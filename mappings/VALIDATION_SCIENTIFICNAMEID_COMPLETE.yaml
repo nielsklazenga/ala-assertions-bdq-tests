@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/6eeac3ed-f691-457f-a42e-eaa9c8a71ce8-2026-11-17
+label: VALIDATION_SCIENTIFICNAMEID_COMPLETE
+type: Validation
+description: Does the value of dwc:scientificNameID contain a complete identifier?
+dwc_class:
+- dwc:Taxon
+dwc_terms:
+- dwc:scientificNameID
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

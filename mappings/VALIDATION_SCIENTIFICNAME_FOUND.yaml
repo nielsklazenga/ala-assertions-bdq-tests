@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/3f335517-f442-4b98-b149-1e87ff16de45-2026-11-17
+label: VALIDATION_SCIENTIFICNAME_FOUND
+type: Validation
+description: Is there a match of the contents of dwc:scientificName with the bdqval:sourceAuthority?
+dwc_class:
+- dwc:Taxon
+dwc_terms:
+- dwc:scientificName
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

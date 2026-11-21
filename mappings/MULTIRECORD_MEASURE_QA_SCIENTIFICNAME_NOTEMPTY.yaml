@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/b4d6a61c-64ff-4da0-974c-63a73fd20836-2026-11-17
+label: MULTIRECORD_MEASURE_QA_SCIENTIFICNAME_NOTEMPTY
+type: Measure
+description: Measure if all VALIDATION_SCIENTIFICNAME_NOTEMPTY in a record set are COMPLIANT.
+dwc_class:
+- dwc:Taxon
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

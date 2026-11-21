@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/c5658b83-4471-4f57-9d94-bf7d0a96900c-2026-11-17
+label: AMENDMENT_MINDEPTHMAXDEPTH_FROM_VERBATIM
+type: Amendment
+description: Proposes amendments of the values of dwc:minimumDepthInMeters and dwc:maximumDepthInMeters if they can be interpreted from dwc:verbatimDepth.
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- dwc:minimumDepthInMeters,dwc:maximumDepthInMeters
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

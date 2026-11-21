@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/f51e15a6-a67d-4729-9c28-3766299d2985-2026-11-17
+label: VALIDATION_EVENTDATE_NOTEMPTY
+type: Validation
+description: Is there a value in dwc:eventDate?
+dwc_class:
+- dwc:Event
+dwc_terms:
+- dwc:eventDate
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/85803c7e-2a5a-42e1-b8d3-299a44cafc46-2026-11-17
+label: VALIDATION_STARTDAYOFYEAR_INRANGE
+type: Validation
+description: Is the value of dwc:startDayOfYear an integer between 1 and 365 inclusive, or 366 if a leap year?
+dwc_class:
+- dwc:Event
+dwc_terms:
+- dwc:startDayOfYear
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

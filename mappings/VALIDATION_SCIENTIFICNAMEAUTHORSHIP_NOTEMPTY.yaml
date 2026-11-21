@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/49f1d386-5bed-43ae-bd43-deabf7df64fc-2026-11-17
+label: VALIDATION_SCIENTIFICNAMEAUTHORSHIP_NOTEMPTY
+type: Validation
+description: Is there a value in dwc:scientificNameAuthorship?
+dwc_class:
+- dwc:Taxon
+dwc_terms:
+- dwc:scientificNameAuthorship
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

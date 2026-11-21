@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/6f7a9b82-7d34-4111-a2a6-9efe5221fa44-2026-11-17
+label: MULTIRECORD_MEASURE_QA_DECIMALLONGITUDE_INRANGE
+type: Measure
+description: Measure if all VALIDATION_DECIMALLONGITUDE_INRANGE in a record set are COMPLIANT.
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

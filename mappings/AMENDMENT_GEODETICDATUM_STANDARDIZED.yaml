@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/0345b325-836d-4235-96d0-3b5caf150fc0-2026-11-17
+label: AMENDMENT_GEODETICDATUM_STANDARDIZED
+type: Amendment
+description: Proposes an amendment to the value of dwc:geodeticDatum using the bdqval:sourceAuthority.
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- dwc:geodeticDatum
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

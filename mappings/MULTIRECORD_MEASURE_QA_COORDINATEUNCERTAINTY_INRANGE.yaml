@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/d94b0130-7a13-4fa8-955c-eff5c47bd9de-2026-11-17
+label: MULTIRECORD_MEASURE_QA_COORDINATEUNCERTAINTY_INRANGE
+type: Measure
+description: Measure if all VALIDATION_COORDINATEUNCERTAINTY_INRANGE in a record set are COMPLIANT or INTERNAL_PREREQUISITES_NOT_MET (indicating some empty value).
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

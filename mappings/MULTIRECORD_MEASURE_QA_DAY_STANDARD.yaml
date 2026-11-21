@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/371035f6-42b5-494f-86d9-de2f44a6cdc6-2026-11-17
+label: MULTIRECORD_MEASURE_QA_DAY_STANDARD
+type: Measure
+description: Measure if all VALIDATION_DAY_STANDARD in a record set are COMPLIANT or INTERNAL_PREREQUISITES_NOT_MET (indicating some empty value).
+dwc_class:
+- dwc:Event
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

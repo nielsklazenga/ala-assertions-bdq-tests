@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/49b787eb-7dce-4ace-97f5-7cbb47cd8cb9-2026-11-17
+label: MULTIRECORD_MEASURE_COUNT_COMPLIANT_DATEIDENTIFIED_STANDARD
+type: Measure
+description: Count the number of VALIDATION_DATEIDENTIFIED_STANDARD in a record set that are COMPLIANT.
+dwc_class:
+- dwc:Identification
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/f01fb3f9-2f7e-418b-9f51-adf50f202aea-2026-11-17
+label: AMENDMENT_SCIENTIFICNAME_FROM_SCIENTIFICNAMEID
+type: Amendment
+description: Proposes an amendment to the value of dwc:scientificName using the dwc:scientificNameID value from the bdqval:sourceAuthority.
+dwc_class:
+- dwc:Taxon
+dwc_terms:
+- dwc:scientificName
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

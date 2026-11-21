@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/03049fe5-a575-404f-b564-ae63f5a1cf8b-2026-11-17
+label: MEASURE_AMENDMENTS_PROPOSED
+type: Measure
+description: A count of the distinct AMENDMENT Tests run on a record that have Response.status=AMENDED or FILLED_IN.
+dwc_class:
+- bdqffdq:AmendmentResponse
+dwc_terms:
+- bdqval:AllAmendmentTestsRunOnSingleRecord
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

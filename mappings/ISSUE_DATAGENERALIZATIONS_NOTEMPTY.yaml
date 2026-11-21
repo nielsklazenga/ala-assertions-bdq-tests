@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/13d5a10e-188e-40fd-a22c-dbaa87b91df2-2026-11-17
+label: ISSUE_DATAGENERALIZATIONS_NOTEMPTY
+type: Issue
+description: Is there a value in dwc:dataGeneralizations?
+dwc_class:
+- Record-level
+dwc_terms:
+- dwc:dataGeneralizations
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/4c09f127-737b-4686-82a0-7c8e30841590-2026-11-17
+label: VALIDATION_TAXON_UNAMBIGUOUS
+type: Validation
+description: Can the taxon be unambiguously resolved from bdqval:sourceAuthority using the available taxon terms?
+dwc_class:
+- dwc:Taxon
+dwc_terms:
+- dwc:scientificName,dwc:scientificNameID
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

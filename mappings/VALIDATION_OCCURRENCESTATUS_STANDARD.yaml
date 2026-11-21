@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/7af25f1e-a4e2-4ff4-b161-d1f25a5c3e47-2026-11-17
+label: VALIDATION_OCCURRENCESTATUS_STANDARD
+type: Validation
+description: Does the value of dwc:occurrenceStatus occur in the bdqval:sourceAuthority?
+dwc_class:
+- dwc:Occurrence
+dwc_terms:
+- dwc:occurrenceStatus
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

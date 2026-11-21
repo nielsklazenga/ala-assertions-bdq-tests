@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/33c45ae1-e2db-462a-a59e-7169bb01c5d6-2026-11-17
+label: AMENDMENT_SEX_STANDARDIZED
+type: Amendment
+description: Proposes an amendment to the value of dwc:sex using the bdqval:sourceAuthority.
+dwc_class:
+- dwc:Occurrence
+dwc_terms:
+- dwc:sex
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

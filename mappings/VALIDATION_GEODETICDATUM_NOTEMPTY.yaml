@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/239ec40e-a729-4a8e-ba69-e0bf03ac1c44-2026-11-17
+label: VALIDATION_GEODETICDATUM_NOTEMPTY
+type: Validation
+description: Is there a value in dwc:geodeticDatum?
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- dwc:geodeticDatum
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

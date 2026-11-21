@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/853b79a2-b314-44a2-ae46-34a1e7ed85e4-2026-11-17
+label: VALIDATION_COUNTRYCODE_NOTEMPTY
+type: Validation
+description: Is there a value in dwc:countryCode?
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- dwc:countryCode
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

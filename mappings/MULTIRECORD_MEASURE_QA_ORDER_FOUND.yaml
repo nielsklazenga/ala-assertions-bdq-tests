@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/773bb288-fef3-4968-a65a-a69c74d6ecb5-2026-11-17
+label: MULTIRECORD_MEASURE_QA_ORDER_FOUND
+type: Measure
+description: Measure if all VALIDATION_ORDER_FOUND in a record set are COMPLIANT or INTERNAL_PREREQUISITES_NOT_MET (indicating some empty value).
+dwc_class:
+- dwc:Taxon
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

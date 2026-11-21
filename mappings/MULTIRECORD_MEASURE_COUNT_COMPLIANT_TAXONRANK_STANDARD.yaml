@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/602bc457-6b1d-4f24-adef-d0d31bcdf2f0-2026-11-17
+label: MULTIRECORD_MEASURE_COUNT_COMPLIANT_TAXONRANK_STANDARD
+type: Measure
+description: Count the number of VALIDATION_TAXONRANK_STANDARD in a record set that are COMPLIANT.
+dwc_class:
+- dwc:Taxon
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

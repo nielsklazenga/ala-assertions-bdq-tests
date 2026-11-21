@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/14da5b87-8304-4b2b-911d-117e3c29e890-2026-11-17
+label: VALIDATION_TAXONRANK_NOTEMPTY
+type: Validation
+description: Is there a value in dwc:taxonRank?
+dwc_class:
+- dwc:Taxon
+dwc_terms:
+- dwc:taxonRank
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

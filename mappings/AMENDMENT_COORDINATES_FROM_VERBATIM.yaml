@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/3c2590c7-af8a-4eb4-af57-5f73ba9d1f8e-2026-11-17
+label: AMENDMENT_COORDINATES_FROM_VERBATIM
+type: Amendment
+description: Proposes an amendment to the values of dwc:decimalLatitude, dwc:decimalLongitude, and dwc:geodeticDatum from geographic coordinate information in the verbatim coordinates terms.
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- dwc:decimalLatitude,dwc:decimalLongitude,dwc:geodeticDatum
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

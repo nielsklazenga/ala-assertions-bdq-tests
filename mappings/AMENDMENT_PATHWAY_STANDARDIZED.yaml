@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/f9205977-f145-44f5-8cb9-e3e2e35ce908-2026-11-17
+label: AMENDMENT_PATHWAY_STANDARDIZED
+type: Amendment
+description: Proposes an amendment to the value of dwc:pathway using the bdqval:sourceAuthority.
+dwc_class:
+- dwc:Occurrence
+dwc_terms:
+- dwc:pathway
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

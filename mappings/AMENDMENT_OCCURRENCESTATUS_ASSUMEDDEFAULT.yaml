@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/96667a0a-ae59-446a-bbb0-b7f2b0ca6cf5-2026-11-17
+label: AMENDMENT_OCCURRENCESTATUS_ASSUMEDDEFAULT
+type: Amendment
+description: Proposes an amendment of the value of dwc:occurrenceStatus to the default parameter value if dwc:occurrenceStatus, dwc:individualCount and dwc:organismQuantity are empty.
+dwc_class:
+- dwc:Occurrence
+dwc_terms:
+- dwc:occurrenceStatus
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

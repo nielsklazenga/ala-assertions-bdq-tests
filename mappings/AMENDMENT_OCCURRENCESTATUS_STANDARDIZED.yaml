@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/f8f3a093-042c-47a3-971a-a482aaaf3b75-2026-11-17
+label: AMENDMENT_OCCURRENCESTATUS_STANDARDIZED
+type: Amendment
+description: Proposes an amendment to the value of dwc:occurrenceStatus using the bdqval:sourceAuthority.
+dwc_class:
+- dwc:Occurrence
+dwc_terms:
+- dwc:occurrenceStatus
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

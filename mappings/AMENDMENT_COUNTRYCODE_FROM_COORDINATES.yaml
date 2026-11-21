@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/8c5fe9c9-4ba9-49ef-b15a-9ccd0424e6ae-2026-11-17
+label: AMENDMENT_COUNTRYCODE_FROM_COORDINATES
+type: Amendment
+description: Proposes an amendment to the value of dwc:countryCode if dwc:decimalLatitude and dwc:decimalLongitude fall within a boundary from the bdqval:countryShapes that is attributable to a single valid ISO 3166-1-alpha-2 country code.
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- dwc:countryCode
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/f375a3fd-4cf5-4ef4-955e-d71762ede2d8-2026-11-17
+label: MULTIRECORD_MEASURE_QA_EVENT_CONSISTENT
+type: Measure
+description: Measure if all VALIDATION_EVENT_CONSISTENT in a record set are COMPLIANT.
+dwc_class:
+- dwc:Event
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/7c5a6ba0-399d-4570-878a-4a064e2406fe-2026-11-17
+label: MULTIRECORD_MEASURE_QA_MAXELEVATION_INRANGE
+type: Measure
+description: Measure if all VALIDATION_MAXELEVATION_INRANGE in a record set are COMPLIANT or INTERNAL_PREREQUISITES_NOT_MET (indicating some empty value).
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

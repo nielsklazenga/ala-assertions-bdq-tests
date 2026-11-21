@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/0df03601-3768-4805-906a-bbd0a41b0fda-2026-11-17
+label: MULTIRECORD_MEASURE_QA_TAXON_UNAMBIGUOUS
+type: Measure
+description: Measure if all VALIDATION_TAXON_UNAMBIGUOUS in a record set are COMPLIANT.
+dwc_class:
+- dwc:Taxon
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

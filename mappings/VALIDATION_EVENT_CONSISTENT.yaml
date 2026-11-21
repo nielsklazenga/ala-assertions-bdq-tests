@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/5618f083-d55a-4ac2-92b5-b9fb227b832f-2026-11-17
+label: VALIDATION_EVENT_CONSISTENT
+type: Validation
+description: Are the values in dwc:eventDate consistent with the values in dwc:year, dwc:month, dwc:day, dwc:startDayOfYear and dwc:endDayOfYear?
+dwc_class:
+- dwc:Event
+dwc_terms:
+- dwc:eventDate,dwc:day,dwc:month,dwc:year,dwc:startDayOfYear,dwc:endDayOfYear
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

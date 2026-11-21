@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/a07d7147-2db8-48ce-81b8-e47595ad5f17-2026-11-17
+label: MULTIRECORD_MEASURE_QA_FAMILY_FOUND
+type: Measure
+description: Measure if all VALIDATION_FAMILY_FOUND in a record set are COMPLIANT or INTERNAL_PREREQUISITES_NOT_MET (indicating some empty value).
+dwc_class:
+- dwc:Taxon
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

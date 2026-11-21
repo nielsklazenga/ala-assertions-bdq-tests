@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/eb0a44fa-241c-4d64-98df-ad4aa837307b-2026-11-17
+label: AMENDMENT_EVENTDATE_FROM_YEARSTARTDAYOFYEARENDDAYOFYEAR
+type: Amendment
+description: Proposes an amendment to the value of dwc:eventDate from values in dwc:year, dwc:startDayOfYear and dwc:endDayOfYear.
+dwc_class:
+- dwc:Event
+dwc_terms:
+- dwc:eventDate
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

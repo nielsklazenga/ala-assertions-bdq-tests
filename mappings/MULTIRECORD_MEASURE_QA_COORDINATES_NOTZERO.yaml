@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/151b2d29-3460-4ba5-a226-86971dc8ad03-2026-11-17
+label: MULTIRECORD_MEASURE_QA_COORDINATES_NOTZERO
+type: Measure
+description: Measure if all VALIDATION_COORDINATES_NOTZERO in a record set are COMPLIANT.
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

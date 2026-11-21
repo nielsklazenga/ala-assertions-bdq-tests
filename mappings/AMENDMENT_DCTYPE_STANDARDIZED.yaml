@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/bd385eeb-44a2-464b-a503-7abe407ef904-2026-11-17
+label: AMENDMENT_DCTYPE_STANDARDIZED
+type: Amendment
+description: Proposes an amendment to the value of dc:type using the DCMI type vocabulary.
+dwc_class:
+- Record-level
+dwc_terms:
+- dc:type
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

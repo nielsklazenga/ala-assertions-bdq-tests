@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/c70c4950-2246-4acc-a59d-81eaa47edf2b-2026-11-17
+label: MULTIRECORD_MEASURE_COUNT_COMPLIANT_DECIMALLONGITUDE_INRANGE
+type: Measure
+description: Count the number of VALIDATION_DECIMALLONGITUDE_INRANGE in a record set that are COMPLIANT.
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/dcbe5bd2-42a0-4aab-bb4d-8f148c6490f8-2026-11-17
+label: AMENDMENT_LICENSE_STANDARDIZED
+type: Amendment
+description: Proposes an amendment to the value of dcterms:license using the bdqval:sourceAuthority.
+dwc_class:
+- Record-level
+dwc_terms:
+- dcterms:license
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

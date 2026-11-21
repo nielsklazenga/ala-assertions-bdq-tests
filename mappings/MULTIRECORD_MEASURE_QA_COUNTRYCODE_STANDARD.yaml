@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/fedf27b2-e01d-459f-98fc-7f0f39e3d4be-2026-11-17
+label: MULTIRECORD_MEASURE_QA_COUNTRYCODE_STANDARD
+type: Measure
+description: Measure if all VALIDATION_COUNTRYCODE_STANDARD in a record set are COMPLIANT or INTERNAL_PREREQUISITES_NOT_MET (indicating some empty value).
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

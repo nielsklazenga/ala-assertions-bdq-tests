@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/3cff4dc4-72e9-4abe-9bf3-8a30f1618432-2026-11-17
+label: VALIDATION_EVENTDATE_INRANGE
+type: Validation
+description: Is the value of dwc:eventDate entirely with the Parameter range?
+dwc_class:
+- dwc:Event
+dwc_terms:
+- dwc:eventDate
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

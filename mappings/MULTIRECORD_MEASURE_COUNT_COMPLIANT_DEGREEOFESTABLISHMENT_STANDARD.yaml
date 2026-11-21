@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/1b8ae68e-63f1-41c0-9025-fbe64db38d64-2026-11-17
+label: MULTIRECORD_MEASURE_COUNT_COMPLIANT_DEGREEOFESTABLISHMENT_STANDARD
+type: Measure
+description: Count the number of VALIDATION_DEGREEOFESTABLISHMENT_STANDARD in a record set that are COMPLIANT.
+dwc_class:
+- dwc:Occurrence
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

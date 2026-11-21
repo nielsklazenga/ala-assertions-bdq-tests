@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/9d5be694-f5da-465d-8c7e-27e6dac69f9f-2026-11-17
+label: MULTIRECORD_MEASURE_COUNT_COMPLIANT_LICENSE_STANDARD
+type: Measure
+description: Count the number of VALIDATION_LICENSE_STANDARD in a record set that are COMPLIANT.
+dwc_class:
+- Record-level
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/42408a00-bf71-4892-a399-4325e2bc1fb8-2026-11-17
+label: VALIDATION_BASISOFRECORD_STANDARD
+type: Validation
+description: Does the value of dwc:basisOfRecord occur in the bdqval:sourceAuthority?
+dwc_class:
+- Record-level
+dwc_terms:
+- dwc:basisOfRecord
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

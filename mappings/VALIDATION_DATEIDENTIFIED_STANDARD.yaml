@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/66269bdd-9271-4e76-b25c-7ab81eebe1d8-2026-11-17
+label: VALIDATION_DATEIDENTIFIED_STANDARD
+type: Validation
+description: Is the value of dwc:dateIdentified a valid ISO date?
+dwc_class:
+- dwc:Identification
+dwc_terms:
+- dwc:dateIdentified
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

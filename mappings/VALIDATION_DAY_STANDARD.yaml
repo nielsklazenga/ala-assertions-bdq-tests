@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/47ff73ba-0028-4f79-9ce1-ee7008d66498-2026-11-17
+label: VALIDATION_DAY_STANDARD
+type: Validation
+description: Is the value of dwc:day an integer between 1 and 31 inclusive?
+dwc_class:
+- dwc:Event
+dwc_terms:
+- dwc:day
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

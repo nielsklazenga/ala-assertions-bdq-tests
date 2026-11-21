@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/241a279c-76d5-499b-ab49-a47ad7f8df50-2026-11-17
+label: MULTIRECORD_MEASURE_QA_BASISOFRECORD_STANDARD
+type: Measure
+description: Measure if all VALIDATION_BASISOFRECORD_STANDARD in a record set are COMPLIANT.
+dwc_class:
+- Record-level
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

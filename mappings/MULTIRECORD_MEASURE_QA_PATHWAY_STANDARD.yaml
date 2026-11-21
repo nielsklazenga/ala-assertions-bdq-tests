@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/ef31ba02-cea7-4d76-990f-99ebbd201fb4-2026-11-17
+label: MULTIRECORD_MEASURE_QA_PATHWAY_STANDARD
+type: Measure
+description: Measure if all VALIDATION_PATHWAY_STANDARD in a record set are COMPLIANT or INTERNAL_PREREQUISITES_NOT_MET (indicating some empty value).
+dwc_class:
+- dwc:Occurrence
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

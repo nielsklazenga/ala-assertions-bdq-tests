@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/4f2bf8fd-fc5c-493f-a44c-e7b16153c803-2026-11-17
+label: VALIDATION_EVENTDATE_STANDARD
+type: Validation
+description: Is the value of dwc:eventDate a valid ISO date?
+dwc_class:
+- dwc:Event
+dwc_terms:
+- dwc:eventDate
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

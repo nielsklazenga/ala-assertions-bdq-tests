@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/3b2e4791-1a5a-4087-9e8d-09c67cf8c816-2026-11-17
+label: MULTIRECORD_MEASURE_QA_LOCATION_NOTEMPTY
+type: Measure
+description: Measure if all VALIDATION_LOCATION_NOTEMPTY in a record set are COMPLIANT.
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

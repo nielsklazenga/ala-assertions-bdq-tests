@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/b3471c65-b53e-453b-8282-abfa27bf1805-2026-11-17
+label: AMENDMENT_TYPESTATUS_STANDARDIZED
+type: Amendment
+description: Proposes an amendment to the value of dwc:typeStatus using the bdqval:sourceAuthority.
+dwc_class:
+- dwc:Occurrence
+dwc_terms:
+- dwc:typeStatus
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

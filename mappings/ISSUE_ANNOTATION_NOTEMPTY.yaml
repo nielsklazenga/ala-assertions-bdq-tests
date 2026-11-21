@@ -1,0 +1,14 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/fecaa8a3-bbd8-4c5a-a424-13c37c4bb7b1-2026-11-17
+label: ISSUE_ANNOTATION_NOTEMPTY
+type: Issue
+description: Are there any annotations associated with the record?
+dwc_class:
+- oa:target
+dwc_terms: []
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

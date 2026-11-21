@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/c3b4cd93-a37f-4a0a-89dd-7ce53669f1f3-2026-11-17
+label: MULTIRECORD_MEASURE_COUNT_COMPLIANT_MONTH_STANDARD
+type: Measure
+description: Count the number of VALIDATION_MONTH_STANDARD in a record set that are COMPLIANT.
+dwc_class:
+- dwc:Event
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

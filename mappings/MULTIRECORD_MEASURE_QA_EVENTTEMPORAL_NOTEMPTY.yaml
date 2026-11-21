@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/f22539ef-029b-4edb-ad17-add4363f7395-2026-11-17
+label: MULTIRECORD_MEASURE_QA_EVENTTEMPORAL_NOTEMPTY
+type: Measure
+description: Measure if all VALIDATION_EVENTTEMPORAL_NOTEMPTY in a record set are COMPLIANT.
+dwc_class:
+- dwc:Event
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/58486cb6-1114-4a8a-ba1e-bd89cfe887e9-2026-11-17
+label: VALIDATION_LOCATION_NOTEMPTY
+type: Validation
+description: Is there a value in any of the Darwin Core spatial terms that could specify a location?
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- dwc:higherGeographyID,dwc:higherGeography,dwc:continent,dwc:country,dwc:countryCode,dwc:stateProvince,dwc:county,dwc:municipality,dwc:waterBody,dwc:island,dwc:islandGroup,dwc:locality,dwc:locationID,dwc:verbatimLocality,dwc:decimalLatitude,dwc:decimalLongitude,dwc:verbatimCoordinates,dwc:verbatimLatitude,dwc:verbatimLongitude,dwc:footprintWKT
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

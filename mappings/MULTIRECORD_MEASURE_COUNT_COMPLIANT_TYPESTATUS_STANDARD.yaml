@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/b5a14d76-292e-499b-b80f-9546243311a0-2026-11-17
+label: MULTIRECORD_MEASURE_COUNT_COMPLIANT_TYPESTATUS_STANDARD
+type: Measure
+description: Count the number of VALIDATION_TYPESTATUS_STANDARD in a record set that are COMPLIANT.
+dwc_class:
+- dwc:Occurrence
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

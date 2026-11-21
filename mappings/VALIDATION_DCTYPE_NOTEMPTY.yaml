@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/374b091a-fc90-4791-91e5-c1557c649169-2026-11-17
+label: VALIDATION_DCTYPE_NOTEMPTY
+type: Validation
+description: Is there a value in dc:type?
+dwc_class:
+- Record-level
+dwc_terms:
+- dc:type
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

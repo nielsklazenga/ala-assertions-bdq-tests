@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/fcabd2c9-392c-4841-a5d7-e2680c9587ab-2026-11-17
+label: MULTIRECORD_MEASURE_QA_MINDEPTH_LESSTHAN_MAXDEPTH
+type: Measure
+description: Measure if all VALIDATION_MINDEPTH_LESSTHAN_MAXDEPTH in a record set are COMPLIANT or INTERNAL_PREREQUISITES_NOT_MET (indicating some empty value).
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

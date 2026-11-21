@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/342bd81c-e2b7-41d8-b32b-013992d19f99-2026-11-17
+label: MULTIRECORD_MEASURE_COUNT_COMPLIANT_KINGDOM_NOTEMPTY
+type: Measure
+description: Count the number of VALIDATION_KINGDOM_NOTEMPTY in a record set that are COMPLIANT.
+dwc_class:
+- dwc:Taxon
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

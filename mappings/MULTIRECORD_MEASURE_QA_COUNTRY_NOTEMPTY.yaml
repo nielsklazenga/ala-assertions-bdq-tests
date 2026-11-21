@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/9c8df974-8fba-4537-8c67-31466787f732-2026-11-17
+label: MULTIRECORD_MEASURE_QA_COUNTRY_NOTEMPTY
+type: Measure
+description: Measure if all VALIDATION_COUNTRY_NOTEMPTY in a record set are COMPLIANT.
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/8f1e6e58-544b-4365-a569-fb781341644e-2026-11-17
+label: VALIDATION_MINDEPTH_LESSTHAN_MAXDEPTH
+type: Validation
+description: Is the value of dwc:minimumDepthInMeters a number less than or equal to the value of dwc:maximumDepthInMeters?
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- dwc:minimumDepthInMeters,dwc:maximumDepthInMeters
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

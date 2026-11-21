@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/ef05b45b-13b8-4877-9e9d-fa44b332d83c-2026-11-17
+label: MULTIRECORD_MEASURE_QA_POLYNOMIAL_CONSISTENT
+type: Measure
+description: Measure if all VALIDATION_POLYNOMIAL_CONSISTENT in a record set are COMPLIANT or INTERNAL_PREREQUISITES_NOT_MET (indicating some empty value).
+dwc_class:
+- dwc:Taxon
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

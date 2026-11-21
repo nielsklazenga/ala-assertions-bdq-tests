@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/5424e933-bee7-4125-839e-d8743ea69f93-2026-11-17
+label: VALIDATION_PATHWAY_STANDARD
+type: Validation
+description: Does the value of dwc:pathway occur in the bdqval:sourceAuthority?
+dwc_class:
+- dwc:Occurrence
+dwc_terms:
+- dwc:pathway
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

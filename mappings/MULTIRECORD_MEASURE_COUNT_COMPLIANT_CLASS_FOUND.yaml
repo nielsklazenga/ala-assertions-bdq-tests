@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/7270a362-5f2e-41f0-955a-d7a8eaaf0f17-2026-11-17
+label: MULTIRECORD_MEASURE_COUNT_COMPLIANT_CLASS_FOUND
+type: Measure
+description: Count the number of VALIDATION_CLASS_FOUND in a record set that are COMPLIANT.
+dwc_class:
+- dwc:Taxon
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

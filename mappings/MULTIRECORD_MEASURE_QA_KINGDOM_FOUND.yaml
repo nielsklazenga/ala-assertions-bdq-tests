@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/465d7ac1-d193-46c0-a302-56a9ef99215f-2026-11-17
+label: MULTIRECORD_MEASURE_QA_KINGDOM_FOUND
+type: Measure
+description: Measure if all VALIDATION_KINGDOM_FOUND in a record set are COMPLIANT.
+dwc_class:
+- dwc:Taxon
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

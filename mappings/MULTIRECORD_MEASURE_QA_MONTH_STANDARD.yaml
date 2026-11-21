@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/b3c2bb86-e239-4532-ae0c-b121ec1ee025-2026-11-17
+label: MULTIRECORD_MEASURE_QA_MONTH_STANDARD
+type: Measure
+description: Measure if all VALIDATION_MONTH_STANDARD in a record set are COMPLIANT or INTERNAL_PREREQUISITES_NOT_MET (indicating some empty value).
+dwc_class:
+- dwc:Event
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

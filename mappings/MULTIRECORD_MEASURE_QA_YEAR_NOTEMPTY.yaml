@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/a8fef8a8-e7c7-4a2d-adaf-7da99c896c93-2026-11-17
+label: MULTIRECORD_MEASURE_QA_YEAR_NOTEMPTY
+type: Measure
+description: Measure if all VALIDATION_YEAR_NOTEMPTY in a record set are COMPLIANT.
+dwc_class:
+- dwc:Event
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

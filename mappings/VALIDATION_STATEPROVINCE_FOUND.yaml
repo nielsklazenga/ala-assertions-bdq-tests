@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/4daa7986-d9b0-4dd5-ad17-2d7a771ea71a-2026-11-17
+label: VALIDATION_STATEPROVINCE_FOUND
+type: Validation
+description: Does the value of dwc:stateProvince occur in the bdqval:sourceAuthority?
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- dwc:stateProvince
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

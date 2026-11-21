@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/fec5ffe6-3958-4312-82d9-ebcca0efb350-2026-11-17
+label: AMENDMENT_COUNTRYCODE_STANDARDIZED
+type: Amendment
+description: Proposes an amendment to the value of dwc:countryCode if it can be interpreted as an ISO 3166-1-alpha-2 country code.
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- dwc:countryCode
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

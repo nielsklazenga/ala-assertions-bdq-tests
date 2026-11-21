@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/44f00697-ca66-43cf-8f16-646b40c0f514-2026-11-17
+label: MULTIRECORD_MEASURE_QA_MINELEVATION_LESSTHAN_MAXELEVATION
+type: Measure
+description: Measure if all VALIDATION_MINELEVATION_LESSTHAN_MAXELEVATION in a record set are COMPLIANT or INTERNAL_PREREQUISITES_NOT_MET (indicating some empty value).
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

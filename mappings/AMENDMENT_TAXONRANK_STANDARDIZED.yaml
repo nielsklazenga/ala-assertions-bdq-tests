@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/e39098df-ef46-464c-9aef-bcdeee2a88cb-2026-11-17
+label: AMENDMENT_TAXONRANK_STANDARDIZED
+type: Amendment
+description: Proposes an amendment to the value of dwc:taxonRank using the bdqval:sourceAuthority.
+dwc_class:
+- dwc:Taxon
+dwc_terms:
+- dwc:taxonRank
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

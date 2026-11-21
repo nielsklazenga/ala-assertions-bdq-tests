@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/0bb8297d-8f8a-42d2-80c1-558f29efe798-2026-11-17
+label: VALIDATION_MINELEVATION_INRANGE
+type: Validation
+description: Is the value of dwc:minimumElevationInMeters within the Parameter range?
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- dwc:minimumElevationInMeters
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

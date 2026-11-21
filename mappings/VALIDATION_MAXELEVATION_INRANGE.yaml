@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/c971fe3f-84c1-4636-9f44-b1ec31fd63c7-2026-11-17
+label: VALIDATION_MAXELEVATION_INRANGE
+type: Validation
+description: Is the value of dwc:maximumElevationInMeters within the Parameter range?
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- dwc:maximumElevationInMeters
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

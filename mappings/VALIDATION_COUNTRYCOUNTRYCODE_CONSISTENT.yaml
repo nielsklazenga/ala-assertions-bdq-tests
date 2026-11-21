@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/b23110e7-1be7-444a-a677-cdee0cf4330c-2026-11-17
+label: VALIDATION_COUNTRYCOUNTRYCODE_CONSISTENT
+type: Validation
+description: Does the ISO country code, determined from the value of dwc:country, equal the value of dwc:countryCode?
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- dwc:country,dwc:countryCode
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

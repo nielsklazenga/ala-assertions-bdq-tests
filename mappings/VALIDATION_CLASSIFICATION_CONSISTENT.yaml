@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/2750c040-1d4a-4149-99fe-0512785f2d5f-2026-11-17
+label: VALIDATION_CLASSIFICATION_CONSISTENT
+type: Validation
+description: Is the combination of higher classification taxonomic terms consistent using bdqval:sourceAuthority?
+dwc_class:
+- dwc:Taxon
+dwc_terms:
+- dwc:kingdom,dwc:phylum,dwc:class,dwc:order,dwc:superfamily,dwc:family,dwc:subfamily,dwc:tribe,dwc:subtribe,dwc:genus
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

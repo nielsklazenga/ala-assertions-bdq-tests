@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/adb27d29-9f0d-4d52-b760-a77ba57a69c9-2026-11-17
+label: VALIDATION_COORDINATESCOUNTRYCODE_CONSISTENT
+type: Validation
+description: Do the geographic coordinates fall on or within the boundaries of the territory given in dwc:countryCode or its Exclusive Economic Zone?
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- dwc:countryCode,dwc:decimalLatitude,dwc:decimalLongitude
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

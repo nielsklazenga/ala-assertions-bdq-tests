@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/a8aee02c-cf7c-4104-a601-d8afc4f9cbe2-2026-11-17
+label: MULTIRECORD_MEASURE_QA_SCIENTIFICNAME_FOUND
+type: Measure
+description: Measure if all VALIDATION_SCIENTIFICNAME_FOUND in a record set are COMPLIANT.
+dwc_class:
+- dwc:Taxon
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

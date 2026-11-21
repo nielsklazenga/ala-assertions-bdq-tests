@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/780480ff-8c4a-4276-aaca-cbd1248de9fa-2026-11-17
+label: MULTIRECORD_MEASURE_COUNT_COMPLIANT_DAY_INRANGE
+type: Measure
+description: Count the number of VALIDATION_DAY_INRANGE in a record set that are COMPLIANT.
+dwc_class:
+- dwc:Event
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

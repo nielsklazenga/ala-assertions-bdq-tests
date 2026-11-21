@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/4fccf163-9336-4f48-996c-57f5f66e72db-2026-11-17
+label: MULTIRECORD_MEASURE_QA_LICENSE_NOTEMPTY
+type: Measure
+description: Measure if all VALIDATION_LICENSE_NOTEMPTY in a record set are COMPLIANT.
+dwc_class:
+- Record-level
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

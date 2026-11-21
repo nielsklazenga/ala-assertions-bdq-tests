@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/85dc5d02-9847-420f-a026-6a0e70962d2a-2026-11-17
+label: MULTIRECORD_MEASURE_QA_DAY_INRANGE
+type: Measure
+description: Measure if all VALIDATION_DAY_INRANGE in a record set are COMPLIANT or INTERNAL_PREREQUISITES_NOT_MET (indicating some empty value).
+dwc_class:
+- dwc:Event
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

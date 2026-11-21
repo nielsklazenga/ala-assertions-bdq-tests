@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/c5c8db83-3af0-4215-806f-e2f90574b138-2026-11-17
+label: MULTIRECORD_MEASURE_QA_GENUS_FOUND
+type: Measure
+description: Measure if all VALIDATION_GENUS_FOUND in a record set are COMPLIANT or INTERNAL_PREREQUISITES_NOT_MET (indicating some empty value).
+dwc_class:
+- dwc:Taxon
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

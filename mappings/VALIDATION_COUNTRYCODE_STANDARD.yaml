@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/0493bcfb-652e-4d17-815b-b0cce0742fbe-2026-11-17
+label: VALIDATION_COUNTRYCODE_STANDARD
+type: Validation
+description: Is the value of dwc:countryCode a valid ISO 3166-1-alpha-2 country code?
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- dwc:countryCode
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

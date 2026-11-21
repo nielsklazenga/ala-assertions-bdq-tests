@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/81cc974d-43cc-4c0f-a5e0-afa23b455aa3-2026-11-17
+label: VALIDATION_ORDER_FOUND
+type: Validation
+description: Does the value of dwc:order occur at the rank of Order in bdqval:sourceAuthority?
+dwc_class:
+- dwc:Taxon
+dwc_terms:
+- dwc:order
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

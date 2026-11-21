@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/36ed36c9-b1a7-40b2-b5e2-0d012e772098-2026-11-17
+label: VALIDATION_KINGDOM_NOTEMPTY
+type: Validation
+description: Is there a value in dwc:kingdom?
+dwc_class:
+- dwc:Taxon
+dwc_terms:
+- dwc:kingdom
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

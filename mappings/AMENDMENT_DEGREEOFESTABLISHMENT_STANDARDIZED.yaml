@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/74ef1034-e289-4596-b5b0-cde73796697d-2026-11-17
+label: AMENDMENT_DEGREEOFESTABLISHMENT_STANDARDIZED
+type: Amendment
+description: Proposes an amendment to the value of dwc:degreeOfEstablishment using the bdqval:sourceAuthority.
+dwc_class:
+- dwc:Occurrence
+dwc_terms:
+- dwc:degreeOfEstablishment
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/0e239a55-0f19-4c68-bdbf-20580f27a647-2026-11-17
+label: MULTIRECORD_MEASURE_COUNT_COMPLIANT_COORDINATES_NOTZERO
+type: Measure
+description: Count the number of VALIDATION_COORDINATES_NOTZERO in a record set that are COMPLIANT.
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

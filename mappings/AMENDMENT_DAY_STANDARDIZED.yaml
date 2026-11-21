@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/b129fa4d-b25b-43f7-9645-5ed4d44b357b-2026-11-17
+label: AMENDMENT_DAY_STANDARDIZED
+type: Amendment
+description: Proposes an amendment to the value of dwc:day as an integer between 1 and 31 inclusive.
+dwc_class:
+- dwc:Event
+dwc_terms:
+- dwc:day
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

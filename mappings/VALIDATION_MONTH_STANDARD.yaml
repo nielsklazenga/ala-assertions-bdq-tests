@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/01c6dafa-0886-4b7e-9881-2c3018c98bdc-2026-11-17
+label: VALIDATION_MONTH_STANDARD
+type: Validation
+description: Is the value of dwc:month interpretable as an integer between 1 and 12 inclusive?
+dwc_class:
+- dwc:Event
+dwc_terms:
+- dwc:month
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

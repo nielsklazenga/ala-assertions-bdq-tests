@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/7d2485d5-1ba7-4f25-90cb-f4480ff1a275-2026-11-17
+label: VALIDATION_DECIMALLATITUDE_NOTEMPTY
+type: Validation
+description: Is there a value in dwc:decimalLatitude?
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- dwc:decimalLatitude
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

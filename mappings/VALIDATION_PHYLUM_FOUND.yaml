@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/eaad41c5-1d46-4917-a08b-4fd1d7ff5c0f-2026-11-17
+label: VALIDATION_PHYLUM_FOUND
+type: Validation
+description: Does the value of dwc:phylum occur at the rank of Phylum in the bdqval:sourceAuthority?
+dwc_class:
+- dwc:Taxon
+dwc_terms:
+- dwc:phylum
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

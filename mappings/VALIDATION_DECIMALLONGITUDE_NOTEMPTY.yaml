@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/9beb9442-d942-4f42-8b6a-fcea01ee086a-2026-11-17
+label: VALIDATION_DECIMALLONGITUDE_NOTEMPTY
+type: Validation
+description: Is there a value in dwc:decimalLongitude?
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- dwc:decimalLongitude
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

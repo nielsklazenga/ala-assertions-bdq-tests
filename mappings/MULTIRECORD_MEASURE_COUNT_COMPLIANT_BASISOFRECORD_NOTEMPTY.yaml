@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/b60c8c58-0137-4b6a-97e9-57d8ca5cf248-2026-11-17
+label: MULTIRECORD_MEASURE_COUNT_COMPLIANT_BASISOFRECORD_NOTEMPTY
+type: Measure
+description: Count the number of VALIDATION_BASISOFRECORD_NOTEMPTY in a record set that are COMPLIANT.
+dwc_class:
+- Record-level
+dwc_terms:
+- bdqval:AggregatedTestResponseOutcomes
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

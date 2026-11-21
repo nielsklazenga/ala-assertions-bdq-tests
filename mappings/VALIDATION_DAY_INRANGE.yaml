@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/8d787cb5-73e2-4c39-9cd1-67c7361dc02e-2026-11-17
+label: VALIDATION_DAY_INRANGE
+type: Validation
+description: Is the value of dwc:day interpretable as a valid integer between 1 and 28 inclusive, or is it validly 29, 30 or 31 given the dwc:month and dwc:year?
+dwc_class:
+- dwc:Event
+dwc_terms:
+- dwc:day,dwc:month,dwc:year
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

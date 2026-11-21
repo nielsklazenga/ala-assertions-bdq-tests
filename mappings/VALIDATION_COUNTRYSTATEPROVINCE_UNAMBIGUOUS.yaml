@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/d257eb98-27cb-48e5-8d3c-ab9fca4edd11-2026-11-17
+label: VALIDATION_COUNTRYSTATEPROVINCE_UNAMBIGUOUS
+type: Validation
+description: Is the combination of the values of the terms dwc:country, dwc:stateProvince unique in the bdqval:sourceAuthority?
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- dwc:country,dwc:stateProvince
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

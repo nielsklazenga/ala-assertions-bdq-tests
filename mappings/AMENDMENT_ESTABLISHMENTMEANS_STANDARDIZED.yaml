@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/15d15927-7a22-43f8-88d6-298f5eb45c4c-2026-11-17
+label: AMENDMENT_ESTABLISHMENTMEANS_STANDARDIZED
+type: Amendment
+description: Proposes an amendment to the value of dwc:establishmentMeans using the bdqval:sourceAuthority.
+dwc_class:
+- dwc:Occurrence
+dwc_terms:
+- dwc:establishmentMeans
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/7bdb13a4-8a51-4ee5-be7f-20693fdb183e-2026-11-17
+label: VALIDATION_TAXONRANK_STANDARD
+type: Validation
+description: Does the value of dwc:taxonRank occur in the bdqval:sourceAuthority?
+dwc_class:
+- dwc:Taxon
+dwc_terms:
+- dwc:taxonRank
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

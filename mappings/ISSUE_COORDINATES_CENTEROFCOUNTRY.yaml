@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/256e51b3-1e08-4349-bb7e-5186631c3f8e-2026-11-17
+label: ISSUE_COORDINATES_CENTEROFCOUNTRY
+type: Issue
+description: Are the supplied geographic coordinates within a defined buffer of the center of the country?
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- dwc:countryCode,dwc:decimalLatitude,dwc:decimalLongitude
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

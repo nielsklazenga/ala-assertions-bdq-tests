@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/7e0c0418-fe16-4a39-98bd-80e19d95b9d1-2026-11-17
+label: VALIDATION_GEODETICDATUM_STANDARD
+type: Validation
+description: Does the value of dwc:geodeticDatum occur as a valid geographic CRS, geodetic Datum or ellipsoid in bdqval:sourceAuthority?
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- dwc:geodeticDatum
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

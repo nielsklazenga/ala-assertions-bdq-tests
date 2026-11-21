@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/3f1db29a-bfa5-40db-9fd1-fde020d81939-2026-11-17
+label: VALIDATION_MAXDEPTH_INRANGE
+type: Validation
+description: Is the value of dwc:maximumDepthInMeters within the Parameter range?
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- dwc:maximumDepthInMeters
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

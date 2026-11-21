@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/56b6c695-adf1-418e-95d2-da04cad7be53-2026-11-17
+label: MEASURE_EVENTDATE_DURATIONINSECONDS
+type: Measure
+description: What is the duration of dwc:eventDate in seconds?
+dwc_class:
+- dwc:Event
+dwc_terms:
+- dwc:eventDate
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

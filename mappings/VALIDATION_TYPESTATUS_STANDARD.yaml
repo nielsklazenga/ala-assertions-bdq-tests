@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/4833a522-12eb-4fe0-b4cf-7f7a337a6048-2026-11-17
+label: VALIDATION_TYPESTATUS_STANDARD
+type: Validation
+description: Does the value of dwc:typeStatus occur in bdqval:sourceAuthority?
+dwc_class:
+- dwc:Occurrence
+dwc_terms:
+- dwc:typeStatus
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''

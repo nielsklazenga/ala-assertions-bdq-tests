@@ -1,0 +1,15 @@
+id: https://rs.tdwg.org/bdqtest/terms/version/3667556d-d8f5-454c-922b-af8af38f613c-2026-11-17
+label: VALIDATION_FAMILY_FOUND
+type: Validation
+description: Does the value of dwc:family occur at the rank of Family in the bdqval:sourceAuthority?
+dwc_class:
+- dwc:Taxon
+dwc_terms:
+- dwc:family
+mapping:
+  object_id: ''
+  object_label: ''
+  predicate_id: ''
+  match_confidence: ''
+  mapping_justification: ''
+  comment: ''
