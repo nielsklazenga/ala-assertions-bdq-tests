@@ -1,0 +1,22 @@
+---
+title: "BDQ Tests"
+format: gfm
+---
+
+```{python}
+#| echo: false
+#| output: asis
+
+import pandas as pd
+
+df = pd.read_csv("../data/bdqtest_term_versions.csv")
+
+for term_type in sorted(df["Type"].dropna().unique()):
+    print(f"## {term_type}\n")
+
+    group = df[df["Type"] == term_type].sort_values("Label")
+
+    for _, row in group.iterrows():
+        print(f"**{row['Label']}**\\")
+        print(f"{row['Description']}\n")
+```
