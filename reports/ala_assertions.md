@@ -23,7 +23,7 @@
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/ALTITUDE_NON_NUMERIC |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+ALTITUDE_NON_NUMERIC&type=code |
 
-### Actions
+**Actions**
 
 Duplicate of ELEVATION_NON_NUMERIC
 
@@ -40,7 +40,7 @@ Duplicate of ELEVATION_NON_NUMERIC
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/ALTITUDE_OUT_OF_RANGE |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+ALTITUDE_OUT_OF_RANGE&type=code |
 
-### Actions
+**Actions**
 
 Probably a duplicate of ELEVATION_UNLIKELY
 
@@ -65,7 +65,7 @@ Probably a duplicate of ELEVATION_UNLIKELY
 | **Method Asserted By** | getCollectionMatchNoneIssue |
 | **Assertion Logic** | The collection name is looked up in GRSciColl and a CollectionMatch with a Status is returned. It is not explained what Status.AMBIGUOUS means, but presumably the collection could be matched to more than one collection. It is also unclear if the match is based on the data or information in the EML. |
 
-### Actions
+**Actions**
 
 No action required. The best way to prevent institution and collection match issues is to provide `collectionID` and `institutionID` with the GRSciColl identifiers (i.e., doing the matching ourselves).
 
@@ -90,7 +90,7 @@ No action required. The best way to prevent institution and collection match iss
 | **Method Asserted By** | getInstitutionMatchNoneIssue |
 | **Assertion Logic** | This is a lookup in GRSciColl. It is not explained what AMBIGUOUS means, but presumably the institution could be not be unambiguously match to a single institution in GrSciColl. Also not certain what data is used. |
 
-### Actions
+**Actions**
 
 No action required.
 
@@ -149,7 +149,7 @@ No action required.
 | **Method Asserted By** | interpretBasisOfRecord |
 | **Assertion Logic** | Value for basisOfRecord cannot be interpreted. (basisOfRecord is required in a Darwin Core Archive) |
 
-### Actions
+**Actions**
 
 No action required.
 
@@ -185,7 +185,7 @@ No action required.
 | **Method Asserted By** | getCollectionMatch |
 | **Assertion Logic** | Lookup in GrScicoll. Match is fuzzy. |
 
-### Actions
+**Actions**
 
 No action required.
 
@@ -210,7 +210,7 @@ No action required.
 | **Method Asserted By** | getCollectionMatchNoneIssue |
 | **Assertion Logic** | Lookup in GrScicoll. No match. |
 
-### Actions
+**Actions**
 
 No action required.
 
@@ -236,7 +236,7 @@ No action required.
 | **Method Asserted By** | parseContinent |
 | **Assertion Logic** | Lookup. Coordinates land the record in a different continent than the value for `continent` indicates. |
 
-### Actions
+**Actions**
 
 No action required.
 
@@ -262,7 +262,7 @@ No action required.
 | **Method Asserted By** | parseContinent |
 | **Assertion Logic** | Lookup. Country is in a different continent than indicated by the value for `continent`. |
 
-### Actions
+**Actions**
 
 No action required.
 
@@ -287,7 +287,7 @@ No action required.
 | **Method Asserted By** | parseContinent |
 | **Assertion Logic** | Lookup. There is no value for `continent`, so the processed continent is based on the coordinates. |
 
-### Actions
+**Actions**
 
 No action required.
 
@@ -313,7 +313,7 @@ No action required.
 | **Method Asserted By** | parseContinent |
 | **Assertion Logic** | If no continent and no coordinates are provided, but a country is provided, the continent is derived from the country. |
 
-### Actions
+**Actions**
 
 No action required.
 
@@ -339,7 +339,7 @@ No action required.
 | **Method Asserted By** | parseContinent |
 | **Assertion Logic** | Lookup. Provided continent is not in vocabulary. |
 
-### Actions
+**Actions**
 
 No action required.
 
@@ -365,7 +365,7 @@ No action required.
 | **Method Asserted By** | verifyLocationInfo |
 | **Assertion Logic** | Lookup in https://github.com/gbif/pipelines/blob/master/livingatlas/pipelines/src/main/resources/countryCentrePoints.txt |
 
-### Actions
+**Actions**
 
 No action required.
 
@@ -391,7 +391,7 @@ No action required.
 | **Method Asserted By** | verifyLocationInfo |
 | **Assertion Logic** | Lookup in https://github.com/gbif/pipelines/blob/master/livingatlas/pipelines/src/main/resources/stateProvinceCentrePoints.txt |
 
-### Actions
+**Actions**
 
 No action required
 
@@ -449,7 +449,7 @@ No action required
 | **Class Asserted In** | CoordinateParseUtils |
 | **Method Asserted By** | parseLatLng |
 
-### Actions
+**Actions**
 
 No action required
 
@@ -475,7 +475,7 @@ No action required
 | **Method Asserted By** | parseLatLng |
 | **Assertion Logic** | latitude > 90 or < -90; longitude > 180 or < -180 |
 
-### Actions
+**Actions**
 
 No action required
 
@@ -499,7 +499,7 @@ No action required
 | **Method Asserted By** | interpretCoordinatePrecision |
 | **Assertion Logic** | Valid values of `coordinatePrecision` are between 0 and 1. |
 
-### Actions
+**Actions**
 
 No action required
 
@@ -525,7 +525,7 @@ No action required
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COORDINATE_PRECISION_UNCERTAINTY_MISMATCH |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+COORDINATE_PRECISION_UNCERTAINTY_MISMATCH&type=code |
 
-### Actions
+**Actions**
 
 The assertion might be useful, but not if we do not know what it does.
 
@@ -551,7 +551,7 @@ The assertion might be useful, but not if we do not know what it does.
 | **Method Asserted By** | reproject |
 | **Assertion Logic** | Issue is created when `geodeticDatum` is provided and projected coordinates are different from provided coordinates. |
 
-### Actions
+**Actions**
 
 No action required
 
@@ -595,7 +595,7 @@ No action required
 | **Method Asserted By** | reproject |
 | **Assertion Logic** | Reprojection is suspicious if there is a shift of more then 0.1° in either of the coordinates. |
 
-### Actions
+**Actions**
 
 No action required
 
@@ -650,7 +650,7 @@ dwc:coordinateUncertaintyInMeters non-numeric;
 dwc:coordinateUncertaintyInMeters < COORDINATE_UNCERTAINTY_METERS_LOWER_BOUND;
 dwc:coordinateUncertainty > COORDINATE_UNCERTAINTY_METERS_UPPER_BOUND |
 
-### Actions
+**Actions**
 
 1. When null or empty an UNCERTAINTY_NOT_SPECIFIED issue should be asserted instead
 2. Use the GBIF upper bound. A coordinate uncertainty of 10,000,000 m might be extremely unlikely (and is definitely wrong), but is not invalid. The ALA DQ Profile filters out records with uncertainty greater than 10,000 m.
@@ -696,7 +696,7 @@ dwc:coordinateUncertainty > COORDINATE_UNCERTAINTY_METERS_UPPER_BOUND |
 | **Method Asserted By** | applyWithCountry, applyWithoutCountry |
 | **Assertion Logic** | Provided country does not match the country the coordinates are in. |
 
-### Actions
+**Actions**
 
 No action required.
 
@@ -722,7 +722,7 @@ No action required.
 | **Method Asserted By** | applyWithoutCountry |
 | **Assertion Logic** | `country` is not provided, but `decimalLatitude` and `decimalLongitude` are. |
 
-### Actions
+**Actions**
 
 No action required.
 
@@ -761,7 +761,7 @@ No action required.
 | **Method Asserted By** | parse |
 | **Assertion Logic** | Provided value for `country` can not be matched to country vocabulary. |
 
-### Actions
+**Actions**
 
 No action required
 
@@ -787,7 +787,7 @@ No action required
 | **Method Asserted By** | parse |
 | **Assertion Logic** | There is a mismatch between the country and countryCode |
 
-### Actions
+**Actions**
 
 No action required
 
@@ -879,7 +879,7 @@ No action required
 |-------|-------|
 | **Class Asserted In** | https://github.com/gbif/gbif-api/blob/master/src/main/java/org/gbif/api/vocabulary/OccurrenceIssue.java |
 
-### Actions
+**Actions**
 
 Check if there are any records that do not pass this test. If there are none, the test is probably not implemented. Might be useful to download all records with both minumimElevationInMeters and maxElevationInMeters and see if there are any where minimumElevationInMeters > maximumElevationInMeters.
 
@@ -903,7 +903,7 @@ Check if there are any records that do not pass this test. If there are none, th
 |-------|-------|
 | **Class Asserted In** | https://github.com/gbif/gbif-api/blob/master/src/main/java/org/gbif/api/vocabulary/OccurrenceIssue.java |
 
-### Actions
+**Actions**
 
 Check if there are any records for which this warning is issued.
 
@@ -927,7 +927,7 @@ Check if there are any records for which this warning is issued.
 |-------|-------|
 | **Class Asserted In** | https://github.com/gbif/gbif-api/blob/master/src/main/java/org/gbif/api/vocabulary/OccurrenceIssue.java |
 
-### Actions
+**Actions**
 
 Check if there are any records for which this warning is issued.
 
@@ -963,7 +963,7 @@ Check if there are any records for which this warning is issued.
 | **Class Asserted In** | https://github.com/gbif/gbif-api/blob/master/src/main/java/org/gbif/api/vocabulary/OccurrenceIssue.java |
 | **Assertion Logic** | Set if depth is larger than 11,000m or negative. |
 
-### Actions
+**Actions**
 
 Check data.
 
@@ -989,7 +989,7 @@ Check data.
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/DETECTED_OUTLIER_JACKKNIFE |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+DETECTED_OUTLIER_JACKKNIFE&type=code |
 
-### Actions
+**Actions**
 
 Find out if we are still doing this.
 
@@ -1128,7 +1128,7 @@ Find out if we are still doing this.
 | **Method Asserted By** | checkRecordDateQuality |
 | **Assertion Logic** | This checks if a year is provided and if the year is the first (or last) of a century. The issue is asserted when the month and day are either not provided, or are '1'. This means that this issue is asserted for event dates like '1900' and '19-01', which is misleading if you ask me. |
 
-### Actions
+**Actions**
 
 I would just ditch it
 
@@ -1154,7 +1154,7 @@ I would just ditch it
 | **Method Asserted By** | checkRecordDateQuality |
 | **Assertion Logic** | The day provided is the first day of the month. |
 
-### Actions
+**Actions**
 
 I would just ditch it
 
@@ -1180,7 +1180,7 @@ I would just ditch it
 | **Method Asserted By** | checkRecordDateQuality |
 | **Assertion Logic** | This issue is asserted if the month is January and the day is either the first or not provided; incorrect if you ask me. |
 
-### Actions
+**Actions**
 
 I would just ditch it
 
@@ -1206,7 +1206,7 @@ I would just ditch it
 | **Method Asserted By** | interpretFootprintWKT |
 | **Assertion Logic** | footprintSRS is provided, but cannot be interpreted |
 
-### Actions
+**Actions**
 
 No action required
 
@@ -1232,7 +1232,7 @@ No action required
 | **Method Asserted By** | parseFootprintWKT |
 | **Assertion Logic** | footprintWKT cannot be parsed |
 
-### Actions
+**Actions**
 
 No action required
 
@@ -1258,7 +1258,7 @@ No action required
 | **Method Asserted By** | intepretFootprintWKT |
 | **Assertion Logic** | footprintWKT is a POINT and is not the same as that of the decimalLatitude and decimalLongitude |
 
-### Actions
+**Actions**
 
 No action required
 
@@ -1284,7 +1284,7 @@ No action required
 | **Method Asserted By** | reproject |
 | **Assertion Logic** | Provided geodeticDatum could not be interpreted |
 
-### Actions
+**Actions**
 
 No action required
 
@@ -1320,7 +1320,7 @@ No action required
 | **Method Asserted By** | interpretGeoreferencedDate |
 | **Assertion Logic** | Ostensibly, it converts the GBIF IDENTIFIED_DATE_UNLIKELY to GEOREFERENCED_DATE_UNLIKELY (which seems silly), but the numbers do not match. The records that are pulled up by this assertion have a georeferencedDate that is in the future (some almost 8,000 years in the future). |
 
-### Actions
+**Actions**
 
 No action required
 
@@ -1346,7 +1346,7 @@ No action required
 | **Method Asserted By** | checkGeoreferencedDate |
 | **Assertion Logic** | georeferencedDate is after the eventDate |
 
-### Actions
+**Actions**
 
 No action required
 
@@ -1427,7 +1427,7 @@ No action required
 | **Method Asserted By** | interpretDateIdentified |
 | **Assertion Logic** | dateIdentified is not a valid ISO 8601 string |
 
-### Actions
+**Actions**
 
 No action required
 
@@ -1453,7 +1453,7 @@ No action required
 | **Method Asserted By** | interpretDateIdentified |
 | **Assertion Logic** | dateIdentified is in the future |
 
-### Actions
+**Actions**
 
 No action required
 
@@ -1477,7 +1477,7 @@ No action required
 | **Method Asserted By** | checkDateIdentified |
 | **Assertion Logic** | eventDate is after dateIdentified. This often gives misleading results, as the precision of the dates are not taken into accound (identification dates are often given as just month and year). |
 
-### Actions
+**Actions**
 
 It would be better to have separate tests for incomplete eventDate and dateIdentified and then compare dates of the same precision. The latter will be hard in pipelines.
 
@@ -1493,7 +1493,7 @@ It would be better to have separate tests for incomplete eventDate and dateIdent
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/INCOMPLETE_COLLECTION_DATE |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+INCOMPLETE_COLLECTION_DATE&type=code |
 
-### Actions
+**Actions**
 
 I would like to have this test back.
 
@@ -1560,7 +1560,7 @@ I would like to have this test back.
 | **Method Asserted By** | getCollectionsMatchNoneIssue |
 | **Assertion Logic** | Not exactly clear, but it seems to be a fuzzy match to a collection in another institution than given in the data. |
 
-### Actions
+**Actions**
 
 No action required
 
@@ -1583,7 +1583,7 @@ No action required
 | **Method Asserted By** | grscicollInterpreter |
 | **Assertion Logic** | Institution match is fuzzy (probably matched by name rather than institutionID or institutionCode) |
 
-### Actions
+**Actions**
 
 No action required
 
@@ -1605,7 +1605,7 @@ No action required
 | **Method Asserted By** | getInstitutionMatchNoneIssue |
 | **Assertion Logic** | Institution coul not be matched to GRSciColl |
 
-### Actions
+**Actions**
 
 No action required
 
@@ -1670,7 +1670,7 @@ No action required
 | **Method Asserted By** | alaResultQualityChecks |
 | **Assertion Logic** | Issue is assered if the name type is NO_NAME, INFORMAL or PLACEHOLDER |
 
-### Actions
+**Actions**
 
 No action required
 
@@ -1704,7 +1704,7 @@ No action required
 | **Method Asserted By** | parseCoords |
 | **Assertion Logic** | decimalLatitude + decimalLongitude, or verbatimLatitude + verbatimLongitude, or verbatimCoordinates are either not provided or cannot be parsed. |
 
-### Actions
+**Actions**
 
 COORDINATES_NOT_SUPPLIED' would make more sense as a name.
 
@@ -1760,7 +1760,7 @@ COORDINATES_NOT_SUPPLIED' would make more sense as a name.
 | **Method Asserted By** | checkRecordDateQuality |
 | **Assertion Logic** | Neither eventDate, nor year, month, day are provided |
 
-### Actions
+**Actions**
 
 No action required
 
@@ -1806,7 +1806,7 @@ No action required
 | **Method Asserted By** | parseCoords |
 | **Assertion Logic** | geodeticDatum is not supplied |
 
-### Actions
+**Actions**
 
 No action required
 
@@ -1832,7 +1832,7 @@ No action required
 | **Method Asserted By** | interpretGeoReferenceTerms |
 | **Assertion Logic** | georeferencedBy is not supplied |
 
-### Actions
+**Actions**
 
 No action required
 
@@ -1858,7 +1858,7 @@ No action required
 | **Method Asserted By** | interpretGeoReferenceTerms |
 | **Assertion Logic** | georeferenceProtocol not supplied |
 
-### Actions
+**Actions**
 
 No action required
 
@@ -1884,7 +1884,7 @@ No action required
 | **Method Asserted By** | interpretGeoReferenceTerms |
 | **Assertion Logic** | georeferenceSources not supplied |
 
-### Actions
+**Actions**
 
 Consider removing
 
@@ -1910,7 +1910,7 @@ Consider removing
 | **Method Asserted By** | interpretGeoReferenceTerms |
 | **Assertion Logic** | georeferenceVerificationStatus not supplied |
 
-### Actions
+**Actions**
 
 I would remove this, as you would generally only verify a georeference if there has been an assertion that it might be incorrect.
 
@@ -1936,7 +1936,7 @@ I would remove this, as you would generally only verify a georeference if there 
 | **Method Asserted By** | interpretGeoReferenceTerms |
 | **Assertion Logic** | georeferencedDate not supplied |
 
-### Actions
+**Actions**
 
 I am probably the only one who delivers this, so I'd say 'Keep it!'
 
@@ -1952,7 +1952,7 @@ I am probably the only one who delivers this, so I'd say 'Keep it!'
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MISSING_IDENTIFICATIONQUALIFIER |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+MISSING_IDENTIFICATIONQUALIFIER&type=code |
 
-### Actions
+**Actions**
 
 Good riddance
 
@@ -1980,7 +1980,7 @@ Good riddance
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MISSING_IDENTIFIEDBY |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+MISSING_IDENTIFIEDBY&type=code |
 
-### Actions
+**Actions**
 
 This might be a good one to get back.
 
@@ -2006,7 +2006,7 @@ This might be a good one to get back.
 | **Method Asserted By** | alaSourceQualityChecks |
 | **Assertion Logic** | taxonRank not supplued |
 
-### Actions
+**Actions**
 
 This is not a data quality issue.
 
@@ -2032,7 +2032,7 @@ This is not a data quality issue.
 | **Method Asserted By** | interpretModified |
 | **Assertion Logic** | dcterms:modified is invalid IS 8601 string |
 
-### Actions
+**Actions**
 
 No action required
 
@@ -2058,7 +2058,7 @@ No action required
 | **Method Asserted By** | interpretModified |
 | **Assertion Logic** | dcterms:modified is in the future |
 
-### Actions
+**Actions**
 
 No action required
 
@@ -2084,7 +2084,7 @@ No action required
 | **Method Asserted By** | interpret |
 | **Assertion Logic** | dcterms:created of at least one of the associate images is invalid |
 
-### Actions
+**Actions**
 
 No action required
 
@@ -2121,7 +2121,7 @@ No action required
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/NAME_NOT_IN_NATIONAL_CHECKLISTS |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+NAME_NOT_IN_NATIONAL_CHECKLISTS&type=code |
 
-### Actions
+**Actions**
 
 This would be a nice thing to have back, but it needs to be part of the name matching.
 
@@ -2159,7 +2159,7 @@ This would be a nice thing to have back, but it needs to be part of the name mat
 | **Method Asserted By** | alaSourceQualityChecks |
 | **Assertion Logic** | neither scientificName nor vernacularName have been supplied |
 
-### Actions
+**Actions**
 
 I would change this to SCIENTIFIC_NAME_NOT_SUPPLIED and only check for scientificName. I am with Cam that we should not try to match vernacular names.
 
@@ -2225,7 +2225,7 @@ I would change this to SCIENTIFIC_NAME_NOT_SUPPLIED and only check for scientifi
 | **Method Asserted By** | interpretOccurrenceStatus |
 | **Assertion Logic** | If there is a specimen, occurrenceStatus is 'present'. |
 
-### Actions
+**Actions**
 
 No action required
 
@@ -2251,7 +2251,7 @@ No action required
 | **Method Asserted By** | interpretOccurrenceStatus |
 | **Assertion Logic** | occurrenceStatus is 'absent' if indivudualCount is 0 and 'present' if individualCount is greater than 0. |
 
-### Actions
+**Actions**
 
 No action required
 
@@ -2277,7 +2277,7 @@ No action required
 | **Method Asserted By** | interpretOccurrenceStatus |
 | **Assertion Logic** | occurrenceStatus has been provided but is unparsable |
 
-### Actions
+**Actions**
 
 No action required
 
@@ -2333,7 +2333,7 @@ No action required
 | **Method Asserted By** | getIssueTypes |
 | **Assertion Logic** | The value for latitude has probably been negated, e.g., by forgetting to add the '-' for Southern Hemisphere latitudes. |
 
-### Actions
+**Actions**
 
 No action required
 
@@ -2359,7 +2359,7 @@ No action required
 | **Method Asserted By** | getIssueTypes |
 | **Assertion Logic** | The value for longitude has probably been negated, e.g., by forgetting to add the '-' for Western Hemisphere latitudes. |
 
-### Actions
+**Actions**
 
 No action required
 
@@ -2385,7 +2385,7 @@ No action required
 | **Method Asserted By** | getIssueTypes |
 | **Assertion Logic** | Latitude and longitude have likely been swapped. |
 
-### Actions
+**Actions**
 
 No action required
 
@@ -2411,7 +2411,7 @@ No action required
 | **Method Asserted By** | parseRecordedDate |
 | **Assertion Logic** | Only one of `eventDate`, or `year`-`month`-`day`, or `startDayOfYear`-`endDayOfYear` has to be invalid for this assertion to be issued. |
 
-### Actions
+**Actions**
 
 No action required
 
@@ -2437,7 +2437,7 @@ No action required
 | **Method Asserted By** | parseRecordedDate |
 | **Assertion Logic** | One of `eventDate`, `year`-`month`-`day`, `startDayOfYear`, `endDayOfYear` is in contradiction with the others. |
 
-### Actions
+**Actions**
 
 No action required
 
@@ -2463,7 +2463,7 @@ No action required
 | **Method Asserted By** | parseRecordedDate |
 | **Assertion Logic** | eventDate in the future, or before 1500 |
 
-### Actions
+**Actions**
 
 No action required
 
@@ -2489,7 +2489,7 @@ No action required
 | **Method Asserted By** | interpretReferences |
 | **Assertion Logic** | One of the provided references could not be parsed. |
 
-### Actions
+**Actions**
 
 No action required
 
@@ -2525,7 +2525,7 @@ No action required
 | **Method Asserted By** | sensitiveDataInterpreter |
 | **Assertion Logic** | Information received by the SDS cannot be interpreted. |
 
-### Actions
+**Actions**
 
 No action required
 
@@ -2551,7 +2551,7 @@ No action required
 | **Method Asserted By** | sensitiveDataInterpreter |
 | **Assertion Logic** | Sensitivity rules for the taxon at the locality could not be loaded, perhaps due to unavailability of the SDS. |
 
-### Actions
+**Actions**
 
 No action required
 
@@ -2596,7 +2596,7 @@ No action required
 | **Method Asserted By** | verifyLocationInfo |
 | **Assertion Logic** | stateProvince retrieved using the coordinates is different from the provided stateProvince |
 
-### Actions
+**Actions**
 
 No action required
 
@@ -2622,7 +2622,7 @@ No action required
 | **Method Asserted By** | ISSUE_MAP |
 | **Assertion Logic** | scientificName includes 'aff.'. This can be an identificationQualifier, but could also indicate a distinct entity, meaning that the taxon that the name is matched to will be a different taxon than that with the provided scientificName. Also, including these qualifiers in the scientific name is invalid Darwin Core. |
 
-### Actions
+**Actions**
 
 No action required
 
@@ -2648,7 +2648,7 @@ No action required
 | **Method Asserted By** | ISSUE_MAP |
 | **Assertion Logic** | scientificName includes 'cf.' indicating an uncertain identification. Including identification qualiers in the scientificName is invalid Darwin Core. |
 
-### Actions
+**Actions**
 
 No action required
 
@@ -2674,7 +2674,7 @@ No action required
 | **Method Asserted By** | alaResultQualityChecks |
 | **Assertion Logic** | Check whether the matched taxon matches a supplied default name (I presume this is a default in a Darwin Core Archive). |
 
-### Actions
+**Actions**
 
 No action required
 
@@ -2700,7 +2700,7 @@ No action required
 | **Method Asserted By** | ISSUE_MAP |
 | **Assertion Logic** | Scientific name either not provided or could not be interpreted. |
 
-### Actions
+**Actions**
 
 No action required
 
@@ -2725,7 +2725,7 @@ No action required
 | **Method Asserted By** | ISSUE_MAP |
 | **Assertion Logic** | The taxon name supplied with a record has been matched to a taxon that is not known to occur in Australia. |
 
-### Actions
+**Actions**
 
 Find out why this assertion is never made, as there are lots of records to which this applies.
 
@@ -2750,7 +2750,7 @@ Find out why this assertion is never made, as there are lots of records to which
 | **Method Asserted By** | ISSUE_MAP |
 | **Assertion Logic** | The taxon name supplied with a record has been matched to a taxon that is not known to occur in Australia, but can be matched to an Australian taxon because of information provided by the name authorities. |
 
-### Actions
+**Actions**
 
 Find out why this assertion is never made, as there are lots of records to which this applies.
 
@@ -2776,7 +2776,7 @@ Find out why this assertion is never made, as there are lots of records to which
 | **Method Asserted By** | ISSUE_MAP |
 | **Assertion Logic** | The provided name matches more than one name in the ALA taxonomy and insufficient additional taxonomic data was supplied to make an unambiguous match. |
 
-### Actions
+**Actions**
 
 No action required
 
@@ -2801,7 +2801,7 @@ No action required
 | **Method Asserted By** | ISSUE_MAP |
 | **Assertion Logic** | The provided taxon name ends with 'sp.', indicating that the specimen could not be (or was not) identified to species. In the ALA name matching the suffix will be removed. |
 
-### Actions
+**Actions**
 
 This is a useful test, so we should have it.
 
@@ -2824,7 +2824,7 @@ This is a useful test, so we should have it.
 |-------|-------|
 | **Assertion Logic** | Matching is done at the species level, but the provided identification indicates a species aggregate (presumably though 's.l.' or 'agg.' suffixes), meaning too precise a match. |
 
-### Actions
+**Actions**
 
 This is a useful test, so we should have it.
 
@@ -2858,7 +2858,7 @@ This is a useful test, so we should have it.
 | **Method Asserted By** | alaResultQualityChecks |
 | **Assertion Logic** | Taxon match is based on a fuzzy, so not exact, match of the name. This means that if the match is correct there must be a spelling error in the provided name. |
 
-### Actions
+**Actions**
 
 No action required
 
@@ -2892,7 +2892,7 @@ No action required
 | **Method Asserted By** | alaResultQualityChecks |
 | **Assertion Logic** | Name could not be matched to a taxon of the same rank, so is matched to a higher taxon, base on the other taxonomic information provided. |
 
-### Actions
+**Actions**
 
 No action required
 
@@ -2926,7 +2926,7 @@ No action required
 | **Method Asserted By** | ISSUE_MAP |
 | **Assertion Logic** | Name could not be matched to taxonomy. |
 
-### Actions
+**Actions**
 
 No action required
 
@@ -2950,7 +2950,7 @@ No action required
 | **Method Asserted By** | ISSUE_MAP |
 | **Assertion Logic** | Provided name is involved in misapplication. |
 
-### Actions
+**Actions**
 
 This test is not needed if we make sure that misapplications do not make it into the ALA taxonomy.
 
@@ -2974,7 +2974,7 @@ This test is not needed if we make sure that misapplications do not make it into
 | **Method Asserted By** | ISSUE_MAP |
 | **Assertion Logic** | Provided name is involved in misapplication and has been matched to a taxon with a different name. |
 
-### Actions
+**Actions**
 
 I hope indeed this never happens, as the data indicates, but we have evidence to the contrary.
 
@@ -3000,7 +3000,7 @@ I hope indeed this never happens, as the data indicates, but we have evidence to
 | **Method Asserted By** | ISSUE_MAP |
 | **Assertion Logic** | The supplied name can be matched either onto the parent species or a type subspecies (or variety presumably). |
 
-### Actions
+**Actions**
 
 This is just silly. They are completely different name strings.
 
@@ -3026,7 +3026,7 @@ This is just silly. They are completely different name strings.
 | **Method Asserted By** | ISSUE_MAP |
 | **Assertion Logic** | The supplied scientific name contains a question mark. This indicates an uncertain identification and is invalid Darwin Core. |
 
-### Actions
+**Actions**
 
 No action required.
 
@@ -3052,7 +3052,7 @@ No action required.
 | **Method Asserted By** | ISSUE_MAP |
 | **Assertion Logic** | The other taxonomic hints supplied with the data (classification) do not match the matched taxon. |
 
-### Actions
+**Actions**
 
 No action required. Maybe provide a better description.
 
@@ -3078,7 +3078,7 @@ No action required. Maybe provide a better description.
 | **Method Asserted By** | ISSUE_MAP |
 | **Assertion Logic** | Supplied scientificName contains a plural (e.g., 'spp.') marker, indicating that there are multiple species in the sample. |
 
-### Actions
+**Actions**
 
 No action required.
 
@@ -3104,7 +3104,7 @@ No action required.
 | **Method Asserted By** | interpretTypeStatus |
 | **Assertion Logic** | The provided typeStatus cannot be found in the type status lookup. |
 
-### Actions
+**Actions**
 
 This comes from GBIF, so we probably cannot do much about it, but this test is wrong, as dwc:typeStatus is a free text string that contains the typeOfType and typifiedName. GBIF is comparing apples and oranges.
 
@@ -3130,7 +3130,7 @@ This comes from GBIF, so we probably cannot do much about it, but this test is w
 | **Method Asserted By** | interpretCoordinateUncertaintyInMeters |
 | **Assertion Logic** | dwc:coordinateUncertainty null or empty && dwc:coordinatePrecision > 1 |
 
-### Actions
+**Actions**
 
 This is a poorly conceived assertion, as it is more a suggestion as to why a value for dwc:coordinatePrecision might be invalid. A value higher than 1 for dwc:coordinatePrecision can just as easily have come from, e.g., dwc:minimumElevationInMeters. Replace with COORDINATE_PRECISION_INVALID assertion that is independent of dwc:coordinateUncertaintyInMeters.
 
@@ -3155,7 +3155,7 @@ This is a poorly conceived assertion, as it is more a suggestion as to why a val
 | **Method Asserted By** | x |
 | **Assertion Logic** | x |
 
-### Actions
+**Actions**
 
 1. See COORDINATE_UNCERTAINTY_METERS_INVALID. When dwc:coordinateUncertaintyInMeters is null or empty, this issue should be asserted
 2. Rename to MISSING_COORDINATE_UNCERTAINTY_METERS for consistency with other missing value issues.
@@ -3201,7 +3201,7 @@ This is a poorly conceived assertion, as it is more a suggestion as to why a val
 | **Method Asserted By** | alaSourceQualityChecks |
 | **Assertion Logic** | Provided kingdom not recognised |
 
-### Actions
+**Actions**
 
 No action required
 
@@ -3277,7 +3277,7 @@ No action required
 | **Method Asserted By** | validateAndRound |
 | **Assertion Logic** | Provided coordinates are both 0 |
 
-### Actions
+**Actions**
 
 No action required
 

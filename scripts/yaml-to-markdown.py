@@ -122,7 +122,7 @@ with open(OUTPUT_FILE, "w", encoding="utf-8") as out:
 
         if actions:
 
-            out.write("### Actions\n\n")
+            out.write("**Actions**\n\n")
             out.write(f"{actions}\n\n")
 
         out.write("---\n\n")
