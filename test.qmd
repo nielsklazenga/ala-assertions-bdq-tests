@@ -1,0 +1,25 @@
+---
+title: "Smoke Test"
+format: html
+---
+
+## Pandas Test
+
+```{python}
+import pandas as pd
+
+df = pd.DataFrame(
+    {
+        "letter": ["A", "B", "C"],
+        "number": [1, 2, 3]
+    }
+)
+
+df
+```
+
+## Summary
+
+```{python}
+df.describe()
+```

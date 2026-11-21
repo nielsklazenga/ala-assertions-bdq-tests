@@ -17,4 +17,14 @@ if ! jupyter kernelspec list | grep -q quarto-analysis; then
         --display-name "Python (Quarto Analysis)"
 fi
 
+if ! grep -q "Activate project venv" ~/.bashrc; then
+cat <<'EOF' >> ~/.bashrc
+
+# Activate project venv
+if [ -f /workspaces/bdq/.venv/bin/activate ]; then
+    source /workspaces/bdq/.venv/bin/activate
+fi
+EOF
+fi
+
 echo "Done."

@@ -1,0 +1,26 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Quarto
+.quarto/
+
+# Generated reports
+*.html
+
+# Optional: generated notebooks from Quarto execution
+*.ipynb
+
+# VS Code local settings
+.vscode/settings.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary test data
+test_files/

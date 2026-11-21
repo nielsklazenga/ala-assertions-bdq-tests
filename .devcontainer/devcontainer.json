@@ -14,7 +14,8 @@
       "settings": {
         "quarto.render.previewType": "internal",
         "editor.wordWrap": "on",
-        "python.defaultInterpreterPath": ".venv/bin/python"
+        "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+        "python.terminal.activateEnvironment": true
       }
     }
   },
