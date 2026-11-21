@@ -57,16 +57,13 @@ Probably a duplicate of ELEVATION_UNLIKELY
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/AMBIGUOUS_COLLECTION |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+AMBIGUOUS_COLLECTION&type=code |
 
-### GBIF
+**GBIF**
 
-**Class Asserted In**\
-GrscicollInterpreter
-
-**Method Asserted By**\
-getCollectionMatchNoneIssue
-
-**Assertion Logic**\
-The collection name is looked up in GRSciColl and a CollectionMatch with a Status is returned. It is not explained what Status.AMBIGUOUS means, but presumably the collection could be matched to more than one collection. It is also unclear if the match is based on the data or information in the EML.
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | GrscicollInterpreter |
+| **Method Asserted By** | getCollectionMatchNoneIssue |
+| **Assertion Logic** | The collection name is looked up in GRSciColl and a CollectionMatch with a Status is returned. It is not explained what Status.AMBIGUOUS means, but presumably the collection could be matched to more than one collection. It is also unclear if the match is based on the data or information in the EML. |
 
 ### Actions
 
@@ -85,16 +82,13 @@ No action required. The best way to prevent institution and collection match iss
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/AMBIGUOUS_INSTITUTION |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+AMBIGUOUS_INSTITUTION&type=code |
 
-### GBIF
+**GBIF**
 
-**Class Asserted In**\
-GrscicollInterpreter
-
-**Method Asserted By**\
-getInstitutionMatchNoneIssue
-
-**Assertion Logic**\
-This is a lookup in GRSciColl. It is not explained what AMBIGUOUS means, but presumably the institution could be not be unambiguously match to a single institution in GrSciColl. Also not certain what data is used.
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | GrscicollInterpreter |
+| **Method Asserted By** | getInstitutionMatchNoneIssue |
+| **Assertion Logic** | This is a lookup in GRSciColl. It is not explained what AMBIGUOUS means, but presumably the institution could be not be unambiguously match to a single institution in GrSciColl. Also not certain what data is used. |
 
 ### Actions
 
@@ -147,16 +141,13 @@ No action required.
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/BASIS_OF_RECORD_INVALID |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+BASIS_OF_RECORD_INVALID&type=code |
 
-### GBIF
+**GBIF**
 
-**Class Asserted In**\
-BasicInterpreter
-
-**Method Asserted By**\
-interpretBasisOfRecord
-
-**Assertion Logic**\
-Value for basisOfRecord cannot be interpreted. (basisOfRecord is required in a Darwin Core Archive)
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | BasicInterpreter |
+| **Method Asserted By** | interpretBasisOfRecord |
+| **Assertion Logic** | Value for basisOfRecord cannot be interpreted. (basisOfRecord is required in a Darwin Core Archive) |
 
 ### Actions
 
@@ -186,16 +177,13 @@ No action required.
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COLLECTION_MATCH_FUZZY |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+COLLECTION_MATCH_FUZZY&type=code |
 
-### GBIF
+**GBIF**
 
-**Class Asserted In**\
-GrscicollInterpreter
-
-**Method Asserted By**\
-getCollectionMatch
-
-**Assertion Logic**\
-Lookup in GrScicoll. Match is fuzzy.
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | GrscicollInterpreter |
+| **Method Asserted By** | getCollectionMatch |
+| **Assertion Logic** | Lookup in GrScicoll. Match is fuzzy. |
 
 ### Actions
 
@@ -214,16 +202,13 @@ No action required.
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COLLECTION_MATCH_NONE |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+COLLECTION_MATCH_NONE&type=code |
 
-### GBIF
+**GBIF**
 
-**Class Asserted In**\
-GrscicollInterpreter
-
-**Method Asserted By**\
-getCollectionMatchNoneIssue
-
-**Assertion Logic**\
-Lookup in GrScicoll. No match.
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | GrscicollInterpreter |
+| **Method Asserted By** | getCollectionMatchNoneIssue |
+| **Assertion Logic** | Lookup in GrScicoll. No match. |
 
 ### Actions
 
@@ -243,16 +228,13 @@ No action required.
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/CONTINENT_COORDINATE_MISMATCH |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+CONTINENT_COORDINATE_MISMATCH&type=code |
 
-### GBIF
+**GBIF**
 
-**Class Asserted In**\
-ContinentParser
-
-**Method Asserted By**\
-parseContinent
-
-**Assertion Logic**\
-Lookup. Coordinates land the record in a different continent than the value for `continent` indicates.
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | ContinentParser |
+| **Method Asserted By** | parseContinent |
+| **Assertion Logic** | Lookup. Coordinates land the record in a different continent than the value for `continent` indicates. |
 
 ### Actions
 
@@ -272,16 +254,13 @@ No action required.
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/CONTINENT_COUNTRY_MISMATCH |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+CONTINENT_COUNTRY_MISMATCH&type=code |
 
-### GBIF
+**GBIF**
 
-**Class Asserted In**\
-ContinentParser
-
-**Method Asserted By**\
-parseContinent
-
-**Assertion Logic**\
-Lookup. Country is in a different continent than indicated by the value for `continent`.
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | ContinentParser |
+| **Method Asserted By** | parseContinent |
+| **Assertion Logic** | Lookup. Country is in a different continent than indicated by the value for `continent`. |
 
 ### Actions
 
@@ -300,16 +279,13 @@ No action required.
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/CONTINENT_DERIVED_FROM_COORDINATES |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+CONTINENT_DERIVED_FROM_COORDINATES&type=code |
 
-### GBIF
+**GBIF**
 
-**Class Asserted In**\
-ContinentParser
-
-**Method Asserted By**\
-parseContinent
-
-**Assertion Logic**\
-Lookup. There is no value for `continent`, so the processed continent is based on the coordinates.
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | ContinentParser |
+| **Method Asserted By** | parseContinent |
+| **Assertion Logic** | Lookup. There is no value for `continent`, so the processed continent is based on the coordinates. |
 
 ### Actions
 
@@ -329,16 +305,13 @@ No action required.
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/CONTINENT_DERIVED_FROM_COUNTRY |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+CONTINENT_DERIVED_FROM_COUNTRY&type=code |
 
-### GBIF
+**GBIF**
 
-**Class Asserted In**\
-ContinentParser
-
-**Method Asserted By**\
-parseContinent
-
-**Assertion Logic**\
-If no continent and no coordinates are provided, but a country is provided, the continent is derived from the country.
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | ContinentParser |
+| **Method Asserted By** | parseContinent |
+| **Assertion Logic** | If no continent and no coordinates are provided, but a country is provided, the continent is derived from the country. |
 
 ### Actions
 
@@ -358,16 +331,13 @@ No action required.
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/CONTINENT_INVALID |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+CONTINENT_INVALID&type=code |
 
-### GBIF
+**GBIF**
 
-**Class Asserted In**\
-ContinentParser
-
-**Method Asserted By**\
-parseContinent
-
-**Assertion Logic**\
-Lookup. Provided continent is not in vocabulary.
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | ContinentParser |
+| **Method Asserted By** | parseContinent |
+| **Assertion Logic** | Lookup. Provided continent is not in vocabulary. |
 
 ### Actions
 
@@ -387,16 +357,13 @@ No action required.
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COORDINATES_CENTRE_OF_COUNTRY |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+COORDINATES_CENTRE_OF_COUNTRY&type=code |
 
-### ALA
+**ALA**
 
-**Class Asserted In**\
-AlaLocationInterpreter
-
-**Method Asserted By**\
-verifyLocationInfo
-
-**Assertion Logic**\
-Lookup in https://github.com/gbif/pipelines/blob/master/livingatlas/pipelines/src/main/resources/countryCentrePoints.txt
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | AlaLocationInterpreter |
+| **Method Asserted By** | verifyLocationInfo |
+| **Assertion Logic** | Lookup in https://github.com/gbif/pipelines/blob/master/livingatlas/pipelines/src/main/resources/countryCentrePoints.txt |
 
 ### Actions
 
@@ -416,16 +383,13 @@ No action required.
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COORDINATES_CENTRE_OF_STATEPROVINCE |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+COORDINATES_CENTRE_OF_STATEPROVINCE&type=code |
 
-### ALA
+**ALA**
 
-**Class Asserted In**\
-ALALocationInterpreter
-
-**Method Asserted By**\
-verifyLocationInfo
-
-**Assertion Logic**\
-Lookup in https://github.com/gbif/pipelines/blob/master/livingatlas/pipelines/src/main/resources/stateProvinceCentrePoints.txt
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | ALALocationInterpreter |
+| **Method Asserted By** | verifyLocationInfo |
+| **Assertion Logic** | Lookup in https://github.com/gbif/pipelines/blob/master/livingatlas/pipelines/src/main/resources/stateProvinceCentrePoints.txt |
 
 ### Actions
 
@@ -478,13 +442,12 @@ No action required
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COORDINATE_INVALID |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+COORDINATE_INVALID&type=code |
 
-### GBIF
+**GBIF**
 
-**Class Asserted In**\
-CoordinateParseUtils
-
-**Method Asserted By**\
-parseLatLng
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | CoordinateParseUtils |
+| **Method Asserted By** | parseLatLng |
 
 ### Actions
 
@@ -504,16 +467,13 @@ No action required
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COORDINATE_OUT_OF_RANGE |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+COORDINATE_OUT_OF_RANGE&type=code |
 
-### GBIF
+**GBIF**
 
-**Class Asserted In**\
-CoordinateParseUtils
-
-**Method Asserted By**\
-parseLatLng
-
-**Assertion Logic**\
-latitude > 90 or < -90; longitude > 180 or < -180
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | CoordinateParseUtils |
+| **Method Asserted By** | parseLatLng |
+| **Assertion Logic** | latitude > 90 or < -90; longitude > 180 or < -180 |
 
 ### Actions
 
@@ -531,16 +491,13 @@ No action required
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COORDINATE_PRECISION_INVALID |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+COORDINATE_PRECISION_INVALID&type=code |
 
-### GBIF
+**GBIF**
 
-**Class Asserted In**\
-LocationInterpreter
-
-**Method Asserted By**\
-interpretCoordinatePrecision
-
-**Assertion Logic**\
-Valid values of `coordinatePrecision` are between 0 and 1.
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | LocationInterpreter |
+| **Method Asserted By** | interpretCoordinatePrecision |
+| **Assertion Logic** | Valid values of `coordinatePrecision` are between 0 and 1. |
 
 ### Actions
 
@@ -586,16 +543,13 @@ The assertion might be useful, but not if we do not know what it does.
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COORDINATE_REPROJECTED |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+COORDINATE_REPROJECTED&type=code |
 
-### GBIF
+**GBIF**
 
-**Class Asserted In**\
-Wgs84Projection
-
-**Method Asserted By**\
-reproject
-
-**Assertion Logic**\
-Issue is created when `geodeticDatum` is provided and projected coordinates are different from provided coordinates.
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | Wgs84Projection |
+| **Method Asserted By** | reproject |
+| **Assertion Logic** | Issue is created when `geodeticDatum` is provided and projected coordinates are different from provided coordinates. |
 
 ### Actions
 
@@ -613,16 +567,13 @@ No action required
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COORDINATE_REPROJECTION_FAILED |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+COORDINATE_REPROJECTION_FAILED&type=code |
 
-### GBIF
+**GBIF**
 
-**Class Asserted In**\
-Wgs84Projection
-
-**Method Asserted By**\
-reproject
-
-**Assertion Logic**\
-Reprojection failed
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | Wgs84Projection |
+| **Method Asserted By** | reproject |
+| **Assertion Logic** | Reprojection failed |
 
 ---
 
@@ -636,16 +587,13 @@ Reprojection failed
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COORDINATE_REPROJECTION_SUSPICIOUS |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+COORDINATE_REPROJECTION_SUSPICIOUS&type=code |
 
-### GBIF
+**GBIF**
 
-**Class Asserted In**\
-Wgs84Projection
-
-**Method Asserted By**\
-reproject
-
-**Assertion Logic**\
-Reprojection is suspicious if there is a shift of more then 0.1° in either of the coordinates.
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | Wgs84Projection |
+| **Method Asserted By** | reproject |
+| **Assertion Logic** | Reprojection is suspicious if there is a shift of more then 0.1° in either of the coordinates. |
 
 ### Actions
 
@@ -676,37 +624,31 @@ No action required
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COORDINATE_UNCERTAINTY_METERS_INVALID |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+COORDINATE_UNCERTAINTY_METERS_INVALID&type=code |
 
-### GBIF
+**GBIF**
 
-**Class Asserted In**\
-LocationInterpreter
-
-**Method Asserted By**\
-interpretCoordinateUncertaintyInMeters
-
-**Assertion Logic**\
-COORDINATE_UNCERTAINTY_METERS_LOWER_BOUND = 0;
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | LocationInterpreter |
+| **Method Asserted By** | interpretCoordinateUncertaintyInMeters |
+| **Assertion Logic** | COORDINATE_UNCERTAINTY_METERS_LOWER_BOUND = 0;
 COORDINATE_UNCERTAINTY_METERS_UPPER_BOUND = 20,037,509;
 
 dwc:coordinateUncertaintyInMeters < COORDINATE_UNCERTAINTY_METERS_LOWER_BOUND;
-dwc:coordinateUncertainty > COORDINATE_UNCERTAINTY_METERS_UPPER_BOUND
+dwc:coordinateUncertainty > COORDINATE_UNCERTAINTY_METERS_UPPER_BOUND |
 
-### ALA
+**ALA**
 
-**Class Asserted In**\
-AlaLocationInterpreter
-
-**Method Asserted By**\
-interpretCoordinateUncertaintyInMeters
-
-**Assertion Logic**\
-COORDINATE_UNCERTAINTY_METERS_LOWER_BOUND = 0;
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | AlaLocationInterpreter |
+| **Method Asserted By** | interpretCoordinateUncertaintyInMeters |
+| **Assertion Logic** | COORDINATE_UNCERTAINTY_METERS_LOWER_BOUND = 0;
 COORDINATE_UNCERTAINTY_METERS_UPPER_BOUND = 5,000,000;
 
 dwc:coordinateUncertaintyInMeters null or empty;
 dwc:coordinateUncertaintyInMeters non-numeric;
 dwc:coordinateUncertaintyInMeters < COORDINATE_UNCERTAINTY_METERS_LOWER_BOUND;
-dwc:coordinateUncertainty > COORDINATE_UNCERTAINTY_METERS_UPPER_BOUND
+dwc:coordinateUncertainty > COORDINATE_UNCERTAINTY_METERS_UPPER_BOUND |
 
 ### Actions
 
@@ -726,10 +668,11 @@ dwc:coordinateUncertainty > COORDINATE_UNCERTAINTY_METERS_UPPER_BOUND
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COORDINATE_UNCERTAINTY_PRECISION_MISMATCH |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+COORDINATE_UNCERTAINTY_PRECISION_MISMATCH&type=code |
 
-### GBIF
+**GBIF**
 
-**Class Asserted In**\
-https://github.com/gbif/gbif-api/blob/master/src/main/java/org/gbif/api/vocabulary/OccurrenceIssue.java
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | https://github.com/gbif/gbif-api/blob/master/src/main/java/org/gbif/api/vocabulary/OccurrenceIssue.java |
 
 ---
 
@@ -745,16 +688,13 @@ https://github.com/gbif/gbif-api/blob/master/src/main/java/org/gbif/api/vocabula
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COUNTRY_COORDINATE_MISMATCH |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+COUNTRY_COORDINATE_MISMATCH&type=code |
 
-### GBIF
+**GBIF**
 
-**Class Asserted In**\
-LocationMatcher
-
-**Method Asserted By**\
-applyWithCountry, applyWithoutCountry
-
-**Assertion Logic**\
-Provided country does not match the country the coordinates are in.
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | LocationMatcher |
+| **Method Asserted By** | applyWithCountry, applyWithoutCountry |
+| **Assertion Logic** | Provided country does not match the country the coordinates are in. |
 
 ### Actions
 
@@ -774,16 +714,13 @@ No action required.
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COUNTRY_DERIVED_FROM_COORDINATES |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+COUNTRY_DERIVED_FROM_COORDINATES&type=code |
 
-### GBIF
+**GBIF**
 
-**Class Asserted In**\
-LocationMatcher
-
-**Method Asserted By**\
-applyWithoutCountry
-
-**Assertion Logic**\
-`country` is not provided, but `decimalLatitude` and `decimalLongitude` are.
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | LocationMatcher |
+| **Method Asserted By** | applyWithoutCountry |
+| **Assertion Logic** | `country` is not provided, but `decimalLatitude` and `decimalLongitude` are. |
 
 ### Actions
 
@@ -816,16 +753,13 @@ No action required.
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COUNTRY_INVALID |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+COUNTRY_INVALID&type=code |
 
-### GBIF
+**GBIF**
 
-**Class Asserted In**\
-LocationParser
-
-**Method Asserted By**\
-parse
-
-**Assertion Logic**\
-Provided value for `country` can not be matched to country vocabulary.
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | LocationParser |
+| **Method Asserted By** | parse |
+| **Assertion Logic** | Provided value for `country` can not be matched to country vocabulary. |
 
 ### Actions
 
@@ -845,16 +779,13 @@ No action required
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COUNTRY_MISMATCH |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+COUNTRY_MISMATCH&type=code |
 
-### GBIF
+**GBIF**
 
-**Class Asserted In**\
-LocationParser
-
-**Method Asserted By**\
-parse
-
-**Assertion Logic**\
-There is a mismatch between the country and countryCode
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | LocationParser |
+| **Method Asserted By** | parse |
+| **Assertion Logic** | There is a mismatch between the country and countryCode |
 
 ### Actions
 
@@ -942,10 +873,11 @@ No action required
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/DEPTH_MIN_MAX_SWAPPED |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+DEPTH_MIN_MAX_SWAPPED&type=code |
 
-### GBIF
+**GBIF**
 
-**Class Asserted In**\
-https://github.com/gbif/gbif-api/blob/master/src/main/java/org/gbif/api/vocabulary/OccurrenceIssue.java
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | https://github.com/gbif/gbif-api/blob/master/src/main/java/org/gbif/api/vocabulary/OccurrenceIssue.java |
 
 ### Actions
 
@@ -965,10 +897,11 @@ Check if there are any records that do not pass this test. If there are none, th
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/DEPTH_NON_NUMERIC |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+DEPTH_NON_NUMERIC&type=code |
 
-### GBIF
+**GBIF**
 
-**Class Asserted In**\
-https://github.com/gbif/gbif-api/blob/master/src/main/java/org/gbif/api/vocabulary/OccurrenceIssue.java
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | https://github.com/gbif/gbif-api/blob/master/src/main/java/org/gbif/api/vocabulary/OccurrenceIssue.java |
 
 ### Actions
 
@@ -988,10 +921,11 @@ Check if there are any records for which this warning is issued.
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/DEPTH_NOT_METRIC |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+DEPTH_NOT_METRIC&type=code |
 
-### GBIF
+**GBIF**
 
-**Class Asserted In**\
-https://github.com/gbif/gbif-api/blob/master/src/main/java/org/gbif/api/vocabulary/OccurrenceIssue.java
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | https://github.com/gbif/gbif-api/blob/master/src/main/java/org/gbif/api/vocabulary/OccurrenceIssue.java |
 
 ### Actions
 
@@ -1022,13 +956,12 @@ Check if there are any records for which this warning is issued.
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/DEPTH_UNLIKELY |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+DEPTH_UNLIKELY&type=code |
 
-### GBIF
+**GBIF**
 
-**Class Asserted In**\
-https://github.com/gbif/gbif-api/blob/master/src/main/java/org/gbif/api/vocabulary/OccurrenceIssue.java
-
-**Assertion Logic**\
-Set if depth is larger than 11,000m or negative.
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | https://github.com/gbif/gbif-api/blob/master/src/main/java/org/gbif/api/vocabulary/OccurrenceIssue.java |
+| **Assertion Logic** | Set if depth is larger than 11,000m or negative. |
 
 ### Actions
 
@@ -1081,16 +1014,13 @@ Find out if we are still doing this.
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/DIFFERENT_OWNER_INSTITUTION |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+DIFFERENT_OWNER_INSTITUTION&type=code |
 
-### GBIF
+**GBIF**
 
-**Class Asserted In**\
-GrscicollInterpreter
-
-**Method Asserted By**\
-grscicollInterpreter, getInstitutionMatchNoneIssue
-
-**Assertion Logic**\
-Not clear, issue is asserted when the lookup response contains 'DIFFERENT_OWNER' among its reasons, or when the status of the lookup is 'AMBIGUOUS_OWNER'.
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | GrscicollInterpreter |
+| **Method Asserted By** | grscicollInterpreter, getInstitutionMatchNoneIssue |
+| **Assertion Logic** | Not clear, issue is asserted when the lookup response contains 'DIFFERENT_OWNER' among its reasons, or when the status of the lookup is 'AMBIGUOUS_OWNER'. |
 
 ---
 
@@ -1106,16 +1036,13 @@ Not clear, issue is asserted when the lookup response contains 'DIFFERENT_OWNER'
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/ELEVATION_MIN_MAX_SWAPPED |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+ELEVATION_MIN_MAX_SWAPPED&type=code |
 
-### GBIF
+**GBIF**
 
-**Class Asserted In**\
-src/main/java/org/gbif/common/parsers/geospatial/MeterRangeParser.java
-
-**Method Asserted By**\
-parseElevation
-
-**Assertion Logic**\
-Min. and max. elevation are swapped.
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | src/main/java/org/gbif/common/parsers/geospatial/MeterRangeParser.java |
+| **Method Asserted By** | parseElevation |
+| **Assertion Logic** | Min. and max. elevation are swapped. |
 
 ---
 
@@ -1131,13 +1058,12 @@ Min. and max. elevation are swapped.
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/ELEVATION_NON_NUMERIC |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+ELEVATION_NON_NUMERIC&type=code |
 
-### GBIF
+**GBIF**
 
-**Class Asserted In**\
-?
-
-**Assertion Logic**\
-Value provided for minimumElevationInMeters or maxiumumElevationInMeters is not numeric
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | ? |
+| **Assertion Logic** | Value provided for minimumElevationInMeters or maxiumumElevationInMeters is not numeric |
 
 ---
 
@@ -1153,13 +1079,12 @@ Value provided for minimumElevationInMeters or maxiumumElevationInMeters is not 
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/ELEVATION_NOT_METRIC |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+ELEVATION_NOT_METRIC&type=code |
 
-### GBIF
+**GBIF**
 
-**Class Asserted In**\
-?
-
-**Assertion Logic**\
-Value provided for minimumElevationInMeters or maxiumumElevationInMeters is not metric (might be sexagesimal)
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | ? |
+| **Assertion Logic** | Value provided for minimumElevationInMeters or maxiumumElevationInMeters is not metric (might be sexagesimal) |
 
 ---
 
@@ -1174,13 +1099,12 @@ Value provided for minimumElevationInMeters or maxiumumElevationInMeters is not 
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/ELEVATION_UNLIKELY |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+ELEVATION_UNLIKELY&type=code |
 
-### GBIF
+**GBIF**
 
-**Class Asserted In**\
-https://github.com/gbif/gbif-api/blob/master/src/main/java/org/gbif/api/vocabulary/OccurrenceIssue.java
-
-**Assertion Logic**\
-Set if elevation is above the troposphere (17km) or below 11km (Mariana Trench).
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | https://github.com/gbif/gbif-api/blob/master/src/main/java/org/gbif/api/vocabulary/OccurrenceIssue.java |
+| **Assertion Logic** | Set if elevation is above the troposphere (17km) or below 11km (Mariana Trench). |
 
 ---
 
@@ -1196,16 +1120,13 @@ Set if elevation is above the troposphere (17km) or below 11km (Mariana Trench).
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/FIRST_OF_CENTURY |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+FIRST_OF_CENTURY&type=code |
 
-### ALA
+**ALA**
 
-**Class Asserted In**\
-ALATemporalInterpreter
-
-**Method Asserted By**\
-checkRecordDateQuality
-
-**Assertion Logic**\
-This checks if a year is provided and if the year is the first (or last) of a century. The issue is asserted when the month and day are either not provided, or are '1'. This means that this issue is asserted for event dates like '1900' and '19-01', which is misleading if you ask me.
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | ALATemporalInterpreter |
+| **Method Asserted By** | checkRecordDateQuality |
+| **Assertion Logic** | This checks if a year is provided and if the year is the first (or last) of a century. The issue is asserted when the month and day are either not provided, or are '1'. This means that this issue is asserted for event dates like '1900' and '19-01', which is misleading if you ask me. |
 
 ### Actions
 
@@ -1225,16 +1146,13 @@ I would just ditch it
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/FIRST_OF_MONTH |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+FIRST_OF_MONTH&type=code |
 
-### ALA
+**ALA**
 
-**Class Asserted In**\
-ALATemporalInterpreter
-
-**Method Asserted By**\
-checkRecordDateQuality
-
-**Assertion Logic**\
-The day provided is the first day of the month.
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | ALATemporalInterpreter |
+| **Method Asserted By** | checkRecordDateQuality |
+| **Assertion Logic** | The day provided is the first day of the month. |
 
 ### Actions
 
@@ -1254,16 +1172,13 @@ I would just ditch it
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/FIRST_OF_YEAR |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+FIRST_OF_YEAR&type=code |
 
-### ALA
+**ALA**
 
-**Class Asserted In**\
-ALATemporalInterpreter
-
-**Method Asserted By**\
-checkRecordDateQuality
-
-**Assertion Logic**\
-This issue is asserted if the month is January and the day is either the first or not provided; incorrect if you ask me.
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | ALATemporalInterpreter |
+| **Method Asserted By** | checkRecordDateQuality |
+| **Assertion Logic** | This issue is asserted if the month is January and the day is either the first or not provided; incorrect if you ask me. |
 
 ### Actions
 
@@ -1283,16 +1198,13 @@ I would just ditch it
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/FOOTPRINT_SRS_INVALID |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+FOOTPRINT_SRS_INVALID&type=code |
 
-### GBIF
+**GBIF**
 
-**Class Asserted In**\
-LocationInterpreter
-
-**Method Asserted By**\
-interpretFootprintWKT
-
-**Assertion Logic**\
-footprintSRS is provided, but cannot be interpreted
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | LocationInterpreter |
+| **Method Asserted By** | interpretFootprintWKT |
+| **Assertion Logic** | footprintSRS is provided, but cannot be interpreted |
 
 ### Actions
 
@@ -1312,16 +1224,13 @@ No action required
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/FOOTPRINT_WKT_INVALID |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+FOOTPRINT_WKT_INVALID&type=code |
 
-### GBIF
+**GBIF**
 
-**Class Asserted In**\
-FootprintWKTParser
-
-**Method Asserted By**\
-parseFootprintWKT
-
-**Assertion Logic**\
-footprintWKT cannot be parsed
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | FootprintWKTParser |
+| **Method Asserted By** | parseFootprintWKT |
+| **Assertion Logic** | footprintWKT cannot be parsed |
 
 ### Actions
 
@@ -1341,16 +1250,13 @@ No action required
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/FOOTPRINT_WKT_MISMATCH |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+FOOTPRINT_WKT_MISMATCH&type=code |
 
-### GBIF
+**GBIF**
 
-**Class Asserted In**\
-LocationInterpretor
-
-**Method Asserted By**\
-intepretFootprintWKT
-
-**Assertion Logic**\
-footprintWKT is a POINT and is not the same as that of the decimalLatitude and decimalLongitude
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | LocationInterpretor |
+| **Method Asserted By** | intepretFootprintWKT |
+| **Assertion Logic** | footprintWKT is a POINT and is not the same as that of the decimalLatitude and decimalLongitude |
 
 ### Actions
 
@@ -1370,16 +1276,13 @@ No action required
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/GEODETIC_DATUM_INVALID |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+GEODETIC_DATUM_INVALID&type=code |
 
-### GBIF
+**GBIF**
 
-**Class Asserted In**\
-Wgs84Projection
-
-**Method Asserted By**\
-reproject
-
-**Assertion Logic**\
-Provided geodeticDatum could not be interpreted
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | Wgs84Projection |
+| **Method Asserted By** | reproject |
+| **Assertion Logic** | Provided geodeticDatum could not be interpreted |
 
 ### Actions
 
@@ -1409,16 +1312,13 @@ No action required
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/GEOREFERENCED_DATE_UNLIKELY |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+GEOREFERENCED_DATE_UNLIKELY&type=code |
 
-### ALA
+**ALA**
 
-**Class Asserted In**\
-AlaLocationInterpreter
-
-**Method Asserted By**\
-interpretGeoreferencedDate
-
-**Assertion Logic**\
-Ostensibly, it converts the GBIF IDENTIFIED_DATE_UNLIKELY to GEOREFERENCED_DATE_UNLIKELY (which seems silly), but the numbers do not match. The records that are pulled up by this assertion have a georeferencedDate that is in the future (some almost 8,000 years in the future).
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | AlaLocationInterpreter |
+| **Method Asserted By** | interpretGeoreferencedDate |
+| **Assertion Logic** | Ostensibly, it converts the GBIF IDENTIFIED_DATE_UNLIKELY to GEOREFERENCED_DATE_UNLIKELY (which seems silly), but the numbers do not match. The records that are pulled up by this assertion have a georeferencedDate that is in the future (some almost 8,000 years in the future). |
 
 ### Actions
 
@@ -1438,16 +1338,13 @@ No action required
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/GEOREFERENCE_POST_OCCURRENCE |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+GEOREFERENCE_POST_OCCURRENCE&type=code |
 
-### ALA
+**ALA**
 
-**Class Asserted In**\
-ALATemporalInterpreter
-
-**Method Asserted By**\
-checkGeoreferencedDate
-
-**Assertion Logic**\
-georeferencedDate is after the eventDate
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | ALATemporalInterpreter |
+| **Method Asserted By** | checkGeoreferencedDate |
+| **Assertion Logic** | georeferencedDate is after the eventDate |
 
 ### Actions
 
@@ -1522,16 +1419,13 @@ No action required
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/IDENTIFIED_DATE_INVALID |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+IDENTIFIED_DATE_INVALID&type=code |
 
-### GBIF
+**GBIF**
 
-**Class Asserted In**\
-TemporalInterpreter
-
-**Method Asserted By**\
-interpretDateIdentified
-
-**Assertion Logic**\
-dateIdentified is not a valid ISO 8601 string
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | TemporalInterpreter |
+| **Method Asserted By** | interpretDateIdentified |
+| **Assertion Logic** | dateIdentified is not a valid ISO 8601 string |
 
 ### Actions
 
@@ -1551,16 +1445,13 @@ No action required
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/IDENTIFIED_DATE_UNLIKELY |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+IDENTIFIED_DATE_UNLIKELY&type=code |
 
-### GBIF
+**GBIF**
 
-**Class Asserted In**\
-TemporalInterpreter
-
-**Method Asserted By**\
-interpretDateIdentified
-
-**Assertion Logic**\
-dateIdentified is in the future
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | TemporalInterpreter |
+| **Method Asserted By** | interpretDateIdentified |
+| **Assertion Logic** | dateIdentified is in the future |
 
 ### Actions
 
@@ -1578,16 +1469,13 @@ No action required
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/ID_PRE_OCCURRENCE |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+ID_PRE_OCCURRENCE&type=code |
 
-### ALA
+**ALA**
 
-**Class Asserted In**\
-ALATemporalInterpreter
-
-**Method Asserted By**\
-checkDateIdentified
-
-**Assertion Logic**\
-eventDate is after dateIdentified. This often gives misleading results, as the precision of the dates are not taken into accound (identification dates are often given as just month and year).
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | ALATemporalInterpreter |
+| **Method Asserted By** | checkDateIdentified |
+| **Assertion Logic** | eventDate is after dateIdentified. This often gives misleading results, as the precision of the dates are not taken into accound (identification dates are often given as just month and year). |
 
 ### Actions
 
@@ -1664,16 +1552,13 @@ I would like to have this test back.
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/INSTITUTION_COLLECTION_MISMATCH |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+INSTITUTION_COLLECTION_MISMATCH&type=code |
 
-### GBIF
+**GBIF**
 
-**Class Asserted In**\
-GrscicollInterpreter
-
-**Method Asserted By**\
-getCollectionsMatchNoneIssue
-
-**Assertion Logic**\
-Not exactly clear, but it seems to be a fuzzy match to a collection in another institution than given in the data.
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | GrscicollInterpreter |
+| **Method Asserted By** | getCollectionsMatchNoneIssue |
+| **Assertion Logic** | Not exactly clear, but it seems to be a fuzzy match to a collection in another institution than given in the data. |
 
 ### Actions
 
@@ -1690,16 +1575,13 @@ No action required
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/INSTITUTION_MATCH_FUZZY |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+INSTITUTION_MATCH_FUZZY&type=code |
 
-### GBIF
+**GBIF**
 
-**Class Asserted In**\
-GrscicollInterpreter
-
-**Method Asserted By**\
-grscicollInterpreter
-
-**Assertion Logic**\
-Institution match is fuzzy (probably matched by name rather than institutionID or institutionCode)
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | GrscicollInterpreter |
+| **Method Asserted By** | grscicollInterpreter |
+| **Assertion Logic** | Institution match is fuzzy (probably matched by name rather than institutionID or institutionCode) |
 
 ### Actions
 
@@ -1716,13 +1598,12 @@ No action required
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/INSTITUTION_MATCH_NONE |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+INSTITUTION_MATCH_NONE&type=code |
 
-### GBIF
+**GBIF**
 
-**Method Asserted By**\
-getInstitutionMatchNoneIssue
-
-**Assertion Logic**\
-Institution coul not be matched to GRSciColl
+| Field | Value |
+|-------|-------|
+| **Method Asserted By** | getInstitutionMatchNoneIssue |
+| **Assertion Logic** | Institution coul not be matched to GRSciColl |
 
 ### Actions
 
@@ -1781,16 +1662,13 @@ No action required
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/INVALID_SCIENTIFIC_NAME |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+INVALID_SCIENTIFIC_NAME&type=code |
 
-### ALA
+**ALA**
 
-**Class Asserted In**\
-ALATaxonomyInterpreter
-
-**Method Asserted By**\
-alaResultQualityChecks
-
-**Assertion Logic**\
-Issue is assered if the name type is NO_NAME, INFORMAL or PLACEHOLDER
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | ALATaxonomyInterpreter |
+| **Method Asserted By** | alaResultQualityChecks |
+| **Assertion Logic** | Issue is assered if the name type is NO_NAME, INFORMAL or PLACEHOLDER |
 
 ### Actions
 
@@ -1818,16 +1696,13 @@ No action required
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/LOCATION_NOT_SUPPLIED |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+LOCATION_NOT_SUPPLIED&type=code |
 
-### ALA
+**ALA**
 
-**Class Asserted In**\
-CoordinatesParser
-
-**Method Asserted By**\
-parseCoords
-
-**Assertion Logic**\
-decimalLatitude + decimalLongitude, or verbatimLatitude + verbatimLongitude, or verbatimCoordinates are either not provided or cannot be parsed.
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | CoordinatesParser |
+| **Method Asserted By** | parseCoords |
+| **Assertion Logic** | decimalLatitude + decimalLongitude, or verbatimLatitude + verbatimLongitude, or verbatimCoordinates are either not provided or cannot be parsed. |
 
 ### Actions
 
@@ -1877,16 +1752,13 @@ COORDINATES_NOT_SUPPLIED' would make more sense as a name.
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MISSING_COLLECTION_DATE |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+MISSING_COLLECTION_DATE&type=code |
 
-### ALA
+**ALA**
 
-**Class Asserted In**\
-ALATemporalInterpreter
-
-**Method Asserted By**\
-checkRecordDateQuality
-
-**Assertion Logic**\
-Neither eventDate, nor year, month, day are provided
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | ALATemporalInterpreter |
+| **Method Asserted By** | checkRecordDateQuality |
+| **Assertion Logic** | Neither eventDate, nor year, month, day are provided |
 
 ### Actions
 
@@ -1926,16 +1798,13 @@ No action required
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MISSING_GEODETICDATUM |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+MISSING_GEODETICDATUM&type=code |
 
-### ALA
+**ALA**
 
-**Class Asserted In**\
-CoordinatesParser
-
-**Method Asserted By**\
-parseCoords
-
-**Assertion Logic**\
-geodeticDatum is not supplied
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | CoordinatesParser |
+| **Method Asserted By** | parseCoords |
+| **Assertion Logic** | geodeticDatum is not supplied |
 
 ### Actions
 
@@ -1955,16 +1824,13 @@ No action required
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MISSING_GEOREFERENCEDBY |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+MISSING_GEOREFERENCEDBY&type=code |
 
-### ALA
+**ALA**
 
-**Class Asserted In**\
-ALALocationInterpreter
-
-**Method Asserted By**\
-interpretGeoReferenceTerms
-
-**Assertion Logic**\
-georeferencedBy is not supplied
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | ALALocationInterpreter |
+| **Method Asserted By** | interpretGeoReferenceTerms |
+| **Assertion Logic** | georeferencedBy is not supplied |
 
 ### Actions
 
@@ -1984,16 +1850,13 @@ No action required
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MISSING_GEOREFERENCEPROTOCOL |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+MISSING_GEOREFERENCEPROTOCOL&type=code |
 
-### ALA
+**ALA**
 
-**Class Asserted In**\
-ALALocationInterpreter
-
-**Method Asserted By**\
-interpretGeoReferenceTerms
-
-**Assertion Logic**\
-georeferenceProtocol not supplied
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | ALALocationInterpreter |
+| **Method Asserted By** | interpretGeoReferenceTerms |
+| **Assertion Logic** | georeferenceProtocol not supplied |
 
 ### Actions
 
@@ -2013,16 +1876,13 @@ No action required
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MISSING_GEOREFERENCESOURCES |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+MISSING_GEOREFERENCESOURCES&type=code |
 
-### ALA
+**ALA**
 
-**Class Asserted In**\
-ALALocationInterpreter
-
-**Method Asserted By**\
-interpretGeoReferenceTerms
-
-**Assertion Logic**\
-georeferenceSources not supplied
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | ALALocationInterpreter |
+| **Method Asserted By** | interpretGeoReferenceTerms |
+| **Assertion Logic** | georeferenceSources not supplied |
 
 ### Actions
 
@@ -2042,16 +1902,13 @@ Consider removing
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MISSING_GEOREFERENCEVERIFICATIONSTATUS |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+MISSING_GEOREFERENCEVERIFICATIONSTATUS&type=code |
 
-### ALA
+**ALA**
 
-**Class Asserted In**\
-ALALocationInterpreter
-
-**Method Asserted By**\
-interpretGeoReferenceTerms
-
-**Assertion Logic**\
-georeferenceVerificationStatus not supplied
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | ALALocationInterpreter |
+| **Method Asserted By** | interpretGeoReferenceTerms |
+| **Assertion Logic** | georeferenceVerificationStatus not supplied |
 
 ### Actions
 
@@ -2071,16 +1928,13 @@ I would remove this, as you would generally only verify a georeference if there 
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MISSING_GEOREFERENCE_DATE |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+MISSING_GEOREFERENCE_DATE&type=code |
 
-### ALA
+**ALA**
 
-**Class Asserted In**\
-ALALocationInterpreter
-
-**Method Asserted By**\
-interpretGeoReferenceTerms
-
-**Assertion Logic**\
-georeferencedDate not supplied
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | ALALocationInterpreter |
+| **Method Asserted By** | interpretGeoReferenceTerms |
+| **Assertion Logic** | georeferencedDate not supplied |
 
 ### Actions
 
@@ -2144,16 +1998,13 @@ This might be a good one to get back.
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MISSING_TAXONRANK |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+MISSING_TAXONRANK&type=code |
 
-### ALA
+**ALA**
 
-**Class Asserted In**\
-ALATaxonomyInterpreter
-
-**Method Asserted By**\
-alaSourceQualityChecks
-
-**Assertion Logic**\
-taxonRank not supplued
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | ALATaxonomyInterpreter |
+| **Method Asserted By** | alaSourceQualityChecks |
+| **Assertion Logic** | taxonRank not supplued |
 
 ### Actions
 
@@ -2173,16 +2024,13 @@ This is not a data quality issue.
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MODIFIED_DATE_INVALID |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+MODIFIED_DATE_INVALID&type=code |
 
-### GBIF
+**GBIF**
 
-**Class Asserted In**\
-TemporalInterpreter
-
-**Method Asserted By**\
-interpretModified
-
-**Assertion Logic**\
-dcterms:modified is invalid IS 8601 string
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | TemporalInterpreter |
+| **Method Asserted By** | interpretModified |
+| **Assertion Logic** | dcterms:modified is invalid IS 8601 string |
 
 ### Actions
 
@@ -2202,16 +2050,13 @@ No action required
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MODIFIED_DATE_UNLIKELY |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+MODIFIED_DATE_UNLIKELY&type=code |
 
-### GBIF
+**GBIF**
 
-**Class Asserted In**\
-TemporalInterpreter
-
-**Method Asserted By**\
-interpretModified
-
-**Assertion Logic**\
-dcterms:modified is in the future
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | TemporalInterpreter |
+| **Method Asserted By** | interpretModified |
+| **Assertion Logic** | dcterms:modified is in the future |
 
 ### Actions
 
@@ -2231,16 +2076,13 @@ No action required
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MULTIMEDIA_DATE_INVALID |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+MULTIMEDIA_DATE_INVALID&type=code |
 
-### GBIF
+**GBIF**
 
-**Class Asserted In**\
-ImageInterpreter
-
-**Method Asserted By**\
-interpret
-
-**Assertion Logic**\
-dcterms:created of at least one of the associate images is invalid
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | ImageInterpreter |
+| **Method Asserted By** | interpret |
+| **Assertion Logic** | dcterms:created of at least one of the associate images is invalid |
 
 ### Actions
 
@@ -2259,16 +2101,13 @@ No action required
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MULTIMEDIA_URI_INVALID |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+MULTIMEDIA_URI_INVALID&type=code |
 
-### GBIF
+**GBIF**
 
-**Class Asserted In**\
-ImageInterpreter
-
-**Method Asserted By**\
-interpret
-
-**Assertion Logic**\
-dcterms:identifier of at least one of the associated images is invalid
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | ImageInterpreter |
+| **Method Asserted By** | interpret |
+| **Assertion Logic** | dcterms:identifier of at least one of the associated images is invalid |
 
 ---
 
@@ -2312,16 +2151,13 @@ This would be a nice thing to have back, but it needs to be part of the name mat
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/NAME_NOT_SUPPLIED |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+NAME_NOT_SUPPLIED&type=code |
 
-### ALA
+**ALA**
 
-**Class Asserted In**\
-ALATaxonomyInterpreter
-
-**Method Asserted By**\
-alaSourceQualityChecks
-
-**Assertion Logic**\
-neither scientificName nor vernacularName have been supplied
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | ALATaxonomyInterpreter |
+| **Method Asserted By** | alaSourceQualityChecks |
+| **Assertion Logic** | neither scientificName nor vernacularName have been supplied |
 
 ### Actions
 
@@ -2381,16 +2217,13 @@ I would change this to SCIENTIFIC_NAME_NOT_SUPPLIED and only check for scientifi
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/OCCURRENCE_STATUS_INFERRED_FROM_BASIS_OF_RECORD |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+OCCURRENCE_STATUS_INFERRED_FROM_BASIS_OF_RECORD&type=code |
 
-### GBIF
+**GBIF**
 
-**Class Asserted In**\
-BasicInterpreter
-
-**Method Asserted By**\
-interpretOccurrenceStatus
-
-**Assertion Logic**\
-If there is a specimen, occurrenceStatus is 'present'.
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | BasicInterpreter |
+| **Method Asserted By** | interpretOccurrenceStatus |
+| **Assertion Logic** | If there is a specimen, occurrenceStatus is 'present'. |
 
 ### Actions
 
@@ -2410,16 +2243,13 @@ No action required
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/OCCURRENCE_STATUS_INFERRED_FROM_INDIVIDUAL_COUNT |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+OCCURRENCE_STATUS_INFERRED_FROM_INDIVIDUAL_COUNT&type=code |
 
-### GBIF
+**GBIF**
 
-**Class Asserted In**\
-BasicInterpreter
-
-**Method Asserted By**\
-interpretOccurrenceStatus
-
-**Assertion Logic**\
-occurrenceStatus is 'absent' if indivudualCount is 0 and 'present' if individualCount is greater than 0.
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | BasicInterpreter |
+| **Method Asserted By** | interpretOccurrenceStatus |
+| **Assertion Logic** | occurrenceStatus is 'absent' if indivudualCount is 0 and 'present' if individualCount is greater than 0. |
 
 ### Actions
 
@@ -2439,16 +2269,13 @@ No action required
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/OCCURRENCE_STATUS_UNPARSABLE |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+OCCURRENCE_STATUS_UNPARSABLE&type=code |
 
-### GBIF
+**GBIF**
 
-**Class Asserted In**\
-BasicInterpreter
-
-**Method Asserted By**\
-interpretOccurrenceStatus
-
-**Assertion Logic**\
-occurrenceStatus has been provided but is unparsable
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | BasicInterpreter |
+| **Method Asserted By** | interpretOccurrenceStatus |
+| **Assertion Logic** | occurrenceStatus has been provided but is unparsable |
 
 ### Actions
 
@@ -2498,16 +2325,13 @@ No action required
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/PRESUMED_NEGATED_LATITUDE |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+PRESUMED_NEGATED_LATITUDE&type=code |
 
-### GBIF
+**GBIF**
 
-**Class Asserted In**\
-CoordinatesFunction
-
-**Method Asserted By**\
-getIssueTypes
-
-**Assertion Logic**\
-The value for latitude has probably been negated, e.g., by forgetting to add the '-' for Southern Hemisphere latitudes.
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | CoordinatesFunction |
+| **Method Asserted By** | getIssueTypes |
+| **Assertion Logic** | The value for latitude has probably been negated, e.g., by forgetting to add the '-' for Southern Hemisphere latitudes. |
 
 ### Actions
 
@@ -2527,16 +2351,13 @@ No action required
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/PRESUMED_NEGATED_LONGITUDE |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+PRESUMED_NEGATED_LONGITUDE&type=code |
 
-### GBIF
+**GBIF**
 
-**Class Asserted In**\
-CoordinatesFunction
-
-**Method Asserted By**\
-getIssueTypes
-
-**Assertion Logic**\
-The value for longitude has probably been negated, e.g., by forgetting to add the '-' for Western Hemisphere latitudes.
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | CoordinatesFunction |
+| **Method Asserted By** | getIssueTypes |
+| **Assertion Logic** | The value for longitude has probably been negated, e.g., by forgetting to add the '-' for Western Hemisphere latitudes. |
 
 ### Actions
 
@@ -2556,16 +2377,13 @@ No action required
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/PRESUMED_SWAPPED_COORDINATE |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+PRESUMED_SWAPPED_COORDINATE&type=code |
 
-### GBIF
+**GBIF**
 
-**Class Asserted In**\
-CoordinatesFunction
-
-**Method Asserted By**\
-getIssueTypes
-
-**Assertion Logic**\
-Latitude and longitude have likely been swapped.
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | CoordinatesFunction |
+| **Method Asserted By** | getIssueTypes |
+| **Assertion Logic** | Latitude and longitude have likely been swapped. |
 
 ### Actions
 
@@ -2585,16 +2403,13 @@ No action required
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/RECORDED_DATE_INVALID |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+RECORDED_DATE_INVALID&type=code |
 
-### GBIF
+**GBIF**
 
-**Class Asserted In**\
-https://github.com/gbif/parsers/blob/master/src/main/java/org/gbif/common/parsers/date/MultiinputTemporalParser.java
-
-**Method Asserted By**\
-parseRecordedDate
-
-**Assertion Logic**\
-Only one of `eventDate`, or `year`-`month`-`day`, or `startDayOfYear`-`endDayOfYear` has to be invalid for this assertion to be issued.
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | https://github.com/gbif/parsers/blob/master/src/main/java/org/gbif/common/parsers/date/MultiinputTemporalParser.java |
+| **Method Asserted By** | parseRecordedDate |
+| **Assertion Logic** | Only one of `eventDate`, or `year`-`month`-`day`, or `startDayOfYear`-`endDayOfYear` has to be invalid for this assertion to be issued. |
 
 ### Actions
 
@@ -2614,16 +2429,13 @@ No action required
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/RECORDED_DATE_MISMATCH |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+RECORDED_DATE_MISMATCH&type=code |
 
-### GBIF
+**GBIF**
 
-**Class Asserted In**\
-https://github.com/gbif/parsers/blob/master/src/main/java/org/gbif/common/parsers/date/MultiinputTemporalParser.java
-
-**Method Asserted By**\
-parseRecordedDate
-
-**Assertion Logic**\
-One of `eventDate`, `year`-`month`-`day`, `startDayOfYear`, `endDayOfYear` is in contradiction with the others.
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | https://github.com/gbif/parsers/blob/master/src/main/java/org/gbif/common/parsers/date/MultiinputTemporalParser.java |
+| **Method Asserted By** | parseRecordedDate |
+| **Assertion Logic** | One of `eventDate`, `year`-`month`-`day`, `startDayOfYear`, `endDayOfYear` is in contradiction with the others. |
 
 ### Actions
 
@@ -2643,16 +2455,13 @@ No action required
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/RECORDED_DATE_UNLIKELY |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+RECORDED_DATE_UNLIKELY&type=code |
 
-### GBIF
+**GBIF**
 
-**Class Asserted In**\
-https://github.com/gbif/parsers/blob/master/src/main/java/org/gbif/common/parsers/date/MultiinputTemporalParser.java
-
-**Method Asserted By**\
-parseRecordedDate
-
-**Assertion Logic**\
-eventDate in the future, or before 1500
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | https://github.com/gbif/parsers/blob/master/src/main/java/org/gbif/common/parsers/date/MultiinputTemporalParser.java |
+| **Method Asserted By** | parseRecordedDate |
+| **Assertion Logic** | eventDate in the future, or before 1500 |
 
 ### Actions
 
@@ -2672,16 +2481,13 @@ No action required
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/REFERENCES_URI_INVALID |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+REFERENCES_URI_INVALID&type=code |
 
-### GBIF
+**GBIF**
 
-**Class Asserted In**\
-CoreInterpreter
-
-**Method Asserted By**\
-interpretReferences
-
-**Assertion Logic**\
-One of the provided references could not be parsed.
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | CoreInterpreter |
+| **Method Asserted By** | interpretReferences |
+| **Assertion Logic** | One of the provided references could not be parsed. |
 
 ### Actions
 
@@ -2711,16 +2517,13 @@ No action required
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/SENSITIVITY_REPORT_INVALID |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+SENSITIVITY_REPORT_INVALID&type=code |
 
-### ALA
+**ALA**
 
-**Class Asserted In**\
-SensitiveDataInterpreter
-
-**Method Asserted By**\
-sensitiveDataInterpreter
-
-**Assertion Logic**\
-Information received by the SDS cannot be interpreted.
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | SensitiveDataInterpreter |
+| **Method Asserted By** | sensitiveDataInterpreter |
+| **Assertion Logic** | Information received by the SDS cannot be interpreted. |
 
 ### Actions
 
@@ -2740,16 +2543,13 @@ No action required
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/SENSITIVITY_REPORT_NOT_LOADABLE |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+SENSITIVITY_REPORT_NOT_LOADABLE&type=code |
 
-### ALA
+**ALA**
 
-**Class Asserted In**\
-SensitiveDataInterpreter
-
-**Method Asserted By**\
-sensitiveDataInterpreter
-
-**Assertion Logic**\
-Sensitivity rules for the taxon at the locality could not be loaded, perhaps due to unavailability of the SDS.
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | SensitiveDataInterpreter |
+| **Method Asserted By** | sensitiveDataInterpreter |
+| **Assertion Logic** | Sensitivity rules for the taxon at the locality could not be loaded, perhaps due to unavailability of the SDS. |
 
 ### Actions
 
@@ -2788,16 +2588,13 @@ No action required
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/STATE_COORDINATE_MISMATCH |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+STATE_COORDINATE_MISMATCH&type=code |
 
-### ALA
+**ALA**
 
-**Class Asserted In**\
-ALALocationInterpreter
-
-**Method Asserted By**\
-verifyLocationInfo
-
-**Assertion Logic**\
-stateProvince retrieved using the coordinates is different from the provided stateProvince
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | ALALocationInterpreter |
+| **Method Asserted By** | verifyLocationInfo |
+| **Assertion Logic** | stateProvince retrieved using the coordinates is different from the provided stateProvince |
 
 ### Actions
 
@@ -2817,16 +2614,13 @@ No action required
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_AFFINITY_SPECIES |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+TAXON_AFFINITY_SPECIES&type=code |
 
-### ALA
+**ALA**
 
-**Class Asserted In**\
-ALATaxonomyInterpreter
-
-**Method Asserted By**\
-ISSUE_MAP
-
-**Assertion Logic**\
-scientificName includes 'aff.'. This can be an identificationQualifier, but could also indicate a distinct entity, meaning that the taxon that the name is matched to will be a different taxon than that with the provided scientificName. Also, including these qualifiers in the scientific name is invalid Darwin Core.
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | ALATaxonomyInterpreter |
+| **Method Asserted By** | ISSUE_MAP |
+| **Assertion Logic** | scientificName includes 'aff.'. This can be an identificationQualifier, but could also indicate a distinct entity, meaning that the taxon that the name is matched to will be a different taxon than that with the provided scientificName. Also, including these qualifiers in the scientific name is invalid Darwin Core. |
 
 ### Actions
 
@@ -2846,16 +2640,13 @@ No action required
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_CONFER_SPECIES |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+TAXON_CONFER_SPECIES&type=code |
 
-### ALA
+**ALA**
 
-**Class Asserted In**\
-ALATaxonomyInterpreter
-
-**Method Asserted By**\
-ISSUE_MAP
-
-**Assertion Logic**\
-scientificName includes 'cf.' indicating an uncertain identification. Including identification qualiers in the scientificName is invalid Darwin Core.
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | ALATaxonomyInterpreter |
+| **Method Asserted By** | ISSUE_MAP |
+| **Assertion Logic** | scientificName includes 'cf.' indicating an uncertain identification. Including identification qualiers in the scientificName is invalid Darwin Core. |
 
 ### Actions
 
@@ -2875,16 +2666,13 @@ No action required
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_DEFAULT_MATCH |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+TAXON_DEFAULT_MATCH&type=code |
 
-### ALA
+**ALA**
 
-**Class Asserted In**\
-ALATaxonomyInterpreter
-
-**Method Asserted By**\
-alaResultQualityChecks
-
-**Assertion Logic**\
-Check whether the matched taxon matches a supplied default name (I presume this is a default in a Darwin Core Archive).
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | ALATaxonomyInterpreter |
+| **Method Asserted By** | alaResultQualityChecks |
+| **Assertion Logic** | Check whether the matched taxon matches a supplied default name (I presume this is a default in a Darwin Core Archive). |
 
 ### Actions
 
@@ -2904,16 +2692,13 @@ No action required
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_ERROR |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+TAXON_ERROR&type=code |
 
-### ALA
+**ALA**
 
-**Class Asserted In**\
-ALATaxonomyInterpreter
-
-**Method Asserted By**\
-ISSUE_MAP
-
-**Assertion Logic**\
-Scientific name either not provided or could not be interpreted.
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | ALATaxonomyInterpreter |
+| **Method Asserted By** | ISSUE_MAP |
+| **Assertion Logic** | Scientific name either not provided or could not be interpreted. |
 
 ### Actions
 
@@ -2932,16 +2717,13 @@ No action required
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_EXCLUDED |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+TAXON_EXCLUDED&type=code |
 
-### ALA
+**ALA**
 
-**Class Asserted In**\
-ALATaxonomyInterpreter
-
-**Method Asserted By**\
-ISSUE_MAP
-
-**Assertion Logic**\
-The taxon name supplied with a record has been matched to a taxon that is not known to occur in Australia.
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | ALATaxonomyInterpreter |
+| **Method Asserted By** | ISSUE_MAP |
+| **Assertion Logic** | The taxon name supplied with a record has been matched to a taxon that is not known to occur in Australia. |
 
 ### Actions
 
@@ -2960,16 +2742,13 @@ Find out why this assertion is never made, as there are lots of records to which
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_EXCLUDED_ASSOCIATED |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+TAXON_EXCLUDED_ASSOCIATED&type=code |
 
-### ALA
+**ALA**
 
-**Class Asserted In**\
-ALATaxonomyInterpreter
-
-**Method Asserted By**\
-ISSUE_MAP
-
-**Assertion Logic**\
-The taxon name supplied with a record has been matched to a taxon that is not known to occur in Australia, but can be matched to an Australian taxon because of information provided by the name authorities.
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | ALATaxonomyInterpreter |
+| **Method Asserted By** | ISSUE_MAP |
+| **Assertion Logic** | The taxon name supplied with a record has been matched to a taxon that is not known to occur in Australia, but can be matched to an Australian taxon because of information provided by the name authorities. |
 
 ### Actions
 
@@ -2989,16 +2768,13 @@ Find out why this assertion is never made, as there are lots of records to which
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_HOMONYM |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+TAXON_HOMONYM&type=code |
 
-### ALA
+**ALA**
 
-**Class Asserted In**\
-ALATaxonomyInterpreter
-
-**Method Asserted By**\
-ISSUE_MAP
-
-**Assertion Logic**\
-The provided name matches more than one name in the ALA taxonomy and insufficient additional taxonomic data was supplied to make an unambiguous match.
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | ALATaxonomyInterpreter |
+| **Method Asserted By** | ISSUE_MAP |
+| **Assertion Logic** | The provided name matches more than one name in the ALA taxonomy and insufficient additional taxonomic data was supplied to make an unambiguous match. |
 
 ### Actions
 
@@ -3017,16 +2793,13 @@ No action required
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_INDETERMINATE_SPECIES |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+TAXON_INDETERMINATE_SPECIES&type=code |
 
-### ALA
+**ALA**
 
-**Class Asserted In**\
-ALATaxonomyInterpreter
-
-**Method Asserted By**\
-ISSUE_MAP
-
-**Assertion Logic**\
-The provided taxon name ends with 'sp.', indicating that the specimen could not be (or was not) identified to species. In the ALA name matching the suffix will be removed.
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | ALATaxonomyInterpreter |
+| **Method Asserted By** | ISSUE_MAP |
+| **Assertion Logic** | The provided taxon name ends with 'sp.', indicating that the specimen could not be (or was not) identified to species. In the ALA name matching the suffix will be removed. |
 
 ### Actions
 
@@ -3045,10 +2818,11 @@ This is a useful test, so we should have it.
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_MATCH_AGGREGATE |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+TAXON_MATCH_AGGREGATE&type=code |
 
-### ALA
+**ALA**
 
-**Assertion Logic**\
-Matching is done at the species level, but the provided identification indicates a species aggregate (presumably though 's.l.' or 'agg.' suffixes), meaning too precise a match.
+| Field | Value |
+|-------|-------|
+| **Assertion Logic** | Matching is done at the species level, but the provided identification indicates a species aggregate (presumably though 's.l.' or 'agg.' suffixes), meaning too precise a match. |
 
 ### Actions
 
@@ -3068,27 +2842,21 @@ This is a useful test, so we should have it.
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_MATCH_FUZZY |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+TAXON_MATCH_FUZZY&type=code |
 
-### GBIF
+**GBIF**
 
-**Class Asserted In**\
-TaxonomyInterpreter
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | TaxonomyInterpreter |
+| **Method Asserted By** | matchTaxon |
+| **Assertion Logic** | Taxon match is based on a fuzzy, so not exact, match of the name. This means that if the match is correct there must be a spelling error in the provided name. |
 
-**Method Asserted By**\
-matchTaxon
+**ALA**
 
-**Assertion Logic**\
-Taxon match is based on a fuzzy, so not exact, match of the name. This means that if the match is correct there must be a spelling error in the provided name.
-
-### ALA
-
-**Class Asserted In**\
-ALATaxonomyInterpreter
-
-**Method Asserted By**\
-alaResultQualityChecks
-
-**Assertion Logic**\
-Taxon match is based on a fuzzy, so not exact, match of the name. This means that if the match is correct there must be a spelling error in the provided name.
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | ALATaxonomyInterpreter |
+| **Method Asserted By** | alaResultQualityChecks |
+| **Assertion Logic** | Taxon match is based on a fuzzy, so not exact, match of the name. This means that if the match is correct there must be a spelling error in the provided name. |
 
 ### Actions
 
@@ -3108,27 +2876,21 @@ No action required
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_MATCH_HIGHERRANK |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+TAXON_MATCH_HIGHERRANK&type=code |
 
-### GBIF
+**GBIF**
 
-**Class Asserted In**\
-TaxonomyInterpreter
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | TaxonomyInterpreter |
+| **Method Asserted By** | matchTaxon |
+| **Assertion Logic** | Name could not be matched to a taxon of the same rank, so is matched to a higher taxon, base on the other taxonomic information provided. |
 
-**Method Asserted By**\
-matchTaxon
+**ALA**
 
-**Assertion Logic**\
-Name could not be matched to a taxon of the same rank, so is matched to a higher taxon, base on the other taxonomic information provided.
-
-### ALA
-
-**Class Asserted In**\
-ALATaxonomyInterpreter
-
-**Method Asserted By**\
-alaResultQualityChecks
-
-**Assertion Logic**\
-Name could not be matched to a taxon of the same rank, so is matched to a higher taxon, base on the other taxonomic information provided.
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | ALATaxonomyInterpreter |
+| **Method Asserted By** | alaResultQualityChecks |
+| **Assertion Logic** | Name could not be matched to a taxon of the same rank, so is matched to a higher taxon, base on the other taxonomic information provided. |
 
 ### Actions
 
@@ -3148,27 +2910,21 @@ No action required
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_MATCH_NONE |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+TAXON_MATCH_NONE&type=code |
 
-### GBIF
+**GBIF**
 
-**Class Asserted In**\
-TaxonomyInterpreter
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | TaxonomyInterpreter |
+| **Method Asserted By** | matchTaxon |
+| **Assertion Logic** | Name could not be matched to taxon in taxonomy. |
 
-**Method Asserted By**\
-matchTaxon
+**ALA**
 
-**Assertion Logic**\
-Name could not be matched to taxon in taxonomy.
-
-### ALA
-
-**Class Asserted In**\
-ALATaxonomyInterpreter
-
-**Method Asserted By**\
-ISSUE_MAP
-
-**Assertion Logic**\
-Name could not be matched to taxonomy.
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | ALATaxonomyInterpreter |
+| **Method Asserted By** | ISSUE_MAP |
+| **Assertion Logic** | Name could not be matched to taxonomy. |
 
 ### Actions
 
@@ -3186,16 +2942,13 @@ No action required
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_MISAPPLIED |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+TAXON_MISAPPLIED&type=code |
 
-### ALA
+**ALA**
 
-**Class Asserted In**\
-ALATaxonomyInterpreter
-
-**Method Asserted By**\
-ISSUE_MAP
-
-**Assertion Logic**\
-Provided name is involved in misapplication.
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | ALATaxonomyInterpreter |
+| **Method Asserted By** | ISSUE_MAP |
+| **Assertion Logic** | Provided name is involved in misapplication. |
 
 ### Actions
 
@@ -3213,16 +2966,13 @@ This test is not needed if we make sure that misapplications do not make it into
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_MISAPPLIED_MATCHED |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+TAXON_MISAPPLIED_MATCHED&type=code |
 
-### ALA
+**ALA**
 
-**Class Asserted In**\
-ALATaxonomyInterpreter
-
-**Method Asserted By**\
-ISSUE_MAP
-
-**Assertion Logic**\
-Provided name is involved in misapplication and has been matched to a taxon with a different name.
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | ALATaxonomyInterpreter |
+| **Method Asserted By** | ISSUE_MAP |
+| **Assertion Logic** | Provided name is involved in misapplication and has been matched to a taxon with a different name. |
 
 ### Actions
 
@@ -3242,16 +2992,13 @@ I hope indeed this never happens, as the data indicates, but we have evidence to
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_PARENT_CHILD_SYNONYM |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+TAXON_PARENT_CHILD_SYNONYM&type=code |
 
-### ALA
+**ALA**
 
-**Class Asserted In**\
-ALATaxonomyInterpreter
-
-**Method Asserted By**\
-ISSUE_MAP
-
-**Assertion Logic**\
-The supplied name can be matched either onto the parent species or a type subspecies (or variety presumably).
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | ALATaxonomyInterpreter |
+| **Method Asserted By** | ISSUE_MAP |
+| **Assertion Logic** | The supplied name can be matched either onto the parent species or a type subspecies (or variety presumably). |
 
 ### Actions
 
@@ -3271,16 +3018,13 @@ This is just silly. They are completely different name strings.
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_QUESTION_SPECIES |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+TAXON_QUESTION_SPECIES&type=code |
 
-### ALA
+**ALA**
 
-**Class Asserted In**\
-ALATaxonomyInterpreter
-
-**Method Asserted By**\
-ISSUE_MAP
-
-**Assertion Logic**\
-The supplied scientific name contains a question mark. This indicates an uncertain identification and is invalid Darwin Core.
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | ALATaxonomyInterpreter |
+| **Method Asserted By** | ISSUE_MAP |
+| **Assertion Logic** | The supplied scientific name contains a question mark. This indicates an uncertain identification and is invalid Darwin Core. |
 
 ### Actions
 
@@ -3300,16 +3044,13 @@ No action required.
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_SCOPE_MISMATCH |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+TAXON_SCOPE_MISMATCH&type=code |
 
-### ALA
+**ALA**
 
-**Class Asserted In**\
-ALATaxonomyInterpreter
-
-**Method Asserted By**\
-ISSUE_MAP
-
-**Assertion Logic**\
-The other taxonomic hints supplied with the data (classification) do not match the matched taxon.
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | ALATaxonomyInterpreter |
+| **Method Asserted By** | ISSUE_MAP |
+| **Assertion Logic** | The other taxonomic hints supplied with the data (classification) do not match the matched taxon. |
 
 ### Actions
 
@@ -3329,16 +3070,13 @@ No action required. Maybe provide a better description.
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_SPECIES_PLURAL |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+TAXON_SPECIES_PLURAL&type=code |
 
-### ALA
+**ALA**
 
-**Class Asserted In**\
-ALATaxonomyInterpreter
-
-**Method Asserted By**\
-ISSUE_MAP
-
-**Assertion Logic**\
-Supplied scientificName contains a plural (e.g., 'spp.') marker, indicating that there are multiple species in the sample.
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | ALATaxonomyInterpreter |
+| **Method Asserted By** | ISSUE_MAP |
+| **Assertion Logic** | Supplied scientificName contains a plural (e.g., 'spp.') marker, indicating that there are multiple species in the sample. |
 
 ### Actions
 
@@ -3358,16 +3096,13 @@ No action required.
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TYPE_STATUS_INVALID |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+TYPE_STATUS_INVALID&type=code |
 
-### GBIF
+**GBIF**
 
-**Class Asserted In**\
-VocabularyInterpreter
-
-**Method Asserted By**\
-interpretTypeStatus
-
-**Assertion Logic**\
-The provided typeStatus cannot be found in the type status lookup.
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | VocabularyInterpreter |
+| **Method Asserted By** | interpretTypeStatus |
+| **Assertion Logic** | The provided typeStatus cannot be found in the type status lookup. |
 
 ### Actions
 
@@ -3387,16 +3122,13 @@ This comes from GBIF, so we probably cannot do much about it, but this test is w
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/UNCERTAINTY_IN_PRECISION |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+UNCERTAINTY_IN_PRECISION&type=code |
 
-### ALA
+**ALA**
 
-**Class Asserted In**\
-AlaLocationInterpreter
-
-**Method Asserted By**\
-interpretCoordinateUncertaintyInMeters
-
-**Assertion Logic**\
-dwc:coordinateUncertainty null or empty && dwc:coordinatePrecision > 1
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | AlaLocationInterpreter |
+| **Method Asserted By** | interpretCoordinateUncertaintyInMeters |
+| **Assertion Logic** | dwc:coordinateUncertainty null or empty && dwc:coordinatePrecision > 1 |
 
 ### Actions
 
@@ -3415,16 +3147,13 @@ This is a poorly conceived assertion, as it is more a suggestion as to why a val
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/UNCERTAINTY_NOT_SPECIFIED |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+UNCERTAINTY_NOT_SPECIFIED&type=code |
 
-### ALA
+**ALA**
 
-**Class Asserted In**\
-x
-
-**Method Asserted By**\
-x
-
-**Assertion Logic**\
-x
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | x |
+| **Method Asserted By** | x |
+| **Assertion Logic** | x |
 
 ### Actions
 
@@ -3464,16 +3193,13 @@ x
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/UNKNOWN_KINGDOM |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+UNKNOWN_KINGDOM&type=code |
 
-### ALA
+**ALA**
 
-**Class Asserted In**\
-ALATaxonomyInterpreter
-
-**Method Asserted By**\
-alaSourceQualityChecks
-
-**Assertion Logic**\
-Provided kingdom not recognised
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | ALATaxonomyInterpreter |
+| **Method Asserted By** | alaSourceQualityChecks |
+| **Assertion Logic** | Provided kingdom not recognised |
 
 ### Actions
 
@@ -3543,16 +3269,13 @@ No action required
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/ZERO_COORDINATE |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+ZERO_COORDINATE&type=code |
 
-### GBIF
+**GBIF**
 
-**Class Asserted In**\
-CoordinateParseUtils
-
-**Method Asserted By**\
-validateAndRound
-
-**Assertion Logic**\
-Provided coordinates are both 0
+| Field | Value |
+|-------|-------|
+| **Class Asserted In** | CoordinateParseUtils |
+| **Method Asserted By** | validateAndRound |
+| **Assertion Logic** | Provided coordinates are both 0 |
 
 ### Actions
 

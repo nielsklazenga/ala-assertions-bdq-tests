@@ -76,7 +76,9 @@ with open(OUTPUT_FILE, "w", encoding="utf-8") as out:
 
         if gbif:
 
-            out.write("### GBIF\n\n")
+            out.write("**GBIF**\n\n")
+            out.write("| Field | Value |\n")
+            out.write("|-------|-------|\n")
 
             for key in [
                 "class_asserted_in",
@@ -89,15 +91,17 @@ with open(OUTPUT_FILE, "w", encoding="utf-8") as out:
                 if value:
 
                     out.write(
-                        f"**{key.replace('_', ' ').title()}**\\\n"
+                        f"| **{key.replace('_', ' ').title()}** | {value} |\n"
                     )
-                    out.write(f"{value}\n\n")
+            out.write("\n")
 
         ala = data.get("ala", {})
 
         if ala:
 
-            out.write("### ALA\n\n")
+            out.write("**ALA**\n\n")
+            out.write("| Field | Value |\n")
+            out.write("|-------|-------|\n")
 
             for key in [
                 "class_asserted_in",
@@ -110,9 +114,9 @@ with open(OUTPUT_FILE, "w", encoding="utf-8") as out:
                 if value:
 
                     out.write(
-                        f"**{key.replace('_', ' ').title()}**\\\n"
+                        f"| **{key.replace('_', ' ').title()}** | {value} |\n"
                     )
-                    out.write(f"{value}\n\n")
+            out.write("\n")
 
         actions = data.get("actions")
 
