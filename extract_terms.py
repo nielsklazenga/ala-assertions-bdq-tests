@@ -6,7 +6,7 @@ OUTPUT = "data/bdq_ala_mapping.csv"
 df = pd.read_csv(INPUT)
 
 out = pd.DataFrame({
-    "subject_id": df["Label"],
+    "subject_id": df["iri"],
     "subject_label": df["Label"],
     "subject_category": df["Type"],
     "object_id": "",
