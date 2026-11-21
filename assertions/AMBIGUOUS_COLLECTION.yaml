@@ -1,4 +1,5 @@
 id: AMBIGUOUS_COLLECTION
+label: AMBIGUOUS_COLLECTION
 dwc_class:
 - Record Level
 - EML

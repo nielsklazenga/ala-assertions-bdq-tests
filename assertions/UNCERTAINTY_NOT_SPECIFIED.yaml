@@ -1,4 +1,5 @@
 id: UNCERTAINTY_NOT_SPECIFIED
+label: UNCERTAINTY_NOT_SPECIFIED
 dwc_class:
 - dcterms:Location
 dwc_terms:

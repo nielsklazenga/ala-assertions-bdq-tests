@@ -1,4 +1,5 @@
 id: COORDINATE_UNCERTAINTY_METERS_INVALID
+label: COORDINATE_UNCERTAINTY_METERS_INVALID
 dwc_class:
 - dcterms:Location
 dwc_terms:

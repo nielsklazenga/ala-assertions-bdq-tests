@@ -1,4 +1,5 @@
 id: STATE_COORDINATE_MISMATCH
+label: STATE_COORDINATE_MISMATCH
 dwc_class:
 - Location
 dwc_terms:

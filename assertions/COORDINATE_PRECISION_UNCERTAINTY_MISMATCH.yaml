@@ -1,4 +1,5 @@
 id: COORDINATE_PRECISION_UNCERTAINTY_MISMATCH
+label: COORDINATE_PRECISION_UNCERTAINTY_MISMATCH
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COORDINATE_PRECISION_UNCERTAINTY_MISMATCH
 github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+COORDINATE_PRECISION_UNCERTAINTY_MISMATCH&type=code
 status: Unused (listed among evaluation types, but there is no code for it; it could

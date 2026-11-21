@@ -1,4 +1,5 @@
 id: RESOURCE_TAXONOMIC_SCOPE_MISMATCH
+label: RESOURCE_TAXONOMIC_SCOPE_MISMATCH
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/RESOURCE_TAXONOMIC_SCOPE_MISMATCH
 github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+RESOURCE_TAXONOMIC_SCOPE_MISMATCH&type=code
 status: Not implemented

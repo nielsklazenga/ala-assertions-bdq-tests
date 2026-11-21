@@ -1,4 +1,5 @@
 id: FOOTPRINT_WKT_INVALID
+label: FOOTPRINT_WKT_INVALID
 dwc_class:
 - dcterms:Location
 dwc_terms:

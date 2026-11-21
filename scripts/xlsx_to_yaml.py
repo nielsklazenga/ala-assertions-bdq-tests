@@ -49,6 +49,7 @@ for _, row in df.iterrows():
 
     data = {
         "id": issue,
+        "label": issue,
 
         "dwc_class": split_list(row["DwC class"]),
         "dwc_terms": split_list(row["DwC term"]),

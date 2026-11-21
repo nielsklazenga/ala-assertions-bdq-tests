@@ -1,4 +1,5 @@
 id: COORDINATE_REPROJECTION_SUSPICIOUS
+label: COORDINATE_REPROJECTION_SUSPICIOUS
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COORDINATE_REPROJECTION_SUSPICIOUS
 github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+COORDINATE_REPROJECTION_SUSPICIOUS&type=code
 count: '19567.0'

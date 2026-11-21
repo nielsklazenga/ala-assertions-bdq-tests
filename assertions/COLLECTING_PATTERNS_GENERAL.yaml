@@ -1,4 +1,5 @@
 id: COLLECTING_PATTERNS_GENERAL
+label: COLLECTING_PATTERNS_GENERAL
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COLLECTING_PATTERNS_GENERAL
 github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+COLLECTING_PATTERNS_GENERAL&type=code
 status: Not implemented

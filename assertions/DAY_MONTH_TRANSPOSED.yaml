@@ -1,4 +1,5 @@
 id: DAY_MONTH_TRANSPOSED
+label: DAY_MONTH_TRANSPOSED
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/DAY_MONTH_TRANSPOSED
 github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+DAY_MONTH_TRANSPOSED&type=code
 status: Not implemented

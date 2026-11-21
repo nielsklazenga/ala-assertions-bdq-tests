@@ -1,4 +1,5 @@
 id: RECORDED_DATE_MISMATCH
+label: RECORDED_DATE_MISMATCH
 dwc_class:
 - Event
 dwc_terms:

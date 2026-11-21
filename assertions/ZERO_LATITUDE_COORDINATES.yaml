@@ -1,4 +1,5 @@
 id: ZERO_LATITUDE_COORDINATES
+label: ZERO_LATITUDE_COORDINATES
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/ZERO_LATITUDE_COORDINATES
 github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+ZERO_LATITUDE_COORDINATES&type=code
 status: Not implemented

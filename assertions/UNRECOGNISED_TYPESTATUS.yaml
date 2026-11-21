@@ -1,4 +1,5 @@
 id: UNRECOGNISED_TYPESTATUS
+label: UNRECOGNISED_TYPESTATUS
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/UNRECOGNISED_TYPESTATUS
 github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+UNRECOGNISED_TYPESTATUS&type=code
 status: Replaced by TYPE_STATUS_INVALID

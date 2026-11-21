@@ -1,4 +1,5 @@
 id: SENSITIVITY_REPORT_NOT_LOADABLE
+label: SENSITIVITY_REPORT_NOT_LOADABLE
 dwc_class:
 - dcterms:Location
 - Taxon

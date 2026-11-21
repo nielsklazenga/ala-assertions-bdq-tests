@@ -1,4 +1,5 @@
 id: UNRECOGNISED_INSTITUTIONCODE
+label: UNRECOGNISED_INSTITUTIONCODE
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/UNRECOGNISED_INSTITUTIONCODE
 github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+UNRECOGNISED_INSTITUTIONCODE&type=code
 status: Not implemented.

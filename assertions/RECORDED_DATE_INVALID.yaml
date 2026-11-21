@@ -1,4 +1,5 @@
 id: RECORDED_DATE_INVALID
+label: RECORDED_DATE_INVALID
 dwc_class:
 - Event
 dwc_terms:

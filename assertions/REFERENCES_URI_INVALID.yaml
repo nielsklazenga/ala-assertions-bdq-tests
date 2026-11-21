@@ -1,4 +1,5 @@
 id: REFERENCES_URI_INVALID
+label: REFERENCES_URI_INVALID
 dwc_class:
 - Occurrence
 - Identification

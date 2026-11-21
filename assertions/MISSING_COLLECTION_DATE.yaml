@@ -1,4 +1,5 @@
 id: MISSING_COLLECTION_DATE
+label: MISSING_COLLECTION_DATE
 dwc_class:
 - Event
 dwc_terms:

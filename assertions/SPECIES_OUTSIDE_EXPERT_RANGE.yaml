@@ -1,4 +1,5 @@
 id: SPECIES_OUTSIDE_EXPERT_RANGE
+label: SPECIES_OUTSIDE_EXPERT_RANGE
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/SPECIES_OUTSIDE_EXPERT_RANGE
 github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+SPECIES_OUTSIDE_EXPERT_RANGE&type=code
 status: Not implemented

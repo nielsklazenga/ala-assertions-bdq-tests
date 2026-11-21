@@ -1,4 +1,5 @@
 id: TAXON_AFFINITY_SPECIES
+label: TAXON_AFFINITY_SPECIES
 dwc_class:
 - Taxon
 dwc_terms:

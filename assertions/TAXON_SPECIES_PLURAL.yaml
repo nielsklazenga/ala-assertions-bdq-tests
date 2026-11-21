@@ -1,4 +1,5 @@
 id: TAXON_SPECIES_PLURAL
+label: TAXON_SPECIES_PLURAL
 dwc_class:
 - Taxon
 dwc_terms:

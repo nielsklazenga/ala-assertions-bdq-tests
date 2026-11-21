@@ -1,4 +1,5 @@
 id: GEODETIC_DATUM_INVALID
+label: GEODETIC_DATUM_INVALID
 dwc_class:
 - dcterms:Location
 dwc_terms:

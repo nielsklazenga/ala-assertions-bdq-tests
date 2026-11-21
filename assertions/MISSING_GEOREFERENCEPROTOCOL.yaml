@@ -1,4 +1,5 @@
 id: MISSING_GEOREFERENCEPROTOCOL
+label: MISSING_GEOREFERENCEPROTOCOL
 dwc_class:
 - dcterms:Location
 dwc_terms:

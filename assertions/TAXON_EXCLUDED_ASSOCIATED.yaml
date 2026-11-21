@@ -1,4 +1,5 @@
 id: TAXON_EXCLUDED_ASSOCIATED
+label: TAXON_EXCLUDED_ASSOCIATED
 dwc_class:
 - Taxon
 dwc_terms:

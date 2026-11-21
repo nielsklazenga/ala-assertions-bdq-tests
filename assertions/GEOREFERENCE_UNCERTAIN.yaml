@@ -1,4 +1,5 @@
 id: GEOREFERENCE_UNCERTAIN
+label: GEOREFERENCE_UNCERTAIN
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/GEOREFERENCE_UNCERTAIN
 github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+GEOREFERENCE_UNCERTAIN&type=code
 status: Not implemented

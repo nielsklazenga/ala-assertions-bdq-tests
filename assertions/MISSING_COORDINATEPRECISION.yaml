@@ -1,4 +1,5 @@
 id: MISSING_COORDINATEPRECISION
+label: MISSING_COORDINATEPRECISION
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MISSING_COORDINATEPRECISION
 github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+MISSING_COORDINATEPRECISION&type=code
 status: Unused

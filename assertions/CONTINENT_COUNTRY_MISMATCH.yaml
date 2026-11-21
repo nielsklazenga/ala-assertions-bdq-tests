@@ -1,4 +1,5 @@
 id: CONTINENT_COUNTRY_MISMATCH
+label: CONTINENT_COUNTRY_MISMATCH
 dwc_class:
 - dcterms:Location
 dwc_terms:

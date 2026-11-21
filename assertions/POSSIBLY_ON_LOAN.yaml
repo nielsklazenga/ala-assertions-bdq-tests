@@ -1,4 +1,5 @@
 id: POSSIBLY_ON_LOAN
+label: POSSIBLY_ON_LOAN
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/POSSIBLY_ON_LOAN
 github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+POSSIBLY_ON_LOAN&type=code
 status: Unused

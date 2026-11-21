@@ -1,4 +1,5 @@
 id: TAXON_QUESTION_SPECIES
+label: TAXON_QUESTION_SPECIES
 dwc_class:
 - Taxon
 dwc_terms:

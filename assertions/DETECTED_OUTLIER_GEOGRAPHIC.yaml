@@ -1,4 +1,5 @@
 id: DETECTED_OUTLIER_GEOGRAPHIC
+label: DETECTED_OUTLIER_GEOGRAPHIC
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/DETECTED_OUTLIER_GEOGRAPHIC
 github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+DETECTED_OUTLIER_GEOGRAPHIC&type=code
 status: Not implemented

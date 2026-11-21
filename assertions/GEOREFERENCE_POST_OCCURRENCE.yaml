@@ -1,4 +1,5 @@
 id: GEOREFERENCE_POST_OCCURRENCE
+label: GEOREFERENCE_POST_OCCURRENCE
 dwc_class:
 - dcterms:Location
 dwc_terms:

@@ -1,4 +1,5 @@
 id: DECIMAL_LAT_LONG_CONVERSION_FAILED
+label: DECIMAL_LAT_LONG_CONVERSION_FAILED
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/DECIMAL_LAT_LONG_CONVERSION_FAILED
 github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+DECIMAL_LAT_LONG_CONVERSION_FAILED&type=code
 status: Not implemented

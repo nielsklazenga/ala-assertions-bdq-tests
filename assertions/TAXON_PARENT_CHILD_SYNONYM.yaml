@@ -1,4 +1,5 @@
 id: TAXON_PARENT_CHILD_SYNONYM
+label: TAXON_PARENT_CHILD_SYNONYM
 dwc_class:
 - Taxon
 dwc_terms:

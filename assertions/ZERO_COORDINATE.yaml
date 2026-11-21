@@ -1,4 +1,5 @@
 id: ZERO_COORDINATE
+label: ZERO_COORDINATE
 dwc_class:
 - dcterms:Location
 dwc_terms:

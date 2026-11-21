@@ -1,4 +1,5 @@
 id: DEPTH_OUT_OF_RANGE
+label: DEPTH_OUT_OF_RANGE
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/DEPTH_OUT_OF_RANGE
 github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+DEPTH_OUT_OF_RANGE&type=code
 status: Not implemented

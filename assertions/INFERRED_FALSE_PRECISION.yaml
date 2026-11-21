@@ -1,4 +1,5 @@
 id: INFERRED_FALSE_PRECISION
+label: INFERRED_FALSE_PRECISION
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/INFERRED_FALSE_PRECISION
 github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+INFERRED_FALSE_PRECISION&type=code
 status: Not implemented

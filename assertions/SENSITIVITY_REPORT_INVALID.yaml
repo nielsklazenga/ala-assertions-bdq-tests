@@ -1,4 +1,5 @@
 id: SENSITIVITY_REPORT_INVALID
+label: SENSITIVITY_REPORT_INVALID
 dwc_class:
 - dcterms:Location
 - Taxon

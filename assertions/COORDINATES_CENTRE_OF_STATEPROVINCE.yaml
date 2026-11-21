@@ -1,4 +1,5 @@
 id: COORDINATES_CENTRE_OF_STATEPROVINCE
+label: COORDINATES_CENTRE_OF_STATEPROVINCE
 dwc_class:
 - dcterms:Location
 dwc_terms:

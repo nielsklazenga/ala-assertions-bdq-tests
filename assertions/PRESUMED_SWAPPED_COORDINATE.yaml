@@ -1,4 +1,5 @@
 id: PRESUMED_SWAPPED_COORDINATE
+label: PRESUMED_SWAPPED_COORDINATE
 dwc_class:
 - dcterms:Location
 dwc_terms:

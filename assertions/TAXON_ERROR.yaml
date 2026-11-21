@@ -1,4 +1,5 @@
 id: TAXON_ERROR
+label: TAXON_ERROR
 dwc_class:
 - Taxon
 dwc_terms:

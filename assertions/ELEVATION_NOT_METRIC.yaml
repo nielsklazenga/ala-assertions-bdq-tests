@@ -1,4 +1,5 @@
 id: ELEVATION_NOT_METRIC
+label: ELEVATION_NOT_METRIC
 dwc_class:
 - dcterms:Location
 dwc_terms:

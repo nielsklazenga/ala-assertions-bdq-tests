@@ -1,4 +1,5 @@
 id: CONTINENT_INVALID
+label: CONTINENT_INVALID
 dwc_class:
 - dcterms:Location
 dwc_terms:

@@ -1,4 +1,5 @@
 id: ALTITUDE_IN_FEET
+label: ALTITUDE_IN_FEET
 dwc_class:
 - dcterms:Location
 dwc_terms:

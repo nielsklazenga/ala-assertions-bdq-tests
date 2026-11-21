@@ -1,4 +1,5 @@
 id: CONTINENT_COORDINATE_MISMATCH
+label: CONTINENT_COORDINATE_MISMATCH
 dwc_class:
 - dcterms:Location
 dwc_terms:

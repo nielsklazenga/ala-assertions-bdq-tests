@@ -1,4 +1,5 @@
 id: OCCURRENCE_STATUS_UNPARSABLE
+label: OCCURRENCE_STATUS_UNPARSABLE
 dwc_class:
 - Occurrence
 dwc_terms:

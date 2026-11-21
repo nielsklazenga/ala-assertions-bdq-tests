@@ -1,4 +1,5 @@
 id: TAXON_MATCH_HIGHERRANK
+label: TAXON_MATCH_HIGHERRANK
 dwc_class:
 - Taxon
 dwc_terms:

@@ -1,4 +1,5 @@
 id: OCCURRENCE_IS_CULTIVATED_OR_ESCAPEE
+label: OCCURRENCE_IS_CULTIVATED_OR_ESCAPEE
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/OCCURRENCE_IS_CULTIVATED_OR_ESCAPEE
 github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+OCCURRENCE_IS_CULTIVATED_OR_ESCAPEE&type=code
 status: Not implemented

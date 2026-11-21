@@ -1,4 +1,5 @@
 id: COUNTRY_DERIVED_FROM_COORDINATES
+label: COUNTRY_DERIVED_FROM_COORDINATES
 dwc_class:
 - dcterms:Location
 dwc_terms:

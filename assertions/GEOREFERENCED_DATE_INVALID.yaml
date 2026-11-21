@@ -1,4 +1,5 @@
 id: GEOREFERENCED_DATE_INVALID
+label: GEOREFERENCED_DATE_INVALID
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/GEOREFERENCED_DATE_INVALID
 github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+GEOREFERENCED_DATE_INVALID&type=code
 status: Unused

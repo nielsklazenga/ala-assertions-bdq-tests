@@ -1,4 +1,5 @@
 id: INVALID_IMAGE_URL
+label: INVALID_IMAGE_URL
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/INVALID_IMAGE_URL
 github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+INVALID_IMAGE_URL&type=code
 status: Not implemented

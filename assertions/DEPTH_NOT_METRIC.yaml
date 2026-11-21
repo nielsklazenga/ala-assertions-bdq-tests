@@ -1,4 +1,5 @@
 id: DEPTH_NOT_METRIC
+label: DEPTH_NOT_METRIC
 dwc_class:
 - dcterms:Location
 dwc_terms:

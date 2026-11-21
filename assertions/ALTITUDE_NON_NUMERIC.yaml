@@ -1,4 +1,5 @@
 id: ALTITUDE_NON_NUMERIC
+label: ALTITUDE_NON_NUMERIC
 dwc_class:
 - dcterms:Location
 dwc_terms:

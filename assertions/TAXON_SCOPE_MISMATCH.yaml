@@ -1,4 +1,5 @@
 id: TAXON_SCOPE_MISMATCH
+label: TAXON_SCOPE_MISMATCH
 dwc_class:
 - Taxon
 dwc_terms:

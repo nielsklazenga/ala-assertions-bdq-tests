@@ -1,4 +1,5 @@
 id: COORDINATES_CENTRE_OF_COUNTRY
+label: COORDINATES_CENTRE_OF_COUNTRY
 dwc_class:
 - dcterms:Location
 dwc_terms:

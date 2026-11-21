@@ -1,4 +1,5 @@
 id: COUNTRY_INVALID
+label: COUNTRY_INVALID
 dwc_class:
 - dcterms:Location
 dwc_terms:

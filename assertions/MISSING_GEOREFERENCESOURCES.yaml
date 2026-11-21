@@ -1,4 +1,5 @@
 id: MISSING_GEOREFERENCESOURCES
+label: MISSING_GEOREFERENCESOURCES
 dwc_class:
 - dcterms:Location
 dwc_terms:

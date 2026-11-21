@@ -1,4 +1,5 @@
 id: COORDINATE_OUT_OF_RANGE
+label: COORDINATE_OUT_OF_RANGE
 dwc_class:
 - dcterms:Location
 dwc_terms:

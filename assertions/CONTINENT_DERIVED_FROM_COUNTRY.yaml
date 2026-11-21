@@ -1,4 +1,5 @@
 id: CONTINENT_DERIVED_FROM_COUNTRY
+label: CONTINENT_DERIVED_FROM_COUNTRY
 dwc_class:
 - dcterms:Location
 dwc_terms:

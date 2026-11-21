@@ -1,4 +1,5 @@
 id: TAXON_MATCH_AGGREGATE
+label: TAXON_MATCH_AGGREGATE
 dwc_class:
 - Taxon
 dwc_terms:

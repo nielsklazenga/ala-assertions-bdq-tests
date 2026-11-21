@@ -1,4 +1,5 @@
 id: PRESUMED_NEGATED_LATITUDE
+label: PRESUMED_NEGATED_LATITUDE
 dwc_class:
 - dcterms:Location
 dwc_terms:

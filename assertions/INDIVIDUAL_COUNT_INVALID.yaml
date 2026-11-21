@@ -1,4 +1,5 @@
 id: INDIVIDUAL_COUNT_INVALID
+label: INDIVIDUAL_COUNT_INVALID
 dwc_class:
 - Occurrence
 dwc_terms:

@@ -1,4 +1,5 @@
 id: MISSING_TAXONRANK
+label: MISSING_TAXONRANK
 dwc_class:
 - Taxon
 dwc_terms:
