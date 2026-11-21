@@ -6,10 +6,3 @@ dwc_class:
 - dwc:Taxon
 dwc_terms:
 - dwc:taxonID,dwc:scientificNameID,dwc:acceptedNameUsageID,dwc:parentNameUsageID,dwc:originalNameUsageID,dwc:taxonConceptID,dwc:scientificName,dwc:higherClassification,dwc:kingdom,dwc:phylum,dwc:class,dwc:order,dwc:superfamily,dwc:family,dwc:subfamily,dwc:tribe,dwc:subtribe,dwc:genus,dwc:genericName,dwc:subgenus,dwc:infragenericEpithet,dwc:specificEpithet,dwc:infraspecificEpithet,dwc:vernacularName,dwc:cultivarEpithet
-mapping:
-  object_id: ''
-  object_label: ''
-  predicate_id: ''
-  match_confidence: ''
-  mapping_justification: ''
-  comment: ''

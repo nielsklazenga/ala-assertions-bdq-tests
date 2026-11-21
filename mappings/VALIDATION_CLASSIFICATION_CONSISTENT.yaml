@@ -6,10 +6,3 @@ dwc_class:
 - dwc:Taxon
 dwc_terms:
 - dwc:kingdom,dwc:phylum,dwc:class,dwc:order,dwc:superfamily,dwc:family,dwc:subfamily,dwc:tribe,dwc:subtribe,dwc:genus
-mapping:
-  object_id: ''
-  object_label: ''
-  predicate_id: ''
-  match_confidence: ''
-  mapping_justification: ''
-  comment: ''

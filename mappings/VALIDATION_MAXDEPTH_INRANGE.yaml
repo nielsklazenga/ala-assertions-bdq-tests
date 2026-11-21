@@ -6,10 +6,3 @@ dwc_class:
 - dcterms:Location
 dwc_terms:
 - dwc:maximumDepthInMeters
-mapping:
-  object_id: ''
-  object_label: ''
-  predicate_id: ''
-  match_confidence: ''
-  mapping_justification: ''
-  comment: ''

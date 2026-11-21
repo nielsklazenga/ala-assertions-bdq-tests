@@ -6,10 +6,3 @@ dwc_class:
 - bdqffdq:AmendmentResponse
 dwc_terms:
 - bdqval:AllAmendmentTestsRunOnSingleRecord
-mapping:
-  object_id: ''
-  object_label: ''
-  predicate_id: ''
-  match_confidence: ''
-  mapping_justification: ''
-  comment: ''

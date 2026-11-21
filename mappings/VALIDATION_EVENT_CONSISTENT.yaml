@@ -6,10 +6,3 @@ dwc_class:
 - dwc:Event
 dwc_terms:
 - dwc:eventDate,dwc:day,dwc:month,dwc:year,dwc:startDayOfYear,dwc:endDayOfYear
-mapping:
-  object_id: ''
-  object_label: ''
-  predicate_id: ''
-  match_confidence: ''
-  mapping_justification: ''
-  comment: ''

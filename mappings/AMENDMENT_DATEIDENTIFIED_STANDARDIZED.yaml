@@ -6,10 +6,3 @@ dwc_class:
 - dwc:Identification
 dwc_terms:
 - dwc:dateIdentified
-mapping:
-  object_id: ''
-  object_label: ''
-  predicate_id: ''
-  match_confidence: ''
-  mapping_justification: ''
-  comment: ''

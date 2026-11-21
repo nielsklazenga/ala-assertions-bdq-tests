@@ -5,10 +5,3 @@ description: Are there any annotations associated with the record?
 dwc_class:
 - oa:target
 dwc_terms: []
-mapping:
-  object_id: ''
-  object_label: ''
-  predicate_id: ''
-  match_confidence: ''
-  mapping_justification: ''
-  comment: ''

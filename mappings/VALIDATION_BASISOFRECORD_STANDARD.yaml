@@ -6,10 +6,3 @@ dwc_class:
 - Record-level
 dwc_terms:
 - dwc:basisOfRecord
-mapping:
-  object_id: ''
-  object_label: ''
-  predicate_id: ''
-  match_confidence: ''
-  mapping_justification: ''
-  comment: ''

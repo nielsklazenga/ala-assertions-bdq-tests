@@ -6,7 +6,7 @@ import yaml
 INPUT = "data/bdqtest_term_versions.csv"
 OUTPUT_DIR = Path("mappings")
 
-Path(OUTPUT_DIR).mkdir(parents=True, exist_ok=True)
+OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 df = pd.read_csv(INPUT)
 
@@ -36,14 +36,6 @@ for _, row in (
         "dwc_terms": split_terms(
             row.get("InformationElement:ActedUpon")
         ),
-        "mapping": {
-            "object_id": "",
-            "object_label": "",
-            "predicate_id": "",
-            "match_confidence": "",
-            "mapping_justification": "",
-            "comment": "",
-        },
     }
 
     filename = (
@@ -52,7 +44,7 @@ for _, row in (
         .replace(" ", "_")
     )
 
-    output_file = Path(OUTPUT_DIR) / f"{filename}.yaml"
+    output_file = OUTPUT_DIR / f"{filename}.yaml"
 
     with output_file.open("w", encoding="utf-8") as f:
         yaml.safe_dump(
