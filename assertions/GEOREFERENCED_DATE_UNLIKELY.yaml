@@ -1,0 +1,18 @@
+id: GEOREFERENCED_DATE_UNLIKELY
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- georeferencedDate
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/GEOREFERENCED_DATE_UNLIKELY
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+GEOREFERENCED_DATE_UNLIKELY&type=code
+count: '78.0'
+status: Active
+ala:
+  class_asserted_in: AlaLocationInterpreter
+  method_asserted_by: interpretGeoreferencedDate
+  assertion_logic: Ostensibly, it converts the GBIF IDENTIFIED_DATE_UNLIKELY to GEOREFERENCED_DATE_UNLIKELY
+    (which seems silly), but the numbers do not match. The records that are pulled
+    up by this assertion have a georeferencedDate that is in the future (some almost
+    8,000 years in the future).
+recommendation: Remove
+actions: No action required

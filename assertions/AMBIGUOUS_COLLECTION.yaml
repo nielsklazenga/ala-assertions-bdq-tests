@@ -1,0 +1,20 @@
+id: AMBIGUOUS_COLLECTION
+dwc_class:
+- Record Level
+- EML
+dwc_terms:
+- '?'
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/AMBIGUOUS_COLLECTION
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+AMBIGUOUS_COLLECTION&type=code
+status: Unused
+gbif:
+  class_asserted_in: GrscicollInterpreter
+  method_asserted_by: getCollectionMatchNoneIssue
+  assertion_logic: The collection name is looked up in GRSciColl and a CollectionMatch
+    with a Status is returned. It is not explained what Status.AMBIGUOUS means, but
+    presumably the collection could be matched to more than one collection. It is
+    also unclear if the match is based on the data or information in the EML.
+recommendation: Keep
+actions: No action required. The best way to prevent institution and collection match
+  issues is to provide `collectionID` and `institutionID` with the GRSciColl identifiers
+  (i.e., doing the matching ourselves).

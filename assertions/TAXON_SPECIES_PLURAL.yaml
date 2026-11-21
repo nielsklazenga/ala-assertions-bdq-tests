@@ -1,0 +1,16 @@
+id: TAXON_SPECIES_PLURAL
+dwc_class:
+- Taxon
+dwc_terms:
+- scientificName
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_SPECIES_PLURAL
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+TAXON_SPECIES_PLURAL&type=code
+count: '889207.0'
+status: Active
+ala:
+  class_asserted_in: ALATaxonomyInterpreter
+  method_asserted_by: ISSUE_MAP
+  assertion_logic: Supplied scientificName contains a plural (e.g., 'spp.') marker,
+    indicating that there are multiple species in the sample.
+recommendation: Keep
+actions: No action required.

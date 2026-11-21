@@ -1,0 +1,15 @@
+id: MULTIMEDIA_DATE_INVALID
+dwc_class:
+- Occurrence
+dwc_terms:
+- associatedMedia
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MULTIMEDIA_DATE_INVALID
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+MULTIMEDIA_DATE_INVALID&type=code
+count: '291727.0'
+status: Active
+gbif:
+  class_asserted_in: ImageInterpreter
+  method_asserted_by: interpret
+  assertion_logic: dcterms:created of at least one of the associate images is invalid
+recommendation: Keep
+actions: No action required

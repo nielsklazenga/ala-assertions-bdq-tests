@@ -1,0 +1,12 @@
+id: LOCATION_NOT_SUPPLIED
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/LOCATION_NOT_SUPPLIED
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+LOCATION_NOT_SUPPLIED&type=code
+count: '3186367.0'
+status: Active
+ala:
+  class_asserted_in: CoordinatesParser
+  method_asserted_by: parseCoords
+  assertion_logic: decimalLatitude + decimalLongitude, or verbatimLatitude + verbatimLongitude,
+    or verbatimCoordinates are either not provided or cannot be parsed.
+recommendation: Keep
+actions: COORDINATES_NOT_SUPPLIED' would make more sense as a name.

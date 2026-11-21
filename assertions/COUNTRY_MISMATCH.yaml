@@ -1,0 +1,17 @@
+id: COUNTRY_MISMATCH
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- countryCode
+- decimalLatutude
+- decimalLongitude
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COUNTRY_MISMATCH
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+COUNTRY_MISMATCH&type=code
+count: '3957.0'
+status: Active
+gbif:
+  class_asserted_in: LocationParser
+  method_asserted_by: parse
+  assertion_logic: There is a mismatch between the country and countryCode
+recommendation: Keep
+actions: No action required

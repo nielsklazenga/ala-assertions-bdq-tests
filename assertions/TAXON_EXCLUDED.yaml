@@ -1,0 +1,16 @@
+id: TAXON_EXCLUDED
+dwc_class:
+- Taxon
+dwc_terms:
+- scientificName
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_EXCLUDED
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+TAXON_EXCLUDED&type=code
+status: Ostensibly unused
+ala:
+  class_asserted_in: ALATaxonomyInterpreter
+  method_asserted_by: ISSUE_MAP
+  assertion_logic: The taxon name supplied with a record has been matched to a taxon
+    that is not known to occur in Australia.
+recommendation: Keep
+actions: Find out why this assertion is never made, as there are lots of records to
+  which this applies.

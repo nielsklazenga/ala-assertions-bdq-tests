@@ -1,0 +1,18 @@
+id: COUNTRY_COORDINATE_MISMATCH
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- country
+- decimalLatitude
+- decimalLongitude
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COUNTRY_COORDINATE_MISMATCH
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+COUNTRY_COORDINATE_MISMATCH&type=code
+count: '172330.0'
+status: Active
+gbif:
+  class_asserted_in: LocationMatcher
+  method_asserted_by: applyWithCountry, applyWithoutCountry
+  assertion_logic: Provided country does not match the country the coordinates are
+    in.
+recommendation: Keep
+actions: No action required.

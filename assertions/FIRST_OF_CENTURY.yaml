@@ -1,0 +1,21 @@
+id: FIRST_OF_CENTURY
+dwc_class:
+- Event
+dwc_terms:
+- eventDate
+- year
+- month
+- day
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/FIRST_OF_CENTURY
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+FIRST_OF_CENTURY&type=code
+count: '174299.0'
+status: Active
+ala:
+  class_asserted_in: ALATemporalInterpreter
+  method_asserted_by: checkRecordDateQuality
+  assertion_logic: This checks if a year is provided and if the year is the first
+    (or last) of a century. The issue is asserted when the month and day are either
+    not provided, or are '1'. This means that this issue is asserted for event dates
+    like '1900' and '19-01', which is misleading if you ask me.
+recommendation: Remove
+actions: I would just ditch it

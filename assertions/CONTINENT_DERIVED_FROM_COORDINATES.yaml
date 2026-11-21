@@ -1,0 +1,16 @@
+id: CONTINENT_DERIVED_FROM_COORDINATES
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- decimalLongitude
+- decimalLatitude
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/CONTINENT_DERIVED_FROM_COORDINATES
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+CONTINENT_DERIVED_FROM_COORDINATES&type=code
+status: Unused
+gbif:
+  class_asserted_in: ContinentParser
+  method_asserted_by: parseContinent
+  assertion_logic: Lookup. There is no value for `continent`, so the processed continent
+    is based on the coordinates.
+recommendation: Keep
+actions: No action required.

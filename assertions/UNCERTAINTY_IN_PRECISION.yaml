@@ -1,0 +1,20 @@
+id: UNCERTAINTY_IN_PRECISION
+dwc_class:
+- dcterms:dcterms:Location
+dwc_terms:
+- coordinatePrecison
+- coordinateUncertaintyInMeters
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/UNCERTAINTY_IN_PRECISION
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+UNCERTAINTY_IN_PRECISION&type=code
+count: '120944.0'
+status: Active
+ala:
+  class_asserted_in: AlaLocationInterpreter
+  method_asserted_by: interpretCoordinateUncertaintyInMeters
+  assertion_logic: dwc:coordinateUncertainty null or empty && dwc:coordinatePrecision
+    > 1
+recommendation: Remove
+actions: This is a poorly conceived assertion, as it is more a suggestion as to why
+  a value for dwc:coordinatePrecision might be invalid. A value higher than 1 for
+  dwc:coordinatePrecision can just as easily have come from, e.g., dwc:minimumElevationInMeters.
+  Replace with COORDINATE_PRECISION_INVALID assertion that is independent of dwc:coordinateUncertaintyInMeters.

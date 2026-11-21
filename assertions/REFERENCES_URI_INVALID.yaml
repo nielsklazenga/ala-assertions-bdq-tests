@@ -1,0 +1,17 @@
+id: REFERENCES_URI_INVALID
+dwc_class:
+- Occurrence
+- Identification
+dwc_terms:
+- associatedReferences
+- identificationReferences
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/REFERENCES_URI_INVALID
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+REFERENCES_URI_INVALID&type=code
+count: '4705.0'
+status: Active
+gbif:
+  class_asserted_in: CoreInterpreter
+  method_asserted_by: interpretReferences
+  assertion_logic: One of the provided references could not be parsed.
+recommendation: Keep
+actions: No action required

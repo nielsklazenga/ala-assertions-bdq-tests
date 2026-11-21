@@ -1,0 +1,16 @@
+id: PRESUMED_SWAPPED_COORDINATE
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- decimalLatitude
+- decimalLongitude
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/PRESUMED_SWAPPED_COORDINATE
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+PRESUMED_SWAPPED_COORDINATE&type=code
+count: '6655.0'
+status: Active
+gbif:
+  class_asserted_in: CoordinatesFunction
+  method_asserted_by: getIssueTypes
+  assertion_logic: Latitude and longitude have likely been swapped.
+recommendation: Keep
+actions: No action required

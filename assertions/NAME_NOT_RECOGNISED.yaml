@@ -1,0 +1,8 @@
+id: NAME_NOT_RECOGNISED
+dwc_class:
+- Taxon
+dwc_terms:
+- scientificName
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/NAME_NOT_RECOGNISED
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+NAME_NOT_RECOGNISED&type=code
+status: Not implemented

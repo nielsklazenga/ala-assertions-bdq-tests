@@ -1,0 +1,11 @@
+id: COORDINATE_PRECISION_INVALID
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COORDINATE_PRECISION_INVALID
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+COORDINATE_PRECISION_INVALID&type=code
+count: '148678.0'
+status: Active
+gbif:
+  class_asserted_in: LocationInterpreter
+  method_asserted_by: interpretCoordinatePrecision
+  assertion_logic: Valid values of `coordinatePrecision` are between 0 and 1.
+recommendation: Keep
+actions: No action required

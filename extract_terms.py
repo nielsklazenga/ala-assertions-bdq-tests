@@ -9,6 +9,8 @@ out = pd.DataFrame({
     "subject_id": df["iri"],
     "subject_label": df["Label"],
     "subject_category": df["Type"],
+    "dwc_class": df["IE Class"],
+    "dwc_terms": df["InformationElement:ActedUpon"],
     "object_id": "",
     "object_label": "",
     "predicate_id": "",

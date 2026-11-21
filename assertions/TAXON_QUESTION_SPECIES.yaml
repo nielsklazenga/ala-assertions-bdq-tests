@@ -1,0 +1,16 @@
+id: TAXON_QUESTION_SPECIES
+dwc_class:
+- Taxon
+dwc_terms:
+- scientificName
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_QUESTION_SPECIES
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+TAXON_QUESTION_SPECIES&type=code
+count: '49460.0'
+status: Active
+ala:
+  class_asserted_in: ALATaxonomyInterpreter
+  method_asserted_by: ISSUE_MAP
+  assertion_logic: The supplied scientific name contains a question mark. This indicates
+    an uncertain identification and is invalid Darwin Core.
+recommendation: Keep
+actions: No action required.

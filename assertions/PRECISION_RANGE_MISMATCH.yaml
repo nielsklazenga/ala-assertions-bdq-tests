@@ -1,0 +1,4 @@
+id: PRECISION_RANGE_MISMATCH
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/PRECISION_RANGE_MISMATCH
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+PRECISION_RANGE_MISMATCH&type=code
+status: Replaced by COORDINATE_PRECISION_INVALID

@@ -1,0 +1,15 @@
+id: FOOTPRINT_SRS_INVALID
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- footprintSRS
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/FOOTPRINT_SRS_INVALID
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+FOOTPRINT_SRS_INVALID&type=code
+count: '1121933.0'
+status: Active
+gbif:
+  class_asserted_in: LocationInterpreter
+  method_asserted_by: interpretFootprintWKT
+  assertion_logic: footprintSRS is provided, but cannot be interpreted
+recommendation: Keep
+actions: No action required

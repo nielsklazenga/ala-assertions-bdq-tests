@@ -1,0 +1,7 @@
+id: DETECTED_OUTLIER_JACKKNIFE
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/DETECTED_OUTLIER_JACKKNIFE
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+DETECTED_OUTLIER_JACKKNIFE&type=code
+status: 'Not a data quality assertion anymore: we use the outlier_layer and outlier_layer_count
+  filters for this'
+recommendation: '?'
+actions: Find out if we are still doing this.

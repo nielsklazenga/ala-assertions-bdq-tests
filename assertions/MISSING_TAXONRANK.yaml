@@ -1,0 +1,15 @@
+id: MISSING_TAXONRANK
+dwc_class:
+- Taxon
+dwc_terms:
+- taxonRank
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MISSING_TAXONRANK
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+MISSING_TAXONRANK&type=code
+count: '40411927.0'
+status: Active
+ala:
+  class_asserted_in: ALATaxonomyInterpreter
+  method_asserted_by: alaSourceQualityChecks
+  assertion_logic: taxonRank not supplued
+recommendation: Remove
+actions: This is not a data quality issue.

@@ -1,0 +1,12 @@
+id: COORDINATE_REPROJECTION_SUSPICIOUS
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COORDINATE_REPROJECTION_SUSPICIOUS
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+COORDINATE_REPROJECTION_SUSPICIOUS&type=code
+count: '19567.0'
+status: Active
+gbif:
+  class_asserted_in: Wgs84Projection
+  method_asserted_by: reproject
+  assertion_logic: Reprojection is suspicious if there is a shift of more then 0.1°
+    in either of the coordinates.
+recommendation: Keep
+actions: No action required

@@ -1,0 +1,22 @@
+id: TAXON_SCOPE_MISMATCH
+dwc_class:
+- Taxon
+dwc_terms:
+- scientificName
+- kingdom
+- phylum
+- class
+- order
+- family
+- genus
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_SCOPE_MISMATCH
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+TAXON_SCOPE_MISMATCH&type=code
+count: '7124.0'
+status: Active
+ala:
+  class_asserted_in: ALATaxonomyInterpreter
+  method_asserted_by: ISSUE_MAP
+  assertion_logic: The other taxonomic hints supplied with the data (classification)
+    do not match the matched taxon.
+recommendation: Keep
+actions: No action required. Maybe provide a better description.

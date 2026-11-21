@@ -1,0 +1,15 @@
+id: MISSING_GEOREFERENCEDBY
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- georeferencedBy
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MISSING_GEOREFERENCEDBY
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+MISSING_GEOREFERENCEDBY&type=code
+count: '148037081.0'
+status: Active
+ala:
+  class_asserted_in: ALALocationInterpreter
+  method_asserted_by: interpretGeoReferenceTerms
+  assertion_logic: georeferencedBy is not supplied
+recommendation: Keep
+actions: No action required

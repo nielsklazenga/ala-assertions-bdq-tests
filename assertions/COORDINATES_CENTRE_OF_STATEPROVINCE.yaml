@@ -1,0 +1,18 @@
+id: COORDINATES_CENTRE_OF_STATEPROVINCE
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- decimalLatitude
+- decimalLongitude
+- verbatimLatitude
+- verbatimLongitude
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COORDINATES_CENTRE_OF_STATEPROVINCE
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+COORDINATES_CENTRE_OF_STATEPROVINCE&type=code
+count: '4236.0'
+status: Active
+ala:
+  class_asserted_in: ALALocationInterpreter
+  method_asserted_by: verifyLocationInfo
+  assertion_logic: Lookup in https://github.com/gbif/pipelines/blob/master/livingatlas/pipelines/src/main/resources/stateProvinceCentrePoints.txt
+recommendation: Keep
+actions: No action required

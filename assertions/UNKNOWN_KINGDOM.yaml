@@ -1,0 +1,14 @@
+id: UNKNOWN_KINGDOM
+dwc_class:
+- Taxon
+dwc_terms:
+- kingdom
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/UNKNOWN_KINGDOM
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+UNKNOWN_KINGDOM&type=code
+count: '354529.0'
+ala:
+  class_asserted_in: ALATaxonomyInterpreter
+  method_asserted_by: alaSourceQualityChecks
+  assertion_logic: Provided kingdom not recognised
+recommendation: Keep
+actions: No action required

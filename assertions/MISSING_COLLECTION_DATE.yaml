@@ -1,0 +1,18 @@
+id: MISSING_COLLECTION_DATE
+dwc_class:
+- Event
+dwc_terms:
+- eventDate
+- year
+- month
+- day
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MISSING_COLLECTION_DATE
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+MISSING_COLLECTION_DATE&type=code
+count: '4035164.0'
+status: Active
+ala:
+  class_asserted_in: ALATemporalInterpreter
+  method_asserted_by: checkRecordDateQuality
+  assertion_logic: Neither eventDate, nor year, month, day are provided
+recommendation: Keep
+actions: No action required

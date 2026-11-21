@@ -1,0 +1,16 @@
+id: MISSING_GEOREFERENCEVERIFICATIONSTATUS
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- georeferenceVerificationStatus
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MISSING_GEOREFERENCEVERIFICATIONSTATUS
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+MISSING_GEOREFERENCEVERIFICATIONSTATUS&type=code
+count: '152650741.0'
+status: Active
+ala:
+  class_asserted_in: ALALocationInterpreter
+  method_asserted_by: interpretGeoReferenceTerms
+  assertion_logic: georeferenceVerificationStatus not supplied
+recommendation: Remove
+actions: I would remove this, as you would generally only verify a georeference if
+  there has been an assertion that it might be incorrect.

@@ -1,0 +1,4 @@
+id: INVALID_GEODETICDATUM
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/INVALID_GEODETICDATUM
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+INVALID_GEODETICDATUM&type=code
+status: Not implemented. Replaced by GEODETIC_DATUM_INVALID.

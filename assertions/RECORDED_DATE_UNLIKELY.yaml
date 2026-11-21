@@ -1,0 +1,20 @@
+id: RECORDED_DATE_UNLIKELY
+dwc_class:
+- Event
+dwc_terms:
+- eventDate
+- year
+- month
+- day
+- startDayOfYear
+- endDayOfYear
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/RECORDED_DATE_UNLIKELY
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+RECORDED_DATE_UNLIKELY&type=code
+count: '256440.0'
+status: Active
+gbif:
+  class_asserted_in: https://github.com/gbif/parsers/blob/master/src/main/java/org/gbif/common/parsers/date/MultiinputTemporalParser.java
+  method_asserted_by: parseRecordedDate
+  assertion_logic: eventDate in the future, or before 1500
+recommendation: Keep
+actions: No action required

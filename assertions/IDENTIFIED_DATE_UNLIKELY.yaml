@@ -1,0 +1,15 @@
+id: IDENTIFIED_DATE_UNLIKELY
+dwc_class:
+- Identification
+dwc_terms:
+- dateIdentified
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/IDENTIFIED_DATE_UNLIKELY
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+IDENTIFIED_DATE_UNLIKELY&type=code
+count: '8451.0'
+status: Active
+gbif:
+  class_asserted_in: TemporalInterpreter
+  method_asserted_by: interpretDateIdentified
+  assertion_logic: dateIdentified is in the future
+recommendation: Keep
+actions: No action required

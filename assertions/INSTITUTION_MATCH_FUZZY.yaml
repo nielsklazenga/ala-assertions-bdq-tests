@@ -1,0 +1,11 @@
+id: INSTITUTION_MATCH_FUZZY
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/INSTITUTION_MATCH_FUZZY
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+INSTITUTION_MATCH_FUZZY&type=code
+status: Unused
+gbif:
+  class_asserted_in: GrscicollInterpreter
+  method_asserted_by: grscicollInterpreter
+  assertion_logic: Institution match is fuzzy (probably matched by name rather than
+    institutionID or institutionCode)
+recommendation: Keep
+actions: No action required

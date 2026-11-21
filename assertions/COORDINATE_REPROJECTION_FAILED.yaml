@@ -1,0 +1,14 @@
+id: COORDINATE_REPROJECTION_FAILED
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- geodeticDatum
+- decimalLongitude
+- decimalLatitude
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COORDINATE_REPROJECTION_FAILED
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+COORDINATE_REPROJECTION_FAILED&type=code
+status: Unused
+gbif:
+  class_asserted_in: Wgs84Projection
+  method_asserted_by: reproject
+  assertion_logic: Reprojection failed

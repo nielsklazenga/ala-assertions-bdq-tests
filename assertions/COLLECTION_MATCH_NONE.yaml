@@ -1,0 +1,15 @@
+id: COLLECTION_MATCH_NONE
+dwc_class:
+- Record Level
+- EML
+dwc_terms:
+- '?'
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COLLECTION_MATCH_NONE
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+COLLECTION_MATCH_NONE&type=code
+status: Unused
+gbif:
+  class_asserted_in: GrscicollInterpreter
+  method_asserted_by: getCollectionMatchNoneIssue
+  assertion_logic: Lookup in GrScicoll. No match.
+recommendation: Keep
+actions: No action required.

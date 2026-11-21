@@ -1,0 +1,12 @@
+id: BASIS_OF_RECORD_INVALID
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/BASIS_OF_RECORD_INVALID
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+BASIS_OF_RECORD_INVALID&type=code
+count: '657306.0'
+status: Active
+gbif:
+  class_asserted_in: BasicInterpreter
+  method_asserted_by: interpretBasisOfRecord
+  assertion_logic: Value for basisOfRecord cannot be interpreted. (basisOfRecord is
+    required in a Darwin Core Archive)
+recommendation: Keep
+actions: No action required.

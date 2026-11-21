@@ -1,0 +1,18 @@
+id: COORDINATE_OUT_OF_RANGE
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- decimalLatitude
+- decimalLongitude
+- verbatimLatitude
+- verbatimLongitude
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COORDINATE_OUT_OF_RANGE
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+COORDINATE_OUT_OF_RANGE&type=code
+count: '1259.0'
+status: Active
+gbif:
+  class_asserted_in: CoordinateParseUtils
+  method_asserted_by: parseLatLng
+  assertion_logic: latitude > 90 or < -90; longitude > 180 or < -180
+recommendation: Keep
+actions: No action required

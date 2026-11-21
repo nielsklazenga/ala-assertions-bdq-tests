@@ -1,0 +1,15 @@
+id: MODIFIED_DATE_INVALID
+dwc_class:
+- Record Level
+dwc_terms:
+- dcterms:modified
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MODIFIED_DATE_INVALID
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+MODIFIED_DATE_INVALID&type=code
+count: '481992.0'
+status: Active
+gbif:
+  class_asserted_in: TemporalInterpreter
+  method_asserted_by: interpretModified
+  assertion_logic: dcterms:modified is invalid IS 8601 string
+recommendation: Keep
+actions: No action required

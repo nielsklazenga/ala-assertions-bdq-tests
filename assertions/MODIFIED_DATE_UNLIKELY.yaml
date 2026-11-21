@@ -1,0 +1,15 @@
+id: MODIFIED_DATE_UNLIKELY
+dwc_class:
+- Record Level
+dwc_terms:
+- dcterms:modified
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MODIFIED_DATE_UNLIKELY
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+MODIFIED_DATE_UNLIKELY&type=code
+count: '66.0'
+status: Active
+gbif:
+  class_asserted_in: TemporalInterpreter
+  method_asserted_by: interpretModified
+  assertion_logic: dcterms:modified is in the future
+recommendation: Keep
+actions: No action required

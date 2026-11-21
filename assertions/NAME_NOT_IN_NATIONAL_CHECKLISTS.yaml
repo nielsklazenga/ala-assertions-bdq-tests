@@ -1,0 +1,10 @@
+id: NAME_NOT_IN_NATIONAL_CHECKLISTS
+dwc_class:
+- Taxon
+dwc_terms:
+- scientificName
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/NAME_NOT_IN_NATIONAL_CHECKLISTS
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+NAME_NOT_IN_NATIONAL_CHECKLISTS&type=code
+status: Not implemented
+actions: This would be a nice thing to have back, but it needs to be part of the name
+  matching.

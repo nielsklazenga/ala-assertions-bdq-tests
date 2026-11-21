@@ -1,0 +1,15 @@
+id: MISSING_GEOREFERENCEPROTOCOL
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- georeferenceProtocol
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MISSING_GEOREFERENCEPROTOCOL
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+MISSING_GEOREFERENCEPROTOCOL&type=code
+count: '166528546.0'
+status: Active
+ala:
+  class_asserted_in: ALALocationInterpreter
+  method_asserted_by: interpretGeoReferenceTerms
+  assertion_logic: georeferenceProtocol not supplied
+recommendation: Keep
+actions: No action required

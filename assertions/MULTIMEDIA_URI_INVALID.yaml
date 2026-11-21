@@ -1,0 +1,14 @@
+id: MULTIMEDIA_URI_INVALID
+dwc_class:
+- Occurrence
+dwc_terms:
+- associatedMedia
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MULTIMEDIA_URI_INVALID
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+MULTIMEDIA_URI_INVALID&type=code
+count: '308724.0'
+status: Active
+gbif:
+  class_asserted_in: ImageInterpreter
+  method_asserted_by: interpret
+  assertion_logic: dcterms:identifier of at least one of the associated images is
+    invalid

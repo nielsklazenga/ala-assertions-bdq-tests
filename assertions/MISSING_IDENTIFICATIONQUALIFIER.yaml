@@ -1,0 +1,9 @@
+id: MISSING_IDENTIFICATIONQUALIFIER
+dwc_class:
+- Taxon
+dwc_terms:
+- identificationQualifier
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MISSING_IDENTIFICATIONQUALIFIER
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+MISSING_IDENTIFICATIONQUALIFIER&type=code
+status: Not implemented
+actions: Good riddance

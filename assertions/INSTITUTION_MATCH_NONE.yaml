@@ -1,0 +1,9 @@
+id: INSTITUTION_MATCH_NONE
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/INSTITUTION_MATCH_NONE
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+INSTITUTION_MATCH_NONE&type=code
+status: Unused
+gbif:
+  method_asserted_by: getInstitutionMatchNoneIssue
+  assertion_logic: Institution coul not be matched to GRSciColl
+recommendation: Keep
+actions: No action required

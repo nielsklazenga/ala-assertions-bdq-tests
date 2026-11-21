@@ -1,0 +1,14 @@
+id: DEPTH_NOT_METRIC
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- minimumDepthInMeters
+- maximumDepthInMeters
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/DEPTH_NOT_METRIC
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+DEPTH_NOT_METRIC&type=code
+count: '1.0'
+status: Active?
+gbif:
+  class_asserted_in: https://github.com/gbif/gbif-api/blob/master/src/main/java/org/gbif/api/vocabulary/OccurrenceIssue.java
+recommendation: Keep?
+actions: Check if there are any records for which this warning is issued.

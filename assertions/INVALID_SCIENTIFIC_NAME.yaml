@@ -1,0 +1,14 @@
+id: INVALID_SCIENTIFIC_NAME
+dwc_class:
+- Taxon
+dwc_terms:
+- scientificName
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/INVALID_SCIENTIFIC_NAME
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+INVALID_SCIENTIFIC_NAME&type=code
+count: '3434536.0'
+ala:
+  class_asserted_in: ALATaxonomyInterpreter
+  method_asserted_by: alaResultQualityChecks
+  assertion_logic: Issue is assered if the name type is NO_NAME, INFORMAL or PLACEHOLDER
+recommendation: Keep
+actions: No action required

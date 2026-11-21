@@ -1,0 +1,18 @@
+id: UNCERTAINTY_NOT_SPECIFIED
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- coordinateUncertaintyInMeters
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/UNCERTAINTY_NOT_SPECIFIED
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+UNCERTAINTY_NOT_SPECIFIED&type=code
+status: Confuddled with COORDINATE_UNCERTAINTY_METERS_INVALID
+ala:
+  class_asserted_in: x
+  method_asserted_by: x
+  assertion_logic: x
+recommendation: Keep
+actions: '1. See COORDINATE_UNCERTAINTY_METERS_INVALID. When dwc:coordinateUncertaintyInMeters
+  is null or empty, this issue should be asserted
+
+  2. Rename to MISSING_COORDINATE_UNCERTAINTY_METERS for consistency with other missing
+  value issues.'

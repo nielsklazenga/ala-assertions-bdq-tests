@@ -1,0 +1,17 @@
+id: TAXON_HOMONYM
+dwc_class:
+- Taxon
+dwc_terms:
+- scientificName
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_HOMONYM
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+TAXON_HOMONYM&type=code
+count: '425212.0'
+status: Active
+ala:
+  class_asserted_in: ALATaxonomyInterpreter
+  method_asserted_by: ISSUE_MAP
+  assertion_logic: The provided name matches more than one name in the ALA taxonomy
+    and insufficient additional taxonomic data was supplied to make an unambiguous
+    match.
+recommendation: Keep
+actions: No action required

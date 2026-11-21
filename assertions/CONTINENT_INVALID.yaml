@@ -1,0 +1,15 @@
+id: CONTINENT_INVALID
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- continent
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/CONTINENT_INVALID
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+CONTINENT_INVALID&type=code
+count: '97796.0'
+status: Active
+gbif:
+  class_asserted_in: ContinentParser
+  method_asserted_by: parseContinent
+  assertion_logic: Lookup. Provided continent is not in vocabulary.
+recommendation: Keep
+actions: No action required.

@@ -1,0 +1,19 @@
+id: ZERO_COORDINATE
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- decimalLatitude
+- decimalLongitude
+- verbatimLatitude
+- verbatimLongitude
+- verbatimCoordinates
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/ZERO_COORDINATE
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+ZERO_COORDINATE&type=code
+count: '2628.0'
+status: Active
+gbif:
+  class_asserted_in: CoordinateParseUtils
+  method_asserted_by: validateAndRound
+  assertion_logic: Provided coordinates are both 0
+recommendation: Keep
+actions: No action required

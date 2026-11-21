@@ -1,0 +1,8 @@
+id: MISSING_IDENTIFICATIONREFERENCES
+dwc_class:
+- Taxon
+dwc_terms:
+- identificationReferences
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MISSING_IDENTIFICATIONREFERENCES
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+MISSING_IDENTIFICATIONREFERENCES&type=code
+status: Not implemented

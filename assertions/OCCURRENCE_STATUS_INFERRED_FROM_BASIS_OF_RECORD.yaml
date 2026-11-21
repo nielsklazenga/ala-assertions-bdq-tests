@@ -1,0 +1,17 @@
+id: OCCURRENCE_STATUS_INFERRED_FROM_BASIS_OF_RECORD
+dwc_class:
+- Record level
+- Occurrence
+dwc_terms:
+- basisOfRecord
+- occurrenceStatus
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/OCCURRENCE_STATUS_INFERRED_FROM_BASIS_OF_RECORD
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+OCCURRENCE_STATUS_INFERRED_FROM_BASIS_OF_RECORD&type=code
+count: '1200.0'
+status: Active
+gbif:
+  class_asserted_in: BasicInterpreter
+  method_asserted_by: interpretOccurrenceStatus
+  assertion_logic: If there is a specimen, occurrenceStatus is 'present'.
+recommendation: Keep
+actions: No action required

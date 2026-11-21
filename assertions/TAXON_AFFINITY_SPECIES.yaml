@@ -1,0 +1,18 @@
+id: TAXON_AFFINITY_SPECIES
+dwc_class:
+- Taxon
+dwc_terms:
+- scientificName
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_AFFINITY_SPECIES
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+TAXON_AFFINITY_SPECIES&type=code
+count: '24313.0'
+status: Active
+ala:
+  class_asserted_in: ALATaxonomyInterpreter
+  method_asserted_by: ISSUE_MAP
+  assertion_logic: scientificName includes 'aff.'. This can be an identificationQualifier,
+    but could also indicate a distinct entity, meaning that the taxon that the name
+    is matched to will be a different taxon than that with the provided scientificName.
+    Also, including these qualifiers in the scientific name is invalid Darwin Core.
+recommendation: Keep
+actions: No action required

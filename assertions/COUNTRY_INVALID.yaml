@@ -1,0 +1,15 @@
+id: COUNTRY_INVALID
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- country
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COUNTRY_INVALID
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+COUNTRY_INVALID&type=code
+count: '167351.0'
+status: Active
+gbif:
+  class_asserted_in: LocationParser
+  method_asserted_by: parse
+  assertion_logic: Provided value for `country` can not be matched to country vocabulary.
+recommendation: Keep
+actions: No action required

@@ -1,0 +1,9 @@
+id: INCOMPLETE_COLLECTION_DATE
+dwc_class:
+- Identification
+dwc_terms:
+- dateIdentified
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/INCOMPLETE_COLLECTION_DATE
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+INCOMPLETE_COLLECTION_DATE&type=code
+status: Not implemented
+actions: I would like to have this test back.

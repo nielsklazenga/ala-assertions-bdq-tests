@@ -1,0 +1,10 @@
+id: DIFFERENT_OWNER_INSTITUTION
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/DIFFERENT_OWNER_INSTITUTION
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+DIFFERENT_OWNER_INSTITUTION&type=code
+status: Unused
+gbif:
+  class_asserted_in: GrscicollInterpreter
+  method_asserted_by: grscicollInterpreter, getInstitutionMatchNoneIssue
+  assertion_logic: Not clear, issue is asserted when the lookup response contains
+    'DIFFERENT_OWNER' among its reasons, or when the status of the lookup is 'AMBIGUOUS_OWNER'.
+recommendation: Keep

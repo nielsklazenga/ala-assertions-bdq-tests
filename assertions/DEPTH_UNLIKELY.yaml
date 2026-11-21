@@ -1,0 +1,15 @@
+id: DEPTH_UNLIKELY
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- minimumDepthInMeters
+- maximumDepthInMeters
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/DEPTH_UNLIKELY
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+DEPTH_UNLIKELY&type=code
+count: '5789.0'
+status: Active?
+gbif:
+  class_asserted_in: https://github.com/gbif/gbif-api/blob/master/src/main/java/org/gbif/api/vocabulary/OccurrenceIssue.java
+  assertion_logic: Set if depth is larger than 11,000m or negative.
+recommendation: Keep?
+actions: Check data.

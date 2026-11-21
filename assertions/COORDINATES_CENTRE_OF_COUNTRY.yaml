@@ -1,0 +1,18 @@
+id: COORDINATES_CENTRE_OF_COUNTRY
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- country
+- decimalLatitude
+- decimalLongitude
+- verbatimLatitude
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COORDINATES_CENTRE_OF_COUNTRY
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+COORDINATES_CENTRE_OF_COUNTRY&type=code
+count: '3585.0'
+status: Active
+ala:
+  class_asserted_in: AlaLocationInterpreter
+  method_asserted_by: verifyLocationInfo
+  assertion_logic: Lookup in https://github.com/gbif/pipelines/blob/master/livingatlas/pipelines/src/main/resources/countryCentrePoints.txt
+recommendation: Keep
+actions: No action required.

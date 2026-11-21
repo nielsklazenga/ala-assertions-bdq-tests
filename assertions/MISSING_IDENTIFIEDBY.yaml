@@ -1,0 +1,9 @@
+id: MISSING_IDENTIFIEDBY
+dwc_class:
+- Identification
+dwc_terms:
+- identifiedBy
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MISSING_IDENTIFIEDBY
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+MISSING_IDENTIFIEDBY&type=code
+status: Not implemented
+actions: This might be a good one to get back.

@@ -1,0 +1,19 @@
+id: FIRST_OF_YEAR
+dwc_class:
+- Event
+dwc_terms:
+- eventDate
+- year
+- month
+- day
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/FIRST_OF_YEAR
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+FIRST_OF_YEAR&type=code
+count: '2378349.0'
+status: Active
+ala:
+  class_asserted_in: ALATemporalInterpreter
+  method_asserted_by: checkRecordDateQuality
+  assertion_logic: This issue is asserted if the month is January and the day is either
+    the first or not provided; incorrect if you ask me.
+recommendation: Remove
+actions: I would just ditch it

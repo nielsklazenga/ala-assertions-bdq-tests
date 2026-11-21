@@ -1,0 +1,18 @@
+id: FOOTPRINT_WKT_MISMATCH
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- footprintWKT
+- decimalLatitude
+- decimalLongitude
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/FOOTPRINT_WKT_MISMATCH
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+FOOTPRINT_WKT_MISMATCH&type=code
+count: '156994.0'
+status: Active
+gbif:
+  class_asserted_in: LocationInterpretor
+  method_asserted_by: intepretFootprintWKT
+  assertion_logic: footprintWKT is a POINT and is not the same as that of the decimalLatitude
+    and decimalLongitude
+recommendation: Keep
+actions: No action required

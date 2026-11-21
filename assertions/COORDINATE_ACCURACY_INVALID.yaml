@@ -1,0 +1,5 @@
+id: COORDINATE_ACCURACY_INVALID
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COORDINATE_ACCURACY_INVALID
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+COORDINATE_ACCURACY_INVALID&type=code
+status: Not implemented (probably replaced by COORDINATE_PRECISION_INVALID and COORDINATE_UNCERTAINTY_METERS_INVALID)
+recommendation: Remove

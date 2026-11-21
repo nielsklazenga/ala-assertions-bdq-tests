@@ -1,0 +1,42 @@
+id: COORDINATE_UNCERTAINTY_METERS_INVALID
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- coordinateUncertaintyInMeters
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COORDINATE_UNCERTAINTY_METERS_INVALID
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+COORDINATE_UNCERTAINTY_METERS_INVALID&type=code
+count: '98478381.0'
+status: Active
+gbif:
+  class_asserted_in: LocationInterpreter
+  method_asserted_by: interpretCoordinateUncertaintyInMeters
+  assertion_logic: 'COORDINATE_UNCERTAINTY_METERS_LOWER_BOUND = 0;
+
+    COORDINATE_UNCERTAINTY_METERS_UPPER_BOUND = 20,037,509;
+
+
+    dwc:coordinateUncertaintyInMeters < COORDINATE_UNCERTAINTY_METERS_LOWER_BOUND;
+
+    dwc:coordinateUncertainty > COORDINATE_UNCERTAINTY_METERS_UPPER_BOUND'
+ala:
+  class_asserted_in: AlaLocationInterpreter
+  method_asserted_by: interpretCoordinateUncertaintyInMeters
+  assertion_logic: 'COORDINATE_UNCERTAINTY_METERS_LOWER_BOUND = 0;
+
+    COORDINATE_UNCERTAINTY_METERS_UPPER_BOUND = 5,000,000;
+
+
+    dwc:coordinateUncertaintyInMeters null or empty;
+
+    dwc:coordinateUncertaintyInMeters non-numeric;
+
+    dwc:coordinateUncertaintyInMeters < COORDINATE_UNCERTAINTY_METERS_LOWER_BOUND;
+
+    dwc:coordinateUncertainty > COORDINATE_UNCERTAINTY_METERS_UPPER_BOUND'
+recommendation: Keep
+actions: '1. When null or empty an UNCERTAINTY_NOT_SPECIFIED issue should be asserted
+  instead
+
+  2. Use the GBIF upper bound. A coordinate uncertainty of 10,000,000 m might be extremely
+  unlikely (and is definitely wrong), but is not invalid. The ALA DQ Profile filters
+  out records with uncertainty greater than 10,000 m.'

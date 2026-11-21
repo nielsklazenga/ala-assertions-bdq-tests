@@ -1,0 +1,4 @@
+id: STATEPROVINCE_COORDINATE_MISMATCH
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/STATEPROVINCE_COORDINATE_MISMATCH
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+STATEPROVINCE_COORDINATE_MISMATCH&type=code
+status: Replaced by STATE_COORDINATE_MISMATCH

@@ -1,0 +1,15 @@
+id: ELEVATION_MIN_MAX_SWAPPED
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- minimumElevationInMeters
+- maximumElevationInMeters
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/ELEVATION_MIN_MAX_SWAPPED
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+ELEVATION_MIN_MAX_SWAPPED&type=code
+count: '9580.0'
+status: Active
+gbif:
+  class_asserted_in: src/main/java/org/gbif/common/parsers/geospatial/MeterRangeParser.java
+  method_asserted_by: parseElevation
+  assertion_logic: Min. and max. elevation are swapped.
+recommendation: Keep

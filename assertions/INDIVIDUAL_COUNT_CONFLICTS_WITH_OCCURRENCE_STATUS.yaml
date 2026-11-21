@@ -1,0 +1,9 @@
+id: INDIVIDUAL_COUNT_CONFLICTS_WITH_OCCURRENCE_STATUS
+dwc_class:
+- Occurrence
+dwc_terms:
+- occurrenceStatus
+- individualCount
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/INDIVIDUAL_COUNT_CONFLICTS_WITH_OCCURRENCE_STATUS
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+INDIVIDUAL_COUNT_CONFLICTS_WITH_OCCURRENCE_STATUS&type=code
+count: '92408.0'

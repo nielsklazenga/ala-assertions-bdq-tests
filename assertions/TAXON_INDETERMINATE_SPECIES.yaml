@@ -1,0 +1,16 @@
+id: TAXON_INDETERMINATE_SPECIES
+dwc_class:
+- Taxon
+dwc_terms:
+- scientificName
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_INDETERMINATE_SPECIES
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+TAXON_INDETERMINATE_SPECIES&type=code
+status: Ostensibly unused
+ala:
+  class_asserted_in: ALATaxonomyInterpreter
+  method_asserted_by: ISSUE_MAP
+  assertion_logic: The provided taxon name ends with 'sp.', indicating that the specimen
+    could not be (or was not) identified to species. In the ALA name matching the
+    suffix will be removed.
+recommendation: Keep
+actions: This is a useful test, so we should have it.

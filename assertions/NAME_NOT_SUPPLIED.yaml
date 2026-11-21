@@ -1,0 +1,16 @@
+id: NAME_NOT_SUPPLIED
+dwc_class:
+- Taxon
+dwc_terms:
+- scientificName
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/NAME_NOT_SUPPLIED
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+NAME_NOT_SUPPLIED&type=code
+count: '1417291.0'
+status: Active
+ala:
+  class_asserted_in: ALATaxonomyInterpreter
+  method_asserted_by: alaSourceQualityChecks
+  assertion_logic: neither scientificName nor vernacularName have been supplied
+recommendation: Keep
+actions: I would change this to SCIENTIFIC_NAME_NOT_SUPPLIED and only check for scientificName.
+  I am with Cam that we should not try to match vernacular names.

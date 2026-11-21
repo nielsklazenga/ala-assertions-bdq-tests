@@ -1,0 +1,10 @@
+id: COUNTRY_INFERRED_FROM_COORDINATES
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- decimalLatitude
+- decmalLongitude
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COUNTRY_INFERRED_FROM_COORDINATES
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+COUNTRY_INFERRED_FROM_COORDINATES&type=code
+status: Not implemented (probably error for COUNTRY_DERIVED_FROM_COORDINATES)
+recommendation: Remove

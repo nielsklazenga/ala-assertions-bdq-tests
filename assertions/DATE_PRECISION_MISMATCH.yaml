@@ -1,0 +1,5 @@
+id: DATE_PRECISION_MISMATCH
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/DATE_PRECISION_MISMATCH
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+DATE_PRECISION_MISMATCH&type=code
+status: Not implemented
+recommendation: Remove

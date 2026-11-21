@@ -1,0 +1,11 @@
+id: INSTITUTION_COLLECTION_MISMATCH
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/INSTITUTION_COLLECTION_MISMATCH
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+INSTITUTION_COLLECTION_MISMATCH&type=code
+status: Unused
+gbif:
+  class_asserted_in: GrscicollInterpreter
+  method_asserted_by: getCollectionsMatchNoneIssue
+  assertion_logic: Not exactly clear, but it seems to be a fuzzy match to a collection
+    in another institution than given in the data.
+recommendation: Keep
+actions: No action required

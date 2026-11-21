@@ -1,0 +1,15 @@
+id: MISSING_GEOREFERENCESOURCES
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- georeferenceSources
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MISSING_GEOREFERENCESOURCES
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+MISSING_GEOREFERENCESOURCES&type=code
+count: '175869329.0'
+status: Active
+ala:
+  class_asserted_in: ALALocationInterpreter
+  method_asserted_by: interpretGeoReferenceTerms
+  assertion_logic: georeferenceSources not supplied
+recommendation: Remove?
+actions: Consider removing

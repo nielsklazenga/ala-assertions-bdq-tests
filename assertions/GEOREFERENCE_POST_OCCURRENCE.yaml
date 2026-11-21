@@ -1,0 +1,15 @@
+id: GEOREFERENCE_POST_OCCURRENCE
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- georeferencedDate
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/GEOREFERENCE_POST_OCCURRENCE
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+GEOREFERENCE_POST_OCCURRENCE&type=code
+count: '117217.0'
+status: Active
+ala:
+  class_asserted_in: ALATemporalInterpreter
+  method_asserted_by: checkGeoreferencedDate
+  assertion_logic: georeferencedDate is after the eventDate
+recommendation: Keep
+actions: No action required

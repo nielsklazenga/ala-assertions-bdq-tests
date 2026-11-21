@@ -1,0 +1,18 @@
+id: FIRST_OF_MONTH
+dwc_class:
+- Event
+dwc_terms:
+- eventDate
+- year
+- month
+- day
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/FIRST_OF_MONTH
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+FIRST_OF_MONTH&type=code
+count: '8296090.0'
+status: Active
+ala:
+  class_asserted_in: ALATemporalInterpreter
+  method_asserted_by: checkRecordDateQuality
+  assertion_logic: The day provided is the first day of the month.
+recommendation: Remove
+actions: I would just ditch it

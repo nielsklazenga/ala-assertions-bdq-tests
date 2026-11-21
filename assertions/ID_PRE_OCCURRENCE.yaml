@@ -1,0 +1,14 @@
+id: ID_PRE_OCCURRENCE
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/ID_PRE_OCCURRENCE
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+ID_PRE_OCCURRENCE&type=code
+count: '3460430.0'
+status: Active
+ala:
+  class_asserted_in: ALATemporalInterpreter
+  method_asserted_by: checkDateIdentified
+  assertion_logic: eventDate is after dateIdentified. This often gives misleading
+    results, as the precision of the dates are not taken into accound (identification
+    dates are often given as just month and year).
+recommendation: Keep
+actions: It would be better to have separate tests for incomplete eventDate and dateIdentified
+  and then compare dates of the same precision. The latter will be hard in pipelines.

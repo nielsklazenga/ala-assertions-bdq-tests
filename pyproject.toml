@@ -11,5 +11,6 @@ dependencies = [
     "matplotlib",
     "seaborn",
     "jupyterlab",
-    "ipykernel"
+    "ipykernel",
+    "pyyaml>=6.0.3",
 ]

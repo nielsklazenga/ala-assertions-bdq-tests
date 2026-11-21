@@ -1,0 +1,17 @@
+id: TYPE_STATUS_INVALID
+dwc_class:
+- Identification
+dwc_terms:
+- typeStatus
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TYPE_STATUS_INVALID
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+TYPE_STATUS_INVALID&type=code
+count: '153641.0'
+status: Active
+gbif:
+  class_asserted_in: VocabularyInterpreter
+  method_asserted_by: interpretTypeStatus
+  assertion_logic: The provided typeStatus cannot be found in the type status lookup.
+recommendation: Remove
+actions: This comes from GBIF, so we probably cannot do much about it, but this test
+  is wrong, as dwc:typeStatus is a free text string that contains the typeOfType and
+  typifiedName. GBIF is comparing apples and oranges.

@@ -1,0 +1,15 @@
+id: MISSING_GEOREFERENCE_DATE
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- georeferencedDate
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MISSING_GEOREFERENCE_DATE
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+MISSING_GEOREFERENCE_DATE&type=code
+count: '179057440.0'
+status: Active
+ala:
+  class_asserted_in: ALALocationInterpreter
+  method_asserted_by: interpretGeoReferenceTerms
+  assertion_logic: georeferencedDate not supplied
+recommendation: Keep
+actions: I am probably the only one who delivers this, so I'd say 'Keep it!'

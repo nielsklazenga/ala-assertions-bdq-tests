@@ -1,0 +1,25 @@
+id: TAXON_MATCH_NONE
+dwc_class:
+- Taxon
+dwc_terms:
+- scientificName
+- kingdom
+- phylum
+- class
+- order
+- family
+- genus
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_MATCH_NONE
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+TAXON_MATCH_NONE&type=code
+count: '750876.0'
+status: Active
+gbif:
+  class_asserted_in: TaxonomyInterpreter
+  method_asserted_by: matchTaxon
+  assertion_logic: Name could not be matched to taxon in taxonomy.
+ala:
+  class_asserted_in: ALATaxonomyInterpreter
+  method_asserted_by: ISSUE_MAP
+  assertion_logic: Name could not be matched to taxonomy.
+recommendation: Keep
+actions: No action required

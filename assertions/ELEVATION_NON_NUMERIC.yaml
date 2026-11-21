@@ -1,0 +1,15 @@
+id: ELEVATION_NON_NUMERIC
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- minimumElevationInMeters
+- maximumElevationInMeters
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/ELEVATION_NON_NUMERIC
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+ELEVATION_NON_NUMERIC&type=code
+count: '2576.0'
+status: Active
+gbif:
+  class_asserted_in: '?'
+  assertion_logic: Value provided for minimumElevationInMeters or maxiumumElevationInMeters
+    is not numeric
+recommendation: Keep

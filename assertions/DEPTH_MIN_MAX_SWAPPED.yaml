@@ -1,0 +1,17 @@
+id: DEPTH_MIN_MAX_SWAPPED
+dwc_class:
+- dcterms:Location
+dwc_terms:
+- minimumDepthInMeters
+- maximumDepthInMeters
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/DEPTH_MIN_MAX_SWAPPED
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+DEPTH_MIN_MAX_SWAPPED&type=code
+count: '24254.0'
+status: Active
+gbif:
+  class_asserted_in: https://github.com/gbif/gbif-api/blob/master/src/main/java/org/gbif/api/vocabulary/OccurrenceIssue.java
+recommendation: Keep
+actions: Check if there are any records that do not pass this test. If there are none,
+  the test is probably not implemented. Might be useful to download all records with
+  both minumimElevationInMeters and maxElevationInMeters and see if there are any
+  where minimumElevationInMeters > maximumElevationInMeters.

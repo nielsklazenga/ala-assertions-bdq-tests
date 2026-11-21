@@ -1,0 +1,5 @@
+id: COORDINATE_PRECISION_MISMATCH
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COORDINATE_PRECISION_MISMATCH
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+COORDINATE_PRECISION_MISMATCH&type=code
+status: Not implemented (probably error for COORDINATE_PRECISION_UNCERTAINTY_MISMATCH)
+recommendation: Remove

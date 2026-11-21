@@ -1,0 +1,15 @@
+id: TAXON_ERROR
+dwc_class:
+- Taxon
+dwc_terms:
+- scientificName
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_ERROR
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+TAXON_ERROR&type=code
+count: '644.0'
+status: Active
+ala:
+  class_asserted_in: ALATaxonomyInterpreter
+  method_asserted_by: ISSUE_MAP
+  assertion_logic: Scientific name either not provided or could not be interpreted.
+recommendation: Keep
+actions: No action required

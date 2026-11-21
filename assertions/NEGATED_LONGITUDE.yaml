@@ -1,0 +1,4 @@
+id: NEGATED_LONGITUDE
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/NEGATED_LONGITUDE
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+NEGATED_LONGITUDE&type=code
+status: Replaced by PRESUMED_NEGATED_LATITUDE.

@@ -1,0 +1,17 @@
+id: AMBIGUOUS_INSTITUTION
+dwc_class:
+- Record Level
+- EML
+dwc_terms:
+- '?'
+wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/AMBIGUOUS_INSTITUTION
+github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+AMBIGUOUS_INSTITUTION&type=code
+status: Unused
+gbif:
+  class_asserted_in: GrscicollInterpreter
+  method_asserted_by: getInstitutionMatchNoneIssue
+  assertion_logic: This is a lookup in GRSciColl. It is not explained what AMBIGUOUS
+    means, but presumably the institution could be not be unambiguously match to a
+    single institution in GrSciColl. Also not certain what data is used.
+recommendation: Keep
+actions: No action required.
