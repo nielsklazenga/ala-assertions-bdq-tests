@@ -193,7 +193,7 @@ but:
 
 ```text
 old assertion
-    dcterms:replaces
+    dcterms:isReplacedBy
 new assertion
 ```
 
@@ -201,7 +201,7 @@ or the inverse:
 
 ```text
 new assertion
-    dcterms:isReplacedBy
+    dcterms:replaces
 old assertion
 ```
 
