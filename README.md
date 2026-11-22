@@ -101,6 +101,8 @@ Reports and CSV exports are generated from the YAML files and should generally n
 reports/ala_by_class_and_term.md
 ```
 
+- [reports/ala_by_class_and_term.md](reports/ala_by_class_and_term.md)
+
 Groups ALA Assertions by Darwin Core class and term.
 
 ### BDQ Tests by Class and Term
@@ -174,7 +176,6 @@ reports/bdq_tests.csv
 reports/candidate_mappings.csv
 ```
 
-- [reports/candidate_mappings.md](reports/candidate_mappings.md)
 - [reports/candidate_mappings.csv](reports/candidate_mappings.csv)
 
 A recommended workflow is:
