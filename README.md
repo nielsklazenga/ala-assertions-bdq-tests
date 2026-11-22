@@ -109,6 +109,8 @@ Groups ALA Assertions by Darwin Core class and term.
 reports/bdq_by_class_and_term.md
 ```
 
+- [reports/bdq_by_class_and_term.md](reports/bdq_by_class_and_term.md)
+
 Groups BDQ Tests by Darwin Core class and term.
 
 ### Candidate Mappings
@@ -117,6 +119,9 @@ Groups BDQ Tests by Darwin Core class and term.
 reports/candidate_mappings.md
 reports/candidate_mappings.csv
 ```
+
+- [reports/candidate_mappings.md](reports/candidate_mappings.md)
+- [reports/candidate_mappings.csv](reports/candidate_mappings.csv)
 
 Lists potential relationships between ALA Assertions and BDQ Tests based on shared Darwin Core terms.
 
@@ -128,6 +133,8 @@ The CSV version is intended for further analysis in Excel, Power Query, or other
 reports/ala_missing_metadata.md
 ```
 
+- [reports/ala_missing_metadata.md](reports/ala_missing_metadata.md)
+
 Identifies ALA Assertions that are missing Darwin Core class and/or term information.
 
 ### Observations
@@ -135,6 +142,8 @@ Identifies ALA Assertions that are missing Darwin Core class and/or term informa
 ```text
 reports/observations.md
 ```
+
+- [reports/observations.md](reports/observations.md)
 
 Documents findings and conclusions arising from the comparison.
 
@@ -150,17 +159,23 @@ The repository provides CSV exports for use in tools such as Microsoft Excel and
 reports/ala_assertions.csv
 ```
 
+- [reports/ala_assertions.csv](reports/ala_assertions.csv)
+
 ### BDQ Tests
 
 ```text
 reports/bdq_tests.csv
 ```
+- [reports/bdq_tests.csv](reports/bdq_tests.csv)
 
 ### Candidate Mappings
 
 ```text
 reports/candidate_mappings.csv
 ```
+
+- [reports/candidate_mappings.md](reports/candidate_mappings.md)
+- [reports/candidate_mappings.csv](reports/candidate_mappings.csv)
 
 A recommended workflow is:
 
