@@ -1,0 +1,170 @@
+id,label,implemented_by,status,recommendation,dwc_class,dwc_terms,wiki_page
+ALTITUDE_IN_FEET,ALTITUDE_IN_FEET,,Not implemented,,"Record Level, EML","dwc:minimumElevationInMeters, dwc:maximumElevationInMeters",https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/ALTITUDE_IN_FEET
+ALTITUDE_NON_NUMERIC,ALTITUDE_NON_NUMERIC,,Not implemented,Remove,dcterms:Location,"dwc:minimumElevationInMeters, dwc:maximumElevationInMeters",https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/ALTITUDE_NON_NUMERIC
+ALTITUDE_OUT_OF_RANGE,ALTITUDE_OUT_OF_RANGE,,Not implemented,Remove,dcterms:Location,"dwc:minimumElevationInMeters, dwc:maximumElevationInMeters",https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/ALTITUDE_OUT_OF_RANGE
+AMBIGUOUS_COLLECTION,AMBIGUOUS_COLLECTION,GBIF,Unused,Keep,"Record Level, EML",?,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/AMBIGUOUS_COLLECTION
+AMBIGUOUS_INSTITUTION,AMBIGUOUS_INSTITUTION,GBIF,Unused,Keep,"Record Level, EML",?,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/AMBIGUOUS_INSTITUTION
+AMBIGUOUS_NAME,AMBIGUOUS_NAME,,Not implemented,Remove,?,?,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/AMBIGUOUS_NAME
+BADLY_FORMED_ALTITUDE,BADLY_FORMED_ALTITUDE,,Not implemented,Remove,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/BADLY_FORMED_ALTITUDE
+BADLY_FORMED_BASIS_OF_RECORD,BADLY_FORMED_BASIS_OF_RECORD,,Not implemented,Remove,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/BADLY_FORMED_BASIS_OF_RECORD
+BASIS_OF_RECORD_INVALID,BASIS_OF_RECORD_INVALID,GBIF,Active,Keep,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/BASIS_OF_RECORD_INVALID
+COLLECTING_PATTERNS_GENERAL,COLLECTING_PATTERNS_GENERAL,,Not implemented,Remove,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COLLECTING_PATTERNS_GENERAL
+COLLECTION_MATCH_FUZZY,COLLECTION_MATCH_FUZZY,GBIF,Unused,Keep,"Record Level, EML",?,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COLLECTION_MATCH_FUZZY
+COLLECTION_MATCH_NONE,COLLECTION_MATCH_NONE,GBIF,Unused,Keep,"Record Level, EML",?,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COLLECTION_MATCH_NONE
+CONTINENT_COORDINATE_MISMATCH,CONTINENT_COORDINATE_MISMATCH,GBIF,Active,Keep,dcterms:Location,"dwc:continent, dwc:decimalLongitude, dwc:decimalLatitude",https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/CONTINENT_COORDINATE_MISMATCH
+CONTINENT_COUNTRY_MISMATCH,CONTINENT_COUNTRY_MISMATCH,GBIF,Active,Keep,dcterms:Location,"dwc:continent, dwc:country",https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/CONTINENT_COUNTRY_MISMATCH
+CONTINENT_DERIVED_FROM_COORDINATES,CONTINENT_DERIVED_FROM_COORDINATES,GBIF,Unused,Keep,dcterms:Location,"dwc:decimalLongitude, dwc:decimalLatitude",https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/CONTINENT_DERIVED_FROM_COORDINATES
+CONTINENT_DERIVED_FROM_COUNTRY,CONTINENT_DERIVED_FROM_COUNTRY,GBIF,Active,Keep,dcterms:Location,dwc:country,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/CONTINENT_DERIVED_FROM_COUNTRY
+CONTINENT_INVALID,CONTINENT_INVALID,GBIF,Active,Keep,dcterms:Location,dwc:continent,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/CONTINENT_INVALID
+COORDINATES_CENTRE_OF_COUNTRY,COORDINATES_CENTRE_OF_COUNTRY,ALA,Active,Keep,dcterms:Location,"dwc:country, dwc:decimalLatitude, dwc:decimalLongitude, dwc:verbatimLatitude",https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COORDINATES_CENTRE_OF_COUNTRY
+COORDINATES_CENTRE_OF_STATEPROVINCE,COORDINATES_CENTRE_OF_STATEPROVINCE,ALA,Active,Keep,dcterms:Location,"dwc:decimalLatitude, dwc:decimalLongitude, dwc:verbatimLatitude, dwc:verbatimLongitude",https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COORDINATES_CENTRE_OF_STATEPROVINCE
+COORDINATES_OUT_OF_RANGE,COORDINATES_OUT_OF_RANGE,,Not implemented (probably a typo for COORDINATE_OUT_OF_RANGE),Remove,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COORDINATES_OUT_OF_RANGE
+COORDINATE_ACCURACY_INVALID,COORDINATE_ACCURACY_INVALID,,Not implemented (probably replaced by COORDINATE_PRECISION_INVALID and COORDINATE_UNCERTAINTY_METERS_INVALID),Remove,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COORDINATE_ACCURACY_INVALID
+COORDINATE_HABITAT_MISMATCH,COORDINATE_HABITAT_MISMATCH,,Not implemented,Remove,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COORDINATE_HABITAT_MISMATCH
+COORDINATE_INVALID,COORDINATE_INVALID,GBIF,Active,Keep,dcterms:Location,"dwc:decimalLatitude, dwc:decimalLongitude, dwc:verbatimLatitude, dwc:verbatimLongitude",https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COORDINATE_INVALID
+COORDINATE_OUT_OF_RANGE,COORDINATE_OUT_OF_RANGE,GBIF,Active,Keep,dcterms:Location,"dwc:decimalLatitude, dwc:decimalLongitude, dwc:verbatimLatitude, dwc:verbatimLongitude",https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COORDINATE_OUT_OF_RANGE
+COORDINATE_PRECISION_INVALID,COORDINATE_PRECISION_INVALID,GBIF,Active,Keep,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COORDINATE_PRECISION_INVALID
+COORDINATE_PRECISION_MISMATCH,COORDINATE_PRECISION_MISMATCH,,Not implemented (probably error for COORDINATE_PRECISION_UNCERTAINTY_MISMATCH),Remove,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COORDINATE_PRECISION_MISMATCH
+COORDINATE_PRECISION_UNCERTAINTY_MISMATCH,COORDINATE_PRECISION_UNCERTAINTY_MISMATCH,,"Unused (listed among evaluation types, but there is no code for it; it could be among other location assertions, but this seems to be something that requires special code)",Remove,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COORDINATE_PRECISION_UNCERTAINTY_MISMATCH
+COORDINATE_REPROJECTED,COORDINATE_REPROJECTED,GBIF,Active,Keep,dcterms:Location,"dwc:geodeticDatum, dwc:decimalLongitude, dwc:decimalLatitude",https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COORDINATE_REPROJECTED
+COORDINATE_REPROJECTION_FAILED,COORDINATE_REPROJECTION_FAILED,GBIF,Unused,,dcterms:Location,"dwc:geodeticDatum, dwc:decimalLongitude, dwc:decimalLatitude",https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COORDINATE_REPROJECTION_FAILED
+COORDINATE_REPROJECTION_SUSPICIOUS,COORDINATE_REPROJECTION_SUSPICIOUS,GBIF,Active,Keep,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COORDINATE_REPROJECTION_SUSPICIOUS
+COORDINATE_ROUNDED,COORDINATE_ROUNDED,,Active,,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COORDINATE_ROUNDED
+COORDINATE_UNCERTAINTY_METERS_INVALID,COORDINATE_UNCERTAINTY_METERS_INVALID,"GBIF, ALA",Active,Keep,dcterms:Location,dwc:coordinateUncertaintyInMeters,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COORDINATE_UNCERTAINTY_METERS_INVALID
+COORDINATE_UNCERTAINTY_PRECISION_MISMATCH,COORDINATE_UNCERTAINTY_PRECISION_MISMATCH,GBIF,Deprecated,Remove,dcterms:Location,"coordinatePrecision, dwc:coordinateUncertaintyInMeters",https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COORDINATE_UNCERTAINTY_PRECISION_MISMATCH
+COUNTRY_COORDINATE_MISMATCH,COUNTRY_COORDINATE_MISMATCH,GBIF,Active,Keep,dcterms:Location,"dwc:country, dwc:decimalLatitude, dwc:decimalLongitude",https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COUNTRY_COORDINATE_MISMATCH
+COUNTRY_DERIVED_FROM_COORDINATES,COUNTRY_DERIVED_FROM_COORDINATES,GBIF,Active,Keep,dcterms:Location,"dwc:decimalLatitude, dwc:decimalLongitude",https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COUNTRY_DERIVED_FROM_COORDINATES
+COUNTRY_INFERRED_FROM_COORDINATES,COUNTRY_INFERRED_FROM_COORDINATES,,Not implemented (probably error for COUNTRY_DERIVED_FROM_COORDINATES),Remove,dcterms:Location,"dwc:decimalLatitude, dwc:decimalLongitude",https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COUNTRY_INFERRED_FROM_COORDINATES
+COUNTRY_INVALID,COUNTRY_INVALID,GBIF,Active,Keep,dcterms:Location,dwc:country,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COUNTRY_INVALID
+COUNTRY_MISMATCH,COUNTRY_MISMATCH,GBIF,Active,Keep,dcterms:Location,"dwc:countryCode, dwc:decimalLatitude, dwc:decimalLongitude",https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COUNTRY_MISMATCH
+DATA_ARE_GENERALISED,DATA_ARE_GENERALISED,,Not implemented,Remove,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/DATA_ARE_GENERALISED
+DATE_PRECISION_MISMATCH,DATE_PRECISION_MISMATCH,,Not implemented,Remove,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/DATE_PRECISION_MISMATCH
+DAY_MONTH_TRANSPOSED,DAY_MONTH_TRANSPOSED,,Not implemented,Remove,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/DAY_MONTH_TRANSPOSED
+DECIMAL_LAT_LONG_CALCULATION_FROM_EASTING_NORTHING_FAILED,DECIMAL_LAT_LONG_CALCULATION_FROM_EASTING_NORTHING_FAILED,,Not implemented,Remove,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/DECIMAL_LAT_LONG_CALCULATION_FROM_EASTING_NORTHING_FAILED
+DECIMAL_LAT_LONG_CONVERSION_FAILED,DECIMAL_LAT_LONG_CONVERSION_FAILED,,Not implemented,Remove,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/DECIMAL_LAT_LONG_CONVERSION_FAILED
+DEPTH_IN_FEET,DEPTH_IN_FEET,,Not implemented,Remove,dcterms:Location,"dwc:minimumDepthInMeters, dwc:maximumDepthInMeters",https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/DEPTH_IN_FEET
+DEPTH_MIN_MAX_SWAPPED,DEPTH_MIN_MAX_SWAPPED,GBIF,Active,Keep,dcterms:Location,"dwc:minimumDepthInMeters, dwc:maximumDepthInMeters",https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/DEPTH_MIN_MAX_SWAPPED
+DEPTH_NON_NUMERIC,DEPTH_NON_NUMERIC,GBIF,Active?,Keep?,dcterms:Location,"dwc:minimumDepthInMeters, dwc:maximumDepthInMeters",https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/DEPTH_NON_NUMERIC
+DEPTH_NOT_METRIC,DEPTH_NOT_METRIC,GBIF,Active?,Keep?,dcterms:Location,"dwc:minimumDepthInMeters, dwc:maximumDepthInMeters",https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/DEPTH_NOT_METRIC
+DEPTH_OUT_OF_RANGE,DEPTH_OUT_OF_RANGE,,Not implemented,Remove,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/DEPTH_OUT_OF_RANGE
+DEPTH_UNLIKELY,DEPTH_UNLIKELY,GBIF,Active?,Keep?,dcterms:Location,"dwc:minimumDepthInMeters, dwc:maximumDepthInMeters",https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/DEPTH_UNLIKELY
+DETECTED_OUTLIER_GEOGRAPHIC,DETECTED_OUTLIER_GEOGRAPHIC,,Not implemented,Remove,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/DETECTED_OUTLIER_GEOGRAPHIC
+DETECTED_OUTLIER_JACKKNIFE,DETECTED_OUTLIER_JACKKNIFE,,Not a data quality assertion anymore: we use the outlier_layer and outlier_layer_count filters for this,?,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/DETECTED_OUTLIER_JACKKNIFE
+DETECTED_OUTLIER_OTHER,DETECTED_OUTLIER_OTHER,,Not implemented,,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/DETECTED_OUTLIER_OTHER
+DIFFERENT_OWNER_INSTITUTION,DIFFERENT_OWNER_INSTITUTION,GBIF,Unused,Keep,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/DIFFERENT_OWNER_INSTITUTION
+ELEVATION_MIN_MAX_SWAPPED,ELEVATION_MIN_MAX_SWAPPED,GBIF,Active,Keep,dcterms:Location,"dwc:minimumElevationInMeters, dwc:maximumElevationInMeters",https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/ELEVATION_MIN_MAX_SWAPPED
+ELEVATION_NON_NUMERIC,ELEVATION_NON_NUMERIC,GBIF,Active,Keep,dcterms:Location,"dwc:minimumElevationInMeters, dwc:maximumElevationInMeters",https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/ELEVATION_NON_NUMERIC
+ELEVATION_NOT_METRIC,ELEVATION_NOT_METRIC,GBIF,Active,Keep,dcterms:Location,"dwc:minimumElevationInMeters, dwc:maximumElevationInMeters",https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/ELEVATION_NOT_METRIC
+ELEVATION_UNLIKELY,ELEVATION_UNLIKELY,GBIF,Unused,Keep,dcterms:Location,"dwc:minimumElevationInMeters, dwc:maximumElevationInMeters",https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/ELEVATION_UNLIKELY
+FIRST_OF_CENTURY,FIRST_OF_CENTURY,ALA,Active,Remove,dwc:Event,"dwc:eventDate, dwc:year, dwc:month, dwc:day",https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/FIRST_OF_CENTURY
+FIRST_OF_MONTH,FIRST_OF_MONTH,ALA,Active,Remove,dwc:Event,"dwc:eventDate, dwc:year, dwc:month, dwc:day",https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/FIRST_OF_MONTH
+FIRST_OF_YEAR,FIRST_OF_YEAR,ALA,Active,Remove,dwc:Event,"dwc:eventDate, dwc:year, dwc:month, dwc:day",https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/FIRST_OF_YEAR
+FOOTPRINT_SRS_INVALID,FOOTPRINT_SRS_INVALID,GBIF,Active,Keep,dcterms:Location,footprintSRS,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/FOOTPRINT_SRS_INVALID
+FOOTPRINT_WKT_INVALID,FOOTPRINT_WKT_INVALID,GBIF,Active,Keep,dcterms:Location,dwc:footprintWKT,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/FOOTPRINT_WKT_INVALID
+FOOTPRINT_WKT_MISMATCH,FOOTPRINT_WKT_MISMATCH,GBIF,Active,Keep,dcterms:Location,"dwc:footprintWKT, dwc:decimalLatitude, dwc:decimalLongitude",https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/FOOTPRINT_WKT_MISMATCH
+GEODETIC_DATUM_INVALID,GEODETIC_DATUM_INVALID,GBIF,Active,Keep,dcterms:Location,dwc:geodeticDatum,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/GEODETIC_DATUM_INVALID
+GEOREFERENCED_DATE_INVALID,GEOREFERENCED_DATE_INVALID,,Unused,,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/GEOREFERENCED_DATE_INVALID
+GEOREFERENCED_DATE_UNLIKELY,GEOREFERENCED_DATE_UNLIKELY,ALA,Active,Remove,dcterms:Location,georeferencedDate,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/GEOREFERENCED_DATE_UNLIKELY
+GEOREFERENCE_POST_OCCURRENCE,GEOREFERENCE_POST_OCCURRENCE,ALA,Active,Keep,dcterms:Location,georeferencedDate,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/GEOREFERENCE_POST_OCCURRENCE
+GEOREFERENCE_UNCERTAIN,GEOREFERENCE_UNCERTAIN,,Not implemented,Remove,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/GEOREFERENCE_UNCERTAIN
+GEOREFERENCE_VERIFIED,GEOREFERENCE_VERIFIED,,Not implemented,Remove,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/GEOREFERENCE_VERIFIED
+HOMONYM_ISSUE,HOMONYM_ISSUE,,Not implemented,Remove,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/HOMONYM_ISSUE
+IDENTIFICATION_UNCERTAIN,IDENTIFICATION_UNCERTAIN,,Not implemented,Remove,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/IDENTIFICATION_UNCERTAIN
+IDENTIFICATION_VERIFIED,IDENTIFICATION_VERIFIED,,Not implemented,Remove,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/IDENTIFICATION_VERIFIED
+IDENTIFIED_DATE_INVALID,IDENTIFIED_DATE_INVALID,GBIF,Active,Keep,dwc:Identification,dwc:dateIdentified,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/IDENTIFIED_DATE_INVALID
+IDENTIFIED_DATE_UNLIKELY,IDENTIFIED_DATE_UNLIKELY,GBIF,Active,Keep,dwc:Identification,dwc:dateIdentified,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/IDENTIFIED_DATE_UNLIKELY
+ID_PRE_OCCURRENCE,ID_PRE_OCCURRENCE,ALA,Active,Keep,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/ID_PRE_OCCURRENCE
+INCOMPLETE_COLLECTION_DATE,INCOMPLETE_COLLECTION_DATE,,Not implemented,,dwc:Identification,dwc:dateIdentified,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/INCOMPLETE_COLLECTION_DATE
+INDIVIDUAL_COUNT_CONFLICTS_WITH_OCCURRENCE_STATUS,INDIVIDUAL_COUNT_CONFLICTS_WITH_OCCURRENCE_STATUS,,,,dwc:Occurrence,"dwc:occurrenceStatus, individualCount",https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/INDIVIDUAL_COUNT_CONFLICTS_WITH_OCCURRENCE_STATUS
+INDIVIDUAL_COUNT_INVALID,INDIVIDUAL_COUNT_INVALID,,,,dwc:Occurrence,"individualCount, dwc:occurrenceStatus",https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/INDIVIDUAL_COUNT_INVALID
+INFERRED_DUPLICATE_RECORD,INFERRED_DUPLICATE_RECORD,,Not a data quality assertion anymore: we use the duplicate_status filter for this,,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/INFERRED_DUPLICATE_RECORD
+INFERRED_FALSE_PRECISION,INFERRED_FALSE_PRECISION,,Not implemented,,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/INFERRED_FALSE_PRECISION
+INSTITUTION_COLLECTION_MISMATCH,INSTITUTION_COLLECTION_MISMATCH,GBIF,Unused,Keep,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/INSTITUTION_COLLECTION_MISMATCH
+INSTITUTION_MATCH_FUZZY,INSTITUTION_MATCH_FUZZY,GBIF,Unused,Keep,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/INSTITUTION_MATCH_FUZZY
+INSTITUTION_MATCH_NONE,INSTITUTION_MATCH_NONE,GBIF,Unused,Keep,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/INSTITUTION_MATCH_NONE
+INTERPRETATION_ERROR,INTERPRETATION_ERROR,,Unused,,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/INTERPRETATION_ERROR
+INVALID_COLLECTION_DATE,INVALID_COLLECTION_DATE,,Not implemented,,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/INVALID_COLLECTION_DATE
+INVALID_GEODETICDATUM,INVALID_GEODETICDATUM,,Not implemented. Replaced by GEODETIC_DATUM_INVALID.,,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/INVALID_GEODETICDATUM
+INVALID_IMAGE_URL,INVALID_IMAGE_URL,,Not implemented,,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/INVALID_IMAGE_URL
+INVALID_SCIENTIFIC_NAME,INVALID_SCIENTIFIC_NAME,ALA,,Keep,dwc:Taxon,dwc:scientificName,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/INVALID_SCIENTIFIC_NAME
+INVERTED_COORDINATES,INVERTED_COORDINATES,,Not implemented,,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/INVERTED_COORDINATES
+LOCATION_NOT_SUPPLIED,LOCATION_NOT_SUPPLIED,ALA,Active,Keep,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/LOCATION_NOT_SUPPLIED
+MIN_MAX_ALTITUDE_REVERSED,MIN_MAX_ALTITUDE_REVERSED,,Not implemented. Replaced by ELEVATION_MIN_MAX_SWAPPED.,,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MIN_MAX_ALTITUDE_REVERSED
+MIN_MAX_DEPTH_REVERSED,MIN_MAX_DEPTH_REVERSED,,Not implementedReplaced by DEPTH_MIN_MAX_SWAPPED.,,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MIN_MAX_DEPTH_REVERSED
+MISSING_BASIS_OF_RECORD,MISSING_BASIS_OF_RECORD,,Not implemented,,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MISSING_BASIS_OF_RECORD
+MISSING_COLLECTION_DATE,MISSING_COLLECTION_DATE,ALA,Active,Keep,dwc:Event,"dwc:eventDate, dwc:year, dwc:month, dwc:day",https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MISSING_COLLECTION_DATE
+MISSING_COORDINATEPRECISION,MISSING_COORDINATEPRECISION,,Unused,,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MISSING_COORDINATEPRECISION
+MISSING_DATEIDENTIFIED,MISSING_DATEIDENTIFIED,,Not implemented,,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MISSING_DATEIDENTIFIED
+MISSING_GEODETICDATUM,MISSING_GEODETICDATUM,ALA,Active,Keep,dcterms:Location,dwc:geodeticDatum,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MISSING_GEODETICDATUM
+MISSING_GEOREFERENCEDBY,MISSING_GEOREFERENCEDBY,ALA,Active,Keep,dcterms:Location,georeferencedBy,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MISSING_GEOREFERENCEDBY
+MISSING_GEOREFERENCEPROTOCOL,MISSING_GEOREFERENCEPROTOCOL,ALA,Active,Keep,dcterms:Location,georeferenceProtocol,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MISSING_GEOREFERENCEPROTOCOL
+MISSING_GEOREFERENCESOURCES,MISSING_GEOREFERENCESOURCES,ALA,Active,Remove?,dcterms:Location,georeferenceSources,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MISSING_GEOREFERENCESOURCES
+MISSING_GEOREFERENCEVERIFICATIONSTATUS,MISSING_GEOREFERENCEVERIFICATIONSTATUS,ALA,Active,Remove,dcterms:Location,georeferenceVerificationStatus,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MISSING_GEOREFERENCEVERIFICATIONSTATUS
+MISSING_GEOREFERENCE_DATE,MISSING_GEOREFERENCE_DATE,ALA,Active,Keep,dcterms:Location,georeferencedDate,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MISSING_GEOREFERENCE_DATE
+MISSING_IDENTIFICATIONQUALIFIER,MISSING_IDENTIFICATIONQUALIFIER,,Not implemented,,dwc:Taxon,identificationQualifier,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MISSING_IDENTIFICATIONQUALIFIER
+MISSING_IDENTIFICATIONREFERENCES,MISSING_IDENTIFICATIONREFERENCES,,Not implemented,,dwc:Taxon,identificationReferences,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MISSING_IDENTIFICATIONREFERENCES
+MISSING_IDENTIFIEDBY,MISSING_IDENTIFIEDBY,,Not implemented,,dwc:Identification,identifiedBy,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MISSING_IDENTIFIEDBY
+MISSING_TAXONRANK,MISSING_TAXONRANK,ALA,Active,Remove,dwc:Taxon,dwc:taxonRank,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MISSING_TAXONRANK
+MODIFIED_DATE_INVALID,MODIFIED_DATE_INVALID,GBIF,Active,Keep,Record Level,dcterms:modified,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MODIFIED_DATE_INVALID
+MODIFIED_DATE_UNLIKELY,MODIFIED_DATE_UNLIKELY,GBIF,Active,Keep,Record Level,dcterms:modified,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MODIFIED_DATE_UNLIKELY
+MULTIMEDIA_DATE_INVALID,MULTIMEDIA_DATE_INVALID,GBIF,Active,Keep,dwc:Occurrence,associatedMedia,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MULTIMEDIA_DATE_INVALID
+MULTIMEDIA_URI_INVALID,MULTIMEDIA_URI_INVALID,GBIF,Active,,dwc:Occurrence,associatedMedia,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MULTIMEDIA_URI_INVALID
+NAME_NOT_IN_NATIONAL_CHECKLISTS,NAME_NOT_IN_NATIONAL_CHECKLISTS,,Not implemented,,dwc:Taxon,dwc:scientificName,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/NAME_NOT_IN_NATIONAL_CHECKLISTS
+NAME_NOT_RECOGNISED,NAME_NOT_RECOGNISED,,Not implemented,,dwc:Taxon,dwc:scientificName,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/NAME_NOT_RECOGNISED
+NAME_NOT_SUPPLIED,NAME_NOT_SUPPLIED,ALA,Active,Keep,dwc:Taxon,dwc:scientificName,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/NAME_NOT_SUPPLIED
+NEGATED_LATITUDE,NEGATED_LATITUDE,,Replaced by PRESUMED_NEGATED_LATITUDE,,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/NEGATED_LATITUDE
+NEGATED_LONGITUDE,NEGATED_LONGITUDE,,Replaced by PRESUMED_NEGATED_LATITUDE.,,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/NEGATED_LONGITUDE
+OCCURRENCE_IS_CULTIVATED_OR_ESCAPEE,OCCURRENCE_IS_CULTIVATED_OR_ESCAPEE,,Not implemented,,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/OCCURRENCE_IS_CULTIVATED_OR_ESCAPEE
+OCCURRENCE_IS_EXTRALIMITAL,OCCURRENCE_IS_EXTRALIMITAL,,Not implemented,,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/OCCURRENCE_IS_EXTRALIMITAL
+OCCURRENCE_STATUS_INFERRED_FROM_BASIS_OF_RECORD,OCCURRENCE_STATUS_INFERRED_FROM_BASIS_OF_RECORD,GBIF,Active,Keep,"Record Level, dwc:Occurrence","dwc:basisOfRecord, dwc:occurrenceStatus",https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/OCCURRENCE_STATUS_INFERRED_FROM_BASIS_OF_RECORD
+OCCURRENCE_STATUS_INFERRED_FROM_INDIVIDUAL_COUNT,OCCURRENCE_STATUS_INFERRED_FROM_INDIVIDUAL_COUNT,GBIF,Active,Keep,dwc:Occurrence,"individualCount, dwc:occurrenceStatus",https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/OCCURRENCE_STATUS_INFERRED_FROM_INDIVIDUAL_COUNT
+OCCURRENCE_STATUS_UNPARSABLE,OCCURRENCE_STATUS_UNPARSABLE,GBIF,Active,Keep,dwc:Occurrence,dwc:occurrenceStatus,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/OCCURRENCE_STATUS_UNPARSABLE
+OCCURRENCE_VERIFIED,OCCURRENCE_VERIFIED,,Not implemented,,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/OCCURRENCE_VERIFIED
+POSSIBLY_ON_LOAN,POSSIBLY_ON_LOAN,,Unused,,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/POSSIBLY_ON_LOAN
+PRECISION_RANGE_MISMATCH,PRECISION_RANGE_MISMATCH,,Replaced by COORDINATE_PRECISION_INVALID,,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/PRECISION_RANGE_MISMATCH
+PRESUMED_NEGATED_LATITUDE,PRESUMED_NEGATED_LATITUDE,GBIF,Active,Keep,dcterms:Location,dwc:decimalLatitude,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/PRESUMED_NEGATED_LATITUDE
+PRESUMED_NEGATED_LONGITUDE,PRESUMED_NEGATED_LONGITUDE,GBIF,Active,Keep,dcterms:Location,dwc:decimalLongitude,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/PRESUMED_NEGATED_LONGITUDE
+PRESUMED_SWAPPED_COORDINATE,PRESUMED_SWAPPED_COORDINATE,GBIF,Active,Keep,dcterms:Location,"dwc:decimalLatitude, dwc:decimalLongitude",https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/PRESUMED_SWAPPED_COORDINATE
+RECORDED_DATE_INVALID,RECORDED_DATE_INVALID,GBIF,Active,Keep,dwc:Event,"dwc:eventDate, dwc:year, dwc:month, dwc:day, dwc:startDayOfYear, dwc:endDayOfYear",https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/RECORDED_DATE_INVALID
+RECORDED_DATE_MISMATCH,RECORDED_DATE_MISMATCH,GBIF,Active,Keep,dwc:Event,"dwc:eventDate, dwc:year, dwc:month, dwc:day, dwc:startDayOfYear, dwc:endDayOfYear",https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/RECORDED_DATE_MISMATCH
+RECORDED_DATE_UNLIKELY,RECORDED_DATE_UNLIKELY,GBIF,Active,Keep,dwc:Event,"dwc:eventDate, dwc:year, dwc:month, dwc:day, dwc:startDayOfYear, dwc:endDayOfYear",https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/RECORDED_DATE_UNLIKELY
+REFERENCES_URI_INVALID,REFERENCES_URI_INVALID,GBIF,Active,Keep,"dwc:Occurrence, dwc:Identification","associatedReferences, identificationReferences",https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/REFERENCES_URI_INVALID
+RESOURCE_TAXONOMIC_SCOPE_MISMATCH,RESOURCE_TAXONOMIC_SCOPE_MISMATCH,,Not implemented,,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/RESOURCE_TAXONOMIC_SCOPE_MISMATCH
+SENSITIVITY_REPORT_INVALID,SENSITIVITY_REPORT_INVALID,ALA,Active,Keep,"dcterms:Location, dwc:Taxon","dwc:stateProvince, dwc:scientificName",https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/SENSITIVITY_REPORT_INVALID
+SENSITIVITY_REPORT_NOT_LOADABLE,SENSITIVITY_REPORT_NOT_LOADABLE,ALA,Active,Keep,"dcterms:Location, dwc:Taxon","dwc:stateProvince, dwc:scientificName",https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/SENSITIVITY_REPORT_NOT_LOADABLE
+SPECIES_OUTSIDE_EXPERT_RANGE,SPECIES_OUTSIDE_EXPERT_RANGE,,Not implemented,,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/SPECIES_OUTSIDE_EXPERT_RANGE
+STATEPROVINCE_COORDINATE_MISMATCH,STATEPROVINCE_COORDINATE_MISMATCH,,Replaced by STATE_COORDINATE_MISMATCH,,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/STATEPROVINCE_COORDINATE_MISMATCH
+STATE_COORDINATE_MISMATCH,STATE_COORDINATE_MISMATCH,ALA,,Keep,dcterms:Location,"dwc:stateProvince, dwc:decimalLatitude, dwc:decimalLongitude, dwc:verbatimLatitude, dwc:verbatimLongitude, dwc:verbatimCoordinates",https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/STATE_COORDINATE_MISMATCH
+TAXON_AFFINITY_SPECIES,TAXON_AFFINITY_SPECIES,ALA,Active,Keep,dwc:Taxon,dwc:scientificName,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_AFFINITY_SPECIES
+TAXON_CONFER_SPECIES,TAXON_CONFER_SPECIES,ALA,Active,Keep,dwc:Taxon,dwc:scientificName,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_CONFER_SPECIES
+TAXON_DEFAULT_MATCH,TAXON_DEFAULT_MATCH,ALA,Active,Keep,dwc:Taxon,dwc:scientificName,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_DEFAULT_MATCH
+TAXON_ERROR,TAXON_ERROR,ALA,Active,Keep,dwc:Taxon,dwc:scientificName,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_ERROR
+TAXON_EXCLUDED,TAXON_EXCLUDED,ALA,Ostensibly unused,Keep,dwc:Taxon,dwc:scientificName,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_EXCLUDED
+TAXON_EXCLUDED_ASSOCIATED,TAXON_EXCLUDED_ASSOCIATED,ALA,Ostensibly unused,Keep,dwc:Taxon,dwc:scientificName,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_EXCLUDED_ASSOCIATED
+TAXON_HOMONYM,TAXON_HOMONYM,ALA,Active,Keep,dwc:Taxon,dwc:scientificName,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_HOMONYM
+TAXON_INDETERMINATE_SPECIES,TAXON_INDETERMINATE_SPECIES,ALA,Ostensibly unused,Keep,dwc:Taxon,dwc:scientificName,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_INDETERMINATE_SPECIES
+TAXON_MATCH_AGGREGATE,TAXON_MATCH_AGGREGATE,ALA,Ostensibly unused,Keep,dwc:Taxon,dwc:scientificName,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_MATCH_AGGREGATE
+TAXON_MATCH_FUZZY,TAXON_MATCH_FUZZY,"GBIF, ALA",Active,Keep,dwc:Taxon,dwc:scientificName,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_MATCH_FUZZY
+TAXON_MATCH_HIGHERRANK,TAXON_MATCH_HIGHERRANK,"GBIF, ALA",Active,Keep,dwc:Taxon,"dwc:scientificName, dwc:kingdom, dwc:phylum, dwc:class, dwc:order, dwc:family, dwc:genus",https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_MATCH_HIGHERRANK
+TAXON_MATCH_NONE,TAXON_MATCH_NONE,"GBIF, ALA",Active,Keep,dwc:Taxon,"dwc:scientificName, dwc:kingdom, dwc:phylum, dwc:class, dwc:order, dwc:family, dwc:genus",https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_MATCH_NONE
+TAXON_MISAPPLIED,TAXON_MISAPPLIED,ALA,Unused,,dwc:Taxon,dwc:scientificName,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_MISAPPLIED
+TAXON_MISAPPLIED_MATCHED,TAXON_MISAPPLIED_MATCHED,ALA,Ostensibly unused,,dwc:Taxon,dwc:scientificName,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_MISAPPLIED_MATCHED
+TAXON_PARENT_CHILD_SYNONYM,TAXON_PARENT_CHILD_SYNONYM,ALA,Active,Remove,dwc:Taxon,dwc:scientificName,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_PARENT_CHILD_SYNONYM
+TAXON_QUESTION_SPECIES,TAXON_QUESTION_SPECIES,ALA,Active,Keep,dwc:Taxon,dwc:scientificName,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_QUESTION_SPECIES
+TAXON_SCOPE_MISMATCH,TAXON_SCOPE_MISMATCH,ALA,Active,Keep,dwc:Taxon,"dwc:scientificName, dwc:kingdom, dwc:phylum, dwc:class, dwc:order, dwc:family, dwc:genus",https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_SCOPE_MISMATCH
+TAXON_SPECIES_PLURAL,TAXON_SPECIES_PLURAL,ALA,Active,Keep,dwc:Taxon,dwc:scientificName,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_SPECIES_PLURAL
+TYPE_STATUS_INVALID,TYPE_STATUS_INVALID,GBIF,Active,Remove,dwc:Identification,dwc:typeStatus,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TYPE_STATUS_INVALID
+UNCERTAINTY_IN_PRECISION,UNCERTAINTY_IN_PRECISION,ALA,Active,Remove,dcterms:dcterms:Location,"coordinatePrecision, dwc:coordinateUncertaintyInMeters",https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/UNCERTAINTY_IN_PRECISION
+UNCERTAINTY_NOT_SPECIFIED,UNCERTAINTY_NOT_SPECIFIED,ALA,Confuddled with COORDINATE_UNCERTAINTY_METERS_INVALID,Keep,dcterms:Location,dwc:coordinateUncertaintyInMeters,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/UNCERTAINTY_NOT_SPECIFIED
+UNCERTAINTY_RANGE_MISMATCH,UNCERTAINTY_RANGE_MISMATCH,,Not implemented. This seems to be the same as  COORDINATE_UNCERTAINTY_METERS_INVALID.,,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/UNCERTAINTY_RANGE_MISMATCH
+UNKNOWN_COUNTRY_NAME,UNKNOWN_COUNTRY_NAME,,Replaced by COUNTRY_INVALID,,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/UNKNOWN_COUNTRY_NAME
+UNKNOWN_KINGDOM,UNKNOWN_KINGDOM,ALA,,Keep,dwc:Taxon,dwc:kingdom,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/UNKNOWN_KINGDOM
+UNRECOGNISED_COLLECTIONCODE,UNRECOGNISED_COLLECTIONCODE,,Not implemented.,,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/UNRECOGNISED_COLLECTIONCODE
+UNRECOGNISED_COLLECTION_CODE,UNRECOGNISED_COLLECTION_CODE,,Not implemented.,,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/UNRECOGNISED_COLLECTION_CODE
+UNRECOGNISED_INSTITUTIONCODE,UNRECOGNISED_INSTITUTIONCODE,,Not implemented.,,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/UNRECOGNISED_INSTITUTIONCODE
+UNRECOGNISED_INSTITUTION_CODE,UNRECOGNISED_INSTITUTION_CODE,,Not implemented.,,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/UNRECOGNISED_INSTITUTION_CODE
+UNRECOGNISED_TYPESTATUS,UNRECOGNISED_TYPESTATUS,,Replaced by TYPE_STATUS_INVALID,,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/UNRECOGNISED_TYPESTATUS
+ZERO_COORDINATE,ZERO_COORDINATE,GBIF,Active,Keep,dcterms:Location,"dwc:decimalLatitude, dwc:decimalLongitude, dwc:verbatimLatitude, dwc:verbatimLongitude, dwc:verbatimCoordinates",https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/ZERO_COORDINATE
+ZERO_COORDINATES,ZERO_COORDINATES,,Not implemented,,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/ZERO_COORDINATES
+ZERO_LATITUDE_COORDINATES,ZERO_LATITUDE_COORDINATES,,Not implemented,,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/ZERO_LATITUDE_COORDINATES
+ZERO_LONGITUDE_COORDINATES,ZERO_LONGITUDE_COORDINATES,,Not implemented,,,,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/ZERO_LONGITUDE_COORDINATES
