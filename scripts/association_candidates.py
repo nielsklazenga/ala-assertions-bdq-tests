@@ -113,11 +113,9 @@ with open(OUTPUT, "w", encoding="utf-8") as out:
         class_pairs = sorted(
             grouped[bdq_class],
             key=lambda p: (
-                len(p["connecting_terms"]),
                 p["ala_label"],
                 p["bdq_label"],
             ),
-            reverse=True,
         )
 
         for pair in class_pairs:
