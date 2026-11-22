@@ -119,7 +119,7 @@ Once those questions have been addressed and any resulting changes have been imp
 
 ---
 
-### Developing an Assertion Framework Alongside the BDQ Test Framework
+## Developing an Assertion Framework Alongside the BDQ Test Framework
 
 An important conclusion emerging from the comparison is that the BDQ Tests should not necessarily be treated as an external standard to which the existing ALA Assertions are mapped.
 
