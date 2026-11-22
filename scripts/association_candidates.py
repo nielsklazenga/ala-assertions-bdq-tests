@@ -1,95 +1,190 @@
+from collections import defaultdict
 from pathlib import Path
-import sys
 
 from lib.indexing import build_term_index
+
 
 ALA_DIR = "assertions"
 BDQ_DIR = "bdq_tests"
 
-OUTPUT = Path("reports/association_candidates.md")
+OUTPUT = Path("reports/candidate_mappings.md")
 OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+
+
+def display_terms(terms):
+    return ", ".join(
+        term.split(":")[-1]
+        for term in sorted(terms)
+    )
+
 
 ala_index = build_term_index(ALA_DIR)
 bdq_index = build_term_index(BDQ_DIR)
 
-all_keys = sorted(
-    set(ala_index.keys()) | set(bdq_index.keys())
-)
+pairs = {}
+
+shared_keys = set(ala_index.keys()) & set(bdq_index.keys())
+
+for (dwc_class, term) in sorted(shared_keys):
+
+    ala_assertions = ala_index[(dwc_class, term)]
+    bdq_tests = bdq_index[(dwc_class, term)]
+
+    for ala in ala_assertions:
+        for bdq in bdq_tests:
+
+            pair_key = (
+                ala["id"],
+                bdq["id"],
+            )
+
+            if pair_key not in pairs:
+
+                ala_terms = set(
+                    ala.get("dwc_terms", [])
+                )
+
+                bdq_terms = set(
+                    bdq.get("dwc_terms", [])
+                )
+
+                pairs[pair_key] = {
+                    "ala_label": ala["label"],
+                    "bdq_label": bdq["label"],
+                    "ala_terms": ala_terms,
+                    "bdq_terms": bdq_terms,
+                    "bdq_classes": set(
+                        bdq.get("dwc_class", [])
+                    ),
+                    "connecting_terms": set(),
+                }
+
+            pairs[pair_key]["connecting_terms"].add(term)
+
+
+for pair in pairs.values():
+
+    pair["ala_only_terms"] = (
+        pair["ala_terms"]
+        - pair["connecting_terms"]
+    )
+
+    pair["bdq_only_terms"] = (
+        pair["bdq_terms"]
+        - pair["connecting_terms"]
+    )
+
+
+grouped = defaultdict(list)
+
+for pair in pairs.values():
+
+    for bdq_class in pair["bdq_classes"]:
+        grouped[bdq_class].append(pair)
+
 
 with open(OUTPUT, "w", encoding="utf-8") as out:
 
-    out.write("# Candidate Associations\n\n")
+    out.write("# Candidate Mappings\n\n")
+
     out.write(
-        "Grouped by Darwin Core class and term acted on.\n\n"
+        "Potential ALA Assertion ↔ BDQ Test associations "
+        "grouped by BDQ class and based on shared Darwin Core terms.\n\n"
     )
 
-    current_class = None
+    for bdq_class in sorted(grouped):
 
-    for dwc_class, term in all_keys:
-
-        if dwc_class != current_class:
-            current_class = dwc_class
-            out.write(f"\n# {dwc_class}\n\n")
-
-        ala_assertions = ala_index.get((dwc_class, term), [])
-        bdq_tests = bdq_index.get((dwc_class, term), [])
-
-        out.write(f"## {term}\n\n")
+        out.write(f"## {bdq_class}\n\n")
 
         out.write(
-            f"ALA assertions: {len(ala_assertions)}  \n"
+            "| ALA Assertion | BDQ Test | "
+            "Connecting Terms | "
+            "ALA-only Terms | "
+            "BDQ-only Terms |\n"
         )
+
         out.write(
-            f"BDQ tests: {len(bdq_tests)}\n\n"
+            "|---------------|----------|"
+            "------------------|"
+            "----------------|"
+            "----------------|\n"
         )
 
-        out.write("### ALA Assertions\n\n")
+        class_pairs = sorted(
+            grouped[bdq_class],
+            key=lambda p: (
+                len(p["connecting_terms"]),
+                p["ala_label"],
+                p["bdq_label"],
+            ),
+            reverse=True,
+        )
 
-        if ala_assertions:
-            out.write("| Assertion | Status | Recommendation |\n")
-            out.write("|-----------|--------|----------------|\n")
+        for pair in class_pairs:
 
-            for assertion in sorted(
-                ala_assertions,
-                key=lambda r: r.get("label", "")
-            ):
-                out.write(
-                    "| {label} | {status} | {recommendation} |\n".format(
-                        label=assertion.get("label", ""),
-                        status=assertion.get("status", ""),
-                        recommendation=assertion.get("recommendation", ""),
-                    )
+            out.write(
+                "| {ala} | {bdq} | "
+                "{connecting} | "
+                "{ala_only} | "
+                "{bdq_only} |\n".format(
+                    ala=pair["ala_label"],
+                    bdq=pair["bdq_label"],
+                    connecting=display_terms(
+                        pair["connecting_terms"]
+                    ),
+                    ala_only=display_terms(
+                        pair["ala_only_terms"]
+                    ),
+                    bdq_only=display_terms(
+                        pair["bdq_only_terms"]
+                    ),
                 )
-        else:
-            out.write("_None_\n")
+            )
 
         out.write("\n")
 
-        out.write("### BDQ Tests\n\n")
-
-        if bdq_tests:
-            out.write("| Test | Description |\n")
-            out.write("|------|-------------|\n")
-
-            for test in sorted(
-                bdq_tests,
-                key=lambda r: r.get("label", "")
-            ):
-                description = (
-                    test.get("description", "")
-                    .replace("\n", " ")
-                    .replace("|", "\\|")
-                )
-
-                out.write(
-                    "| {label} | {description} |\n".format(
-                        label=test.get("label", ""),
-                        description=description,
-                    )
-                )
-        else:
-            out.write("_None_\n")
-
-        out.write("\n---\n\n")
-
 print(f"Wrote {OUTPUT}")
+
+import pandas as pd
+
+rows = []
+
+for bdq_class in sorted(grouped):
+
+    class_pairs = sorted(
+        grouped[bdq_class],
+        key=lambda p: (
+            p["ala_label"],
+            p["bdq_label"],
+        ),
+    )
+
+    for pair in class_pairs:
+
+        rows.append(
+            {
+                "BDQ Class": bdq_class,
+                "ALA Assertion": pair["ala_label"],
+                "BDQ Test": pair["bdq_label"],
+                "Connecting Terms": display_terms(
+                    pair["connecting_terms"]
+                ),
+                "ALA-only Terms": display_terms(
+                    pair["ala_only_terms"]
+                ),
+                "BDQ-only Terms": display_terms(
+                    pair["bdq_only_terms"]
+                ),
+            }
+        )
+
+df = pd.DataFrame(rows)
+
+excel_file = "reports/candidate_mappings.xlsx"
+
+df.to_excel(
+    excel_file,
+    index=False,
+)
+
+print("Wrote ", excel_file)
