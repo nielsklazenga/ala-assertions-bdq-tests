@@ -116,3 +116,99 @@ At the current stage, the priority is understanding:
 - opportunities for improving assertion design.
 
 Once those questions have been addressed and any resulting changes have been implemented, SSSOM mappings can provide a useful mechanism for formally documenting and exchanging the resulting relationships.
+
+---
+
+### Developing an Assertion Framework Alongside the BDQ Test Framework
+
+An important conclusion emerging from the comparison is that the BDQ Tests should not necessarily be treated as an external standard to which the existing ALA Assertions are mapped.
+
+The analysis suggests a more productive approach:
+
+1. Review the BDQ Tests grouped by Darwin Core class and term.
+2. Develop an assertion framework that complements the BDQ Test Framework and represents the data quality issues identified by those tests.
+3. Implement those assertions directly.
+4. Deprecate existing ALA (and inherited GBIF) assertions where they no longer represent the preferred model.
+5. Record the relationships between deprecated and replacement assertions using the provenance vocabulary rather than a mapping vocabulary.
+
+This approach aligns with the distinction identified earlier between validation-oriented and issue-oriented modelling.
+
+The BDQ Framework is primarily concerned with asking questions such as:
+
+> Is this value valid?
+
+> Is this field populated?
+
+> Is this information internally consistent?
+
+The ALA Assertion Framework should focus on the complementary question:
+
+> What data quality issue has been detected?
+
+Under this approach, BDQ Tests and ALA Assertions are not alternative implementations of the same concepts. Instead, they form two related layers within a broader data quality framework:
+
+```text
+BDQ Tests
+    ↓
+Validation outcomes
+    ↓
+ALA Assertions
+    ↓
+Data quality issues
+```
+
+The report:
+
+```text
+reports/bdq_by_class_and_term.md
+```
+
+is particularly valuable because it provides a structured view of the validation concepts covered by the BDQ Standard and therefore provides a starting point for designing a corresponding assertion framework.
+
+This approach has several advantages:
+
+- It treats the BDQ Standard as the primary validation framework.
+- It recognises that assertions and validations serve different purposes.
+- It allows compound assertions to be replaced by more granular assertions derived from BDQ validations.
+- It avoids preserving legacy assertion structures merely because they already exist.
+- It provides a clearer separation between validation outcomes and data quality issues.
+
+For example, rather than mapping:
+
+```text
+COUNTRY_COORDINATE_MISMATCH
+```
+
+to one or more BDQ Tests, it may be preferable to replace it with a set of more focused assertions derived from the relevant BDQ validations.
+
+In this scenario, the important relationship is not:
+
+```text
+old assertion
+    skos:relatedMatch
+new assertion
+```
+
+but:
+
+```text
+old assertion
+    dcterms:replaces
+new assertion
+```
+
+or the inverse:
+
+```text
+new assertion
+    dcterms:isReplacedBy
+old assertion
+```
+
+The goal is therefore not simply to map the existing ALA Assertions to the BDQ Standard, but to develop an assertion framework that sits alongside the BDQ Test Framework and expresses the data quality issues identified through validation.
+
+Formal mappings such as SSSOM mappings become most useful after the new assertions have been designed and implemented. At that point they can document relationships between concepts, whereas the current review is primarily concerned with improving the underlying assertion model itself.
+
+In summary:
+
+> We should implement the standard, not map the implementation to the standard.
