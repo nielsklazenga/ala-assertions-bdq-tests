@@ -3,7 +3,7 @@ from pathlib import Path
 
 import yaml
 
-INPUT_DIR = Path("mappings")
+INPUT_DIR = Path("bdq_tests")
 OUTPUT = Path("reports/bdq_by_class_and_term.md")
 
 OUTPUT.parent.mkdir(parents=True, exist_ok=True)

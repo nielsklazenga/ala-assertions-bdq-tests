@@ -4,7 +4,7 @@ import pandas as pd
 import yaml
 
 INPUT = "data/bdqtest_term_versions.csv"
-OUTPUT_DIR = Path("mappings")
+OUTPUT_DIR = Path("bdq_tests")
 
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
