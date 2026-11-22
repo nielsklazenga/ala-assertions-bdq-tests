@@ -1,9 +1,9 @@
 id: OCCURRENCE_STATUS_UNPARSABLE
 label: OCCURRENCE_STATUS_UNPARSABLE
 dwc_class:
-- Occurrence
+- dwc:Occurrence
 dwc_terms:
-- occurrenceStatus
+- dwc:occurrenceStatus
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/OCCURRENCE_STATUS_UNPARSABLE
 github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+OCCURRENCE_STATUS_UNPARSABLE&type=code
 count: '384.0'

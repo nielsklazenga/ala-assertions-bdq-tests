@@ -3,10 +3,10 @@ label: COORDINATES_CENTRE_OF_COUNTRY
 dwc_class:
 - dcterms:Location
 dwc_terms:
-- country
-- decimalLatitude
-- decimalLongitude
-- verbatimLatitude
+- dwc:country
+- dwc:decimalLatitude
+- dwc:decimalLongitude
+- dwc:verbatimLatitude
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COORDINATES_CENTRE_OF_COUNTRY
 github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+COORDINATES_CENTRE_OF_COUNTRY&type=code
 count: '3585.0'

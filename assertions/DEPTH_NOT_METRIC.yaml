@@ -3,8 +3,8 @@ label: DEPTH_NOT_METRIC
 dwc_class:
 - dcterms:Location
 dwc_terms:
-- minimumDepthInMeters
-- maximumDepthInMeters
+- dwc:minimumDepthInMeters
+- dwc:maximumDepthInMeters
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/DEPTH_NOT_METRIC
 github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+DEPTH_NOT_METRIC&type=code
 count: '1.0'

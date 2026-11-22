@@ -1,9 +1,9 @@
 id: MISSING_TAXONRANK
 label: MISSING_TAXONRANK
 dwc_class:
-- Taxon
+- dwc:Taxon
 dwc_terms:
-- taxonRank
+- dwc:taxonRank
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MISSING_TAXONRANK
 github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+MISSING_TAXONRANK&type=code
 count: '40411927.0'

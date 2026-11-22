@@ -3,8 +3,8 @@ label: PRESUMED_SWAPPED_COORDINATE
 dwc_class:
 - dcterms:Location
 dwc_terms:
-- decimalLatitude
-- decimalLongitude
+- dwc:decimalLatitude
+- dwc:decimalLongitude
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/PRESUMED_SWAPPED_COORDINATE
 github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+PRESUMED_SWAPPED_COORDINATE&type=code
 count: '6655.0'

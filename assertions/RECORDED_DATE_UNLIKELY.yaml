@@ -1,14 +1,14 @@
 id: RECORDED_DATE_UNLIKELY
 label: RECORDED_DATE_UNLIKELY
 dwc_class:
-- Event
+- dwc:Event
 dwc_terms:
-- eventDate
-- year
-- month
-- day
-- startDayOfYear
-- endDayOfYear
+- dwc:eventDate
+- dwc:year
+- dwc:month
+- dwc:day
+- dwc:startDayOfYear
+- dwc:endDayOfYear
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/RECORDED_DATE_UNLIKELY
 github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+RECORDED_DATE_UNLIKELY&type=code
 count: '256440.0'

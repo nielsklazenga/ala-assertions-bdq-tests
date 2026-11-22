@@ -1,15 +1,13 @@
 id: TAXON_MATCH_AGGREGATE
 label: TAXON_MATCH_AGGREGATE
 dwc_class:
-- Taxon
+- dwc:Taxon
 dwc_terms:
-- scientificName
+- dwc:scientificName
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_MATCH_AGGREGATE
 github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+TAXON_MATCH_AGGREGATE&type=code
 status: Ostensibly unused
 ala:
-  assertion_logic: Matching is done at the species level, but the provided identification
-    indicates a species aggregate (presumably though 's.l.' or 'agg.' suffixes), meaning
-    too precise a match.
+  assertion_logic: Matching is done at the species level, but the provided identification indicates a species aggregate (presumably though 's.l.' or 'agg.' suffixes), meaning too precise a match.
 recommendation: Keep
 actions: This is a useful test, so we should have it.

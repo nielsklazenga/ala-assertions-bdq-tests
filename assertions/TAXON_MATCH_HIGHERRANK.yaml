@@ -1,15 +1,15 @@
 id: TAXON_MATCH_HIGHERRANK
 label: TAXON_MATCH_HIGHERRANK
 dwc_class:
-- Taxon
+- dwc:Taxon
 dwc_terms:
-- scientificName
-- kingdom
-- phylum
-- class
-- order
-- family
-- genus
+- dwc:scientificName
+- dwc:kingdom
+- dwc:phylum
+- dwc:class
+- dwc:order
+- dwc:family
+- dwc:genus
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_MATCH_HIGHERRANK
 github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+TAXON_MATCH_HIGHERRANK&type=code
 count: '9813658.0'
@@ -17,12 +17,10 @@ status: Active
 gbif:
   class_asserted_in: TaxonomyInterpreter
   method_asserted_by: matchTaxon
-  assertion_logic: Name could not be matched to a taxon of the same rank, so is matched
-    to a higher taxon, base on the other taxonomic information provided.
+  assertion_logic: Name could not be matched to a taxon of the same rank, so is matched to a higher taxon, base on the other taxonomic information provided.
 ala:
   class_asserted_in: ALATaxonomyInterpreter
   method_asserted_by: alaResultQualityChecks
-  assertion_logic: Name could not be matched to a taxon of the same rank, so is matched
-    to a higher taxon, base on the other taxonomic information provided.
+  assertion_logic: Name could not be matched to a taxon of the same rank, so is matched to a higher taxon, base on the other taxonomic information provided.
 recommendation: Keep
 actions: No action required

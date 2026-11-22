@@ -1,12 +1,12 @@
 id: MISSING_COLLECTION_DATE
 label: MISSING_COLLECTION_DATE
 dwc_class:
-- Event
+- dwc:Event
 dwc_terms:
-- eventDate
-- year
-- month
-- day
+- dwc:eventDate
+- dwc:year
+- dwc:month
+- dwc:day
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MISSING_COLLECTION_DATE
 github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+MISSING_COLLECTION_DATE&type=code
 count: '4035164.0'

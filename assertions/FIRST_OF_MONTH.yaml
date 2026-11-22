@@ -1,12 +1,12 @@
 id: FIRST_OF_MONTH
 label: FIRST_OF_MONTH
 dwc_class:
-- Event
+- dwc:Event
 dwc_terms:
-- eventDate
-- year
-- month
-- day
+- dwc:eventDate
+- dwc:year
+- dwc:month
+- dwc:day
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/FIRST_OF_MONTH
 github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+FIRST_OF_MONTH&type=code
 count: '8296090.0'

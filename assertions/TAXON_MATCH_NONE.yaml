@@ -1,15 +1,15 @@
 id: TAXON_MATCH_NONE
 label: TAXON_MATCH_NONE
 dwc_class:
-- Taxon
+- dwc:Taxon
 dwc_terms:
-- scientificName
-- kingdom
-- phylum
-- class
-- order
-- family
-- genus
+- dwc:scientificName
+- dwc:kingdom
+- dwc:phylum
+- dwc:class
+- dwc:order
+- dwc:family
+- dwc:genus
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_MATCH_NONE
 github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+TAXON_MATCH_NONE&type=code
 count: '750876.0'

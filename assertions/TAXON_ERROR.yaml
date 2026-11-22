@@ -1,9 +1,9 @@
 id: TAXON_ERROR
 label: TAXON_ERROR
 dwc_class:
-- Taxon
+- dwc:Taxon
 dwc_terms:
-- scientificName
+- dwc:scientificName
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_ERROR
 github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+TAXON_ERROR&type=code
 count: '644.0'

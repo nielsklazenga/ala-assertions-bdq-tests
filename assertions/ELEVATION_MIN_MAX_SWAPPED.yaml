@@ -3,8 +3,8 @@ label: ELEVATION_MIN_MAX_SWAPPED
 dwc_class:
 - dcterms:Location
 dwc_terms:
-- minimumElevationInMeters
-- maximumElevationInMeters
+- dwc:minimumElevationInMeters
+- dwc:maximumElevationInMeters
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/ELEVATION_MIN_MAX_SWAPPED
 github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+ELEVATION_MIN_MAX_SWAPPED&type=code
 count: '9580.0'

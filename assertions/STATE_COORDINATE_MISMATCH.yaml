@@ -1,21 +1,20 @@
 id: STATE_COORDINATE_MISMATCH
 label: STATE_COORDINATE_MISMATCH
 dwc_class:
-- Location
+- dcterms:Location
 dwc_terms:
-- stateProvince
-- decimalLatitude
-- decimalLongitude
-- verbatimLatitude
-- verbatimLongitude
-- verbatimCoordinates
+- dwc:stateProvince
+- dwc:decimalLatitude
+- dwc:decimalLongitude
+- dwc:verbatimLatitude
+- dwc:verbatimLongitude
+- dwc:verbatimCoordinates
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/STATE_COORDINATE_MISMATCH
 github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+STATE_COORDINATE_MISMATCH&type=code
 count: '932957.0'
 ala:
   class_asserted_in: ALALocationInterpreter
   method_asserted_by: verifyLocationInfo
-  assertion_logic: stateProvince retrieved using the coordinates is different from
-    the provided stateProvince
+  assertion_logic: stateProvince retrieved using the coordinates is different from the provided stateProvince
 recommendation: Keep
 actions: No action required

@@ -3,7 +3,7 @@ label: FOOTPRINT_WKT_INVALID
 dwc_class:
 - dcterms:Location
 dwc_terms:
-- footprintWKT
+- dwc:footprintWKT
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/FOOTPRINT_WKT_INVALID
 github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+FOOTPRINT_WKT_INVALID&type=code
 count: '2202700.0'

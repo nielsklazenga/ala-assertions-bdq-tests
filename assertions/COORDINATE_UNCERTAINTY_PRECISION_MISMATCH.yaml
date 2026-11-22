@@ -4,7 +4,7 @@ dwc_class:
 - dcterms:Location
 dwc_terms:
 - coordinatePrecision
-- coordinateUncertaintyInMeters
+- dwc:coordinateUncertaintyInMeters
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COORDINATE_UNCERTAINTY_PRECISION_MISMATCH
 github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+COORDINATE_UNCERTAINTY_PRECISION_MISMATCH&type=code
 status: Deprecated

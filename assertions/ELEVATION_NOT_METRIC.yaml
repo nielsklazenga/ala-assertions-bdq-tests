@@ -3,14 +3,13 @@ label: ELEVATION_NOT_METRIC
 dwc_class:
 - dcterms:Location
 dwc_terms:
-- minimumElevationInMeters
-- maximumElevationInMeters
+- dwc:minimumElevationInMeters
+- dwc:maximumElevationInMeters
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/ELEVATION_NOT_METRIC
 github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+ELEVATION_NOT_METRIC&type=code
 count: '4.0'
 status: Active
 gbif:
   class_asserted_in: '?'
-  assertion_logic: Value provided for minimumElevationInMeters or maxiumumElevationInMeters
-    is not metric (might be sexagesimal)
+  assertion_logic: Value provided for minimumElevationInMeters or maxiumumElevationInMeters is not metric (might be sexagesimal)
 recommendation: Keep

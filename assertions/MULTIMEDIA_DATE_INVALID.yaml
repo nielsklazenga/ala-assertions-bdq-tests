@@ -1,7 +1,7 @@
 id: MULTIMEDIA_DATE_INVALID
 label: MULTIMEDIA_DATE_INVALID
 dwc_class:
-- Occurrence
+- dwc:Occurrence
 dwc_terms:
 - associatedMedia
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MULTIMEDIA_DATE_INVALID

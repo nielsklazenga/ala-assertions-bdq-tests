@@ -2,10 +2,10 @@ id: SENSITIVITY_REPORT_INVALID
 label: SENSITIVITY_REPORT_INVALID
 dwc_class:
 - dcterms:Location
-- Taxon
+- dwc:Taxon
 dwc_terms:
-- stateProvince
-- scientificName
+- dwc:stateProvince
+- dwc:scientificName
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/SENSITIVITY_REPORT_INVALID
 github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+SENSITIVITY_REPORT_INVALID&type=code
 count: '66599.0'

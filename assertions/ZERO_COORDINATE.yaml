@@ -3,11 +3,11 @@ label: ZERO_COORDINATE
 dwc_class:
 - dcterms:Location
 dwc_terms:
-- decimalLatitude
-- decimalLongitude
-- verbatimLatitude
-- verbatimLongitude
-- verbatimCoordinates
+- dwc:decimalLatitude
+- dwc:decimalLongitude
+- dwc:verbatimLatitude
+- dwc:verbatimLongitude
+- dwc:verbatimCoordinates
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/ZERO_COORDINATE
 github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+ZERO_COORDINATE&type=code
 count: '2628.0'

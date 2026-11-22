@@ -3,7 +3,7 @@ label: PRESUMED_NEGATED_LATITUDE
 dwc_class:
 - dcterms:Location
 dwc_terms:
-- decimalLatitude
+- dwc:decimalLatitude
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/PRESUMED_NEGATED_LATITUDE
 github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+PRESUMED_NEGATED_LATITUDE&type=code
 count: '12337.0'
@@ -11,7 +11,6 @@ status: Active
 gbif:
   class_asserted_in: CoordinatesFunction
   method_asserted_by: getIssueTypes
-  assertion_logic: The value for latitude has probably been negated, e.g., by forgetting
-    to add the '-' for Southern Hemisphere latitudes.
+  assertion_logic: The value for latitude has probably been negated, e.g., by forgetting to add the '-' for Southern Hemisphere latitudes.
 recommendation: Keep
 actions: No action required

@@ -3,7 +3,7 @@ label: GEODETIC_DATUM_INVALID
 dwc_class:
 - dcterms:Location
 dwc_terms:
-- geodeticDatum
+- dwc:geodeticDatum
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/GEODETIC_DATUM_INVALID
 github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+GEODETIC_DATUM_INVALID&type=code
 count: '1312188.0'

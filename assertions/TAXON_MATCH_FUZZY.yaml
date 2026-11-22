@@ -1,9 +1,9 @@
 id: TAXON_MATCH_FUZZY
 label: TAXON_MATCH_FUZZY
 dwc_class:
-- Taxon
+- dwc:Taxon
 dwc_terms:
-- scientificName
+- dwc:scientificName
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_MATCH_FUZZY
 github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+TAXON_MATCH_FUZZY&type=code
 count: '1539525.0'
@@ -11,14 +11,10 @@ status: Active
 gbif:
   class_asserted_in: TaxonomyInterpreter
   method_asserted_by: matchTaxon
-  assertion_logic: Taxon match is based on a fuzzy, so not exact, match of the name.
-    This means that if the match is correct there must be a spelling error in the
-    provided name.
+  assertion_logic: Taxon match is based on a fuzzy, so not exact, match of the name. This means that if the match is correct there must be a spelling error in the provided name.
 ala:
   class_asserted_in: ALATaxonomyInterpreter
   method_asserted_by: alaResultQualityChecks
-  assertion_logic: Taxon match is based on a fuzzy, so not exact, match of the name.
-    This means that if the match is correct there must be a spelling error in the
-    provided name.
+  assertion_logic: Taxon match is based on a fuzzy, so not exact, match of the name. This means that if the match is correct there must be a spelling error in the provided name.
 recommendation: Keep
 actions: No action required

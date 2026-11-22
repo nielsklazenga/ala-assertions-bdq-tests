@@ -1,18 +1,15 @@
 id: TAXON_EXCLUDED_ASSOCIATED
 label: TAXON_EXCLUDED_ASSOCIATED
 dwc_class:
-- Taxon
+- dwc:Taxon
 dwc_terms:
-- scientificName
+- dwc:scientificName
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_EXCLUDED_ASSOCIATED
 github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+TAXON_EXCLUDED_ASSOCIATED&type=code
 status: Ostensibly unused
 ala:
   class_asserted_in: ALATaxonomyInterpreter
   method_asserted_by: ISSUE_MAP
-  assertion_logic: The taxon name supplied with a record has been matched to a taxon
-    that is not known to occur in Australia, but can be matched to an Australian taxon
-    because of information provided by the name authorities.
+  assertion_logic: The taxon name supplied with a record has been matched to a taxon that is not known to occur in Australia, but can be matched to an Australian taxon because of information provided by the name authorities.
 recommendation: Keep
-actions: Find out why this assertion is never made, as there are lots of records to
-  which this applies.
+actions: Find out why this assertion is never made, as there are lots of records to which this applies.

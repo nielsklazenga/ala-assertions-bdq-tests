@@ -3,9 +3,9 @@ label: CONTINENT_COORDINATE_MISMATCH
 dwc_class:
 - dcterms:Location
 dwc_terms:
-- continent
-- decimalLongitude
-- decimalLatitude
+- dwc:continent
+- dwc:decimalLongitude
+- dwc:decimalLatitude
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/CONTINENT_COORDINATE_MISMATCH
 github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+CONTINENT_COORDINATE_MISMATCH&type=code
 count: '4408990.0'
@@ -13,7 +13,6 @@ status: Active
 gbif:
   class_asserted_in: ContinentParser
   method_asserted_by: parseContinent
-  assertion_logic: Lookup. Coordinates land the record in a different continent than
-    the value for `continent` indicates.
+  assertion_logic: Lookup. Coordinates land the record in a different continent than the value for `continent` indicates.
 recommendation: Keep
 actions: No action required.

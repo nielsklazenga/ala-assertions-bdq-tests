@@ -3,7 +3,7 @@ label: CONTINENT_INVALID
 dwc_class:
 - dcterms:Location
 dwc_terms:
-- continent
+- dwc:continent
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/CONTINENT_INVALID
 github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+CONTINENT_INVALID&type=code
 count: '97796.0'

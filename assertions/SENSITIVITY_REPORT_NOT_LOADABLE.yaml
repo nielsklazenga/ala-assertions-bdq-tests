@@ -2,10 +2,10 @@ id: SENSITIVITY_REPORT_NOT_LOADABLE
 label: SENSITIVITY_REPORT_NOT_LOADABLE
 dwc_class:
 - dcterms:Location
-- Taxon
+- dwc:Taxon
 dwc_terms:
-- stateProvince
-- scientificName
+- dwc:stateProvince
+- dwc:scientificName
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/SENSITIVITY_REPORT_NOT_LOADABLE
 github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+SENSITIVITY_REPORT_NOT_LOADABLE&type=code
 count: '66599.0'
@@ -13,7 +13,6 @@ status: Active
 ala:
   class_asserted_in: SensitiveDataInterpreter
   method_asserted_by: sensitiveDataInterpreter
-  assertion_logic: Sensitivity rules for the taxon at the locality could not be loaded,
-    perhaps due to unavailability of the SDS.
+  assertion_logic: Sensitivity rules for the taxon at the locality could not be loaded, perhaps due to unavailability of the SDS.
 recommendation: Keep
 actions: No action required

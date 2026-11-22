@@ -3,13 +3,12 @@ label: ELEVATION_UNLIKELY
 dwc_class:
 - dcterms:Location
 dwc_terms:
-- minimumElevationInMeters
-- maximumElevationInMeters
+- dwc:minimumElevationInMeters
+- dwc:maximumElevationInMeters
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/ELEVATION_UNLIKELY
 github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+ELEVATION_UNLIKELY&type=code
 status: Unused
 gbif:
   class_asserted_in: https://github.com/gbif/gbif-api/blob/master/src/main/java/org/gbif/api/vocabulary/OccurrenceIssue.java
-  assertion_logic: Set if elevation is above the troposphere (17km) or below 11km
-    (Mariana Trench).
+  assertion_logic: Set if elevation is above the troposphere (17km) or below 11km (Mariana Trench).
 recommendation: Keep

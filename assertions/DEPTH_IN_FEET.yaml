@@ -3,8 +3,8 @@ label: DEPTH_IN_FEET
 dwc_class:
 - dcterms:Location
 dwc_terms:
-- minimumDepthInMeters
-- maximumDepthInMeters
+- dwc:minimumDepthInMeters
+- dwc:maximumDepthInMeters
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/DEPTH_IN_FEET
 github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+DEPTH_IN_FEET&type=code
 status: Not implemented

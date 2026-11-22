@@ -3,8 +3,8 @@ label: COUNTRY_DERIVED_FROM_COORDINATES
 dwc_class:
 - dcterms:Location
 dwc_terms:
-- decimalLatitude
-- decimalLongitude
+- dwc:decimalLatitude
+- dwc:decimalLongitude
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COUNTRY_DERIVED_FROM_COORDINATES
 github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+COUNTRY_DERIVED_FROM_COORDINATES&type=code
 count: '19946786.0'
@@ -12,7 +12,6 @@ status: Active
 gbif:
   class_asserted_in: LocationMatcher
   method_asserted_by: applyWithoutCountry
-  assertion_logic: '`country` is not provided, but `decimalLatitude` and `decimalLongitude`
-    are.'
+  assertion_logic: '`country` is not provided, but `decimalLatitude` and `decimalLongitude` are.'
 recommendation: Keep
 actions: No action required.

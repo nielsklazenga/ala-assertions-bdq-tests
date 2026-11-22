@@ -1,9 +1,9 @@
 id: TAXON_DEFAULT_MATCH
 label: TAXON_DEFAULT_MATCH
 dwc_class:
-- Taxon
+- dwc:Taxon
 dwc_terms:
-- scientificName
+- dwc:scientificName
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_DEFAULT_MATCH
 github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+TAXON_DEFAULT_MATCH&type=code
 count: '87907.0'
@@ -11,7 +11,6 @@ status: Active
 ala:
   class_asserted_in: ALATaxonomyInterpreter
   method_asserted_by: alaResultQualityChecks
-  assertion_logic: Check whether the matched taxon matches a supplied default name
-    (I presume this is a default in a Darwin Core Archive).
+  assertion_logic: Check whether the matched taxon matches a supplied default name (I presume this is a default in a Darwin Core Archive).
 recommendation: Keep
 actions: No action required

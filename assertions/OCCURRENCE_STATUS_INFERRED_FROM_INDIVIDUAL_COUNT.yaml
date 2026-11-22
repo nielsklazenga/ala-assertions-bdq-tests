@@ -1,10 +1,10 @@
 id: OCCURRENCE_STATUS_INFERRED_FROM_INDIVIDUAL_COUNT
 label: OCCURRENCE_STATUS_INFERRED_FROM_INDIVIDUAL_COUNT
 dwc_class:
-- Occurrence
+- dwc:Occurrence
 dwc_terms:
 - individualCount
-- occurrenceStatus
+- dwc:occurrenceStatus
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/OCCURRENCE_STATUS_INFERRED_FROM_INDIVIDUAL_COUNT
 github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+OCCURRENCE_STATUS_INFERRED_FROM_INDIVIDUAL_COUNT&type=code
 count: '1797103.0'
@@ -12,7 +12,6 @@ status: Active
 gbif:
   class_asserted_in: BasicInterpreter
   method_asserted_by: interpretOccurrenceStatus
-  assertion_logic: occurrenceStatus is 'absent' if indivudualCount is 0 and 'present'
-    if individualCount is greater than 0.
+  assertion_logic: occurrenceStatus is 'absent' if indivudualCount is 0 and 'present' if individualCount is greater than 0.
 recommendation: Keep
 actions: No action required

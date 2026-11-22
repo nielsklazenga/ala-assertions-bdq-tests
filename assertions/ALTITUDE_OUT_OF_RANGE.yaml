@@ -3,8 +3,8 @@ label: ALTITUDE_OUT_OF_RANGE
 dwc_class:
 - dcterms:Location
 dwc_terms:
-- minimumElevationInMeters
-- maximumElevationInMeters
+- dwc:minimumElevationInMeters
+- dwc:maximumElevationInMeters
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/ALTITUDE_OUT_OF_RANGE
 github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+ALTITUDE_OUT_OF_RANGE&type=code
 status: Not implemented

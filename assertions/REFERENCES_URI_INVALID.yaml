@@ -1,8 +1,8 @@
 id: REFERENCES_URI_INVALID
 label: REFERENCES_URI_INVALID
 dwc_class:
-- Occurrence
-- Identification
+- dwc:Occurrence
+- dwc:Identification
 dwc_terms:
 - associatedReferences
 - identificationReferences

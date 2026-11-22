@@ -1,7 +1,7 @@
 id: MISSING_IDENTIFICATIONQUALIFIER
 label: MISSING_IDENTIFICATIONQUALIFIER
 dwc_class:
-- Taxon
+- dwc:Taxon
 dwc_terms:
 - identificationQualifier
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MISSING_IDENTIFICATIONQUALIFIER

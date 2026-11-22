@@ -1,7 +1,7 @@
 id: MISSING_IDENTIFICATIONREFERENCES
 label: MISSING_IDENTIFICATIONREFERENCES
 dwc_class:
-- Taxon
+- dwc:Taxon
 dwc_terms:
 - identificationReferences
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MISSING_IDENTIFICATIONREFERENCES

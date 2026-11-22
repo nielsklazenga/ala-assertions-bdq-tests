@@ -1,10 +1,11 @@
 id: ALTITUDE_IN_FEET
 label: ALTITUDE_IN_FEET
 dwc_class:
-- dcterms:Location
+- Record Level
+- EML
 dwc_terms:
-- minimumElevationInMeters
-- maximumElevationInMeters
+- dwc:minimumElevationInMeters
+- dwc:maximumElevationInMeters
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/ALTITUDE_IN_FEET
 github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+ALTITUDE_IN_FEET&type=code
 status: Not implemented

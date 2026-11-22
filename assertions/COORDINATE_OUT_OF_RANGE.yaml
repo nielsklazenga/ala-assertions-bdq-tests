@@ -3,10 +3,10 @@ label: COORDINATE_OUT_OF_RANGE
 dwc_class:
 - dcterms:Location
 dwc_terms:
-- decimalLatitude
-- decimalLongitude
-- verbatimLatitude
-- verbatimLongitude
+- dwc:decimalLatitude
+- dwc:decimalLongitude
+- dwc:verbatimLatitude
+- dwc:verbatimLongitude
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COORDINATE_OUT_OF_RANGE
 github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+COORDINATE_OUT_OF_RANGE&type=code
 count: '1259.0'

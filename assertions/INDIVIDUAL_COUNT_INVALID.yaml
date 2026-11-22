@@ -1,10 +1,10 @@
 id: INDIVIDUAL_COUNT_INVALID
 label: INDIVIDUAL_COUNT_INVALID
 dwc_class:
-- Occurrence
+- dwc:Occurrence
 dwc_terms:
 - individualCount
-- occurrenceStatus
+- dwc:occurrenceStatus
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/INDIVIDUAL_COUNT_INVALID
 github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+INDIVIDUAL_COUNT_INVALID&type=code
 count: '2123039.0'

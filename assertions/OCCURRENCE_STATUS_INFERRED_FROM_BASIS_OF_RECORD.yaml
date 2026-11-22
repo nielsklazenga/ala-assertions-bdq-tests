@@ -1,11 +1,11 @@
 id: OCCURRENCE_STATUS_INFERRED_FROM_BASIS_OF_RECORD
 label: OCCURRENCE_STATUS_INFERRED_FROM_BASIS_OF_RECORD
 dwc_class:
-- Record level
-- Occurrence
+- Record Level
+- dwc:Occurrence
 dwc_terms:
-- basisOfRecord
-- occurrenceStatus
+- dwc:basisOfRecord
+- dwc:occurrenceStatus
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/OCCURRENCE_STATUS_INFERRED_FROM_BASIS_OF_RECORD
 github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+OCCURRENCE_STATUS_INFERRED_FROM_BASIS_OF_RECORD&type=code
 count: '1200.0'

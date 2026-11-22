@@ -3,6 +3,7 @@ from pathlib import Path
 import pandas as pd
 import yaml
 
+from lib.indexing import build_term_map, qualify_terms
 
 INPUT_FILE = "data/ala-data-quality-assertions-code-review.xlsx"
 OUTPUT_DIR = Path("assertions")

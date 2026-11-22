@@ -1,9 +1,9 @@
 id: TAXON_PARENT_CHILD_SYNONYM
 label: TAXON_PARENT_CHILD_SYNONYM
 dwc_class:
-- Taxon
+- dwc:Taxon
 dwc_terms:
-- scientificName
+- dwc:scientificName
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_PARENT_CHILD_SYNONYM
 github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+TAXON_PARENT_CHILD_SYNONYM&type=code
 count: '16744326.0'
@@ -11,7 +11,6 @@ status: Active
 ala:
   class_asserted_in: ALATaxonomyInterpreter
   method_asserted_by: ISSUE_MAP
-  assertion_logic: The supplied name can be matched either onto the parent species
-    or a type subspecies (or variety presumably).
+  assertion_logic: The supplied name can be matched either onto the parent species or a type subspecies (or variety presumably).
 recommendation: Remove
 actions: This is just silly. They are completely different name strings.

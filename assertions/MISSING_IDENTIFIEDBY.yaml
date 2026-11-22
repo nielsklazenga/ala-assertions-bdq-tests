@@ -1,7 +1,7 @@
 id: MISSING_IDENTIFIEDBY
 label: MISSING_IDENTIFIEDBY
 dwc_class:
-- Identification
+- dwc:Identification
 dwc_terms:
 - identifiedBy
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MISSING_IDENTIFIEDBY

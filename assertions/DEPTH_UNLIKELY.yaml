@@ -3,8 +3,8 @@ label: DEPTH_UNLIKELY
 dwc_class:
 - dcterms:Location
 dwc_terms:
-- minimumDepthInMeters
-- maximumDepthInMeters
+- dwc:minimumDepthInMeters
+- dwc:maximumDepthInMeters
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/DEPTH_UNLIKELY
 github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+DEPTH_UNLIKELY&type=code
 count: '5789.0'

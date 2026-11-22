@@ -1,9 +1,9 @@
 id: TAXON_MISAPPLIED
 label: TAXON_MISAPPLIED
 dwc_class:
-- Taxon
+- dwc:Taxon
 dwc_terms:
-- scientificName
+- dwc:scientificName
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_MISAPPLIED
 github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+TAXON_MISAPPLIED&type=code
 status: Unused
@@ -11,5 +11,4 @@ ala:
   class_asserted_in: ALATaxonomyInterpreter
   method_asserted_by: ISSUE_MAP
   assertion_logic: Provided name is involved in misapplication.
-actions: This test is not needed if we make sure that misapplications do not make
-  it into the ALA taxonomy.
+actions: This test is not needed if we make sure that misapplications do not make it into the ALA taxonomy.

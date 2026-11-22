@@ -3,7 +3,7 @@ label: CONTINENT_DERIVED_FROM_COUNTRY
 dwc_class:
 - dcterms:Location
 dwc_terms:
-- country
+- dwc:country
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/CONTINENT_DERIVED_FROM_COUNTRY
 github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+CONTINENT_DERIVED_FROM_COUNTRY&type=code
 count: '1022422.0'
@@ -11,7 +11,6 @@ status: Active
 gbif:
   class_asserted_in: ContinentParser
   method_asserted_by: parseContinent
-  assertion_logic: If no continent and no coordinates are provided, but a country
-    is provided, the continent is derived from the country.
+  assertion_logic: If no continent and no coordinates are provided, but a country is provided, the continent is derived from the country.
 recommendation: Keep
 actions: No action required.

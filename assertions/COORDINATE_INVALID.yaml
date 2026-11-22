@@ -3,10 +3,10 @@ label: COORDINATE_INVALID
 dwc_class:
 - dcterms:Location
 dwc_terms:
-- decimalLatitude
-- decimalLongitude
-- verbatimLatitude
-- verbatimLongitude
+- dwc:decimalLatitude
+- dwc:decimalLongitude
+- dwc:verbatimLatitude
+- dwc:verbatimLongitude
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COORDINATE_INVALID
 github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+COORDINATE_INVALID&type=code
 count: '35365.0'

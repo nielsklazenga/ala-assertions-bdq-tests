@@ -1,7 +1,7 @@
 id: MULTIMEDIA_URI_INVALID
 label: MULTIMEDIA_URI_INVALID
 dwc_class:
-- Occurrence
+- dwc:Occurrence
 dwc_terms:
 - associatedMedia
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MULTIMEDIA_URI_INVALID
@@ -11,5 +11,4 @@ status: Active
 gbif:
   class_asserted_in: ImageInterpreter
   method_asserted_by: interpret
-  assertion_logic: dcterms:identifier of at least one of the associated images is
-    invalid
+  assertion_logic: dcterms:identifier of at least one of the associated images is invalid

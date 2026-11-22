@@ -3,9 +3,9 @@ label: COORDINATE_REPROJECTED
 dwc_class:
 - dcterms:Location
 dwc_terms:
-- geodeticDatum
-- decimalLongitude
-- decimalLatitude
+- dwc:geodeticDatum
+- dwc:decimalLongitude
+- dwc:decimalLatitude
 wiki_page: https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COORDINATE_REPROJECTED
 github_search: https://github.com/search?q=repo%3Agbif%2Fpipelines+COORDINATE_REPROJECTED&type=code
 count: '1083296.0'
@@ -13,7 +13,6 @@ status: Active
 gbif:
   class_asserted_in: Wgs84Projection
   method_asserted_by: reproject
-  assertion_logic: Issue is created when `geodeticDatum` is provided and projected
-    coordinates are different from provided coordinates.
+  assertion_logic: Issue is created when `geodeticDatum` is provided and projected coordinates are different from provided coordinates.
 recommendation: Keep
 actions: No action required
