@@ -5,6 +5,44 @@ from pathlib import Path
 
 import yaml
 
+# lib/indexing.py
+
+def iter_terms(record):
+    for field in ("dwc_class", "dwc_terms"):
+        yield from record.get(field, [])
+
+def build_term_map(records):
+    """
+    Build a map from local name to fully-qualified term.
+    """
+
+    term_map = {}
+
+    for record in records:
+        for term in iter_terms(record):
+
+            if ":" not in term:
+                continue
+
+            local_name = term.split(":")[-1]
+
+            term_map.setdefault(
+                local_name,
+                term
+            )
+
+    return term_map
+
+
+def qualify_terms(terms, term_map):
+    qualified = []
+
+    for term in terms:
+        qualified.append(
+            term_map.get(term, term)
+        )
+
+    return qualified
 
 def build_term_index(directory):
     index = defaultdict(list)
@@ -24,3 +62,4 @@ def build_term_index(directory):
                 index[(dwc_class, term)].append(record)
 
     return index
+
