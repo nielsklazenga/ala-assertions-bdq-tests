@@ -5,4 +5,5 @@ description: Proposes an amendment transposing or changing the signs of dwc:deci
 dwc_class:
 - dcterms:Location
 dwc_terms:
-- dwc:decimalLatitude,dwc:decimalLongitude
+- dwc:decimalLatitude
+- dwc:decimalLongitude

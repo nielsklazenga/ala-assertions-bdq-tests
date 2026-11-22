@@ -5,4 +5,5 @@ description: Does the ISO country code, determined from the value of dwc:country
 dwc_class:
 - dcterms:Location
 dwc_terms:
-- dwc:country,dwc:countryCode
+- dwc:country
+- dwc:countryCode

@@ -5,4 +5,6 @@ description: Are the supplied geographic coordinates within a defined buffer of 
 dwc_class:
 - dcterms:Location
 dwc_terms:
-- dwc:countryCode,dwc:decimalLatitude,dwc:decimalLongitude
+- dwc:countryCode
+- dwc:decimalLatitude
+- dwc:decimalLongitude

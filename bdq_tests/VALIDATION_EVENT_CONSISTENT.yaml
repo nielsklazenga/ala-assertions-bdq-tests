@@ -5,4 +5,9 @@ description: Are the values in dwc:eventDate consistent with the values in dwc:y
 dwc_class:
 - dwc:Event
 dwc_terms:
-- dwc:eventDate,dwc:day,dwc:month,dwc:year,dwc:startDayOfYear,dwc:endDayOfYear
+- dwc:eventDate
+- dwc:day
+- dwc:month
+- dwc:year
+- dwc:startDayOfYear
+- dwc:endDayOfYear

@@ -5,4 +5,10 @@ description: Is there a value in any of the terms dwc:eventDate, dwc:year, dwc:m
 dwc_class:
 - dwc:Event
 dwc_terms:
-- dwc:eventDate,dwc:year,dwc:month,dwc:day,dwc:startDayOfYear,dwc:endDayOfYear,dwc:verbatimEventDate
+- dwc:eventDate
+- dwc:year
+- dwc:month
+- dwc:day
+- dwc:startDayOfYear
+- dwc:endDayOfYear
+- dwc:verbatimEventDate

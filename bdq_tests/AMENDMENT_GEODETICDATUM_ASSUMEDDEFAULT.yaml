@@ -5,4 +5,5 @@ description: Proposes an amendment to fill in dwc:geodeticDatum using a paramete
 dwc_class:
 - dcterms:Location
 dwc_terms:
-- dwc:geodeticDatum,dwc:coordinateUncertaintyInMeters
+- dwc:geodeticDatum
+- dwc:coordinateUncertaintyInMeters

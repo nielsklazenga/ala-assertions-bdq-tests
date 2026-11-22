@@ -5,4 +5,5 @@ description: Is the value of dwc:minimumElevationInMeters a number less than or 
 dwc_class:
 - dcterms:Location
 dwc_terms:
-- dwc:minimumElevationInMeters,dwc:maximumElevationInMeters
+- dwc:minimumElevationInMeters
+- dwc:maximumElevationInMeters

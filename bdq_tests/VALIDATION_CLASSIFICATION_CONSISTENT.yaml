@@ -5,4 +5,13 @@ description: Is the combination of higher classification taxonomic terms consist
 dwc_class:
 - dwc:Taxon
 dwc_terms:
-- dwc:kingdom,dwc:phylum,dwc:class,dwc:order,dwc:superfamily,dwc:family,dwc:subfamily,dwc:tribe,dwc:subtribe,dwc:genus
+- dwc:kingdom
+- dwc:phylum
+- dwc:class
+- dwc:order
+- dwc:superfamily
+- dwc:family
+- dwc:subfamily
+- dwc:tribe
+- dwc:subtribe
+- dwc:genus

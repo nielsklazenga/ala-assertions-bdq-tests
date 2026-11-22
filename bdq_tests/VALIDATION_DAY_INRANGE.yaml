@@ -5,4 +5,6 @@ description: Is the value of dwc:day interpretable as a valid integer between 1 
 dwc_class:
 - dwc:Event
 dwc_terms:
-- dwc:day,dwc:month,dwc:year
+- dwc:day
+- dwc:month
+- dwc:year

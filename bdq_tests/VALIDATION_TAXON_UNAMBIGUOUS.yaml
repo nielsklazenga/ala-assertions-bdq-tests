@@ -5,4 +5,5 @@ description: Can the taxon be unambiguously resolved from bdqval:sourceAuthority
 dwc_class:
 - dwc:Taxon
 dwc_terms:
-- dwc:scientificName,dwc:scientificNameID
+- dwc:scientificName
+- dwc:scientificNameID

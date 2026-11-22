@@ -5,4 +5,7 @@ description: Is the polynomial represented in dwc:scientificName consistent with
 dwc_class:
 - dwc:Taxon
 dwc_terms:
-- dwc:scientificName,dwc:genericName,dwc:specificEpithet,dwc:infraspecificEpithet
+- dwc:scientificName
+- dwc:genericName
+- dwc:specificEpithet
+- dwc:infraspecificEpithet

@@ -5,4 +5,5 @@ description: Does the marine/non-marine biome of a taxon from the bdqval:sourceA
 dwc_class:
 - dcterms:Location
 dwc_terms:
-- dwc:decimalLatitude,dwc:decimalLongitude
+- dwc:decimalLatitude
+- dwc:decimalLongitude

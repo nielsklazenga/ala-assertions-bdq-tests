@@ -5,4 +5,5 @@ description: Is the value of dwc:minimumDepthInMeters a number less than or equa
 dwc_class:
 - dcterms:Location
 dwc_terms:
-- dwc:minimumDepthInMeters,dwc:maximumDepthInMeters
+- dwc:minimumDepthInMeters
+- dwc:maximumDepthInMeters

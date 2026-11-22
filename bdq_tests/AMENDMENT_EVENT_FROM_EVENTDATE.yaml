@@ -5,4 +5,8 @@ description: Proposes an amendment to values in any of dwc:year, dwc:month, dwc:
 dwc_class:
 - dwc:Event
 dwc_terms:
-- dwc:year,dwc:month,dwc:day,dwc:startDayOfYear,dwc:endDayOfYear
+- dwc:year
+- dwc:month
+- dwc:day
+- dwc:startDayOfYear
+- dwc:endDayOfYear

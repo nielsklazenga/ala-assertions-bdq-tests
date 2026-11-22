@@ -5,4 +5,5 @@ description: Proposes an amendment or amendments to the values of dwc:minimumEle
 dwc_class:
 - dcterms:Location
 dwc_terms:
-- dwc:minimumElevationInMeters,dwc:maximumElevationInMeters
+- dwc:minimumElevationInMeters
+- dwc:maximumElevationInMeters

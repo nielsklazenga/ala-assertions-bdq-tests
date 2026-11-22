@@ -5,4 +5,23 @@ description: Is there a value in any of the Darwin Core spatial terms that could
 dwc_class:
 - dcterms:Location
 dwc_terms:
-- dwc:higherGeographyID,dwc:higherGeography,dwc:continent,dwc:country,dwc:countryCode,dwc:stateProvince,dwc:county,dwc:municipality,dwc:waterBody,dwc:island,dwc:islandGroup,dwc:locality,dwc:locationID,dwc:verbatimLocality,dwc:decimalLatitude,dwc:decimalLongitude,dwc:verbatimCoordinates,dwc:verbatimLatitude,dwc:verbatimLongitude,dwc:footprintWKT
+- dwc:higherGeographyID
+- dwc:higherGeography
+- dwc:continent
+- dwc:country
+- dwc:countryCode
+- dwc:stateProvince
+- dwc:county
+- dwc:municipality
+- dwc:waterBody
+- dwc:island
+- dwc:islandGroup
+- dwc:locality
+- dwc:locationID
+- dwc:verbatimLocality
+- dwc:decimalLatitude
+- dwc:decimalLongitude
+- dwc:verbatimCoordinates
+- dwc:verbatimLatitude
+- dwc:verbatimLongitude
+- dwc:footprintWKT

@@ -5,4 +5,5 @@ description: Proposes amendments of the values of dwc:minimumDepthInMeters and d
 dwc_class:
 - dcterms:Location
 dwc_terms:
-- dwc:minimumDepthInMeters,dwc:maximumDepthInMeters
+- dwc:minimumDepthInMeters
+- dwc:maximumDepthInMeters

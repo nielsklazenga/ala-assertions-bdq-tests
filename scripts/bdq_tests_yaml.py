@@ -2,6 +2,7 @@ from pathlib import Path
 
 import pandas as pd
 import yaml
+import re
 
 INPUT = "data/bdqtest_term_versions.csv"
 OUTPUT_DIR = Path("bdq_tests")
@@ -16,9 +17,9 @@ def split_terms(value):
         return []
 
     return [
-        v.strip()
-        for v in str(value).split("|")
-        if v.strip()
+        term.strip()
+        for term in re.split(r"\s*[|,]\s*", str(value))
+        if term.strip()
     ]
 
 

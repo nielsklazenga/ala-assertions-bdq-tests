@@ -5,4 +5,6 @@ description: Do the geographic coordinates fall on or within the boundaries of t
 dwc_class:
 - dcterms:Location
 dwc_terms:
-- dwc:countryCode,dwc:decimalLatitude,dwc:decimalLongitude
+- dwc:countryCode
+- dwc:decimalLatitude
+- dwc:decimalLongitude

@@ -5,4 +5,5 @@ description: Are the values of either dwc:decimalLatitude or dwc:decimalLongitud
 dwc_class:
 - dcterms:Location
 dwc_terms:
-- dwc:decimalLatitude,dwc:decimalLongitude
+- dwc:decimalLatitude
+- dwc:decimalLongitude

@@ -5,4 +5,5 @@ description: Is the combination of the values of the terms dwc:country, dwc:stat
 dwc_class:
 - dcterms:Location
 dwc_terms:
-- dwc:country,dwc:stateProvince
+- dwc:country
+- dwc:stateProvince
