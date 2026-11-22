@@ -180,11 +180,11 @@ for bdq_class in sorted(grouped):
 
 df = pd.DataFrame(rows)
 
-excel_file = "reports/candidate_mappings.xlsx"
+csv_file = "reports/candidate_mappings.csv"
 
-df.to_excel(
-    excel_file,
+df.to_csv(
+    csv_file,
     index=False,
 )
 
-print("Wrote ", excel_file)
+print("Wrote ", csv_file)
