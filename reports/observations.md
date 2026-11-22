@@ -119,6 +119,33 @@ Once those questions have been addressed and any resulting changes have been imp
 
 ---
 
+## Assertions as Outcomes of BDQ Tests
+
+One observation arising from this comparison is that BDQ Tests and ALA/GBIF Assertions operate at different conceptual levels. BDQ defines expected conditions that can be tested, whereas assertions generally describe issues detected in a record.
+
+This difference makes direct mappings difficult. A more consistent approach might be for assertions to be expressed explicitly as the outcome of a BDQ test. In other words, an assertion should be interpretable as:
+
+> This record fails `VALIDATION_X`.
+
+For example:
+
+| Assertion | Interpretation |
+|------------|---------------|
+| `ASSERTION_EVENT_INCONSISTENT` | Fails `VALIDATION_EVENT_CONSISTENT` |
+| `ASSERTION_COORDINATES_EMPTY` | Fails `VALIDATION_COORDINATES_NOTEMPTY` |
+| `ASSERTION_COUNTRY_NOT_FOUND` | Fails `VALIDATION_COUNTRY_FOUND` |
+| `ASSERTION_COORDINATES_COUNTRY_MISMATCH` | Fails `VALIDATION_COORDINATESCOUNTRYCODE_CONSISTENT` |
+
+This pattern establishes a clear relationship between the test and the assertion:
+
+- **BDQ Tests** define the expected condition.
+- **Assertions** record the result of evaluating that condition.
+- A failed validation gives rise to an assertion that can be presented to users or consumed by downstream systems.
+
+Expressing assertions in this way would make relationships between assertion frameworks and BDQ easier to understand, simplify mappings between implementations, and provide a clearer basis for future interoperability.
+
+---
+
 ## Developing an Assertion Framework Alongside the BDQ Test Framework
 
 An important conclusion emerging from the comparison is that the BDQ Tests should not necessarily be treated as an external standard to which the existing ALA Assertions are mapped.
