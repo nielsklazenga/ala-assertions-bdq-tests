@@ -25,10 +25,6 @@ for path in sorted(INPUT_DIR.glob("*.yaml")):
     for dwc_class in classes:
         groups[dwc_class][term_key].append(record)
 
-        for dwc_class in classes:
-            for term in terms:
-                groups[dwc_class][term].append(record)
-
 with open(OUTPUT, "w", encoding="utf-8") as out:
     out.write("# BDQ Tests by Darwin Core Class and Term\n\n")
 
