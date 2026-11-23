@@ -1,8 +1,7 @@
 id: ALTITUDE_IN_FEET
 label: ALTITUDE_IN_FEET
 dwc_class:
-- Record Level
-- EML
+- dcterms:Location
 dwc_terms:
 - dwc:minimumElevationInMeters
 - dwc:maximumElevationInMeters
