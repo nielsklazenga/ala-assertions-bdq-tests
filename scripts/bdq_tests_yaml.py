@@ -28,12 +28,17 @@ for _, row in (
       .sort_values(["Type", "Label"])
       .iterrows()
 ):
+    dwc_class = row.get("IE Class", "")
+
+    if dwc_class == "Record-level":
+        dwc_class = "Record Level"
+
     record = {
         "id": row["iri"],
         "label": row["Label"],
         "type": row["Type"],
         "description": row.get("Description", ""),
-        "dwc_class": split_terms(row.get("IE Class")),
+        "dwc_class": [dwc_class] if dwc_class else [],
         "dwc_terms": split_terms(
             row.get("InformationElement:ActedUpon")
         ),

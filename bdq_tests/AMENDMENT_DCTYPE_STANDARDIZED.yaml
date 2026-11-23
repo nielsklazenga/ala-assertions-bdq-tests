@@ -3,6 +3,6 @@ label: AMENDMENT_DCTYPE_STANDARDIZED
 type: Amendment
 description: Proposes an amendment to the value of dc:type using the DCMI type vocabulary.
 dwc_class:
-- Record-level
+- Record Level
 dwc_terms:
 - dc:type

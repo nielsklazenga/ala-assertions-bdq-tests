@@ -3,6 +3,6 @@ label: VALIDATION_LICENSE_STANDARD
 type: Validation
 description: Does the value of dcterms:license occur in bdqval:sourceAuthority?
 dwc_class:
-- Record-level
+- Record Level
 dwc_terms:
 - dcterms:license

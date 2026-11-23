@@ -3,6 +3,6 @@ label: MULTIRECORD_MEASURE_QA_DCTYPE_NOTEMPTY
 type: Measure
 description: Measure if all VALIDATION_DCTYPE_NOTEMPTY in a record set are COMPLIANT.
 dwc_class:
-- Record-level
+- Record Level
 dwc_terms:
 - bdqval:AggregatedTestResponseOutcomes

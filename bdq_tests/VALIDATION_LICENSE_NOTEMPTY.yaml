@@ -3,6 +3,6 @@ label: VALIDATION_LICENSE_NOTEMPTY
 type: Validation
 description: Is there a value in dcterms:license?
 dwc_class:
-- Record-level
+- Record Level
 dwc_terms:
 - dcterms:license

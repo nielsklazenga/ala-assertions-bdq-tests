@@ -3,6 +3,6 @@ label: AMENDMENT_BASISOFRECORD_STANDARDIZED
 type: Amendment
 description: Proposes an amendment to the value of dwc:basisOfRecord using the bdqval:sourceAuthority.
 dwc_class:
-- Record-level
+- Record Level
 dwc_terms:
 - dwc:basisOfRecord

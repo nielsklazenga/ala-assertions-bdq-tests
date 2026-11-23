@@ -3,6 +3,6 @@ label: MULTIRECORD_MEASURE_COUNT_COMPLIANT_BASISOFRECORD_STANDARD
 type: Measure
 description: Count the number of VALIDATION_BASISOFRECORD_STANDARD in a record set that are COMPLIANT.
 dwc_class:
-- Record-level
+- Record Level
 dwc_terms:
 - bdqval:AggregatedTestResponseOutcomes

@@ -3,6 +3,6 @@ label: ISSUE_DATAGENERALIZATIONS_NOTEMPTY
 type: Issue
 description: Is there a value in dwc:dataGeneralizations?
 dwc_class:
-- Record-level
+- Record Level
 dwc_terms:
 - dwc:dataGeneralizations
