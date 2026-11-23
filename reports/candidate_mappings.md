@@ -2,10 +2,22 @@
 
 Potential ALA Assertion ↔ BDQ Test associations grouped by BDQ class and based on shared Darwin Core terms.
 
+## Record Level
+
+| ALA Assertion | BDQ Test | Connecting Terms | ALA-only Terms | BDQ-only Terms |
+|---------------|----------|------------------|----------------|----------------|
+| OCCURRENCE_STATUS_INFERRED_FROM_BASIS_OF_RECORD | AMENDMENT_BASISOFRECORD_STANDARDIZED | basisOfRecord | occurrenceStatus |  |
+| OCCURRENCE_STATUS_INFERRED_FROM_BASIS_OF_RECORD | VALIDATION_BASISOFRECORD_NOTEMPTY | basisOfRecord | occurrenceStatus |  |
+| OCCURRENCE_STATUS_INFERRED_FROM_BASIS_OF_RECORD | VALIDATION_BASISOFRECORD_STANDARD | basisOfRecord | occurrenceStatus |  |
+
 ## dcterms:Location
 
 | ALA Assertion | BDQ Test | Connecting Terms | ALA-only Terms | BDQ-only Terms |
 |---------------|----------|------------------|----------------|----------------|
+| ALTITUDE_IN_FEET | AMENDMENT_MINELEVATIONMAXELEVATION_FROM_VERBATIM | maximumElevationInMeters, minimumElevationInMeters |  |  |
+| ALTITUDE_IN_FEET | VALIDATION_MAXELEVATION_INRANGE | maximumElevationInMeters | minimumElevationInMeters |  |
+| ALTITUDE_IN_FEET | VALIDATION_MINELEVATION_INRANGE | minimumElevationInMeters | maximumElevationInMeters |  |
+| ALTITUDE_IN_FEET | VALIDATION_MINELEVATION_LESSTHAN_MAXELEVATION | maximumElevationInMeters, minimumElevationInMeters |  |  |
 | ALTITUDE_NON_NUMERIC | AMENDMENT_MINELEVATIONMAXELEVATION_FROM_VERBATIM | maximumElevationInMeters, minimumElevationInMeters |  |  |
 | ALTITUDE_NON_NUMERIC | VALIDATION_MAXELEVATION_INRANGE | maximumElevationInMeters | minimumElevationInMeters |  |
 | ALTITUDE_NON_NUMERIC | VALIDATION_MINELEVATION_INRANGE | minimumElevationInMeters | maximumElevationInMeters |  |

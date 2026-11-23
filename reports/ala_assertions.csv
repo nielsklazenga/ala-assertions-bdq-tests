@@ -1,5 +1,5 @@
 id,label,implemented_by,status,recommendation,dwc_class,dwc_terms,wiki_page
-ALTITUDE_IN_FEET,ALTITUDE_IN_FEET,,Not implemented,,"Record Level, EML","dwc:minimumElevationInMeters, dwc:maximumElevationInMeters",https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/ALTITUDE_IN_FEET
+ALTITUDE_IN_FEET,ALTITUDE_IN_FEET,,Not implemented,,dcterms:Location,"dwc:minimumElevationInMeters, dwc:maximumElevationInMeters",https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/ALTITUDE_IN_FEET
 ALTITUDE_NON_NUMERIC,ALTITUDE_NON_NUMERIC,,Not implemented,Remove,dcterms:Location,"dwc:minimumElevationInMeters, dwc:maximumElevationInMeters",https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/ALTITUDE_NON_NUMERIC
 ALTITUDE_OUT_OF_RANGE,ALTITUDE_OUT_OF_RANGE,,Not implemented,Remove,dcterms:Location,"dwc:minimumElevationInMeters, dwc:maximumElevationInMeters",https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/ALTITUDE_OUT_OF_RANGE
 AMBIGUOUS_COLLECTION,AMBIGUOUS_COLLECTION,GBIF,Unused,Keep,"Record Level, EML",?,https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/AMBIGUOUS_COLLECTION

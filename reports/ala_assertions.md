@@ -6,7 +6,7 @@
 |-------|-------|
 | Status | Not implemented |
 | DwC Class | dcterms:Location |
-| DwC Terms | minimumElevationInMeters<br>maximumElevationInMeters |
+| DwC Terms | dwc:minimumElevationInMeters<br>dwc:maximumElevationInMeters |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/ALTITUDE_IN_FEET |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+ALTITUDE_IN_FEET&type=code |
 
@@ -19,7 +19,7 @@
 | Status | Not implemented |
 | Recommendation | Remove |
 | DwC Class | dcterms:Location |
-| DwC Terms | minimumElevationInMeters<br>maximumElevationInMeters |
+| DwC Terms | dwc:minimumElevationInMeters<br>dwc:maximumElevationInMeters |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/ALTITUDE_NON_NUMERIC |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+ALTITUDE_NON_NUMERIC&type=code |
 
@@ -36,7 +36,7 @@ Duplicate of ELEVATION_NON_NUMERIC
 | Status | Not implemented |
 | Recommendation | Remove |
 | DwC Class | dcterms:Location |
-| DwC Terms | minimumElevationInMeters<br>maximumElevationInMeters |
+| DwC Terms | dwc:minimumElevationInMeters<br>dwc:maximumElevationInMeters |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/ALTITUDE_OUT_OF_RANGE |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+ALTITUDE_OUT_OF_RANGE&type=code |
 
@@ -224,7 +224,7 @@ No action required.
 | Count | 4408990.0 |
 | Recommendation | Keep |
 | DwC Class | dcterms:Location |
-| DwC Terms | continent<br>decimalLongitude<br>decimalLatitude |
+| DwC Terms | dwc:continent<br>dwc:decimalLongitude<br>dwc:decimalLatitude |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/CONTINENT_COORDINATE_MISMATCH |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+CONTINENT_COORDINATE_MISMATCH&type=code |
 
@@ -250,7 +250,7 @@ No action required.
 | Count | 15195.0 |
 | Recommendation | Keep |
 | DwC Class | dcterms:Location |
-| DwC Terms | continent<br>country |
+| DwC Terms | dwc:continent<br>dwc:country |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/CONTINENT_COUNTRY_MISMATCH |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+CONTINENT_COUNTRY_MISMATCH&type=code |
 
@@ -275,7 +275,7 @@ No action required.
 | Status | Unused |
 | Recommendation | Keep |
 | DwC Class | dcterms:Location |
-| DwC Terms | decimalLongitude<br>decimalLatitude |
+| DwC Terms | dwc:decimalLongitude<br>dwc:decimalLatitude |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/CONTINENT_DERIVED_FROM_COORDINATES |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+CONTINENT_DERIVED_FROM_COORDINATES&type=code |
 
@@ -301,7 +301,7 @@ No action required.
 | Count | 1022422.0 |
 | Recommendation | Keep |
 | DwC Class | dcterms:Location |
-| DwC Terms | country |
+| DwC Terms | dwc:country |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/CONTINENT_DERIVED_FROM_COUNTRY |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+CONTINENT_DERIVED_FROM_COUNTRY&type=code |
 
@@ -327,7 +327,7 @@ No action required.
 | Count | 97796.0 |
 | Recommendation | Keep |
 | DwC Class | dcterms:Location |
-| DwC Terms | continent |
+| DwC Terms | dwc:continent |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/CONTINENT_INVALID |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+CONTINENT_INVALID&type=code |
 
@@ -353,7 +353,7 @@ No action required.
 | Count | 3585.0 |
 | Recommendation | Keep |
 | DwC Class | dcterms:Location |
-| DwC Terms | country<br>decimalLatitude<br>decimalLongitude<br>verbatimLatitude |
+| DwC Terms | dwc:country<br>dwc:decimalLatitude<br>dwc:decimalLongitude<br>dwc:verbatimLatitude |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COORDINATES_CENTRE_OF_COUNTRY |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+COORDINATES_CENTRE_OF_COUNTRY&type=code |
 
@@ -379,7 +379,7 @@ No action required.
 | Count | 4236.0 |
 | Recommendation | Keep |
 | DwC Class | dcterms:Location |
-| DwC Terms | decimalLatitude<br>decimalLongitude<br>verbatimLatitude<br>verbatimLongitude |
+| DwC Terms | dwc:decimalLatitude<br>dwc:decimalLongitude<br>dwc:verbatimLatitude<br>dwc:verbatimLongitude |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COORDINATES_CENTRE_OF_STATEPROVINCE |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+COORDINATES_CENTRE_OF_STATEPROVINCE&type=code |
 
@@ -438,7 +438,7 @@ No action required
 | Count | 35365.0 |
 | Recommendation | Keep |
 | DwC Class | dcterms:Location |
-| DwC Terms | decimalLatitude<br>decimalLongitude<br>verbatimLatitude<br>verbatimLongitude |
+| DwC Terms | dwc:decimalLatitude<br>dwc:decimalLongitude<br>dwc:verbatimLatitude<br>dwc:verbatimLongitude |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COORDINATE_INVALID |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+COORDINATE_INVALID&type=code |
 
@@ -463,7 +463,7 @@ No action required
 | Count | 1259.0 |
 | Recommendation | Keep |
 | DwC Class | dcterms:Location |
-| DwC Terms | decimalLatitude<br>decimalLongitude<br>verbatimLatitude<br>verbatimLongitude |
+| DwC Terms | dwc:decimalLatitude<br>dwc:decimalLongitude<br>dwc:verbatimLatitude<br>dwc:verbatimLongitude |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COORDINATE_OUT_OF_RANGE |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+COORDINATE_OUT_OF_RANGE&type=code |
 
@@ -539,7 +539,7 @@ The assertion might be useful, but not if we do not know what it does.
 | Count | 1083296.0 |
 | Recommendation | Keep |
 | DwC Class | dcterms:Location |
-| DwC Terms | geodeticDatum<br>decimalLongitude<br>decimalLatitude |
+| DwC Terms | dwc:geodeticDatum<br>dwc:decimalLongitude<br>dwc:decimalLatitude |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COORDINATE_REPROJECTED |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+COORDINATE_REPROJECTED&type=code |
 
@@ -563,7 +563,7 @@ No action required
 |-------|-------|
 | Status | Unused |
 | DwC Class | dcterms:Location |
-| DwC Terms | geodeticDatum<br>decimalLongitude<br>decimalLatitude |
+| DwC Terms | dwc:geodeticDatum<br>dwc:decimalLongitude<br>dwc:decimalLatitude |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COORDINATE_REPROJECTION_FAILED |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+COORDINATE_REPROJECTION_FAILED&type=code |
 
@@ -620,7 +620,7 @@ No action required
 | Count | 98478381.0 |
 | Recommendation | Keep |
 | DwC Class | dcterms:Location |
-| DwC Terms | coordinateUncertaintyInMeters |
+| DwC Terms | dwc:coordinateUncertaintyInMeters |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COORDINATE_UNCERTAINTY_METERS_INVALID |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+COORDINATE_UNCERTAINTY_METERS_INVALID&type=code |
 
@@ -664,7 +664,7 @@ dwc:coordinateUncertainty > COORDINATE_UNCERTAINTY_METERS_UPPER_BOUND |
 | Status | Deprecated |
 | Recommendation | Remove |
 | DwC Class | dcterms:Location |
-| DwC Terms | coordinatePrecision<br>coordinateUncertaintyInMeters |
+| DwC Terms | coordinatePrecision<br>dwc:coordinateUncertaintyInMeters |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COORDINATE_UNCERTAINTY_PRECISION_MISMATCH |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+COORDINATE_UNCERTAINTY_PRECISION_MISMATCH&type=code |
 
@@ -684,7 +684,7 @@ dwc:coordinateUncertainty > COORDINATE_UNCERTAINTY_METERS_UPPER_BOUND |
 | Count | 172330.0 |
 | Recommendation | Keep |
 | DwC Class | dcterms:Location |
-| DwC Terms | country<br>decimalLatitude<br>decimalLongitude |
+| DwC Terms | dwc:country<br>dwc:decimalLatitude<br>dwc:decimalLongitude |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COUNTRY_COORDINATE_MISMATCH |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+COUNTRY_COORDINATE_MISMATCH&type=code |
 
@@ -710,7 +710,7 @@ No action required.
 | Count | 19946786.0 |
 | Recommendation | Keep |
 | DwC Class | dcterms:Location |
-| DwC Terms | decimalLatitude<br>decimalLongitude |
+| DwC Terms | dwc:decimalLatitude<br>dwc:decimalLongitude |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COUNTRY_DERIVED_FROM_COORDINATES |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+COUNTRY_DERIVED_FROM_COORDINATES&type=code |
 
@@ -735,7 +735,7 @@ No action required.
 | Status | Not implemented (probably error for COUNTRY_DERIVED_FROM_COORDINATES) |
 | Recommendation | Remove |
 | DwC Class | dcterms:Location |
-| DwC Terms | decimalLatitude<br>decmalLongitude |
+| DwC Terms | dwc:decimalLatitude<br>dwc:decimalLongitude |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COUNTRY_INFERRED_FROM_COORDINATES |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+COUNTRY_INFERRED_FROM_COORDINATES&type=code |
 
@@ -749,7 +749,7 @@ No action required.
 | Count | 167351.0 |
 | Recommendation | Keep |
 | DwC Class | dcterms:Location |
-| DwC Terms | country |
+| DwC Terms | dwc:country |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COUNTRY_INVALID |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+COUNTRY_INVALID&type=code |
 
@@ -775,7 +775,7 @@ No action required
 | Count | 3957.0 |
 | Recommendation | Keep |
 | DwC Class | dcterms:Location |
-| DwC Terms | countryCode<br>decimalLatutude<br>decimalLongitude |
+| DwC Terms | dwc:countryCode<br>dwc:decimalLatitude<br>dwc:decimalLongitude |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/COUNTRY_MISMATCH |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+COUNTRY_MISMATCH&type=code |
 
@@ -855,7 +855,7 @@ No action required
 | Status | Not implemented |
 | Recommendation | Remove |
 | DwC Class | dcterms:Location |
-| DwC Terms | minimumDepthInMeters<br>maximumDepthInMeters |
+| DwC Terms | dwc:minimumDepthInMeters<br>dwc:maximumDepthInMeters |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/DEPTH_IN_FEET |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+DEPTH_IN_FEET&type=code |
 
@@ -869,7 +869,7 @@ No action required
 | Count | 24254.0 |
 | Recommendation | Keep |
 | DwC Class | dcterms:Location |
-| DwC Terms | minimumDepthInMeters<br>maximumDepthInMeters |
+| DwC Terms | dwc:minimumDepthInMeters<br>dwc:maximumDepthInMeters |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/DEPTH_MIN_MAX_SWAPPED |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+DEPTH_MIN_MAX_SWAPPED&type=code |
 
@@ -893,7 +893,7 @@ Check if there are any records that do not pass this test. If there are none, th
 | Count | 357.0 |
 | Recommendation | Keep? |
 | DwC Class | dcterms:Location |
-| DwC Terms | minimumDepthInMeters<br>maximumDepthInMeters |
+| DwC Terms | dwc:minimumDepthInMeters<br>dwc:maximumDepthInMeters |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/DEPTH_NON_NUMERIC |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+DEPTH_NON_NUMERIC&type=code |
 
@@ -917,7 +917,7 @@ Check if there are any records for which this warning is issued.
 | Count | 1.0 |
 | Recommendation | Keep? |
 | DwC Class | dcterms:Location |
-| DwC Terms | minimumDepthInMeters<br>maximumDepthInMeters |
+| DwC Terms | dwc:minimumDepthInMeters<br>dwc:maximumDepthInMeters |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/DEPTH_NOT_METRIC |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+DEPTH_NOT_METRIC&type=code |
 
@@ -952,7 +952,7 @@ Check if there are any records for which this warning is issued.
 | Count | 5789.0 |
 | Recommendation | Keep? |
 | DwC Class | dcterms:Location |
-| DwC Terms | minimumDepthInMeters<br>maximumDepthInMeters |
+| DwC Terms | dwc:minimumDepthInMeters<br>dwc:maximumDepthInMeters |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/DEPTH_UNLIKELY |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+DEPTH_UNLIKELY&type=code |
 
@@ -1032,7 +1032,7 @@ Find out if we are still doing this.
 | Count | 9580.0 |
 | Recommendation | Keep |
 | DwC Class | dcterms:Location |
-| DwC Terms | minimumElevationInMeters<br>maximumElevationInMeters |
+| DwC Terms | dwc:minimumElevationInMeters<br>dwc:maximumElevationInMeters |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/ELEVATION_MIN_MAX_SWAPPED |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+ELEVATION_MIN_MAX_SWAPPED&type=code |
 
@@ -1054,7 +1054,7 @@ Find out if we are still doing this.
 | Count | 2576.0 |
 | Recommendation | Keep |
 | DwC Class | dcterms:Location |
-| DwC Terms | minimumElevationInMeters<br>maximumElevationInMeters |
+| DwC Terms | dwc:minimumElevationInMeters<br>dwc:maximumElevationInMeters |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/ELEVATION_NON_NUMERIC |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+ELEVATION_NON_NUMERIC&type=code |
 
@@ -1075,7 +1075,7 @@ Find out if we are still doing this.
 | Count | 4.0 |
 | Recommendation | Keep |
 | DwC Class | dcterms:Location |
-| DwC Terms | minimumElevationInMeters<br>maximumElevationInMeters |
+| DwC Terms | dwc:minimumElevationInMeters<br>dwc:maximumElevationInMeters |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/ELEVATION_NOT_METRIC |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+ELEVATION_NOT_METRIC&type=code |
 
@@ -1095,7 +1095,7 @@ Find out if we are still doing this.
 | Status | Unused |
 | Recommendation | Keep |
 | DwC Class | dcterms:Location |
-| DwC Terms | minimumElevationInMeters<br>maximumElevationInMeters |
+| DwC Terms | dwc:minimumElevationInMeters<br>dwc:maximumElevationInMeters |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/ELEVATION_UNLIKELY |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+ELEVATION_UNLIKELY&type=code |
 
@@ -1115,8 +1115,8 @@ Find out if we are still doing this.
 | Status | Active |
 | Count | 174299.0 |
 | Recommendation | Remove |
-| DwC Class | Event |
-| DwC Terms | eventDate<br>year<br>month<br>day |
+| DwC Class | dwc:Event |
+| DwC Terms | dwc:eventDate<br>dwc:year<br>dwc:month<br>dwc:day |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/FIRST_OF_CENTURY |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+FIRST_OF_CENTURY&type=code |
 
@@ -1141,8 +1141,8 @@ I would just ditch it
 | Status | Active |
 | Count | 8296090.0 |
 | Recommendation | Remove |
-| DwC Class | Event |
-| DwC Terms | eventDate<br>year<br>month<br>day |
+| DwC Class | dwc:Event |
+| DwC Terms | dwc:eventDate<br>dwc:year<br>dwc:month<br>dwc:day |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/FIRST_OF_MONTH |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+FIRST_OF_MONTH&type=code |
 
@@ -1167,8 +1167,8 @@ I would just ditch it
 | Status | Active |
 | Count | 2378349.0 |
 | Recommendation | Remove |
-| DwC Class | Event |
-| DwC Terms | eventDate<br>year<br>month<br>day |
+| DwC Class | dwc:Event |
+| DwC Terms | dwc:eventDate<br>dwc:year<br>dwc:month<br>dwc:day |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/FIRST_OF_YEAR |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+FIRST_OF_YEAR&type=code |
 
@@ -1220,7 +1220,7 @@ No action required
 | Count | 2202700.0 |
 | Recommendation | Keep |
 | DwC Class | dcterms:Location |
-| DwC Terms | footprintWKT |
+| DwC Terms | dwc:footprintWKT |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/FOOTPRINT_WKT_INVALID |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+FOOTPRINT_WKT_INVALID&type=code |
 
@@ -1246,7 +1246,7 @@ No action required
 | Count | 156994.0 |
 | Recommendation | Keep |
 | DwC Class | dcterms:Location |
-| DwC Terms | footprintWKT<br>decimalLatitude<br>decimalLongitude |
+| DwC Terms | dwc:footprintWKT<br>dwc:decimalLatitude<br>dwc:decimalLongitude |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/FOOTPRINT_WKT_MISMATCH |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+FOOTPRINT_WKT_MISMATCH&type=code |
 
@@ -1272,7 +1272,7 @@ No action required
 | Count | 1312188.0 |
 | Recommendation | Keep |
 | DwC Class | dcterms:Location |
-| DwC Terms | geodeticDatum |
+| DwC Terms | dwc:geodeticDatum |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/GEODETIC_DATUM_INVALID |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+GEODETIC_DATUM_INVALID&type=code |
 
@@ -1414,8 +1414,8 @@ No action required
 | Status | Active |
 | Count | 63479.0 |
 | Recommendation | Keep |
-| DwC Class | Identification |
-| DwC Terms | dateIdentified |
+| DwC Class | dwc:Identification |
+| DwC Terms | dwc:dateIdentified |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/IDENTIFIED_DATE_INVALID |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+IDENTIFIED_DATE_INVALID&type=code |
 
@@ -1440,8 +1440,8 @@ No action required
 | Status | Active |
 | Count | 8451.0 |
 | Recommendation | Keep |
-| DwC Class | Identification |
-| DwC Terms | dateIdentified |
+| DwC Class | dwc:Identification |
+| DwC Terms | dwc:dateIdentified |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/IDENTIFIED_DATE_UNLIKELY |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+IDENTIFIED_DATE_UNLIKELY&type=code |
 
@@ -1488,8 +1488,8 @@ It would be better to have separate tests for incomplete eventDate and dateIdent
 | Field | Value |
 |-------|-------|
 | Status | Not implemented |
-| DwC Class | Identification |
-| DwC Terms | dateIdentified |
+| DwC Class | dwc:Identification |
+| DwC Terms | dwc:dateIdentified |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/INCOMPLETE_COLLECTION_DATE |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+INCOMPLETE_COLLECTION_DATE&type=code |
 
@@ -1504,8 +1504,8 @@ I would like to have this test back.
 | Field | Value |
 |-------|-------|
 | Count | 92408.0 |
-| DwC Class | Occurrence |
-| DwC Terms | occurrenceStatus<br>individualCount |
+| DwC Class | dwc:Occurrence |
+| DwC Terms | dwc:occurrenceStatus<br>individualCount |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/INDIVIDUAL_COUNT_CONFLICTS_WITH_OCCURRENCE_STATUS |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+INDIVIDUAL_COUNT_CONFLICTS_WITH_OCCURRENCE_STATUS&type=code |
 
@@ -1516,8 +1516,8 @@ I would like to have this test back.
 | Field | Value |
 |-------|-------|
 | Count | 2123039.0 |
-| DwC Class | Occurrence |
-| DwC Terms | individualCount<br>occurrenceStatus |
+| DwC Class | dwc:Occurrence |
+| DwC Terms | individualCount<br>dwc:occurrenceStatus |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/INDIVIDUAL_COUNT_INVALID |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+INDIVIDUAL_COUNT_INVALID&type=code |
 
@@ -1657,8 +1657,8 @@ No action required
 |-------|-------|
 | Count | 3434536.0 |
 | Recommendation | Keep |
-| DwC Class | Taxon |
-| DwC Terms | scientificName |
+| DwC Class | dwc:Taxon |
+| DwC Terms | dwc:scientificName |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/INVALID_SCIENTIFIC_NAME |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+INVALID_SCIENTIFIC_NAME&type=code |
 
@@ -1747,8 +1747,8 @@ COORDINATES_NOT_SUPPLIED' would make more sense as a name.
 | Status | Active |
 | Count | 4035164.0 |
 | Recommendation | Keep |
-| DwC Class | Event |
-| DwC Terms | eventDate<br>year<br>month<br>day |
+| DwC Class | dwc:Event |
+| DwC Terms | dwc:eventDate<br>dwc:year<br>dwc:month<br>dwc:day |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MISSING_COLLECTION_DATE |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+MISSING_COLLECTION_DATE&type=code |
 
@@ -1794,7 +1794,7 @@ No action required
 | Count | 54282339.0 |
 | Recommendation | Keep |
 | DwC Class | dcterms:Location |
-| DwC Terms | geodeticDatum |
+| DwC Terms | dwc:geodeticDatum |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MISSING_GEODETICDATUM |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+MISSING_GEODETICDATUM&type=code |
 
@@ -1947,7 +1947,7 @@ I am probably the only one who delivers this, so I'd say 'Keep it!'
 | Field | Value |
 |-------|-------|
 | Status | Not implemented |
-| DwC Class | Taxon |
+| DwC Class | dwc:Taxon |
 | DwC Terms | identificationQualifier |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MISSING_IDENTIFICATIONQUALIFIER |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+MISSING_IDENTIFICATIONQUALIFIER&type=code |
@@ -1963,7 +1963,7 @@ Good riddance
 | Field | Value |
 |-------|-------|
 | Status | Not implemented |
-| DwC Class | Taxon |
+| DwC Class | dwc:Taxon |
 | DwC Terms | identificationReferences |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MISSING_IDENTIFICATIONREFERENCES |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+MISSING_IDENTIFICATIONREFERENCES&type=code |
@@ -1975,7 +1975,7 @@ Good riddance
 | Field | Value |
 |-------|-------|
 | Status | Not implemented |
-| DwC Class | Identification |
+| DwC Class | dwc:Identification |
 | DwC Terms | identifiedBy |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MISSING_IDENTIFIEDBY |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+MISSING_IDENTIFIEDBY&type=code |
@@ -1993,8 +1993,8 @@ This might be a good one to get back.
 | Status | Active |
 | Count | 40411927.0 |
 | Recommendation | Remove |
-| DwC Class | Taxon |
-| DwC Terms | taxonRank |
+| DwC Class | dwc:Taxon |
+| DwC Terms | dwc:taxonRank |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MISSING_TAXONRANK |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+MISSING_TAXONRANK&type=code |
 
@@ -2071,7 +2071,7 @@ No action required
 | Status | Active |
 | Count | 291727.0 |
 | Recommendation | Keep |
-| DwC Class | Occurrence |
+| DwC Class | dwc:Occurrence |
 | DwC Terms | associatedMedia |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MULTIMEDIA_DATE_INVALID |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+MULTIMEDIA_DATE_INVALID&type=code |
@@ -2096,7 +2096,7 @@ No action required
 |-------|-------|
 | Status | Active |
 | Count | 308724.0 |
-| DwC Class | Occurrence |
+| DwC Class | dwc:Occurrence |
 | DwC Terms | associatedMedia |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/MULTIMEDIA_URI_INVALID |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+MULTIMEDIA_URI_INVALID&type=code |
@@ -2116,8 +2116,8 @@ No action required
 | Field | Value |
 |-------|-------|
 | Status | Not implemented |
-| DwC Class | Taxon |
-| DwC Terms | scientificName |
+| DwC Class | dwc:Taxon |
+| DwC Terms | dwc:scientificName |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/NAME_NOT_IN_NATIONAL_CHECKLISTS |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+NAME_NOT_IN_NATIONAL_CHECKLISTS&type=code |
 
@@ -2132,8 +2132,8 @@ This would be a nice thing to have back, but it needs to be part of the name mat
 | Field | Value |
 |-------|-------|
 | Status | Not implemented |
-| DwC Class | Taxon |
-| DwC Terms | scientificName |
+| DwC Class | dwc:Taxon |
+| DwC Terms | dwc:scientificName |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/NAME_NOT_RECOGNISED |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+NAME_NOT_RECOGNISED&type=code |
 
@@ -2146,8 +2146,8 @@ This would be a nice thing to have back, but it needs to be part of the name mat
 | Status | Active |
 | Count | 1417291.0 |
 | Recommendation | Keep |
-| DwC Class | Taxon |
-| DwC Terms | scientificName |
+| DwC Class | dwc:Taxon |
+| DwC Terms | dwc:scientificName |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/NAME_NOT_SUPPLIED |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+NAME_NOT_SUPPLIED&type=code |
 
@@ -2212,8 +2212,8 @@ I would change this to SCIENTIFIC_NAME_NOT_SUPPLIED and only check for scientifi
 | Status | Active |
 | Count | 1200.0 |
 | Recommendation | Keep |
-| DwC Class | Record level<br>Occurrence |
-| DwC Terms | basisOfRecord<br>occurrenceStatus |
+| DwC Class | Record Level<br>dwc:Occurrence |
+| DwC Terms | dwc:basisOfRecord<br>dwc:occurrenceStatus |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/OCCURRENCE_STATUS_INFERRED_FROM_BASIS_OF_RECORD |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+OCCURRENCE_STATUS_INFERRED_FROM_BASIS_OF_RECORD&type=code |
 
@@ -2238,8 +2238,8 @@ No action required
 | Status | Active |
 | Count | 1797103.0 |
 | Recommendation | Keep |
-| DwC Class | Occurrence |
-| DwC Terms | individualCount<br>occurrenceStatus |
+| DwC Class | dwc:Occurrence |
+| DwC Terms | individualCount<br>dwc:occurrenceStatus |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/OCCURRENCE_STATUS_INFERRED_FROM_INDIVIDUAL_COUNT |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+OCCURRENCE_STATUS_INFERRED_FROM_INDIVIDUAL_COUNT&type=code |
 
@@ -2264,8 +2264,8 @@ No action required
 | Status | Active |
 | Count | 384.0 |
 | Recommendation | Keep |
-| DwC Class | Occurrence |
-| DwC Terms | occurrenceStatus |
+| DwC Class | dwc:Occurrence |
+| DwC Terms | dwc:occurrenceStatus |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/OCCURRENCE_STATUS_UNPARSABLE |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+OCCURRENCE_STATUS_UNPARSABLE&type=code |
 
@@ -2321,7 +2321,7 @@ No action required
 | Count | 12337.0 |
 | Recommendation | Keep |
 | DwC Class | dcterms:Location |
-| DwC Terms | decimalLatitude |
+| DwC Terms | dwc:decimalLatitude |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/PRESUMED_NEGATED_LATITUDE |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+PRESUMED_NEGATED_LATITUDE&type=code |
 
@@ -2347,7 +2347,7 @@ No action required
 | Count | 7937.0 |
 | Recommendation | Keep |
 | DwC Class | dcterms:Location |
-| DwC Terms | decimalLongitude |
+| DwC Terms | dwc:decimalLongitude |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/PRESUMED_NEGATED_LONGITUDE |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+PRESUMED_NEGATED_LONGITUDE&type=code |
 
@@ -2373,7 +2373,7 @@ No action required
 | Count | 6655.0 |
 | Recommendation | Keep |
 | DwC Class | dcterms:Location |
-| DwC Terms | decimalLatitude<br>decimalLongitude |
+| DwC Terms | dwc:decimalLatitude<br>dwc:decimalLongitude |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/PRESUMED_SWAPPED_COORDINATE |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+PRESUMED_SWAPPED_COORDINATE&type=code |
 
@@ -2398,8 +2398,8 @@ No action required
 | Status | Active |
 | Count | 3435118.0 |
 | Recommendation | Keep |
-| DwC Class | Event |
-| DwC Terms | eventDate<br>year<br>month<br>day<br>startDayOfYear<br>endDayOfYear |
+| DwC Class | dwc:Event |
+| DwC Terms | dwc:eventDate<br>dwc:year<br>dwc:month<br>dwc:day<br>dwc:startDayOfYear<br>dwc:endDayOfYear |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/RECORDED_DATE_INVALID |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+RECORDED_DATE_INVALID&type=code |
 
@@ -2424,8 +2424,8 @@ No action required
 | Status | Active |
 | Count | 143596.0 |
 | Recommendation | Keep |
-| DwC Class | Event |
-| DwC Terms | eventDate<br>year<br>month<br>day<br>startDayOfYear<br>endDayOfYear |
+| DwC Class | dwc:Event |
+| DwC Terms | dwc:eventDate<br>dwc:year<br>dwc:month<br>dwc:day<br>dwc:startDayOfYear<br>dwc:endDayOfYear |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/RECORDED_DATE_MISMATCH |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+RECORDED_DATE_MISMATCH&type=code |
 
@@ -2450,8 +2450,8 @@ No action required
 | Status | Active |
 | Count | 256440.0 |
 | Recommendation | Keep |
-| DwC Class | Event |
-| DwC Terms | eventDate<br>year<br>month<br>day<br>startDayOfYear<br>endDayOfYear |
+| DwC Class | dwc:Event |
+| DwC Terms | dwc:eventDate<br>dwc:year<br>dwc:month<br>dwc:day<br>dwc:startDayOfYear<br>dwc:endDayOfYear |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/RECORDED_DATE_UNLIKELY |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+RECORDED_DATE_UNLIKELY&type=code |
 
@@ -2476,7 +2476,7 @@ No action required
 | Status | Active |
 | Count | 4705.0 |
 | Recommendation | Keep |
-| DwC Class | Occurrence<br>Identification |
+| DwC Class | dwc:Occurrence<br>dwc:Identification |
 | DwC Terms | associatedReferences<br>identificationReferences |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/REFERENCES_URI_INVALID |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+REFERENCES_URI_INVALID&type=code |
@@ -2512,8 +2512,8 @@ No action required
 | Status | Active |
 | Count | 66599.0 |
 | Recommendation | Keep |
-| DwC Class | dcterms:Location<br>Taxon |
-| DwC Terms | stateProvince<br>scientificName |
+| DwC Class | dcterms:Location<br>dwc:Taxon |
+| DwC Terms | dwc:stateProvince<br>dwc:scientificName |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/SENSITIVITY_REPORT_INVALID |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+SENSITIVITY_REPORT_INVALID&type=code |
 
@@ -2538,8 +2538,8 @@ No action required
 | Status | Active |
 | Count | 66599.0 |
 | Recommendation | Keep |
-| DwC Class | dcterms:Location<br>Taxon |
-| DwC Terms | stateProvince<br>scientificName |
+| DwC Class | dcterms:Location<br>dwc:Taxon |
+| DwC Terms | dwc:stateProvince<br>dwc:scientificName |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/SENSITIVITY_REPORT_NOT_LOADABLE |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+SENSITIVITY_REPORT_NOT_LOADABLE&type=code |
 
@@ -2583,8 +2583,8 @@ No action required
 |-------|-------|
 | Count | 932957.0 |
 | Recommendation | Keep |
-| DwC Class | Location |
-| DwC Terms | stateProvince<br>decimalLatitude<br>decimalLongitude<br>verbatimLatitude<br>verbatimLongitude<br>verbatimCoordinates |
+| DwC Class | dcterms:Location |
+| DwC Terms | dwc:stateProvince<br>dwc:decimalLatitude<br>dwc:decimalLongitude<br>dwc:verbatimLatitude<br>dwc:verbatimLongitude<br>dwc:verbatimCoordinates |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/STATE_COORDINATE_MISMATCH |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+STATE_COORDINATE_MISMATCH&type=code |
 
@@ -2609,8 +2609,8 @@ No action required
 | Status | Active |
 | Count | 24313.0 |
 | Recommendation | Keep |
-| DwC Class | Taxon |
-| DwC Terms | scientificName |
+| DwC Class | dwc:Taxon |
+| DwC Terms | dwc:scientificName |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_AFFINITY_SPECIES |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+TAXON_AFFINITY_SPECIES&type=code |
 
@@ -2635,8 +2635,8 @@ No action required
 | Status | Active |
 | Count | 33262.0 |
 | Recommendation | Keep |
-| DwC Class | Taxon |
-| DwC Terms | scientificName |
+| DwC Class | dwc:Taxon |
+| DwC Terms | dwc:scientificName |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_CONFER_SPECIES |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+TAXON_CONFER_SPECIES&type=code |
 
@@ -2661,8 +2661,8 @@ No action required
 | Status | Active |
 | Count | 87907.0 |
 | Recommendation | Keep |
-| DwC Class | Taxon |
-| DwC Terms | scientificName |
+| DwC Class | dwc:Taxon |
+| DwC Terms | dwc:scientificName |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_DEFAULT_MATCH |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+TAXON_DEFAULT_MATCH&type=code |
 
@@ -2687,8 +2687,8 @@ No action required
 | Status | Active |
 | Count | 644.0 |
 | Recommendation | Keep |
-| DwC Class | Taxon |
-| DwC Terms | scientificName |
+| DwC Class | dwc:Taxon |
+| DwC Terms | dwc:scientificName |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_ERROR |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+TAXON_ERROR&type=code |
 
@@ -2712,8 +2712,8 @@ No action required
 |-------|-------|
 | Status | Ostensibly unused |
 | Recommendation | Keep |
-| DwC Class | Taxon |
-| DwC Terms | scientificName |
+| DwC Class | dwc:Taxon |
+| DwC Terms | dwc:scientificName |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_EXCLUDED |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+TAXON_EXCLUDED&type=code |
 
@@ -2737,8 +2737,8 @@ Find out why this assertion is never made, as there are lots of records to which
 |-------|-------|
 | Status | Ostensibly unused |
 | Recommendation | Keep |
-| DwC Class | Taxon |
-| DwC Terms | scientificName |
+| DwC Class | dwc:Taxon |
+| DwC Terms | dwc:scientificName |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_EXCLUDED_ASSOCIATED |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+TAXON_EXCLUDED_ASSOCIATED&type=code |
 
@@ -2763,8 +2763,8 @@ Find out why this assertion is never made, as there are lots of records to which
 | Status | Active |
 | Count | 425212.0 |
 | Recommendation | Keep |
-| DwC Class | Taxon |
-| DwC Terms | scientificName |
+| DwC Class | dwc:Taxon |
+| DwC Terms | dwc:scientificName |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_HOMONYM |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+TAXON_HOMONYM&type=code |
 
@@ -2788,8 +2788,8 @@ No action required
 |-------|-------|
 | Status | Ostensibly unused |
 | Recommendation | Keep |
-| DwC Class | Taxon |
-| DwC Terms | scientificName |
+| DwC Class | dwc:Taxon |
+| DwC Terms | dwc:scientificName |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_INDETERMINATE_SPECIES |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+TAXON_INDETERMINATE_SPECIES&type=code |
 
@@ -2813,8 +2813,8 @@ This is a useful test, so we should have it.
 |-------|-------|
 | Status | Ostensibly unused |
 | Recommendation | Keep |
-| DwC Class | Taxon |
-| DwC Terms | scientificName |
+| DwC Class | dwc:Taxon |
+| DwC Terms | dwc:scientificName |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_MATCH_AGGREGATE |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+TAXON_MATCH_AGGREGATE&type=code |
 
@@ -2837,8 +2837,8 @@ This is a useful test, so we should have it.
 | Status | Active |
 | Count | 1539525.0 |
 | Recommendation | Keep |
-| DwC Class | Taxon |
-| DwC Terms | scientificName |
+| DwC Class | dwc:Taxon |
+| DwC Terms | dwc:scientificName |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_MATCH_FUZZY |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+TAXON_MATCH_FUZZY&type=code |
 
@@ -2871,8 +2871,8 @@ No action required
 | Status | Active |
 | Count | 9813658.0 |
 | Recommendation | Keep |
-| DwC Class | Taxon |
-| DwC Terms | scientificName<br>kingdom<br>phylum<br>class<br>order<br>family<br>genus |
+| DwC Class | dwc:Taxon |
+| DwC Terms | dwc:scientificName<br>dwc:kingdom<br>dwc:phylum<br>dwc:class<br>dwc:order<br>dwc:family<br>dwc:genus |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_MATCH_HIGHERRANK |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+TAXON_MATCH_HIGHERRANK&type=code |
 
@@ -2905,8 +2905,8 @@ No action required
 | Status | Active |
 | Count | 750876.0 |
 | Recommendation | Keep |
-| DwC Class | Taxon |
-| DwC Terms | scientificName<br>kingdom<br>phylum<br>class<br>order<br>family<br>genus |
+| DwC Class | dwc:Taxon |
+| DwC Terms | dwc:scientificName<br>dwc:kingdom<br>dwc:phylum<br>dwc:class<br>dwc:order<br>dwc:family<br>dwc:genus |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_MATCH_NONE |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+TAXON_MATCH_NONE&type=code |
 
@@ -2937,8 +2937,8 @@ No action required
 | Field | Value |
 |-------|-------|
 | Status | Unused |
-| DwC Class | Taxon |
-| DwC Terms | scientificName |
+| DwC Class | dwc:Taxon |
+| DwC Terms | dwc:scientificName |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_MISAPPLIED |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+TAXON_MISAPPLIED&type=code |
 
@@ -2961,8 +2961,8 @@ This test is not needed if we make sure that misapplications do not make it into
 | Field | Value |
 |-------|-------|
 | Status | Ostensibly unused |
-| DwC Class | Taxon |
-| DwC Terms | scientificName |
+| DwC Class | dwc:Taxon |
+| DwC Terms | dwc:scientificName |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_MISAPPLIED_MATCHED |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+TAXON_MISAPPLIED_MATCHED&type=code |
 
@@ -2987,8 +2987,8 @@ I hope indeed this never happens, as the data indicates, but we have evidence to
 | Status | Active |
 | Count | 16744326.0 |
 | Recommendation | Remove |
-| DwC Class | Taxon |
-| DwC Terms | scientificName |
+| DwC Class | dwc:Taxon |
+| DwC Terms | dwc:scientificName |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_PARENT_CHILD_SYNONYM |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+TAXON_PARENT_CHILD_SYNONYM&type=code |
 
@@ -3013,8 +3013,8 @@ This is just silly. They are completely different name strings.
 | Status | Active |
 | Count | 49460.0 |
 | Recommendation | Keep |
-| DwC Class | Taxon |
-| DwC Terms | scientificName |
+| DwC Class | dwc:Taxon |
+| DwC Terms | dwc:scientificName |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_QUESTION_SPECIES |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+TAXON_QUESTION_SPECIES&type=code |
 
@@ -3039,8 +3039,8 @@ No action required.
 | Status | Active |
 | Count | 7124.0 |
 | Recommendation | Keep |
-| DwC Class | Taxon |
-| DwC Terms | scientificName<br>kingdom<br>phylum<br>class<br>order<br>family<br>genus |
+| DwC Class | dwc:Taxon |
+| DwC Terms | dwc:scientificName<br>dwc:kingdom<br>dwc:phylum<br>dwc:class<br>dwc:order<br>dwc:family<br>dwc:genus |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_SCOPE_MISMATCH |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+TAXON_SCOPE_MISMATCH&type=code |
 
@@ -3065,8 +3065,8 @@ No action required. Maybe provide a better description.
 | Status | Active |
 | Count | 889207.0 |
 | Recommendation | Keep |
-| DwC Class | Taxon |
-| DwC Terms | scientificName |
+| DwC Class | dwc:Taxon |
+| DwC Terms | dwc:scientificName |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TAXON_SPECIES_PLURAL |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+TAXON_SPECIES_PLURAL&type=code |
 
@@ -3091,8 +3091,8 @@ No action required.
 | Status | Active |
 | Count | 153641.0 |
 | Recommendation | Remove |
-| DwC Class | Identification |
-| DwC Terms | typeStatus |
+| DwC Class | dwc:Identification |
+| DwC Terms | dwc:typeStatus |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/TYPE_STATUS_INVALID |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+TYPE_STATUS_INVALID&type=code |
 
@@ -3118,7 +3118,7 @@ This comes from GBIF, so we probably cannot do much about it, but this test is w
 | Count | 120944.0 |
 | Recommendation | Remove |
 | DwC Class | dcterms:dcterms:Location |
-| DwC Terms | coordinatePrecison<br>coordinateUncertaintyInMeters |
+| DwC Terms | coordinatePrecision<br>dwc:coordinateUncertaintyInMeters |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/UNCERTAINTY_IN_PRECISION |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+UNCERTAINTY_IN_PRECISION&type=code |
 
@@ -3143,7 +3143,7 @@ This is a poorly conceived assertion, as it is more a suggestion as to why a val
 | Status | Confuddled with COORDINATE_UNCERTAINTY_METERS_INVALID |
 | Recommendation | Keep |
 | DwC Class | dcterms:Location |
-| DwC Terms | coordinateUncertaintyInMeters |
+| DwC Terms | dwc:coordinateUncertaintyInMeters |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/UNCERTAINTY_NOT_SPECIFIED |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+UNCERTAINTY_NOT_SPECIFIED&type=code |
 
@@ -3188,8 +3188,8 @@ This is a poorly conceived assertion, as it is more a suggestion as to why a val
 |-------|-------|
 | Count | 354529.0 |
 | Recommendation | Keep |
-| DwC Class | Taxon |
-| DwC Terms | kingdom |
+| DwC Class | dwc:Taxon |
+| DwC Terms | dwc:kingdom |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/UNKNOWN_KINGDOM |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+UNKNOWN_KINGDOM&type=code |
 
@@ -3265,7 +3265,7 @@ No action required
 | Count | 2628.0 |
 | Recommendation | Keep |
 | DwC Class | dcterms:Location |
-| DwC Terms | decimalLatitude<br>decimalLongitude<br>verbatimLatitude<br>verbatimLongitude<br>verbatimCoordinates |
+| DwC Terms | dwc:decimalLatitude<br>dwc:decimalLongitude<br>dwc:verbatimLatitude<br>dwc:verbatimLongitude<br>dwc:verbatimCoordinates |
 | Wiki Page | https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/ZERO_COORDINATE |
 | GitHub Search | https://github.com/search?q=repo%3Agbif%2Fpipelines+ZERO_COORDINATE&type=code |
 

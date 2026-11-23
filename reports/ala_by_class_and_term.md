@@ -19,12 +19,6 @@
 | COLLECTION_MATCH_FUZZY |  |
 | COLLECTION_MATCH_NONE |  |
 
-### dwc:minimumElevationInMeters,dwc:maximumElevationInMeters
-
-| Assertion | Description |
-|-----------|-------------|
-| ALTITUDE_IN_FEET |  |
-
 ## Record Level
 
 ### ?
@@ -48,12 +42,6 @@
 | Assertion | Description |
 |-----------|-------------|
 | OCCURRENCE_STATUS_INFERRED_FROM_BASIS_OF_RECORD |  |
-
-### dwc:minimumElevationInMeters,dwc:maximumElevationInMeters
-
-| Assertion | Description |
-|-----------|-------------|
-| ALTITUDE_IN_FEET |  |
 
 ## dcterms:Location
 
@@ -231,6 +219,7 @@
 
 | Assertion | Description |
 |-----------|-------------|
+| ALTITUDE_IN_FEET |  |
 | ALTITUDE_NON_NUMERIC |  |
 | ALTITUDE_OUT_OF_RANGE |  |
 | ELEVATION_MIN_MAX_SWAPPED |  |

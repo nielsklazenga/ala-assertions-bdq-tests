@@ -1,6 +1,6 @@
 # BDQ Tests by Darwin Core Class and Term
 
-## Record-level
+## Record Level
 
 ### bdqval:AggregatedTestResponseOutcomes
 
