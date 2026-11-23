@@ -236,6 +236,78 @@ The goal is therefore not simply to map the existing ALA Assertions to the BDQ S
 
 Formal mappings such as SSSOM mappings become most useful after the new assertions have been designed and implemented. At that point they can document relationships between concepts, whereas the current review is primarily concerned with improving the underlying assertion model itself.
 
+## Alternative: Storing Validation Outcomes Directly
+
+Another possible approach is to treat validation outcomes rather than assertions as the primary data quality artefact.
+
+Under this model, a system records the outcome of each validation as a simple boolean value. A value of `true` indicates that a validation has passed, while `false` indicates that it has failed.
+
+| Validation | Result | Interpretation |
+|------------|--------|----------------|
+| `VALIDATION_COUNTRY_FOUND` | `true` | Pass |
+| `VALIDATION_COORDINATES_NOTEMPTY` | `false` | Fail |
+| `VALIDATION_EVENT_CONSISTENT` | `true` | Pass |
+
+Assertions can then be derived from failed validations as required:
+
+| Validation Result | Derived Assertion |
+|-------------------|--------------------|
+| `VALIDATION_COUNTRY_FOUND = false` | `ASSERTION_COUNTRY_NOT_FOUND` |
+| `VALIDATION_COORDINATES_NOTEMPTY = false` | `ASSERTION_COORDINATES_EMPTY` |
+| `VALIDATION_EVENT_CONSISTENT = false` | `ASSERTION_EVENT_INCONSISTENT` |
+
+This approach has several advantages:
+
+- Validation results become the canonical representation of data quality.
+- Assertions become a presentation or interoperability layer rather than a primary data structure.
+- Validation reports can be generated directly from stored outcomes.
+- Assertions can be generated automatically when required.
+
+The resulting model is conceptually simple:
+
+```text
+Record
+    ↓
+BDQ Validation
+    ↓
+true / false
+(pass / fail)
+    ↓
+Assertion (optional)
+    ↓
+MIDS Assessment (optional, only for specimen data)
+```
+
+---
+
+## Implementing MIDS and BDQ Side-by-Side
+
+The comparison between ALA Assertions and BDQ Tests highlights the value of implementing community standards directly wherever possible. In addition to BDQ, another emerging standard relevant to biodiversity data quality is MIDS (Minimum Information about a Digital Specimen).
+
+BDQ focuses on the quality of data values by defining validations, measures, and related concepts that can be used to assess the completeness, validity, consistency, and fitness for use of biodiversity data.
+
+MIDS focuses on the information content of specimen records and provides a framework for assessing whether sufficient information is present to support increasingly demanding scientific use cases.
+
+The two standards therefore address different questions:
+
+| Standard | Primary Question |
+|-----------|------------------|
+| BDQ | Are the data valid, consistent, and fit for use? |
+| MIDS | Does the specimen record contain sufficient information for a particular level of scientific utility? |
+
+MIDS assessments are applicable only to specimen records and therefore depend on `dwc:basisOfRecord`. MIDS applies to records with a `dwc:basisOfRecord` of `dwc:PreservedSpecimen` or `dwc:FossilSpecimen`. Other record types may be assessed using BDQ but fall outside the scope of MIDS.
+
+As an example, a specimen record may:
+
+- Achieve a high MIDS level because it contains collector information, collection numbers, determinations, and other specimen-associated metadata.
+- Fail one or more BDQ validations because some values are invalid or inconsistent.
+- Pass most BDQ validations while still achieving a relatively low MIDS level because important specimen metadata are absent.
+
+For this reason, MIDS and BDQ should be viewed as complementary standards that can be implemented side-by-side. Together they provide a richer picture of data quality than either framework can provide on its own.
+
+---
+
 In summary:
 
-> We should implement the standard, not map the implementation to the standard.
+> We should implement the standards, not map the existing implementation to the standards.
+
