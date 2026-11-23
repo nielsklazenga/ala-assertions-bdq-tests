@@ -15,11 +15,19 @@ for path in sorted(INPUT_DIR.glob("*.yaml")):
         record = yaml.safe_load(f)
 
     classes = record.get("dwc_class", []) or ["Unclassified"]
-    terms = record.get("dwc_terms", []) or ["No term specified"]
+    terms = record.get("dwc_terms", [])
+
+    if not terms:
+        term_key = "No term specified"
+    else:
+        term_key = ",".join(terms)
 
     for dwc_class in classes:
-        for term in terms:
-            groups[dwc_class][term].append(record)
+        groups[dwc_class][term_key].append(record)
+
+        for dwc_class in classes:
+            for term in terms:
+                groups[dwc_class][term].append(record)
 
 with open(OUTPUT, "w", encoding="utf-8") as out:
     out.write("# BDQ Tests by Darwin Core Class and Term\n\n")
@@ -27,7 +35,13 @@ with open(OUTPUT, "w", encoding="utf-8") as out:
     for dwc_class in sorted(groups):
         out.write(f"## {dwc_class}\n\n")
 
-        for term in sorted(groups[dwc_class]):
+        for term in sorted(
+            groups[dwc_class],
+            key=lambda t: (
+                "," in t,
+                t.lower(),
+            ),
+        ):
             out.write(f"### {term}\n\n")
             out.write("| Test | Description |\n")
             out.write("|------|-------------|\n")
