@@ -115,6 +115,28 @@ reports/bdq_by_class_and_term.md
 
 Groups BDQ Tests by Darwin Core class and term.
 
+### Term Coverage Analysis
+
+```text
+reports/term_coverage.md
+reports/term_coverage.csv
+```
+
+- [reports/term_coverage.md](reports/term_coverage.md)
+- [reports/term_coverage.csv](reports/term_coverage.csv)
+
+Provides a term-centric comparison of ALA Assertions and BDQ Tests.
+
+The report combines Darwin Core terms referenced by both frameworks and groups them by Darwin Core class. For each term, it lists the related ALA Assertions and BDQ Tests.
+
+This report is primarily intended for gap analysis. In particular, it highlights terms that:
+
+- are covered by ALA Assertions but not currently addressed by BDQ Tests;
+- are covered by BDQ Tests but not currently addressed by ALA Assertions; or
+- are covered by both frameworks.
+
+The report helps identify potential gaps in BDQ Test coverage and ensures that concepts currently represented by ALA Assertions are not overlooked
+
 ### Candidate Mappings
 
 ```text
