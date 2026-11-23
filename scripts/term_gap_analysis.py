@@ -159,12 +159,11 @@ with open(OUTPUT_MD, "w", encoding="utf-8") as f:
         )
 
         if not subset.empty:
-            f.write("| Class | Term | Coverage | ALA Assertions | BDQ Tests |\n")
-            f.write("|-------|------|----------|----------------|-----------|\n")
+            f.write("| Term | Coverage | ALA Assertions | BDQ Tests |\n")
+            f.write("|------|----------|----------------|-----------|\n")
 
             for _, row in subset.iterrows():
                 f.write(
-                    f"| {row['Class']} "
                     f"| {row['Term']} "
                     f"| {row['Coverage']} "
                     f"| {row['ALA Assertions']} "
